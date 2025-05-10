@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { mkdirSync } from "fs";
 import { dirname, join } from "path";
-import { parse, stringify } from "yaml";
+import { Document, parse, stringify } from "yaml";
 
 /**
  * 泛型 YAML 檔案存取封裝器，支援動態路徑切換
@@ -21,9 +21,11 @@ export class YamlFileRepo<T> {
     return parse(raw);
   }
 
-  async save(data: T): Promise<void> {
+  async save(data: T, modifier?: (doc: Document) => void): Promise<void> {
     mkdirSync(dirname(this.fullPath), { recursive: true });
-    const yamlText = stringify(data, { lineWidth: 0 }); // 不自動換行
+    const doc = new Document(data);
+    if (modifier) modifier(doc);
+    const yamlText = doc.toString();
     await writeFile(this.fullPath, yamlText, "utf-8");
   }
 }

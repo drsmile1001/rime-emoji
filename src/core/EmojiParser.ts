@@ -1,16 +1,11 @@
-import type {
-  DefinitionsFile,
-  EmojiGroupDefinition,
-  EmojiSubgroupDefinition,
-  EmojiDefinition,
-} from "@/types";
+import type { EmojiDefinition } from "@/types";
 
 /**
- * 將 emoji-test.txt 內容解析為專案共用格式的 emoji 定義結構
- * 僅保留 fully-qualified 條目
+ * 將 emoji-test.txt 內容解析為平坦化的 EmojiDefinition[]
+ * 僅保留 fully-qualified 條目，並包含 group/subgroup/name/codePoints
  */
-export function parseEmojiTest(text: string): DefinitionsFile {
-  const groupMap = new Map<string, Map<string, EmojiDefinition[]>>();
+export function parseEmojiTest(text: string): EmojiDefinition[] {
+  const result: EmojiDefinition[] = [];
 
   let currentGroup = "Unknown";
   let currentSubgroup = "Unknown";
@@ -39,34 +34,20 @@ export function parseEmojiTest(text: string): DefinitionsFile {
 
     const em = trimmed.match(emojiMatch);
     if (em) {
+      const codeStr = em[1]!.trim();
       const emoji = em[2]!;
       const name = em[3]!;
-      const emojiDef: EmojiDefinition = { emoji, name };
+      const codePoints = codeStr.split(/\s+/);
 
-      if (!groupMap.has(currentGroup)) {
-        groupMap.set(currentGroup, new Map());
-      }
-      const subMap = groupMap.get(currentGroup)!;
-      if (!subMap.has(currentSubgroup)) {
-        subMap.set(currentSubgroup, []);
-      }
-      subMap.get(currentSubgroup)!.push(emojiDef);
+      result.push({
+        group: currentGroup,
+        subgroup: currentSubgroup,
+        name,
+        emoji,
+        codePoints,
+      });
     }
   }
 
-  const definitions: DefinitionsFile = [];
-
-  for (const [groupName, subgroups] of groupMap.entries()) {
-    const subgroupDefs: EmojiSubgroupDefinition[] = [];
-    for (const [subName, emojis] of subgroups.entries()) {
-      subgroupDefs.push({ name: subName, emojis });
-    }
-    const groupDef: EmojiGroupDefinition = {
-      name: groupName,
-      subgroups: subgroupDefs,
-    };
-    definitions.push(groupDef);
-  }
-
-  return definitions;
+  return result;
 }
