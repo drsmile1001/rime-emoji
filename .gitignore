@@ -1,0 +1,23 @@
+# 依賴與產物
+node_modules/
+bun.lockb
+*.bun
+
+# 編譯輸出（若日後 build 為 JS）
+dist/
+
+# 暫存與中介檔案
+*.log
+*.tmp
+*.trace
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+
+# 作業系統雜項
+.DS_Store
+
+# 私密設定
+.env*
+*.pem
