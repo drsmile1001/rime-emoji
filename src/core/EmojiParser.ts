@@ -1,49 +1,72 @@
-export type ParsedEmojiEntry = {
-  emoji: string;
-  codepoints: string[];
-  name: string;
-  group: string;
-  subgroup: string;
-};
+import type {
+  DefinitionsFile,
+  EmojiGroupDefinition,
+  EmojiSubgroupDefinition,
+  EmojiDefinition,
+} from "@/types";
 
 /**
- * 將 emoji-test.txt 內容解析為結構化陣列
+ * 將 emoji-test.txt 內容解析為專案共用格式的 emoji 定義結構
  * 僅保留 fully-qualified 條目
  */
-export function parseEmojiTest(text: string): ParsedEmojiEntry[] {
-  const result: ParsedEmojiEntry[] = [];
+export function parseEmojiTest(text: string): DefinitionsFile {
+  const groupMap = new Map<string, Map<string, EmojiDefinition[]>>();
+
   let currentGroup = "Unknown";
   let currentSubgroup = "Unknown";
 
   const groupMatch = /# group: (.+)/;
   const subGroupMatch = /# subgroup: (.+)/;
   const emojiMatch =
-    /^([0-9A-F\s]+);\sfully-qualified\s+#\s(\W+)\sE[\d\.]+\s(.+)$/;
-  const emojiTestLines = text.split("\n");
-  for (const line of emojiTestLines) {
-    const groupMatchResult = line.match(groupMatch);
-    if (groupMatchResult) {
-      const groupName = groupMatchResult[1]!;
-      currentGroup = groupName;
+    /^([0-9A-F\s]+);\sfully-qualified\s+#\s(\S+)\sE[\d\.]+\s(.+)$/;
+
+  const lines = text.split("\n");
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    const g = trimmed.match(groupMatch);
+    if (g) {
+      currentGroup = g[1]!;
       continue;
     }
-    const subGroupMatchResult = line.match(subGroupMatch);
-    if (subGroupMatchResult) {
-      currentSubgroup = subGroupMatchResult[1]!;
+
+    const sg = trimmed.match(subGroupMatch);
+    if (sg) {
+      currentSubgroup = sg[1]!;
       continue;
     }
-    const emojiMatchResult = line.match(emojiMatch);
-    if (emojiMatchResult) {
-      const emojiEntry: ParsedEmojiEntry = {
-        emoji: emojiMatchResult[2]!,
-        codepoints: emojiMatchResult[1]!.trim().split(" "),
-        name: emojiMatchResult[3]!,
-        group: currentGroup,
-        subgroup: currentSubgroup,
-      };
-      result.push(emojiEntry);
+
+    const em = trimmed.match(emojiMatch);
+    if (em) {
+      const emoji = em[2]!;
+      const name = em[3]!;
+      const emojiDef: EmojiDefinition = { emoji, name };
+
+      if (!groupMap.has(currentGroup)) {
+        groupMap.set(currentGroup, new Map());
+      }
+      const subMap = groupMap.get(currentGroup)!;
+      if (!subMap.has(currentSubgroup)) {
+        subMap.set(currentSubgroup, []);
+      }
+      subMap.get(currentSubgroup)!.push(emojiDef);
     }
   }
 
-  return result;
+  const definitions: DefinitionsFile = [];
+
+  for (const [groupName, subgroups] of groupMap.entries()) {
+    const subgroupDefs: EmojiSubgroupDefinition[] = [];
+    for (const [subName, emojis] of subgroups.entries()) {
+      subgroupDefs.push({ name: subName, emojis });
+    }
+    const groupDef: EmojiGroupDefinition = {
+      name: groupName,
+      subgroups: subgroupDefs,
+    };
+    definitions.push(groupDef);
+  }
+
+  return definitions;
 }

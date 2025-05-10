@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Hello World Bun Template",
   "dependencies": {
-    "cac": "^6.7.14"
+    "cac": "^6.7.14",
+    "yaml": "^2.7.1"
   },
   "devDependencies": {
     "bun-types": "latest"

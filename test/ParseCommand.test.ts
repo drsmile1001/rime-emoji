@@ -1,0 +1,35 @@
+import { readFileSync, copyFileSync, mkdirSync } from "fs";
+import { join } from "path";
+import { parse as parseYaml } from "yaml";
+import { describe, test, expect } from "bun:test";
+import { runParseCommand } from "@/commands/Parse";
+
+const FIXTURE_INPUT = "test/fixtures/emoji-test.sample.txt";
+const TEST_INPUT_DIR = "data/pipeline/01-fetch";
+const TEST_INPUT_FILE = "emoji-test.txt";
+const TEST_OUTPUT_DIR = "data/pipeline/02-parse";
+const TEST_OUTPUT_FILE = "definitions.yaml";
+const OUTPUT_PATH = join(TEST_OUTPUT_DIR, TEST_OUTPUT_FILE);
+
+describe("parse command", () => {
+  test("應該能解析 emoji-test.txt 並產出 definitions.yaml", async () => {
+    // 安排 fixture ➜ pipeline 輸入位置
+    mkdirSync(TEST_INPUT_DIR, { recursive: true });
+    copyFileSync(FIXTURE_INPUT, join(TEST_INPUT_DIR, TEST_INPUT_FILE));
+
+    // 執行 CLI
+    await runParseCommand();
+
+    const raw = readFileSync(OUTPUT_PATH, "utf-8");
+    const parsed = parseYaml(raw);
+
+    expect(Array.isArray(parsed)).toBe(true);
+    expect(parsed.length).toBeGreaterThan(0);
+    expect(parsed[0]).toHaveProperty("name");
+    expect(parsed[0]).toHaveProperty("subgroups");
+    expect(parsed[0].subgroups[0]).toHaveProperty("name");
+    expect(parsed[0].subgroups[0]).toHaveProperty("emojis");
+    expect(parsed[0].subgroups[0].emojis[0]).toHaveProperty("emoji");
+    expect(parsed[0].subgroups[0].emojis[0]).toHaveProperty("name");
+  });
+});
