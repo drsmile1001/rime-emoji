@@ -1,5 +1,6 @@
 import { EmojiDefinitionRepoFs } from "@/core/EmojiDefinitionRepoFs";
 import { applyEmojiFilterStrategies } from "@/core/EmojiFilter";
+import { GenderedRoleStrategy } from "@/strategies/GenderedRoleStrategy";
 import { GenderSymbolStrategy } from "@/strategies/GenderSymbolStrategy";
 import { SkinToneStrategy } from "@/strategies/SkinToneStrategy";
 import { generateStrategyReport } from "@/utils/GenerateStrategyReport";
@@ -13,7 +14,11 @@ export async function runFilterCommand() {
 
   const allDefs = await inputRepo.load();
 
-  const strategies = [SkinToneStrategy, GenderSymbolStrategy];
+  const strategies = [
+    SkinToneStrategy,
+    GenderSymbolStrategy,
+    GenderedRoleStrategy,
+  ];
 
   const { finalOutput, runs } = applyEmojiFilterStrategies(allDefs, strategies);
 

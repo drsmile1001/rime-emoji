@@ -40,6 +40,6 @@ export async function generateStrategyReport(
     group.emojis = (group.emojis as string[]).join("\n");
   }
 
-  const reportPath = join(outputDir, `blocked.${strategyId}.report.yaml`);
+  const reportPath = join(outputDir, `${strategyId}.report.yaml`);
   await writeFile(reportPath, yaml.stringify(report, { lineWidth: 0 }), "utf8");
 }
