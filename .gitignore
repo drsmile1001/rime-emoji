@@ -21,3 +21,6 @@ dist/
 # 私密設定
 .env*
 *.pem
+
+# 管線資料
+data/pipeline/

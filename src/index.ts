@@ -1,5 +1,5 @@
 import { cac } from "cac";
-import { greet } from "./funcs/Greet";
+import { greet } from "./commands/Greet";
 
 const cli = cac();
 
