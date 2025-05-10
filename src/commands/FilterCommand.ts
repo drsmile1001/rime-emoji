@@ -1,7 +1,8 @@
 import { EmojiDefinitionRepoFs } from "@/core/EmojiDefinitionRepoFs";
 import { applyEmojiFilterStrategies } from "@/core/EmojiFilter";
+import { GenderSymbolStrategy } from "@/strategies/GenderSymbolStrategy";
 import { SkinToneStrategy } from "@/strategies/SkinToneStrategy";
-import { generateBlockedReportForStrategy } from "@/utils/GenerateBlockedReport";
+import { generateStrategyReport } from "@/utils/GenerateStrategyReport";
 
 const INPUT_DIR = "data/pipeline/02-parse";
 const OUTPUT_DIR = "data/pipeline/03-filter";
@@ -12,7 +13,7 @@ export async function runFilterCommand() {
 
   const allDefs = await inputRepo.load();
 
-  const strategies = [SkinToneStrategy];
+  const strategies = [SkinToneStrategy, GenderSymbolStrategy];
 
   const { finalOutput, runs } = applyEmojiFilterStrategies(allDefs, strategies);
 
@@ -29,13 +30,21 @@ export async function runFilterCommand() {
     );
     await blockedRepo.save(run.blocked);
 
-    await generateBlockedReportForStrategy(
-      id,
+    await generateStrategyReport(
+      `blocked.${id}`,
       run.blocked,
       run.input,
       OUTPUT_DIR,
     );
   }
+
+  // 為通過所有策略的 emoji 輸出 blocked.pass.report.yaml
+  await generateStrategyReport(
+    "pass",
+    [], // 沒有 blocked
+    finalOutput, // 所有通過的 emoji 作為 input
+    OUTPUT_DIR,
+  );
 
   // 統計摘要輸出
   const totalBlocked = runs.reduce((sum, run) => sum + run.blocked.length, 0);

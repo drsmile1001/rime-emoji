@@ -4,11 +4,11 @@ import { join } from "path";
 import yaml from "yaml";
 
 /**
- * 為指定策略產生 blocked.report.yaml
+ * 為指定策略產生 strategyId.report.yaml
  * - input: 此策略接收到的 emoji（含已被前一策略過濾的）
  * - blocked: 該策略實際排除的 emoji
  */
-export async function generateBlockedReportForStrategy(
+export async function generateStrategyReport(
   strategyId: string,
   blocked: EmojiDefinition[],
   input: EmojiDefinition[],
