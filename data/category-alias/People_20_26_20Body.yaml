@@ -1,49 +1,71 @@
 name: People & Body
 subGroups:
   - name: hand-fingers-open
+    alias: 手指張開 揮手
     emojis:
       - emoji: 👋
         name: E0.6 waving hand
+        alias: 揮手 打招呼 手勢
       - emoji: 🤚
         name: E3.0 raised back of hand
+        alias: 手背 舉手 背手
       - emoji: 🖐️
         name: E0.7 hand with fingers splayed
+        alias: 張開手 五指張開 手掌
       - emoji: ✋
         name: E0.6 raised hand
+        alias: 舉手 停止 手掌
       - emoji: 🖖
         name: E1.0 vulcan salute
+        alias: 瓦肯禮 星際迷 禮手
       - emoji: 🫱
         name: E14.0 rightwards hand
+        alias: 右手 向右手 右指
       - emoji: 🫲
         name: E14.0 leftwards hand
+        alias: 左手 向左手 左指
       - emoji: 🫳
         name: E14.0 palm down hand
+        alias: 手心向下 向下手 掌下
       - emoji: 🫴
         name: E14.0 palm up hand
+        alias: 手心向上 向上手 掌上
       - emoji: 🫷
         name: E15.0 leftwards pushing hand
+        alias: 左推手 推左手 左掌
       - emoji: 🫸
         name: E15.0 rightwards pushing hand
+        alias: 右推手 推右手 右掌
   - name: hand-fingers-partial
+    alias: 手指部分 手勢
     emojis:
       - emoji: 👌
         name: E0.6 OK hand
+        alias: OK手 勝利手 手勢
       - emoji: 🤌
         name: E13.0 pinched fingers
+        alias: 捏手 手指捏 捏
       - emoji: 🤏
         name: E12.0 pinching hand
+        alias: 捏手指 小捏 捏住
       - emoji: ✌️
         name: E0.6 victory hand
+        alias: 勝利手 V手 勝利
       - emoji: 🤞
         name: E3.0 crossed fingers
+        alias: 交叉手指 祈願手 交叉
       - emoji: 🫰
         name: E14.0 hand with index finger and thumb crossed
+        alias: 手指交叉 小手勢 交叉手
       - emoji: 🤟
         name: E5.0 love-you gesture
+        alias: 愛你手 愛心手 手勢
       - emoji: 🤘
         name: E1.0 sign of the horns
+        alias: 搖滾手 手勢 搖滾
       - emoji: 🤙
         name: E3.0 call me hand
+        alias: 打電話手 手勢 電話
   - name: hand-single-finger
     emojis:
       - emoji: 👈

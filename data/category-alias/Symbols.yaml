@@ -1,716 +1,716 @@
 name: Symbols
 subGroups:
   - name: transport-sign
-    alias: 交通標誌
+    alias: 交通標誌 標誌 指示
     emojis:
       - emoji: 🏧
         name: E0.6 ATM sign
-        alias: 提款機
+        alias: 提款機 自動提款機 ATM
       - emoji: 🚮
         name: E1.0 litter in bin sign
-        alias: 丟垃圾
+        alias: 丟垃圾 垃圾桶 丟棄
       - emoji: 🚰
         name: E1.0 potable water
-        alias: 可飲水
+        alias: 可飲水 飲用水 水源
       - emoji: ♿
         name: E0.6 wheelchair symbol
-        alias: 輪椅
+        alias: 輪椅 無障礙 殘疾
       - emoji: 🚹
         name: E0.6 men’s room
-        alias: 男廁
+        alias: 男廁 男士廁所 男衛生間
       - emoji: 🚺
         name: E0.6 women’s room
-        alias: 女廁
+        alias: 女廁 女士廁所 女衛生間
       - emoji: 🚻
         name: E0.6 restroom
-        alias: 廁所
+        alias: 廁所 公共廁所 洗手間
       - emoji: 🚼
         name: E0.6 baby symbol
-        alias: 嬰兒
+        alias: 嬰兒 嬰兒室 嬰兒標誌
       - emoji: 🚾
         name: E0.6 water closet
-        alias: 洗手間
+        alias: 洗手間 廁所 衛生間
       - emoji: 🛂
         name: E1.0 passport control
-        alias: 護照
+        alias: 護照 海關 出入境
       - emoji: 🛃
         name: E1.0 customs
-        alias: 海關
+        alias: 海關 檢查 申報
       - emoji: 🛄
         name: E1.0 baggage claim
-        alias: 行李
+        alias: 行李 提取 行李提取
       - emoji: 🛅
         name: E1.0 left luggage
-        alias: 寄存
+        alias: 寄存 行李寄存 存放
   - name: warning
-    alias: 警告
+    alias: 警告 注意 危險
     emojis:
       - emoji: ⚠️
         name: E0.6 warning
-        alias: 警告
+        alias: 警告 注意 危險
       - emoji: 🚸
         name: E1.0 children crossing
-        alias: 孩童
+        alias: 孩童 兒童 過馬路
       - emoji: ⛔
         name: E0.6 no entry
-        alias: 禁止 停止
+        alias: 禁止 停止 禁入
       - emoji: 🚫
         name: E0.6 prohibited
-        alias: 禁止
+        alias: 禁止 不允許 禁止標誌
       - emoji: 🚳
         name: E1.0 no bicycles
-        alias: 禁止自行車
+        alias: 禁止自行車 禁止騎車 禁止騎行
       - emoji: 🚭
         name: E0.6 no smoking
-        alias: 禁止吸煙
+        alias: 禁止吸煙 禁煙 吸煙區
       - emoji: 🚯
         name: E1.0 no littering
-        alias: 禁止丟垃圾
+        alias: 禁止丟垃圾 禁止亂丟 垃圾區
       - emoji: 🚱
         name: E1.0 non-potable water
-        alias: 非飲用水
+        alias: 非飲用水 不可飲用 水源
       - emoji: 🚷
         name: E1.0 no pedestrians
-        alias: 禁止行人
+        alias: 禁止行人 禁止通行 行人區
       - emoji: 📵
         name: E1.0 no mobile phones
-        alias: 禁止手機
+        alias: 禁止手機 禁止使用手機 手機禁用
       - emoji: 🔞
         name: E0.6 no one under eighteen
-        alias: 未滿十八
+        alias: 未滿十八 禁止未成年人 成年限制
       - emoji: ☢️
         name: E1.0 radioactive
-        alias: 放射 輻射
+        alias: 放射 輻射 危險
       - emoji: ☣️
         name: E1.0 biohazard
-        alias: 生物危害
+        alias: 生物危害 危險 有害
   - name: arrow
-    alias: 箭頭
+    alias: 箭頭 指向 方向
     emojis:
       - emoji: ⬆️
         name: E0.6 up arrow
-        alias: 向上
+        alias: 向上 上升 上
       - emoji: ↗️
         name: E0.6 up-right arrow
-        alias: 右上
+        alias: 右上 向右上 右上角
       - emoji: ➡️
         name: E0.6 right arrow
-        alias: 向右
+        alias: 向右 右移 右
       - emoji: ↘️
         name: E0.6 down-right arrow
-        alias: 右下
+        alias: 右下 向右下 右下角
       - emoji: ⬇️
         name: E0.6 down arrow
-        alias: 向下
+        alias: 向下 下降 下
       - emoji: ↙️
         name: E0.6 down-left arrow
-        alias: 左下
+        alias: 左下 向左下 左下角
       - emoji: ⬅️
         name: E0.6 left arrow
-        alias: 向左
+        alias: 向左 左移 左
       - emoji: ↖️
         name: E0.6 up-left arrow
-        alias: 左上
+        alias: 左上 向左上 左上角
       - emoji: ↕️
         name: E0.6 up-down arrow
-        alias: 上下
+        alias: 上下 垂直 垂直方向
       - emoji: ↔️
         name: E0.6 left-right arrow
-        alias: 左右
+        alias: 左右 水平 水平方向
       - emoji: ↩️
         name: E0.6 right arrow curving left
-        alias: 右轉左
+        alias: 右轉左 向左轉 左彎
       - emoji: ↪️
         name: E0.6 left arrow curving right
-        alias: 左轉右
+        alias: 左轉右 向右轉 右彎
       - emoji: ⤴️
         name: E0.6 right arrow curving up
-        alias: 右轉上
+        alias: 右轉上 向上轉 上彎
       - emoji: ⤵️
         name: E0.6 right arrow curving down
-        alias: 右轉下
+        alias: 右轉下 向下轉 下彎
       - emoji: 🔃
         name: E0.6 clockwise vertical arrows
-        alias: 順時針
+        alias: 順時針 旋轉 順時針旋轉
       - emoji: 🔄
         name: E1.0 counterclockwise arrows button
-        alias: 逆時針
+        alias: 逆時針 旋轉 逆時針旋轉
       - emoji: 🔙
         name: E0.6 BACK arrow
-        alias: 返回
+        alias: 返回 後退 回去
       - emoji: 🔚
         name: E0.6 END arrow
-        alias: 結束
+        alias: 結束 終止 終點
       - emoji: 🔛
         name: E0.6 ON! arrow
-        alias: 開啟
+        alias: 開啟 啟動 開始
       - emoji: 🔜
         name: E0.6 SOON arrow
-        alias: 即將
+        alias: 即將 快速 即刻
       - emoji: 🔝
         name: E0.6 TOP arrow
-        alias: 頂部
+        alias: 頂部 上方 最上
   - name: religion
-    alias: 宗教
+    alias: 宗教 信仰 神聖
     emojis:
       - emoji: 🛐
         name: E1.0 place of worship
-        alias: 禮拜
+        alias: 禮拜 祈禱 崇拜
       - emoji: ⚛️
         name: E1.0 atom symbol
-        alias: 原子
+        alias: 原子 科學 原子符號
       - emoji: 🕉️
         name: E0.7 om
-        alias: 唵
+        alias: 唵 印度教 禱告
       - emoji: ✡️
         name: E0.7 star of David
-        alias: 大衛星
+        alias: 大衛星 猶太教 星形
       - emoji: ☸️
         name: E0.7 wheel of dharma
-        alias: 法輪
+        alias: 法輪 佛教 輪子
       - emoji: ☯️
         name: E0.7 yin yang
-        alias: 陰陽
+        alias: 陰陽 太極 平衡
       - emoji: ✝️
         name: E0.7 latin cross
-        alias: 十字架
+        alias: 十字架 基督教 信仰
       - emoji: ☦️
         name: E1.0 orthodox cross
-        alias: 東正十字
+        alias: 東正十字 東正教 十字
       - emoji: ☪️
         name: E0.7 star and crescent
-        alias: 星月
+        alias: 星月 伊斯蘭教 月亮
       - emoji: ☮️
         name: E1.0 peace symbol
-        alias: 和平
+        alias: 和平 和諧 平靜
       - emoji: 🕎
         name: E1.0 menorah
-        alias: 燭台
+        alias: 燭台 猶太教 燈台
       - emoji: 🔯
         name: E0.6 dotted six-pointed star
-        alias: 六角星
+        alias: 六角星 星形 點星
       - emoji: 🪯
         name: E15.0 khanda
-        alias: 卡達
+        alias: 卡達 印度教 劍形
   - name: zodiac
-    alias: 星座
+    alias: 星座 占星 十二宮
     emojis:
       - emoji: ♈
         name: E0.6 Aries
-        alias: 白羊座
+        alias: 白羊座 羊座 星座
       - emoji: ♉
         name: E0.6 Taurus
-        alias: 金牛座
+        alias: 金牛座 牛座 星座
       - emoji: ♊
         name: E0.6 Gemini
-        alias: 雙子座
+        alias: 雙子座 雙座 星座
       - emoji: ♋
         name: E0.6 Cancer
-        alias: 巨蟹座
+        alias: 巨蟹座 蟹座 星座
       - emoji: ♌
         name: E0.6 Leo
-        alias: 獅子座
+        alias: 獅子座 獅座 星座
       - emoji: ♍
         name: E0.6 Virgo
-        alias: 處女座
+        alias: 處女座 女座 星座
       - emoji: ♎
         name: E0.6 Libra
-        alias: 天秤座
+        alias: 天秤座 秤座 星座
       - emoji: ♏
         name: E0.6 Scorpio
-        alias: 天蠍座
+        alias: 天蠍座 蠍座 星座
       - emoji: ♐
         name: E0.6 Sagittarius
-        alias: 射手座
+        alias: 射手座 手座 星座
       - emoji: ♑
         name: E0.6 Capricorn
-        alias: 摩羯座
+        alias: 摩羯座 羯座 星座
       - emoji: ♒
         name: E0.6 Aquarius
-        alias: 水瓶座
+        alias: 水瓶座 瓶座 星座
       - emoji: ♓
         name: E0.6 Pisces
-        alias: 雙魚座
+        alias: 雙魚座 魚座 星座
       - emoji: ⛎
         name: E0.6 Ophiuchus
-        alias: 蛇夫座
+        alias: 蛇夫座 蛇座 星座
   - name: av-symbol
-    alias: 媒體符號
+    alias: 媒體符號 音樂 視頻
     emojis:
       - emoji: 🔀
         name: E1.0 shuffle tracks button
-        alias: 隨機播放
+        alias: 隨機播放 隨機 音樂
       - emoji: 🔁
         name: E1.0 repeat button
-        alias: 重複
+        alias: 重複 循環 音樂
       - emoji: 🔂
         name: E1.0 repeat single button
-        alias: 單曲重複
+        alias: 單曲重複 單曲 循環
       - emoji: ▶️
         name: E0.6 play button
-        alias: 播放
+        alias: 播放 開始 音樂
       - emoji: ⏩
         name: E0.6 fast-forward button
-        alias: 快進
+        alias: 快進 前進 音樂
       - emoji: ⏭️
         name: E0.7 next track button
-        alias: 下一曲
+        alias: 下一曲 下一 音樂
       - emoji: ⏯️
         name: E1.0 play or pause button
-        alias: 播放暫停
+        alias: 播放暫停 暫停 音樂
       - emoji: ◀️
         name: E0.6 reverse button
-        alias: 倒退
+        alias: 倒退 後退 音樂
       - emoji: ⏪
         name: E0.6 fast reverse button
-        alias: 快退
+        alias: 快退 倒退 音樂
       - emoji: ⏮️
         name: E0.7 last track button
-        alias: 上一曲
+        alias: 上一曲 上一 音樂
       - emoji: 🔼
         name: E0.6 upwards button
-        alias: 向上
+        alias: 向上 上升 音樂
       - emoji: ⏫
         name: E0.6 fast up button
-        alias: 快速向上
+        alias: 快速向上 快速 音樂
       - emoji: 🔽
         name: E0.6 downwards button
-        alias: 向下
+        alias: 向下 下降 音樂
       - emoji: ⏬
         name: E0.6 fast down button
-        alias: 快速向下
+        alias: 快速向下 快速 音樂
       - emoji: ⏸️
         name: E0.7 pause button
-        alias: 暫停
+        alias: 暫停 停止 音樂
       - emoji: ⏹️
         name: E0.7 stop button
-        alias: 停止
+        alias: 停止 結束 音樂
       - emoji: ⏺️
         name: E0.7 record button
-        alias: 錄音
+        alias: 錄音 錄製 音樂
       - emoji: ⏏️
         name: E1.0 eject button
-        alias: 彈出
+        alias: 彈出 退出 音樂
       - emoji: 🎦
         name: E0.6 cinema
-        alias: 電影院
+        alias: 電影院 影片 視頻
       - emoji: 🔅
         name: E1.0 dim button
-        alias: 暗
+        alias: 暗 降低 光線
       - emoji: 🔆
         name: E1.0 bright button
-        alias: 亮
+        alias: 亮 提高 光線
       - emoji: 📶
         name: E0.6 antenna bars
-        alias: 信號
+        alias: 信號 網絡 連接
       - emoji: 🛜
         name: E15.0 wireless
-        alias: 無線
+        alias: 無線 網絡 連接
       - emoji: 📳
         name: E0.6 vibration mode
-        alias: 震動
+        alias: 震動 振動 手機
       - emoji: 📴
         name: E0.6 mobile phone off
-        alias: 手機關閉
+        alias: 手機關閉 關機 手機
   - name: gender
-    alias: 性別
+    alias: 性別 男性 女性
     emojis:
       - emoji: ♀️
         name: E4.0 female sign
-        alias: 女性
+        alias: 女性 女 女士
       - emoji: ♂️
         name: E4.0 male sign
-        alias: 男性
+        alias: 男性 男 男士
       - emoji: ⚧️
         name: E13.0 transgender symbol
-        alias: 跨性別
+        alias: 跨性別 變性 性別
   - name: math
-    alias: 數學
+    alias: 數學 計算 符號
     emojis:
       - emoji: ✖️
         name: E0.6 multiply
-        alias: 乘
+        alias: 乘 乘法 計算
       - emoji: ➕
         name: E0.6 plus
-        alias: 加
+        alias: 加 加法 計算
       - emoji: ➖
         name: E0.6 minus
-        alias: 減
+        alias: 減 減法 計算
       - emoji: ➗
         name: E0.6 divide
-        alias: 除
+        alias: 除 除法 計算
       - emoji: 🟰
         name: E14.0 heavy equals sign
-        alias: 等於
+        alias: 等於 相等 平等
       - emoji: ♾️
         name: E11.0 infinity
-        alias: 無限
+        alias: 無限 無窮 無邊
   - name: punctuation
-    alias: 標點
+    alias: 標點 符號 表達
     emojis:
       - emoji: ‼️
         name: E0.6 double exclamation mark
-        alias: 雙驚嘆號
+        alias: 雙驚嘆號 驚嘆號 感嘆
       - emoji: ⁉️
         name: E0.6 exclamation question mark
-        alias: 驚嘆問號
+        alias: 驚嘆問號 問號 感嘆
       - emoji: ❓
         name: E0.6 red question mark
-        alias: 紅問號
+        alias: 紅問號 問號 疑問
       - emoji: ❔
         name: E0.6 white question mark
-        alias: 白問號
+        alias: 白問號 問號 疑問
       - emoji: ❕
         name: E0.6 white exclamation mark
-        alias: 白驚嘆號
+        alias: 白驚嘆號 驚嘆號 感嘆
       - emoji: ❗
         name: E0.6 red exclamation mark
-        alias: 紅驚嘆號
+        alias: 紅驚嘆號 驚嘆號 感嘆
       - emoji: 〰️
         name: E0.6 wavy dash
-        alias: 波浪線
+        alias: 波浪線 波浪 線條
   - name: currency
-    alias: 貨幣
+    alias: 貨幣 金錢 金融
     emojis:
       - emoji: 💱
         name: E0.6 currency exchange
-        alias: 貨幣兌換
+        alias: 貨幣兌換 兌換 金錢
       - emoji: 💲
         name: E0.6 heavy dollar sign
-        alias: 美元
+        alias: 美元 美金 金錢
   - name: other-symbol
-    alias: 其他符號
+    alias: 其他符號 特殊 符號
     emojis:
       - emoji: ⚕️
         name: E4.0 medical symbol
-        alias: 醫療
+        alias: 醫療 健康 醫學
       - emoji: ♻️
         name: E0.6 recycling symbol
-        alias: 回收
+        alias: 回收 循環 環保
       - emoji: ⚜️
         name: E1.0 fleur-de-lis
-        alias: 百合花
+        alias: 百合花 花形 裝飾
       - emoji: 🔱
         name: E0.6 trident emblem
-        alias: 三叉戟
+        alias: 三叉戟 武器 標誌
       - emoji: 📛
         name: E0.6 name badge
-        alias: 名牌
+        alias: 名牌 標識 名稱
       - emoji: 🔰
         name: E0.6 Japanese symbol for beginner
-        alias: 初學者
+        alias: 初學者 新手 初級
       - emoji: ⭕
         name: E0.6 hollow red circle
-        alias: 空心紅圈
+        alias: 空心紅圈 圈形 圓形
       - emoji: ✅
         name: E0.6 check mark button
-        alias: 勾選
+        alias: 勾選 確認 標記
       - emoji: ☑️
         name: E0.6 check box with check
-        alias: 勾選框
+        alias: 勾選框 確認框 標記框
       - emoji: ✔️
         name: E0.6 check mark
-        alias: 勾
+        alias: 勾 確認 標記
       - emoji: ❌
         name: E0.6 cross mark
-        alias: 叉
+        alias: 叉 錯誤 標記
       - emoji: ❎
         name: E0.6 cross mark button
-        alias: 叉按鈕
+        alias: 叉按鈕 錯誤按鈕 標記按鈕
       - emoji: ➰
         name: E0.6 curly loop
-        alias: 彎曲環
+        alias: 彎曲環 環形 彎曲
       - emoji: ➿
         name: E1.0 double curly loop
-        alias: 雙彎曲環
+        alias: 雙彎曲環 雙環 彎曲
       - emoji: 〽️
         name: E0.6 part alternation mark
-        alias: 部分交替
+        alias: 部分交替 交替 標記
       - emoji: ✳️
         name: E0.6 eight-spoked asterisk
-        alias: 八角星
+        alias: 八角星 星形 標記
       - emoji: ✴️
         name: E0.6 eight-pointed star
-        alias: 八角星
+        alias: 八角星 星形 標記
       - emoji: ❇️
         name: E0.6 sparkle
-        alias: 閃光
+        alias: 閃光 光芒 星形
       - emoji: ©️
         name: E0.6 copyright
-        alias: 版權
+        alias: 版權 著作權 標記
       - emoji: ®️
         name: E0.6 registered
-        alias: 註冊
+        alias: 註冊 商標 標記
       - emoji: ™️
         name: E0.6 trade mark
-        alias: 商標
+        alias: 商標 標記 標識
       - emoji: 🫟
         name: E16.0 splatter
-        alias: 濺射
+        alias: 濺射 飛濺 標記
   - name: keycap
-    alias: 按鍵帽
+    alias: 按鍵帽 鍵盤 按鍵
     emojis:
       - emoji: "#️⃣"
         name: "E0.6 keycap: #"
-        alias: 鍵帽#
+        alias: 鍵帽# 按鍵# 符號#
       - emoji: "*️⃣"
         name: "E2.0 keycap: *"
-        alias: 鍵帽*
+        alias: 鍵帽* 按鍵* 符號*
       - emoji: 0️⃣
         name: "E0.6 keycap: 0"
-        alias: 鍵帽0
+        alias: 鍵帽0 按鍵0 符號0
       - emoji: 1️⃣
         name: "E0.6 keycap: 1"
-        alias: 鍵帽1
+        alias: 鍵帽1 按鍵1 符號1
       - emoji: 2️⃣
         name: "E0.6 keycap: 2"
-        alias: 鍵帽2
+        alias: 鍵帽2 按鍵2 符號2
       - emoji: 3️⃣
         name: "E0.6 keycap: 3"
-        alias: 鍵帽3
+        alias: 鍵帽3 按鍵3 符號3
       - emoji: 4️⃣
         name: "E0.6 keycap: 4"
-        alias: 鍵帽4
+        alias: 鍵帽4 按鍵4 符號4
       - emoji: 5️⃣
         name: "E0.6 keycap: 5"
-        alias: 鍵帽5
+        alias: 鍵帽5 按鍵5 符號5
       - emoji: 6️⃣
         name: "E0.6 keycap: 6"
-        alias: 鍵帽6
+        alias: 鍵帽6 按鍵6 符號6
       - emoji: 7️⃣
         name: "E0.6 keycap: 7"
-        alias: 鍵帽7
+        alias: 鍵帽7 按鍵7 符號7
       - emoji: 8️⃣
         name: "E0.6 keycap: 8"
-        alias: 鍵帽8
+        alias: 鍵帽8 按鍵8 符號8
       - emoji: 9️⃣
         name: "E0.6 keycap: 9"
-        alias: 鍵帽9
+        alias: 鍵帽9 按鍵9 符號9
       - emoji: 🔟
         name: "E0.6 keycap: 10"
-        alias: 鍵帽10
+        alias: 鍵帽10 按鍵10 符號10
   - name: alphanum
-    alias: 字母數字
+    alias: 字母數字 字母 數字
     emojis:
       - emoji: 🔠
         name: E0.6 input latin uppercase
-        alias: 大寫字母
+        alias: 大寫字母 大寫 拉丁字母
       - emoji: 🔡
         name: E0.6 input latin lowercase
-        alias: 小寫字母
+        alias: 小寫字母 小寫 拉丁字母
       - emoji: 🔢
         name: E0.6 input numbers
-        alias: 數字
+        alias: 數字 數字輸入 數字鍵
       - emoji: 🔣
         name: E0.6 input symbols
-        alias: 符號
+        alias: 符號 符號輸入 符號鍵
       - emoji: 🔤
         name: E0.6 input latin letters
-        alias: 拉丁字母
+        alias: 拉丁字母 字母 輸入
       - emoji: 🅰️
         name: E0.6 A button (blood type)
-        alias: A型
+        alias: A型 血型A A
       - emoji: 🆎
         name: E0.6 AB button (blood type)
-        alias: AB型
+        alias: AB型 血型AB AB
       - emoji: 🅱️
         name: E0.6 B button (blood type)
-        alias: B型
+        alias: B型 血型B B
       - emoji: 🆑
         name: E0.6 CL button
-        alias: CL
+        alias: CL 按鍵CL 符號CL
       - emoji: 🆒
         name: E0.6 COOL button
-        alias: 酷
+        alias: 酷 按鍵COOL 符號COOL
       - emoji: 🆓
         name: E0.6 FREE button
-        alias: 免費
+        alias: 免費 按鍵FREE 符號FREE
       - emoji: ℹ️
         name: E0.6 information
-        alias: 信息
+        alias: 信息 資訊 符號信息
       - emoji: 🆔
         name: E0.6 ID button
-        alias: 身份
+        alias: 身份 按鍵ID 符號ID
       - emoji: Ⓜ️
         name: E0.6 circled M
-        alias: 圈M
+        alias: 圈M 符號M 圈形M
       - emoji: 🆕
         name: E0.6 NEW button
-        alias: 新
+        alias: 新 按鍵NEW 符號NEW
       - emoji: 🆖
         name: E0.6 NG button
-        alias: NG
+        alias: NG 按鍵NG 符號NG
       - emoji: 🅾️
         name: E0.6 O button (blood type)
-        alias: O型
+        alias: O型 血型O O
       - emoji: 🆗
         name: E0.6 OK button
-        alias: 好
+        alias: 好 按鍵OK 符號OK
       - emoji: 🅿️
         name: E0.6 P button
-        alias: P
+        alias: P 按鍵P 符號P
       - emoji: 🆘
         name: E0.6 SOS button
-        alias: 求救
+        alias: 求救 按鍵SOS 符號SOS
       - emoji: 🆙
         name: E0.6 UP! button
-        alias: 向上
+        alias: 向上 按鍵UP 符號UP
       - emoji: 🆚
         name: E0.6 VS button
-        alias: 對比
+        alias: 對比 按鍵VS 符號VS
       - emoji: 🈁
         name: E0.6 Japanese “here” button
-        alias: 這裡
+        alias: 這裡 按鍵這裡 符號這裡
       - emoji: 🈂️
         name: E0.6 Japanese “service charge” button
-        alias: 服務費
+        alias: 服務費 按鍵服務費 符號服務費
       - emoji: 🈷️
         name: E0.6 Japanese “monthly amount” button
-        alias: 月費
+        alias: 月費 按鍵月費 符號月費
       - emoji: 🈶
         name: E0.6 Japanese “not free of charge” button
-        alias: 收費
+        alias: 收費 按鍵收費 符號收費
       - emoji: 🈯
         name: E0.6 Japanese “reserved” button
-        alias: 預留
+        alias: 預留 按鍵預留 符號預留
       - emoji: 🉐
         name: E0.6 Japanese “bargain” button
-        alias: 優惠
+        alias: 優惠 按鍵優惠 符號優惠
       - emoji: 🈹
         name: E0.6 Japanese “discount” button
-        alias: 折扣
+        alias: 折扣 按鍵折扣 符號折扣
       - emoji: 🈚
         name: E0.6 Japanese “free of charge” button
-        alias: 免費
+        alias: 免費 按鍵免費 符號免費
       - emoji: 🈲
         name: E0.6 Japanese “prohibited” button
-        alias: 禁止
+        alias: 禁止 按鍵禁止 符號禁止
       - emoji: 🉑
         name: E0.6 Japanese “acceptable” button
-        alias: 可接受
+        alias: 可接受 按鍵可接受 符號可接受
       - emoji: 🈸
         name: E0.6 Japanese “application” button
-        alias: 申請
+        alias: 申請 按鍵申請 符號申請
       - emoji: 🈴
         name: E0.6 Japanese “passing grade” button
-        alias: 合格
+        alias: 合格 按鍵合格 符號合格
       - emoji: 🈳
         name: E0.6 Japanese “vacancy” button
-        alias: 空缺
+        alias: 空缺 按鍵空缺 符號空缺
       - emoji: ㊗️
         name: E0.6 Japanese “congratulations” button
-        alias: 恭喜
+        alias: 恭喜 按鍵恭喜 符號恭喜
       - emoji: ㊙️
         name: E0.6 Japanese “secret” button
-        alias: 秘密
+        alias: 秘密 按鍵秘密 符號秘密
       - emoji: 🈺
         name: E0.6 Japanese “open for business” button
-        alias: 營業
+        alias: 營業 按鍵營業 符號營業
       - emoji: 🈵
         name: E0.6 Japanese “no vacancy” button
-        alias: 滿員
+        alias: 滿員 按鍵滿員 符號滿員
   - name: geometric
-    alias: 幾何
+    alias: 幾何 圖形 形狀
     emojis:
       - emoji: 🔴
         name: E0.6 red circle
-        alias: 紅圈
+        alias: 紅圈 圓形 紅色
       - emoji: 🟠
         name: E12.0 orange circle
-        alias: 橙圈
+        alias: 橙圈 圓形 橙色
       - emoji: 🟡
         name: E12.0 yellow circle
-        alias: 黃圈
+        alias: 黃圈 圓形 黃色
       - emoji: 🟢
         name: E12.0 green circle
-        alias: 綠圈
+        alias: 綠圈 圓形 綠色
       - emoji: 🔵
         name: E0.6 blue circle
-        alias: 藍圈
+        alias: 藍圈 圓形 藍色
       - emoji: 🟣
         name: E12.0 purple circle
-        alias: 紫圈
+        alias: 紫圈 圓形 紫色
       - emoji: 🟤
         name: E12.0 brown circle
-        alias: 棕圈
+        alias: 棕圈 圓形 棕色
       - emoji: ⚫
         name: E0.6 black circle
-        alias: 黑圈
+        alias: 黑圈 圓形 黑色
       - emoji: ⚪
         name: E0.6 white circle
-        alias: 白圈
+        alias: 白圈 圓形 白色
       - emoji: 🟥
         name: E12.0 red square
-        alias: 紅方塊
+        alias: 紅方塊 方形 紅色
       - emoji: 🟧
         name: E12.0 orange square
-        alias: 橙方塊
+        alias: 橙方塊 方形 橙色
       - emoji: 🟨
         name: E12.0 yellow square
-        alias: 黃方塊
+        alias: 黃方塊 方形 黃色
       - emoji: 🟩
         name: E12.0 green square
-        alias: 綠方塊
+        alias: 綠方塊 方形 綠色
       - emoji: 🟦
         name: E12.0 blue square
-        alias: 藍方塊
+        alias: 藍方塊 方形 藍色
       - emoji: 🟪
         name: E12.0 purple square
-        alias: 紫方塊
+        alias: 紫方塊 方形 紫色
       - emoji: 🟫
         name: E12.0 brown square
-        alias: 棕方塊
+        alias: 棕方塊 方形 棕色
       - emoji: ⬛
         name: E0.6 black large square
-        alias: 黑大方塊
+        alias: 黑大方塊 方形 黑色
       - emoji: ⬜
         name: E0.6 white large square
-        alias: 白大方塊
+        alias: 白大方塊 方形 白色
       - emoji: ◼️
         name: E0.6 black medium square
-        alias: 黑中方塊
+        alias: 黑中方塊 方形 黑色
       - emoji: ◻️
         name: E0.6 white medium square
-        alias: 白中方塊
+        alias: 白中方塊 方形 白色
       - emoji: ◾
         name: E0.6 black medium-small square
-        alias: 黑小方塊
+        alias: 黑小方塊 方形 黑色
       - emoji: ◽
         name: E0.6 white medium-small square
-        alias: 白小方塊
+        alias: 白小方塊 方形 白色
       - emoji: ▪️
         name: E0.6 black small square
-        alias: 黑小方塊
+        alias: 黑小方塊 方形 黑色
       - emoji: ▫️
         name: E0.6 white small square
-        alias: 白小方塊
+        alias: 白小方塊 方形 白色
       - emoji: 🔶
         name: E0.6 large orange diamond
-        alias: 橙大菱形
+        alias: 橙大菱形 菱形 橙色
       - emoji: 🔷
         name: E0.6 large blue diamond
-        alias: 藍大菱形
+        alias: 藍大菱形 菱形 藍色
       - emoji: 🔸
         name: E0.6 small orange diamond
-        alias: 橙小菱形
+        alias: 橙小菱形 菱形 橙色
       - emoji: 🔹
         name: E0.6 small blue diamond
-        alias: 藍小菱形
+        alias: 藍小菱形 菱形 藍色
       - emoji: 🔺
         name: E0.6 red triangle pointed up
-        alias: 紅三角
+        alias: 紅三角 三角形 紅色
       - emoji: 🔻
         name: E0.6 red triangle pointed down
-        alias: 紅倒三角
+        alias: 紅倒三角 三角形 紅色
       - emoji: 💠
         name: E0.6 diamond with a dot
-        alias: 點菱形
+        alias: 點菱形 菱形 點
       - emoji: 🔘
         name: E0.6 radio button
-        alias: 圓形按鈕
+        alias: 圓形按鈕 按鈕 圓形
       - emoji: 🔳
         name: E0.6 white square button
-        alias: 白方形按鈕
+        alias: 白方形按鈕 按鈕 方形
       - emoji: 🔲
         name: E0.6 black square button
-        alias: 黑方形按鈕
+        alias: 黑方形按鈕 按鈕 方形

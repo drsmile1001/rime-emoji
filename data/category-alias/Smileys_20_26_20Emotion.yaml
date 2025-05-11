@@ -1,557 +1,557 @@
 name: Smileys & Emotion
 subGroups:
   - name: face-smiling
-    alias: 微笑
+    alias: 微笑 笑臉 開心
     emojis:
       - emoji: 😀
         name: E1.0 grinning face
-        alias: 笑臉
+        alias: 笑臉 開心 臉笑
       - emoji: 😃
         name: E0.6 grinning face with big eyes
-        alias: 大笑
+        alias: 大笑 笑容 開心
       - emoji: 😄
         name: E0.6 grinning face with smiling eyes
-        alias: 笑眼
+        alias: 笑眼 笑容 開心
       - emoji: 😁
         name: E0.6 beaming face with smiling eyes
-        alias: 開心
+        alias: 開心 笑容 笑臉
       - emoji: 😆
         name: E0.6 grinning squinting face
-        alias: 笑眯
+        alias: 笑眯 笑容 開心
       - emoji: 😅
         name: E0.6 grinning face with sweat
-        alias: 苦笑
+        alias: 苦笑 笑汗 開心
       - emoji: 🤣
         name: E3.0 rolling on the floor laughing
-        alias: 笑翻
+        alias: 笑翻 大笑 滾笑
       - emoji: 😂
         name: E0.6 face with tears of joy
-        alias: 笑哭
-      - emoji: 🙂
+        alias: 笑哭 哭笑 開心
+      - emoji: 🙂  
         name: E1.0 slightly smiling face
-        alias: 微笑
+        alias: 微笑 笑容 淡笑
       - emoji: 🙃
         name: E1.0 upside-down face
-        alias: 倒笑
+        alias: 倒笑 反笑 開心
       - emoji: 🫠
         name: E14.0 melting face
-        alias: 融化
+        alias: 融化 溶解 笑融
       - emoji: 😉
         name: E0.6 winking face
-        alias: 眨眼
+        alias: 眨眼 微笑 眨笑
       - emoji: 😊
         name: E0.6 smiling face with smiling eyes
-        alias: 笑容
+        alias: 笑容 微笑 開心
       - emoji: 😇
         name: E1.0 smiling face with halo
-        alias: 天使
+        alias: 天使 微笑 光環
   - name: face-affection
-    alias: 愛意
+    alias: 愛意 心愛 情感
     emojis:
       - emoji: 🥰
         name: E11.0 smiling face with hearts
-        alias: 心笑
+        alias: 心笑 愛心 開心
       - emoji: 😍
         name: E0.6 smiling face with heart-eyes
-        alias: 愛心
+        alias: 愛心 心眼 開心
       - emoji: 🤩
         name: E5.0 star-struck
-        alias: 星眼
+        alias: 星眼 開心 驚喜
       - emoji: 😘
         name: E0.6 face blowing a kiss
-        alias: 飛吻
+        alias: 飛吻 親吻 愛心
       - emoji: 😗
         name: E1.0 kissing face
-        alias: 親吻
+        alias: 親吻 微笑 愛心
       - emoji: ☺️
         name: E0.6 smiling face
-        alias: 笑臉
+        alias: 笑臉 微笑 開心
       - emoji: 😚
         name: E0.6 kissing face with closed eyes
-        alias: 親臉
+        alias: 親臉 微笑 愛心
       - emoji: 😙
         name: E1.0 kissing face with smiling eyes
-        alias: 笑吻
+        alias: 笑吻 微笑 愛心
       - emoji: 🥲
         name: E13.0 smiling face with tear
-        alias: 淚笑
+        alias: 淚笑 微笑 哭笑
   - name: face-tongue
-    alias: 舌頭
+    alias: 舌頭 搞怪 美味
     emojis:
       - emoji: 😋
         name: E0.6 face savoring food
-        alias: 美味
+        alias: 美味 舌臉 開心
       - emoji: 😛
         name: E1.0 face with tongue
-        alias: 舌臉
+        alias: 舌臉 搞怪 開心
       - emoji: 😜
         name: E0.6 winking face with tongue
-        alias: 眨舌
+        alias: 眨舌 搞怪 開心
       - emoji: 🤪
         name: E5.0 zany face
-        alias: 搞怪
+        alias: 搞怪 笑臉 開心
       - emoji: 😝
         name: E0.6 squinting face with tongue
-        alias: 笑舌
+        alias: 笑舌 搞怪 開心
       - emoji: 🤑
         name: E1.0 money-mouth face
-        alias: 錢嘴
+        alias: 錢嘴 搞怪 開心
   - name: face-hand
-    alias: 手臉
+    alias: 手臉 擁抱 驚訝
     emojis:
       - emoji: 🤗
         name: E1.0 smiling face with open hands
-        alias: 擁抱
+        alias: 擁抱 微笑 開心
       - emoji: 🤭
         name: E5.0 face with hand over mouth
-        alias: 捂嘴
+        alias: 捂嘴 微笑 驚訝
       - emoji: 🫢
         name: E14.0 face with open eyes and hand over mouth
-        alias: 驚訝
+        alias: 驚訝 微笑 開心
       - emoji: 🫣
         name: E14.0 face with peeking eye
-        alias: 偷看
+        alias: 偷看 微笑 驚訝
       - emoji: 🤫
         name: E5.0 shushing face
-        alias: 噓聲
+        alias: 噓聲 微笑 安靜
       - emoji: 🤔
         name: E1.0 thinking face
-        alias: 思考
+        alias: 思考 微笑 開心
       - emoji: 🫡
         name: E14.0 saluting face
-        alias: 敬禮
+        alias: 敬禮 微笑 開心
   - name: face-neutral-skeptical
-    alias: 中性
+    alias: 中性 平臉 無表情
     emojis:
       - emoji: 🤐
         name: E1.0 zipper-mouth face
-        alias: 閉嘴
+        alias: 閉嘴 微笑 安靜
       - emoji: 🤨
         name: E5.0 face with raised eyebrow
-        alias: 挑眉
+        alias: 挑眉 微笑 驚訝
       - emoji: 😐
         name: E0.7 neutral face
-        alias: 平臉
+        alias: 平臉 微笑 安靜
       - emoji: 😑
         name: E1.0 expressionless face
-        alias: 無表情
+        alias: 無表情 微笑 安靜
       - emoji: 😶
         name: E1.0 face without mouth
-        alias: 無嘴
+        alias: 無嘴 微笑 安靜
       - emoji: 🫥
         name: E14.0 dotted line face
-        alias: 虛線
+        alias: 虛線 微笑 安靜
       - emoji: 😶‍🌫️
         name: E13.1 face in clouds
-        alias: 雲臉
+        alias: 雲臉 微笑 安靜
       - emoji: 😏
         name: E0.6 smirking face
-        alias: 微笑
+        alias: 微笑 開心 驚訝
       - emoji: 😒
         name: E0.6 unamused face
-        alias: 不悅
+        alias: 不悅 微笑 安靜
       - emoji: 🙄
         name: E1.0 face with rolling eyes
-        alias: 翻眼
+        alias: 翻眼 微笑 驚訝
       - emoji: 😬
         name: E1.0 grimacing face
-        alias: 齜牙
+        alias: 齜牙 微笑 驚訝
       - emoji: 😮‍💨
         name: E13.1 face exhaling
-        alias: 吐氣
+        alias: 吐氣 微笑 安靜
       - emoji: 🤥
         name: E3.0 lying face
-        alias: 說謊
+        alias: 說謊 微笑 安靜
       - emoji: 🫨
         name: E15.0 shaking face
-        alias: 震臉
+        alias: 震臉 微笑 驚訝
       - emoji: 🙂‍↔️
         name: E15.1 head shaking horizontally
-        alias: 左右
+        alias: 左右 微笑 安靜
       - emoji: 🙂‍↕️
         name: E15.1 head shaking vertically
-        alias: 上下
+        alias: 上下 微笑 安靜
   - name: face-sleepy
-    alias: 睡臉
+    alias: 睡臉 睏臉 放鬆
     emojis:
       - emoji: 😌
         name: E0.6 relieved face
-        alias: 放鬆
+        alias: 放鬆 微笑 安靜
       - emoji: 😔
         name: E0.6 pensive face
-        alias: 沉思
+        alias: 沉思 微笑 安靜
       - emoji: 😪
         name: E0.6 sleepy face
-        alias: 睏臉
+        alias: 睏臉 微笑 安靜
       - emoji: 🤤
         name: E3.0 drooling face
-        alias: 流口
+        alias: 流口 微笑 安靜
       - emoji: 😴
         name: E1.0 sleeping face
-        alias: 睡覺
+        alias: 睡覺 微笑 安靜
       - emoji: 🫩
         name: E16.0 face with bags under eyes
-        alias: 黑眼
+        alias: 黑眼 微笑 安靜
   - name: face-unwell
-    alias: 不適
+    alias: 不適 病臉 噁心
     emojis:
       - emoji: 😷
         name: E0.6 face with medical mask
-        alias: 口罩
+        alias: 口罩 微笑 安靜
       - emoji: 🤒
         name: E1.0 face with thermometer
-        alias: 發燒
+        alias: 發燒 微笑 安靜
       - emoji: 🤕
         name: E1.0 face with head-bandage
-        alias: 包頭
+        alias: 包頭 微笑 安靜
       - emoji: 🤢
         name: E3.0 nauseated face
-        alias: 噁心
+        alias: 噁心 微笑 安靜
       - emoji: 🤮
         name: E5.0 face vomiting
-        alias: 嘔吐
+        alias: 嘔吐 微笑 安靜
       - emoji: 🤧
         name: E3.0 sneezing face
-        alias: 打噴
+        alias: 打噴 微笑 安靜
       - emoji: 🥵
         name: E11.0 hot face
-        alias: 熱臉
+        alias: 熱臉 微笑 安靜
       - emoji: 🥶
         name: E11.0 cold face
-        alias: 冷臉
+        alias: 冷臉 微笑 安靜
       - emoji: 🥴
         name: E11.0 woozy face
-        alias: 暈臉
+        alias: 暈臉 微笑 安靜
       - emoji: 😵
         name: E0.6 face with crossed-out eyes
-        alias: 眩暈
+        alias: 眩暈 微笑 安靜
       - emoji: 😵‍💫
         name: E13.1 face with spiral eyes
-        alias: 旋眼
+        alias: 旋眼 微笑 安靜
       - emoji: 🤯
         name: E5.0 exploding head
-        alias: 爆頭
+        alias: 爆頭 微笑 安靜
   - name: face-hat
-    alias: 帽臉
+    alias: 帽臉 牛仔 派對
     emojis:
       - emoji: 🤠
         name: E3.0 cowboy hat face
-        alias: 牛仔
+        alias: 牛仔 微笑 安靜
       - emoji: 🥳
         name: E11.0 partying face
-        alias: 派對
+        alias: 派對 微笑 安靜
       - emoji: 🥸
         name: E13.0 disguised face
-        alias: 偽裝
+        alias: 偽裝 微笑 安靜
   - name: face-glasses
-    alias: 眼鏡
+    alias: 眼鏡 墨鏡 書呆
     emojis:
       - emoji: 😎
         name: E1.0 smiling face with sunglasses
-        alias: 墨鏡
+        alias: 墨鏡 微笑 安靜
       - emoji: 🤓
         name: E1.0 nerd face
-        alias: 書呆
+        alias: 書呆 微笑 安靜
       - emoji: 🧐
         name: E5.0 face with monocle
-        alias: 單鏡
+        alias: 單鏡 微笑 安靜
   - name: face-concerned
-    alias: 擔憂
+    alias: 擔憂 困惑 驚訝
     emojis:
       - emoji: 😕
         name: E1.0 confused face
-        alias: 困惑
+        alias: 困惑 微笑 安靜
       - emoji: 🫤
         name: E14.0 face with diagonal mouth
-        alias: 斜嘴
+        alias: 斜嘴 微笑 安靜
       - emoji: 😟
         name: E1.0 worried face
-        alias: 擔心
+        alias: 擔心 微笑 安靜
       - emoji: 🙁
         name: E1.0 slightly frowning face
-        alias: 微皺
+        alias: 微皺 微笑 安靜
       - emoji: ☹️
         name: E0.7 frowning face
-        alias: 皺眉
+        alias: 皺眉 微笑 安靜
       - emoji: 😮
         name: E1.0 face with open mouth
-        alias: 張嘴
+        alias: 張嘴 微笑 安靜
       - emoji: 😯
         name: E1.0 hushed face
-        alias: 安靜
+        alias: 安靜 微笑 安靜
       - emoji: 😲
         name: E0.6 astonished face
-        alias: 驚訝
+        alias: 驚訝 微笑 安靜
       - emoji: 😳
         name: E0.6 flushed face
-        alias: 臉紅
+        alias: 臉紅 微笑 安靜
       - emoji: 🥺
         name: E11.0 pleading face
-        alias: 哀求
+        alias: 哀求 微笑 安靜
       - emoji: 🥹
         name: E14.0 face holding back tears
-        alias: 忍淚
+        alias: 忍淚 微笑 安靜
       - emoji: 😦
         name: E1.0 frowning face with open mouth
-        alias: 張皺
+        alias: 張皺 微笑 安靜
       - emoji: 😧
         name: E1.0 anguished face
-        alias: 痛苦
+        alias: 痛苦 微笑 安靜
       - emoji: 😨
         name: E0.6 fearful face
-        alias: 害怕
+        alias: 害怕 微笑 安靜
       - emoji: 😰
         name: E0.6 anxious face with sweat
-        alias: 焦慮
+        alias: 焦慮 微笑 安靜
       - emoji: 😥
         name: E0.6 sad but relieved face
-        alias: 悲鬆
+        alias: 悲鬆 微笑 安靜
       - emoji: 😢
         name: E0.6 crying face
-        alias: 哭泣
+        alias: 哭泣 微笑 安靜
       - emoji: 😭
         name: E0.6 loudly crying face
-        alias: 大哭
+        alias: 大哭 微笑 安靜
       - emoji: 😱
         name: E0.6 face screaming in fear
-        alias: 尖叫
+        alias: 尖叫 微笑 安靜
       - emoji: 😖
         name: E0.6 confounded face
-        alias: 困惑
+        alias: 困惑 微笑 安靜
       - emoji: 😣
         name: E0.6 persevering face
-        alias: 堅持
+        alias: 堅持 微笑 安靜
       - emoji: 😞
         name: E0.6 disappointed face
-        alias: 失望
+        alias: 失望 微笑 安靜
       - emoji: 😓
         name: E0.6 downcast face with sweat
-        alias: 沮喪
+        alias: 沮喪 微笑 安靜
       - emoji: 😩
         name: E0.6 weary face
-        alias: 疲憊
+        alias: 疲憊 微笑 安靜
       - emoji: 😫
         name: E0.6 tired face
-        alias: 疲倦
+        alias: 疲倦 微笑 安靜
       - emoji: 🥱
         name: E12.0 yawning face
-        alias: 打哈
+        alias: 打哈 微笑 安靜
   - name: face-negative
-    alias: 負面
+    alias: 負面 憤怒 生氣
     emojis:
       - emoji: 😤
         name: E0.6 face with steam from nose
-        alias: 冒氣
+        alias: 冒氣 微笑 安靜
       - emoji: 😡
         name: E0.6 enraged face
-        alias: 憤怒
+        alias: 憤怒 微笑 安靜
       - emoji: 😠
         name: E0.6 angry face
-        alias: 生氣
+        alias: 生氣 微笑 安靜
       - emoji: 🤬
         name: E5.0 face with symbols on mouth
-        alias: 咒罵
+        alias: 咒罵 微笑 安靜
       - emoji: 😈
         name: E1.0 smiling face with horns
-        alias: 惡笑
+        alias: 惡笑 微笑 安靜
       - emoji: 👿
         name: E0.6 angry face with horns
-        alias: 惡怒
+        alias: 惡怒 微笑 安靜
       - emoji: 💀
         name: E0.6 skull
-        alias: 骷髏
+        alias: 骷髏 微笑 安靜
       - emoji: ☠️
         name: E1.0 skull and crossbones
-        alias: 骷髏
+        alias: 骷髏 微笑 安靜
   - name: face-costume
-    alias: 裝扮
+    alias: 裝扮 小丑 怪物
     emojis:
       - emoji: 💩
         name: E0.6 pile of poo
-        alias: 糞便
+        alias: 糞便 微笑 安靜
       - emoji: 🤡
         name: E3.0 clown face
-        alias: 小丑
+        alias: 小丑 微笑 安靜
       - emoji: 👹
         name: E0.6 ogre
-        alias: 怪物
+        alias: 怪物 微笑 安靜
       - emoji: 👺
         name: E0.6 goblin
-        alias: 妖怪
+        alias: 妖怪 微笑 安靜
       - emoji: 👻
         name: E0.6 ghost
-        alias: 鬼魂
+        alias: 鬼魂 微笑 安靜
       - emoji: 👽
         name: E0.6 alien
-        alias: 外星
+        alias: 外星 微笑 安靜
       - emoji: 👾
         name: E0.6 alien monster
-        alias: 怪獸
+        alias: 怪獸 微笑 安靜
       - emoji: 🤖
         name: E1.0 robot
-        alias: 機器
+        alias: 機器 微笑 安靜
   - name: cat-face
-    alias: 貓臉
+    alias: 貓臉 貓笑 貓愛
     emojis:
       - emoji: 😺
         name: E0.6 grinning cat
-        alias: 貓笑
+        alias: 貓笑 微笑 安靜
       - emoji: 😸
         name: E0.6 grinning cat with smiling eyes
-        alias: 貓眼
+        alias: 貓眼 微笑 安靜
       - emoji: 😹
         name: E0.6 cat with tears of joy
-        alias: 貓哭
+        alias: 貓哭 微笑 安靜
       - emoji: 😻
         name: E0.6 smiling cat with heart-eyes
-        alias: 貓愛
+        alias: 貓愛 微笑 安靜
       - emoji: 😼
         name: E0.6 cat with wry smile
-        alias: 貓笑
+        alias: 貓笑 微笑 安靜
       - emoji: 😽
         name: E0.6 kissing cat
-        alias: 貓吻
+        alias: 貓吻 微笑 安靜
       - emoji: 🙀
         name: E0.6 weary cat
-        alias: 貓累
+        alias: 貓累 微笑 安靜
       - emoji: 😿
         name: E0.6 crying cat
-        alias: 貓泣
+        alias: 貓泣 微笑 安靜
       - emoji: 😾
         name: E0.6 pouting cat
-        alias: 貓怒
+        alias: 貓怒 微笑 安靜
   - name: monkey-face
-    alias: 猴臉
+    alias: 猴臉 遮眼 遮耳
     emojis:
       - emoji: 🙈
         name: E0.6 see-no-evil monkey
-        alias: 遮眼
+        alias: 遮眼 微笑 安靜
       - emoji: 🙉
         name: E0.6 hear-no-evil monkey
-        alias: 遮耳
+        alias: 遮耳 微笑 安靜
       - emoji: 🙊
         name: E0.6 speak-no-evil monkey
-        alias: 遮嘴
+        alias: 遮嘴 微笑 安靜
   - name: heart
-    alias: 心
+    alias: 心 愛心 情感
     emojis:
       - emoji: 💌
         name: E0.6 love letter
-        alias: 情書
+        alias: 情書 微笑 安靜
       - emoji: 💘
         name: E0.6 heart with arrow
-        alias: 箭心
+        alias: 箭心 微笑 安靜
       - emoji: 💝
         name: E0.6 heart with ribbon
-        alias: 禮心
+        alias: 禮心 微笑 安靜
       - emoji: 💖
         name: E0.6 sparkling heart
-        alias: 閃心
+        alias: 閃心 微笑 安靜
       - emoji: 💗
         name: E0.6 growing heart
-        alias: 長心
+        alias: 長心 微笑 安靜
       - emoji: 💓
         name: E0.6 beating heart
-        alias: 跳心
+        alias: 跳心 微笑 安靜
       - emoji: 💞
         name: E0.6 revolving hearts
-        alias: 轉心
+        alias: 轉心 微笑 安靜
       - emoji: 💕
         name: E0.6 two hearts
-        alias: 雙心
+        alias: 雙心 微笑 安靜
       - emoji: 💟
         name: E0.6 heart decoration
-        alias: 裝心
+        alias: 裝心 微笑 安靜
       - emoji: ❣️
         name: E1.0 heart exclamation
-        alias: 驚心
+        alias: 驚心 微笑 安靜
       - emoji: 💔
         name: E0.6 broken heart
-        alias: 碎心
+        alias: 碎心 微笑 安靜
       - emoji: ❤️‍🔥
         name: E13.1 heart on fire
-        alias: 火心
+        alias: 火心 微笑 安靜
       - emoji: ❤️‍🩹
         name: E13.1 mending heart
-        alias: 補心
+        alias: 補心 微笑 安靜
       - emoji: ❤️
         name: E0.6 red heart
-        alias: 紅心
+        alias: 紅心 微笑 安靜
       - emoji: 🩷
         name: E15.0 pink heart
-        alias: 粉心
+        alias: 粉心 微笑 安靜
       - emoji: 🧡
         name: E5.0 orange heart
-        alias: 橙心
+        alias: 橙心 微笑 安靜
       - emoji: 💛
         name: E0.6 yellow heart
-        alias: 黃心
+        alias: 黃心 微笑 安靜
       - emoji: 💚
         name: E0.6 green heart
-        alias: 綠心
+        alias: 綠心 微笑 安靜
       - emoji: 💙
         name: E0.6 blue heart
-        alias: 藍心
+        alias: 藍心 微笑 安靜
       - emoji: 🩵
         name: E15.0 light blue heart
-        alias: 淡藍
+        alias: 淡藍 微笑 安靜
       - emoji: 💜
         name: E0.6 purple heart
-        alias: 紫心
+        alias: 紫心 微笑 安靜
       - emoji: 🤎
         name: E12.0 brown heart
-        alias: 棕心
+        alias: 棕心 微笑 安靜
       - emoji: 🖤
         name: E3.0 black heart
-        alias: 黑心
+        alias: 黑心 微笑 安靜
       - emoji: 🩶
         name: E15.0 grey heart
-        alias: 灰心
+        alias: 灰心 微笑 安靜
       - emoji: 🤍
         name: E12.0 white heart
-        alias: 白心
+        alias: 白心 微笑 安靜
   - name: emotion
-    alias: 情感
+    alias: 情感 百分 怒符
     emojis:
       - emoji: 💋
         name: E0.6 kiss mark
-        alias: 唇印
+        alias: 唇印 微笑 安靜
       - emoji: 💯
         name: E0.6 hundred points
-        alias: 百分
+        alias: 百分 微笑 安靜
       - emoji: 💢
         name: E0.6 anger symbol
-        alias: 怒符
+        alias: 怒符 微笑 安靜
       - emoji: 💥
         name: E0.6 collision
-        alias: 碰撞
+        alias: 碰撞 微笑 安靜
       - emoji: 💫
         name: E0.6 dizzy
-        alias: 眩暈
+        alias: 眩暈 微笑 安靜
       - emoji: 💦
         name: E0.6 sweat droplets
-        alias: 汗滴
+        alias: 汗滴 微笑 安靜
       - emoji: 💨
         name: E0.6 dashing away
-        alias: 飛奔
+        alias: 飛奔 微笑 安靜
       - emoji: 🕳️
         name: E0.7 hole
-        alias: 洞
+        alias: 洞 微笑 安靜
       - emoji: 💬
         name: E0.6 speech balloon
-        alias: 氣泡
+        alias: 氣泡 微笑 安靜
       - emoji: 👁️‍🗨️
         name: E2.0 eye in speech bubble
-        alias: 眼泡
+        alias: 眼泡 微笑 安靜
       - emoji: 🗨️
         name: E2.0 left speech bubble
-        alias: 左泡
+        alias: 左泡 微笑 安靜
       - emoji: 🗯️
         name: E0.7 right anger bubble
-        alias: 怒泡
+        alias: 怒泡 微笑 安靜
       - emoji: 💭
         name: E1.0 thought balloon
-        alias: 思泡
+        alias: 思泡 微笑 安靜
       - emoji: 💤
         name: E0.6 ZZZ
-        alias: 睡聲
+        alias: 睡聲 微笑 安靜

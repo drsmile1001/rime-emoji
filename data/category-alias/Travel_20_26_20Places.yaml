@@ -5,55 +5,56 @@ subGroups:
     emojis:
       - emoji: 🌍
         name: E0.7 globe showing Europe-Africa
-        alias: 歐非
+        alias: 歐非 地球 歐洲
       - emoji: 🌎
         name: E0.7 globe showing Americas
-        alias: 美洲
+        alias: 美洲 地球 美國
       - emoji: 🌏
         name: E0.6 globe showing Asia-Australia
-        alias: 亞澳
+        alias: 亞澳 地球 亞洲
       - emoji: 🌐
         name: E1.0 globe with meridians
-        alias: 經緯
+        alias: 經緯 地球 全球
       - emoji: 🗺️
         name: E0.7 world map
-        alias: 世界地圖
+        alias: 世界地圖 地圖 全球
       - emoji: 🗾
         name: E0.6 map of Japan
-        alias: 日本地圖
+        alias: 日本地圖 地圖 日本
       - emoji: 🧭
         name: E11.0 compass
-        alias: 指南針
+        alias: 指南針 羅盤 方位
+
   - name: place-geographic
     alias: 地理
     emojis:
       - emoji: 🏔️
         name: E0.7 snow-capped mountain
-        alias: 雪山
+        alias: 雪山 高山 冰山
       - emoji: ⛰️
         name: E0.7 mountain
-        alias: 山
+        alias: 山 高山 山脈
       - emoji: 🌋
         name: E0.6 volcano
-        alias: 火山
+        alias: 火山 熔岩 山
       - emoji: 🗻
         name: E0.6 mount fuji
-        alias: 富士山
+        alias: 富士山 日本山 山
       - emoji: 🏕️
         name: E0.7 camping
-        alias: 露營
+        alias: 露營 帳篷 野營
       - emoji: 🏖️
         name: E0.7 beach with umbrella
-        alias: 海灘
+        alias: 海灘 沙灘 陽傘
       - emoji: 🏜️
         name: E0.7 desert
-        alias: 沙漠
+        alias: 沙漠 荒地 乾燥
       - emoji: 🏝️
         name: E0.7 desert island
-        alias: 荒島
+        alias: 荒島 小島 孤島
       - emoji: 🏞️
         name: E0.7 national park
-        alias: 國家公園
+        alias: 國家公園 公園 自然
   - name: place-building
     alias: 建築
     emojis:
@@ -438,36 +439,38 @@ subGroups:
       - emoji: 🛸
         name: E5.0 flying saucer
         alias: 飛碟
+
   - name: hotel
-    alias: 酒店
+    alias: 酒店 旅館 住宿
     emojis:
       - emoji: 🛎️
         name: E0.7 bellhop bell
-        alias: 服務鈴
+        alias: 服務鈴 鈴鐺 呼叫鈴
       - emoji: 🧳
         name: E11.0 luggage
-        alias: 行李
+        alias: 行李 旅行箱 行李箱
+
   - name: time
-    alias: 時間
+    alias: 時間 時鐘 計時
     emojis:
       - emoji: ⌛
         name: E0.6 hourglass done
-        alias: 沙漏完成
+        alias: 沙漏完成 時間到 完成沙漏
       - emoji: ⏳
         name: E0.6 hourglass not done
-        alias: 沙漏未完成
+        alias: 沙漏未完成 計時中 未完成沙漏
       - emoji: ⌚
         name: E0.6 watch
-        alias: 手錶
+        alias: 手錶 腕錶 時間表
       - emoji: ⏰
         name: E0.6 alarm clock
-        alias: 鬧鐘
+        alias: 鬧鐘 醒鐘 時間鬧鐘
       - emoji: ⏱️
         name: E1.0 stopwatch
-        alias: 秒錶
+        alias: 秒錶 計時錶 計秒器
       - emoji: ⏲️
         name: E1.0 timer clock
-        alias: 計時器
+        alias: 計時器 定時器 時間器
       - emoji: 🕰️
         name: E0.7 mantelpiece clock
         alias: 壁爐時鐘
