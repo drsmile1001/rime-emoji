@@ -50,9 +50,10 @@ export class SemanticAliasRepoYaml implements SemanticAliasRepo {
         [],
       );
       const data = await yamlFile.read();
+      const sematic = file.replace(/\.yaml$/, "");
       const das = data.map((x) => ({
         alias: x.alias,
-        semantic: file,
+        semantic: sematic,
         emojis: x.emojis.split(" "),
       }));
       result.push(...das);

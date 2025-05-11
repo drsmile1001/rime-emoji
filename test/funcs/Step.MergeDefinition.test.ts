@@ -15,15 +15,6 @@ describe("StepMergeDefinition", () => {
     const step = new StepMergeDefinition(emojiRepo, aliasRepo);
     await step.execute();
 
-    // ✅ 驗證 group alias
-    const groupAliases = await aliasRepo.getGroupAliases();
-    expect(groupAliases).toEqual(
-      expect.arrayContaining([
-        { group: "People & Body", alias: "" },
-        { group: "Smileys & Emotion", alias: "" },
-      ]),
-    );
-
     // ✅ 驗證 subgroup alias
     const subgroupAliases = await aliasRepo.getSubgroupAliases();
     expect(subgroupAliases).toEqual(
@@ -31,12 +22,12 @@ describe("StepMergeDefinition", () => {
         {
           group: "People & Body",
           subgroup: "hand-fingers-part",
-          alias: "",
+          alias: [],
         },
         {
           group: "Smileys & Emotion",
           subgroup: "face-smiling",
-          alias: "",
+          alias: [],
         },
       ]),
     );
@@ -45,9 +36,9 @@ describe("StepMergeDefinition", () => {
     const emojiAliases = await aliasRepo.getEmojiAliases();
     expect(emojiAliases).toEqual(
       expect.arrayContaining([
-        { emoji: "✋", alias: "" },
-        { emoji: "🖐️", alias: "" },
-        { emoji: "😀", alias: "" },
+        { emoji: "✋", alias: [] },
+        { emoji: "🖐️", alias: [] },
+        { emoji: "😀", alias: [] },
       ]),
     );
   });

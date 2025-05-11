@@ -15,8 +15,8 @@ describe("CategoryAliasRepoMemory", () => {
     expect(subgroupAliases.length).toBe(2);
     expect(subgroupAliases).toEqual(
       expect.arrayContaining([
-        { group: "People & Body", subgroup: "hand-fingers-part", alias: "" },
-        { group: "Smileys & Emotion", subgroup: "face-smiling", alias: "" },
+        { group: "People & Body", subgroup: "hand-fingers-part", alias: [] },
+        { group: "Smileys & Emotion", subgroup: "face-smiling", alias: [] },
       ]),
     );
 
@@ -44,12 +44,12 @@ describe("CategoryAliasRepoMemory", () => {
     const updatedEmojiAliases = await repo.getEmojiAliases();
     const updatedSubgroupAliases = await repo.getSubgroupAliases();
 
-    expect(updatedEmojiAliases.find((e) => e.emoji === "😀")?.alias).toBe([
+    expect(updatedEmojiAliases.find((e) => e.emoji === "😀")?.alias).toEqual([
       "笑臉",
     ]);
     expect(
       updatedSubgroupAliases.find((s) => s.subgroup === "face-smiling")?.alias,
-    ).toBe(["微笑臉"]);
+    ).toEqual(["微笑臉"]);
   });
 
   test("應能查詢 emoji 清單 by group/subgroup", async () => {
