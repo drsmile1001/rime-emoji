@@ -59,3 +59,35 @@ test/
 - 每個資料來源都可替換：支援 Unicode、YAML、Fixture
 - 可逐步導入：先從單一步驟開發，逐步擴展處理邏輯
 - 資料優先於邏輯：所有處理流程均以 Entity 型別為核心輸入輸出
+
+```mermaid
+classDiagram
+    class EmojiDefinition {
+        emoji: id
+        name
+        group
+        subgroup
+    }
+
+    class GroupAlias {
+      group: id
+      alias?: string;
+    }
+
+    class SubgroupAlias = {
+      group: id
+      subgroup: id
+      alias?: string;
+    };
+
+    export type EmojiAlias = {
+      emoji: id;
+      alias?: string;
+    };
+
+    class AliasDefinition = {
+      alias: id:
+      domain: string;
+      emojis: string[];
+    }
+```

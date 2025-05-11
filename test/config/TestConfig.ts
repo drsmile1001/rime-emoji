@@ -30,6 +30,7 @@ const StepTestEnvSchema = Type.Object({
   KEEP_TEST_OUTPUT: stringBoolean(),
   TEST_STEP_FILTER_LAB: stringBoolean(),
   TEST_STEP_FILTER_STRATEGIES: stepFilterStrategies,
+  YAML_DEFINITION_ALIAS_REPO_LAB: stringBoolean(),
 });
 
 export function getTestConfig() {
