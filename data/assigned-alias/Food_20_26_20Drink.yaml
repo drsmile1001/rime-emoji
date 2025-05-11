@@ -1,278 +1,416 @@
 name: Food & Drink
 subGroups:
   - name: food-fruit
+    alias: 水果
     emojis:
       - emoji: 🍇
         name: E0.6 grapes
+        alias: 葡萄
       - emoji: 🍈
         name: E0.6 melon
+        alias: 哈密瓜
       - emoji: 🍉
         name: E0.6 watermelon
+        alias: 西瓜
       - emoji: 🍊
         name: E0.6 tangerine
+        alias: 橘子
       - emoji: 🍋
         name: E1.0 lemon
+        alias: 檸檬
       - emoji: 🍋‍🟩
         name: E15.1 lime
+        alias: 萊姆
       - emoji: 🍌
         name: E0.6 banana
+        alias: 香蕉
       - emoji: 🍍
         name: E0.6 pineapple
+        alias: 鳳梨
       - emoji: 🥭
         name: E11.0 mango
+        alias: 芒果
       - emoji: 🍎
         name: E0.6 red apple
+        alias: 紅蘋果
       - emoji: 🍏
         name: E0.6 green apple
+        alias: 青蘋果
       - emoji: 🍐
         name: E1.0 pear
+        alias: 梨
       - emoji: 🍑
         name: E0.6 peach
+        alias: 桃子
       - emoji: 🍒
         name: E0.6 cherries
+        alias: 櫻桃
       - emoji: 🍓
         name: E0.6 strawberry
+        alias: 草莓
       - emoji: 🫐
         name: E13.0 blueberries
+        alias: 藍莓
       - emoji: 🥝
         name: E3.0 kiwi fruit
+        alias: 奇異果
       - emoji: 🍅
         name: E0.6 tomato
+        alias: 番茄
       - emoji: 🫒
         name: E13.0 olive
+        alias: 橄欖
       - emoji: 🥥
         name: E5.0 coconut
+        alias: 椰子
   - name: food-vegetable
+    alias: 蔬菜
     emojis:
       - emoji: 🥑
         name: E3.0 avocado
+        alias: 酪梨
       - emoji: 🍆
         name: E0.6 eggplant
+        alias: 茄子
       - emoji: 🥔
         name: E3.0 potato
+        alias: 馬鈴薯
       - emoji: 🥕
         name: E3.0 carrot
+        alias: 胡蘿蔔
       - emoji: 🌽
         name: E0.6 ear of corn
+        alias: 玉米
       - emoji: 🌶️
         name: E0.7 hot pepper
+        alias: 辣椒
       - emoji: 🫑
         name: E13.0 bell pepper
+        alias: 甜椒
       - emoji: 🥒
         name: E3.0 cucumber
+        alias: 小黃瓜
       - emoji: 🥬
         name: E11.0 leafy green
+        alias: 綠葉菜
       - emoji: 🥦
         name: E5.0 broccoli
+        alias: 花椰菜
       - emoji: 🧄
         name: E12.0 garlic
+        alias: 大蒜
       - emoji: 🧅
         name: E12.0 onion
+        alias: 洋蔥
       - emoji: 🥜
         name: E3.0 peanuts
+        alias: 花生
       - emoji: 🫘
         name: E14.0 beans
+        alias: 豆子
       - emoji: 🌰
         name: E0.6 chestnut
+        alias: 栗子
       - emoji: 🫚
         name: E15.0 ginger root
+        alias: 薑
       - emoji: 🫛
         name: E15.0 pea pod
+        alias: 豌豆
       - emoji: 🍄‍🟫
         name: E15.1 brown mushroom
+        alias: 棕菇
       - emoji: 🫜
         name: E16.0 root vegetable
+        alias: 根菜
   - name: food-prepared
+    alias: 熟食
     emojis:
       - emoji: 🍞
         name: E0.6 bread
+        alias: 麵包
       - emoji: 🥐
         name: E3.0 croissant
+        alias: 可頌
       - emoji: 🥖
         name: E3.0 baguette bread
+        alias: 法棍
       - emoji: 🫓
         name: E13.0 flatbread
+        alias: 薄餅
       - emoji: 🥨
         name: E5.0 pretzel
+        alias: 椒鹽捲餅
       - emoji: 🥯
         name: E11.0 bagel
+        alias: 貝果
       - emoji: 🥞
         name: E3.0 pancakes
+        alias: 鬆餅
       - emoji: 🧇
         name: E12.0 waffle
+        alias: 格子餅
       - emoji: 🧀
         name: E1.0 cheese wedge
+        alias: 起司
       - emoji: 🍖
         name: E0.6 meat on bone
+        alias: 肉骨
       - emoji: 🍗
         name: E0.6 poultry leg
+        alias: 雞腿
       - emoji: 🥩
         name: E5.0 cut of meat
+        alias: 肉排
       - emoji: 🥓
         name: E3.0 bacon
+        alias: 培根
       - emoji: 🍔
         name: E0.6 hamburger
+        alias: 漢堡
       - emoji: 🍟
         name: E0.6 french fries
+        alias: 薯條
       - emoji: 🍕
         name: E0.6 pizza
+        alias: 披薩
       - emoji: 🌭
         name: E1.0 hot dog
+        alias: 熱狗
       - emoji: 🥪
         name: E5.0 sandwich
+        alias: 三明治
       - emoji: 🌮
         name: E1.0 taco
+        alias: 塔可
       - emoji: 🌯
         name: E1.0 burrito
+        alias: 墨西哥捲
       - emoji: 🫔
         name: E13.0 tamale
+        alias: 玉米粽
       - emoji: 🥙
         name: E3.0 stuffed flatbread
+        alias: 夾餅
       - emoji: 🧆
         name: E12.0 falafel
+        alias: 炸豆丸
       - emoji: 🥚
         name: E3.0 egg
+        alias: 雞蛋
       - emoji: 🍳
         name: E0.6 cooking
+        alias: 煎蛋
       - emoji: 🥘
         name: E3.0 shallow pan of food
+        alias: 平底鍋菜
       - emoji: 🍲
         name: E0.6 pot of food
+        alias: 鍋菜
       - emoji: 🫕
         name: E13.0 fondue
+        alias: 起司火鍋
       - emoji: 🥣
         name: E5.0 bowl with spoon
+        alias: 湯碗
       - emoji: 🥗
         name: E3.0 green salad
+        alias: 沙拉
       - emoji: 🍿
         name: E1.0 popcorn
+        alias: 爆米花
       - emoji: 🧈
         name: E12.0 butter
+        alias: 奶油
       - emoji: 🧂
         name: E11.0 salt
+        alias: 鹽
       - emoji: 🥫
         name: E5.0 canned food
+        alias: 罐頭
   - name: food-asian
+    alias: 亞洲美食
     emojis:
       - emoji: 🍱
         name: E0.6 bento box
+        alias: 便當
       - emoji: 🍘
         name: E0.6 rice cracker
+        alias: 米餅
       - emoji: 🍙
         name: E0.6 rice ball
+        alias: 飯糰
       - emoji: 🍚
         name: E0.6 cooked rice
+        alias: 白飯
       - emoji: 🍛
         name: E0.6 curry rice
+        alias: 咖哩飯
       - emoji: 🍜
         name: E0.6 steaming bowl
+        alias: 湯麵
       - emoji: 🍝
         name: E0.6 spaghetti
+        alias: 義大利麵
       - emoji: 🍠
         name: E0.6 roasted sweet potato
+        alias: 烤地瓜
       - emoji: 🍢
         name: E0.6 oden
+        alias: 關東煮
       - emoji: 🍣
         name: E0.6 sushi
+        alias: 壽司
       - emoji: 🍤
         name: E0.6 fried shrimp
+        alias: 炸蝦
       - emoji: 🍥
         name: E0.6 fish cake with swirl
+        alias: 魚板
       - emoji: 🥮
         name: E11.0 moon cake
+        alias: 月餅
       - emoji: 🍡
         name: E0.6 dango
+        alias: 糯米糰
       - emoji: 🥟
         name: E5.0 dumpling
+        alias: 餃子
       - emoji: 🥠
         name: E5.0 fortune cookie
+        alias: 幸運餅乾
       - emoji: 🥡
         name: E5.0 takeout box
+        alias: 外賣盒
   - name: food-sweet
+    alias: 甜食
     emojis:
       - emoji: 🍦
         name: E0.6 soft ice cream
+        alias: 霜淇淋
       - emoji: 🍧
         name: E0.6 shaved ice
+        alias: 刨冰
       - emoji: 🍨
         name: E0.6 ice cream
+        alias: 冰淇淋
       - emoji: 🍩
         name: E0.6 doughnut
+        alias: 甜甜圈
       - emoji: 🍪
         name: E0.6 cookie
+        alias: 餅乾
       - emoji: 🎂
         name: E0.6 birthday cake
+        alias: 蛋糕
       - emoji: 🍰
         name: E0.6 shortcake
+        alias: 草莓蛋糕
       - emoji: 🧁
         name: E11.0 cupcake
+        alias: 杯子蛋糕
       - emoji: 🥧
         name: E5.0 pie
+        alias: 派
       - emoji: 🍫
         name: E0.6 chocolate bar
+        alias: 巧克力
       - emoji: 🍬
         name: E0.6 candy
+        alias: 糖果
       - emoji: 🍭
         name: E0.6 lollipop
+        alias: 棒棒糖
       - emoji: 🍮
         name: E0.6 custard
+        alias: 布丁
       - emoji: 🍯
         name: E0.6 honey pot
+        alias: 蜂蜜
   - name: drink
+    alias: 飲料
     emojis:
       - emoji: 🍼
         name: E1.0 baby bottle
+        alias: 奶瓶
       - emoji: 🥛
         name: E3.0 glass of milk
+        alias: 牛奶
       - emoji: ☕
         name: E0.6 hot beverage
+        alias: 熱飲
       - emoji: 🫖
         name: E13.0 teapot
+        alias: 茶壺
       - emoji: 🍵
         name: E0.6 teacup without handle
+        alias: 茶杯
       - emoji: 🍶
         name: E0.6 sake
+        alias: 清酒
       - emoji: 🍾
         name: E1.0 bottle with popping cork
+        alias: 香檳
       - emoji: 🍷
         name: E0.6 wine glass
+        alias: 紅酒
       - emoji: 🍸
         name: E0.6 cocktail glass
+        alias: 雞尾酒
       - emoji: 🍹
         name: E0.6 tropical drink
+        alias: 熱帶飲料
       - emoji: 🍺
         name: E0.6 beer mug
+        alias: 啤酒
       - emoji: 🍻
         name: E0.6 clinking beer mugs
+        alias: 啤酒乾杯
       - emoji: 🥂
         name: E3.0 clinking glasses
+        alias: 乾杯
       - emoji: 🥃
         name: E3.0 tumbler glass
+        alias: 威士忌
       - emoji: 🫗
         name: E14.0 pouring liquid
+        alias: 倒飲料
       - emoji: 🥤
         name: E5.0 cup with straw
+        alias: 吸管杯
       - emoji: 🧋
         name: E13.0 bubble tea
+        alias: 珍珠奶茶
       - emoji: 🧃
         name: E12.0 beverage box
+        alias: 飲料盒
       - emoji: 🧉
         name: E12.0 mate
+        alias: 馬黛茶
       - emoji: 🧊
         name: E12.0 ice
+        alias: 冰塊
   - name: dishware
+    alias: 餐具
     emojis:
       - emoji: 🥢
         name: E5.0 chopsticks
+        alias: 筷子
       - emoji: 🍽️
         name: E0.7 fork and knife with plate
+        alias: 餐盤
       - emoji: 🍴
         name: E0.6 fork and knife
+        alias: 刀叉
       - emoji: 🥄
         name: E3.0 spoon
+        alias: 湯匙
       - emoji: 🔪
         name: E0.6 kitchen knife
+        alias: 菜刀
       - emoji: 🫙
         name: E14.0 jar
+        alias: 罐子
       - emoji: 🏺
         name: E1.0 amphora
+        alias: 陶罐

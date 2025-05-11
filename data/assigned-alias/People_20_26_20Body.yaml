@@ -61,43 +61,62 @@ subGroups:
       - emoji: 🫵
         name: E14.0 index pointing at the viewer
   - name: hand-fingers-closed
+    alias: 握拳
     emojis:
       - emoji: 👍
         name: E0.6 thumbs up
+        alias: 讚
       - emoji: 👎
         name: E0.6 thumbs down
+        alias: 噓
       - emoji: ✊
         name: E0.6 raised fist
+        alias: 拳頭
       - emoji: 👊
         name: E0.6 oncoming fist
+        alias: 揮拳
       - emoji: 🤛
         name: E3.0 left-facing fist
+        alias: 左拳
       - emoji: 🤜
         name: E3.0 right-facing fist
+        alias: 右拳
   - name: hands
+    alias: 雙手
     emojis:
       - emoji: 👏
         name: E0.6 clapping hands
+        alias: 鼓掌
       - emoji: 🙌
         name: E0.6 raising hands
+        alias: 舉手
       - emoji: 🫶
         name: E14.0 heart hands
+        alias: 愛心手
       - emoji: 👐
         name: E0.6 open hands
+        alias: 張手
       - emoji: 🤲
         name: E5.0 palms up together
+        alias: 合掌
       - emoji: 🤝
         name: E3.0 handshake
+        alias: 握手
       - emoji: 🙏
         name: E0.6 folded hands
+        alias: 祈禱
   - name: hand-prop
+    alias: 手持物
     emojis:
       - emoji: ✍️
         name: E0.7 writing hand
+        alias: 寫字
       - emoji: 💅
         name: E0.6 nail polish
+        alias: 指甲油
       - emoji: 🤳
         name: E3.0 selfie
+        alias: 自拍
   - name: body-parts
     emojis:
       - emoji: 💪

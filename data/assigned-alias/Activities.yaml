@@ -1,182 +1,272 @@
 name: Activities
 subGroups:
   - name: event
+    alias: 活動
     emojis:
       - emoji: 🎃
+        alias: 南瓜燈
         name: E0.6 jack-o-lantern
       - emoji: 🎄
+        alias: 聖誕樹
         name: E0.6 Christmas tree
       - emoji: 🎆
+        alias: 煙火
         name: E0.6 fireworks
       - emoji: 🎇
+        alias: 煙花棒
         name: E0.6 sparkler
       - emoji: 🧨
+        alias: 鞭炮
         name: E11.0 firecracker
       - emoji: ✨
+        alias: 星光
         name: E0.6 sparkles
       - emoji: 🎈
+        alias: 氣球
         name: E0.6 balloon
       - emoji: 🎉
+        alias: 派對炮
         name: E0.6 party popper
       - emoji: 🎊
+        alias: 彩球
         name: E0.6 confetti ball
       - emoji: 🎋
+        alias: 七夕樹
         name: E0.6 tanabata tree
       - emoji: 🎍
+        alias: 松飾
         name: E0.6 pine decoration
       - emoji: 🎎
+        alias: 雛人偶
         name: E0.6 Japanese dolls
       - emoji: 🎏
+        alias: 鯉魚旗
         name: E0.6 carp streamer
       - emoji: 🎐
+        alias: 風鈴
         name: E0.6 wind chime
       - emoji: 🎑
+        alias: 賞月
         name: E0.6 moon viewing ceremony
       - emoji: 🧧
+        alias: 紅包
         name: E11.0 red envelope
       - emoji: 🎀
+        alias: 緞帶
         name: E0.6 ribbon
       - emoji: 🎁
+        alias: 禮物
         name: E0.6 wrapped gift
       - emoji: 🎗️
+        alias: 緬懷帶
         name: E0.7 reminder ribbon
       - emoji: 🎟️
+        alias: 入場券
         name: E0.7 admission tickets
       - emoji: 🎫
+        alias: 門票
         name: E0.6 ticket
   - name: award-medal
+    alias: 獎章
     emojis:
       - emoji: 🎖️
+        alias: 勳章
         name: E0.7 military medal
       - emoji: 🏆
+        alias: 獎盃
         name: E0.6 trophy
       - emoji: 🏅
+        alias: 獎牌
         name: E1.0 sports medal
       - emoji: 🥇
+        alias: 金牌
         name: E3.0 1st place medal
       - emoji: 🥈
+        alias: 銀牌
         name: E3.0 2nd place medal
       - emoji: 🥉
+        alias: 銅牌
         name: E3.0 3rd place medal
   - name: sport
+    alias: 運動
     emojis:
       - emoji: ⚽
+        alias: 足球
         name: E0.6 soccer ball
       - emoji: ⚾
+        alias: 棒球
         name: E0.6 baseball
       - emoji: 🥎
+        alias: 壘球
         name: E11.0 softball
       - emoji: 🏀
+        alias: 籃球
         name: E0.6 basketball
       - emoji: 🏐
+        alias: 排球
         name: E1.0 volleyball
       - emoji: 🏈
+        alias: 美式足球
         name: E0.6 american football
       - emoji: 🏉
+        alias: 橄欖球
         name: E1.0 rugby football
       - emoji: 🎾
+        alias: 網球
         name: E0.6 tennis
       - emoji: 🥏
+        alias: 飛盤
         name: E11.0 flying disc
       - emoji: 🎳
+        alias: 保齡球
         name: E0.6 bowling
       - emoji: 🏏
+        alias: 板球
         name: E1.0 cricket game
       - emoji: 🏑
+        alias: 曲棍球
         name: E1.0 field hockey
       - emoji: 🏒
+        alias: 冰球
         name: E1.0 ice hockey
       - emoji: 🥍
+        alias: 長曲棍球
         name: E11.0 lacrosse
       - emoji: 🏓
+        alias: 乒乓球
         name: E1.0 ping pong
       - emoji: 🏸
+        alias: 羽毛球
         name: E1.0 badminton
       - emoji: 🥊
+        alias: 拳擊手套
         name: E3.0 boxing glove
       - emoji: 🥋
+        alias: 武術服
         name: E3.0 martial arts uniform
       - emoji: 🥅
+        alias: 球門
         name: E3.0 goal net
       - emoji: ⛳
+        alias: 高爾夫
         name: E0.6 flag in hole
       - emoji: ⛸️
+        alias: 溜冰鞋
         name: E0.7 ice skate
       - emoji: 🎣
+        alias: 釣魚
         name: E0.6 fishing pole
       - emoji: 🤿
+        alias: 潛水
         name: E12.0 diving mask
       - emoji: 🎽
+        alias: 跑步衣
         name: E0.6 running shirt
       - emoji: 🎿
+        alias: 滑雪
         name: E0.6 skis
       - emoji: 🛷
+        alias: 雪橇
         name: E5.0 sled
       - emoji: 🥌
+        alias: 冰壺
         name: E5.0 curling stone
   - name: game
+    alias: 遊戲
     emojis:
       - emoji: 🎯
+        alias: 飛鏢
         name: E0.6 bullseye
       - emoji: 🪀
+        alias: 溜溜球
         name: E12.0 yo-yo
       - emoji: 🪁
+        alias: 風箏
         name: E12.0 kite
       - emoji: 🔫
+        alias: 水槍
         name: E0.6 water pistol
       - emoji: 🎱
+        alias: 撞球
         name: E0.6 pool 8 ball
       - emoji: 🔮
+        alias: 水晶球
         name: E0.6 crystal ball
       - emoji: 🪄
+        alias: 魔杖
         name: E13.0 magic wand
       - emoji: 🎮
+        alias: 遊戲機
         name: E0.6 video game
       - emoji: 🕹️
+        alias: 搖桿
         name: E0.7 joystick
       - emoji: 🎰
+        alias: 老虎機
         name: E0.6 slot machine
       - emoji: 🎲
+        alias: 骰子
         name: E0.6 game die
       - emoji: 🧩
+        alias: 拼圖
         name: E11.0 puzzle piece
       - emoji: 🧸
+        alias: 泰迪熊
         name: E11.0 teddy bear
       - emoji: 🪅
+        alias: 彩罐
         name: E13.0 piñata
       - emoji: 🪩
+        alias: 反光球
         name: E14.0 mirror ball
       - emoji: 🪆
+        alias: 套娃
         name: E13.0 nesting dolls
       - emoji: ♠️
+        alias: 黑桃
         name: E0.6 spade suit
       - emoji: ♥️
+        alias: 紅心
         name: E0.6 heart suit
       - emoji: ♦️
+        alias: 方塊
         name: E0.6 diamond suit
       - emoji: ♣️
+        alias: 梅花
         name: E0.6 club suit
       - emoji: ♟️
+        alias: 棋子
         name: E11.0 chess pawn
       - emoji: 🃏
+        alias: 小丑
         name: E0.6 joker
       - emoji: 🀄
+        alias: 麻將
         name: E0.6 mahjong red dragon
       - emoji: 🎴
+        alias: 花牌
         name: E0.6 flower playing cards
   - name: arts & crafts
+    alias: 藝術
     emojis:
       - emoji: 🎭
+        alias: 表演
         name: E0.6 performing arts
       - emoji: 🖼️
+        alias: 畫框
         name: E0.7 framed picture
       - emoji: 🎨
+        alias: 調色盤
         name: E0.6 artist palette
       - emoji: 🧵
+        alias: 線
         name: E11.0 thread
       - emoji: 🪡
+        alias: 縫針
         name: E13.0 sewing needle
       - emoji: 🧶
+        alias: 毛線
         name: E11.0 yarn
       - emoji: 🪢
+        alias: 結
         name: E13.0 knot

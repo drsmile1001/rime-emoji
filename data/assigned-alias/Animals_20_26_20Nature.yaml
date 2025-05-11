@@ -1,336 +1,503 @@
 name: Animals & Nature
 subGroups:
   - name: animal-mammal
+    alias: 獸類
     emojis:
       - emoji: 🐵
         name: E0.6 monkey face
+        alias: 猴臉
       - emoji: 🐒
         name: E0.6 monkey
+        alias: 猴
       - emoji: 🦍
         name: E3.0 gorilla
+        alias: 大猩
       - emoji: 🦧
         name: E12.0 orangutan
+        alias: 猩猩
       - emoji: 🐶
         name: E0.6 dog face
+        alias: 狗臉
       - emoji: 🐕
         name: E0.7 dog
+        alias: 狗
       - emoji: 🦮
         name: E12.0 guide dog
+        alias: 導盲
       - emoji: 🐕‍🦺
         name: E12.0 service dog
+        alias: 工作犬
       - emoji: 🐩
         name: E0.6 poodle
+        alias: 貴賓
       - emoji: 🐺
         name: E0.6 wolf
+        alias: 狼
       - emoji: 🦊
         name: E3.0 fox
+        alias: 狐
       - emoji: 🦝
         name: E11.0 raccoon
+        alias: 浣熊
       - emoji: 🐱
         name: E0.6 cat face
+        alias: 貓臉
       - emoji: 🐈
         name: E0.7 cat
+        alias: 貓
       - emoji: 🐈‍⬛
         name: E13.0 black cat
+        alias: 黑貓
       - emoji: 🦁
         name: E1.0 lion
+        alias: 獅
       - emoji: 🐯
         name: E0.6 tiger face
+        alias: 虎臉
       - emoji: 🐅
         name: E1.0 tiger
+        alias: 虎
       - emoji: 🐆
         name: E1.0 leopard
+        alias: 豹
       - emoji: 🐴
         name: E0.6 horse face
+        alias: 馬臉
       - emoji: 🫎
         name: E15.0 moose
+        alias: 麋鹿
       - emoji: 🫏
         name: E15.0 donkey
+        alias: 驢
       - emoji: 🐎
         name: E0.6 horse
+        alias: 馬
       - emoji: 🦄
         name: E1.0 unicorn
+        alias: 獨角
       - emoji: 🦓
         name: E5.0 zebra
+        alias: 斑馬
       - emoji: 🦌
         name: E3.0 deer
+        alias: 鹿
       - emoji: 🦬
         name: E13.0 bison
+        alias: 野牛
       - emoji: 🐮
         name: E0.6 cow face
+        alias: 牛臉
       - emoji: 🐂
         name: E1.0 ox
+        alias: 公牛
       - emoji: 🐃
         name: E1.0 water buffalo
+        alias: 水牛
       - emoji: 🐄
         name: E1.0 cow
+        alias: 母牛
       - emoji: 🐷
         name: E0.6 pig face
+        alias: 豬臉
       - emoji: 🐖
         name: E1.0 pig
+        alias: 豬
       - emoji: 🐗
         name: E0.6 boar
+        alias: 野豬
       - emoji: 🐽
         name: E0.6 pig nose
+        alias: 豬鼻
       - emoji: 🐏
         name: E1.0 ram
+        alias: 公羊
       - emoji: 🐑
         name: E0.6 ewe
+        alias: 母羊
       - emoji: 🐐
         name: E1.0 goat
+        alias: 山羊
       - emoji: 🐪
         name: E1.0 camel
+        alias: 駱駝
       - emoji: 🐫
         name: E0.6 two-hump camel
+        alias: 雙峰
       - emoji: 🦙
         name: E11.0 llama
+        alias: 羊駝
       - emoji: 🦒
         name: E5.0 giraffe
+        alias: 長頸
       - emoji: 🐘
         name: E0.6 elephant
+        alias: 象
       - emoji: 🦣
         name: E13.0 mammoth
+        alias: 長毛象
       - emoji: 🦏
         name: E3.0 rhinoceros
+        alias: 犀牛
       - emoji: 🦛
         name: E11.0 hippopotamus
+        alias: 河馬
       - emoji: 🐭
         name: E0.6 mouse face
+        alias: 鼠臉
       - emoji: 🐁
         name: E1.0 mouse
+        alias: 老鼠
       - emoji: 🐀
         name: E1.0 rat
+        alias: 大鼠
       - emoji: 🐹
         name: E0.6 hamster
+        alias: 倉鼠
       - emoji: 🐰
         name: E0.6 rabbit face
+        alias: 兔臉
       - emoji: 🐇
         name: E1.0 rabbit
+        alias: 兔
       - emoji: 🐿️
         name: E0.7 chipmunk
+        alias: 花栗鼠
       - emoji: 🦫
         name: E13.0 beaver
+        alias: 河狸
       - emoji: 🦔
         name: E5.0 hedgehog
+        alias: 刺蝟
       - emoji: 🦇
         name: E3.0 bat
+        alias: 蝙蝠
       - emoji: 🐻
         name: E0.6 bear
+        alias: 熊
       - emoji: 🐻‍❄️
         name: E13.0 polar bear
+        alias: 北極熊
       - emoji: 🐨
         name: E0.6 koala
+        alias: 無尾熊
       - emoji: 🐼
         name: E0.6 panda
+        alias: 熊貓
       - emoji: 🦥
         name: E12.0 sloth
+        alias: 樹懶
       - emoji: 🦦
         name: E12.0 otter
+        alias: 水獺
       - emoji: 🦨
         name: E12.0 skunk
+        alias: 臭鼬
       - emoji: 🦘
         name: E11.0 kangaroo
+        alias: 袋鼠
       - emoji: 🦡
         name: E11.0 badger
+        alias: 獾
       - emoji: 🐾
         name: E0.6 paw prints
+        alias: 爪印
   - name: animal-bird
+    alias: 鳥類
     emojis:
       - emoji: 🦃
         name: E1.0 turkey
+        alias: 火雞
       - emoji: 🐔
         name: E0.6 chicken
+        alias: 雞
       - emoji: 🐓
         name: E1.0 rooster
+        alias: 公雞
       - emoji: 🐣
         name: E0.6 hatching chick
+        alias: 雛雞
       - emoji: 🐤
         name: E0.6 baby chick
+        alias: 小雞
       - emoji: 🐥
         name: E0.6 front-facing baby chick
+        alias: 小雞臉
       - emoji: 🐦
         name: E0.6 bird
+        alias: 鳥
       - emoji: 🐧
         name: E0.6 penguin
+        alias: 企鵝
       - emoji: 🕊️
         name: E0.7 dove
+        alias: 鴿
       - emoji: 🦅
         name: E3.0 eagle
+        alias: 鷹
       - emoji: 🦆
         name: E3.0 duck
+        alias: 鴨
       - emoji: 🦢
         name: E11.0 swan
+        alias: 天鵝
       - emoji: 🦉
         name: E3.0 owl
+        alias: 貓頭鷹
       - emoji: 🦤
         name: E13.0 dodo
+        alias: 渡渡鳥
       - emoji: 🪶
         name: E13.0 feather
+        alias: 羽毛
       - emoji: 🦩
         name: E12.0 flamingo
+        alias: 火烈鳥
       - emoji: 🦚
         name: E11.0 peacock
+        alias: 孔雀
       - emoji: 🦜
         name: E11.0 parrot
+        alias: 鸚鵡
       - emoji: 🪽
         name: E15.0 wing
+        alias: 翅膀
       - emoji: 🐦‍⬛
         name: E15.0 black bird
+        alias: 黑鳥
       - emoji: 🪿
         name: E15.0 goose
+        alias: 鵝
       - emoji: 🐦‍🔥
         name: E15.1 phoenix
+        alias: 鳳凰
   - name: animal-amphibian
+    alias: 兩棲
     emojis:
       - emoji: 🐸
         name: E0.6 frog
+        alias: 青蛙
   - name: animal-reptile
+    alias: 爬行
     emojis:
       - emoji: 🐊
         name: E1.0 crocodile
+        alias: 鱷魚
       - emoji: 🐢
         name: E0.6 turtle
+        alias: 龜
       - emoji: 🦎
         name: E3.0 lizard
+        alias: 蜥蜴
       - emoji: 🐍
         name: E0.6 snake
+        alias: 蛇
       - emoji: 🐲
         name: E0.6 dragon face
+        alias: 龍臉
       - emoji: 🐉
         name: E1.0 dragon
+        alias: 龍
       - emoji: 🦕
         name: E5.0 sauropod
+        alias: 長頸龍
       - emoji: 🦖
         name: E5.0 T-Rex
+        alias: 暴龍
   - name: animal-marine
+    alias: 海洋
     emojis:
       - emoji: 🐳
         name: E0.6 spouting whale
+        alias: 噴水鯨
       - emoji: 🐋
         name: E1.0 whale
+        alias: 鯨
       - emoji: 🐬
         name: E0.6 dolphin
+        alias: 海豚
       - emoji: 🦭
         name: E13.0 seal
+        alias: 海豹
       - emoji: 🐟
         name: E0.6 fish
+        alias: 魚
       - emoji: 🐠
         name: E0.6 tropical fish
+        alias: 熱帶魚
       - emoji: 🐡
         name: E0.6 blowfish
+        alias: 河豚
       - emoji: 🦈
         name: E3.0 shark
+        alias: 鯊魚
       - emoji: 🐙
         name: E0.6 octopus
+        alias: 章魚
       - emoji: 🐚
         name: E0.6 spiral shell
+        alias: 貝殼
       - emoji: 🪸
         name: E14.0 coral
+        alias: 珊瑚
       - emoji: 🪼
         name: E15.0 jellyfish
+        alias: 水母
       - emoji: 🦀
         name: E1.0 crab
+        alias: 螃蟹
       - emoji: 🦞
         name: E11.0 lobster
+        alias: 龍蝦
       - emoji: 🦐
         name: E3.0 shrimp
+        alias: 蝦
       - emoji: 🦑
         name: E3.0 squid
+        alias: 魷魚
       - emoji: 🦪
         name: E12.0 oyster
+        alias: 牡蠣
   - name: animal-bug
+    alias: 昆蟲
     emojis:
       - emoji: 🐌
         name: E0.6 snail
+        alias: 蝸牛
       - emoji: 🦋
         name: E3.0 butterfly
+        alias: 蝴蝶
       - emoji: 🐛
         name: E0.6 bug
+        alias: 小蟲
       - emoji: 🐜
         name: E0.6 ant
+        alias: 螞蟻
       - emoji: 🐝
         name: E0.6 honeybee
+        alias: 蜜蜂
       - emoji: 🪲
         name: E13.0 beetle
+        alias: 甲蟲
       - emoji: 🐞
         name: E0.6 lady beetle
+        alias: 瓢蟲
       - emoji: 🦗
         name: E5.0 cricket
+        alias: 蟋蟀
       - emoji: 🪳
         name: E13.0 cockroach
+        alias: 蟑螂
       - emoji: 🕷️
         name: E0.7 spider
+        alias: 蜘蛛
       - emoji: 🕸️
         name: E0.7 spider web
+        alias: 蜘蛛網
       - emoji: 🦂
         name: E1.0 scorpion
+        alias: 蠍子
       - emoji: 🦟
         name: E11.0 mosquito
+        alias: 蚊子
       - emoji: 🪰
         name: E13.0 fly
+        alias: 蒼蠅
       - emoji: 🪱
         name: E13.0 worm
+        alias: 蠕蟲
       - emoji: 🦠
         name: E11.0 microbe
+        alias: 微生物
   - name: plant-flower
+    alias: 花卉
     emojis:
       - emoji: 💐
         name: E0.6 bouquet
+        alias: 花束
       - emoji: 🌸
         name: E0.6 cherry blossom
+        alias: 櫻花
       - emoji: 💮
         name: E0.6 white flower
+        alias: 白花
       - emoji: 🪷
         name: E14.0 lotus
+        alias: 蓮花
       - emoji: 🏵️
         name: E0.7 rosette
+        alias: 玫瑰花
       - emoji: 🌹
         name: E0.6 rose
+        alias: 玫瑰
       - emoji: 🥀
         name: E3.0 wilted flower
+        alias: 枯花
       - emoji: 🌺
         name: E0.6 hibiscus
+        alias: 木槿
       - emoji: 🌻
         name: E0.6 sunflower
+        alias: 向日葵
       - emoji: 🌼
         name: E0.6 blossom
+        alias: 花朵
       - emoji: 🌷
         name: E0.6 tulip
+        alias: 鬱金香
       - emoji: 🪻
         name: E15.0 hyacinth
+        alias: 風信子
   - name: plant-other
+    alias: 植物
     emojis:
       - emoji: 🌱
         name: E0.6 seedling
+        alias: 幼苗
       - emoji: 🪴
         name: E13.0 potted plant
+        alias: 盆栽
       - emoji: 🌲
         name: E1.0 evergreen tree
+        alias: 常青樹
       - emoji: 🌳
         name: E1.0 deciduous tree
+        alias: 落葉樹
       - emoji: 🌴
         name: E0.6 palm tree
+        alias: 棕櫚樹
       - emoji: 🌵
         name: E0.6 cactus
+        alias: 仙人掌
       - emoji: 🌾
         name: E0.6 sheaf of rice
+        alias: 稻穗
       - emoji: 🌿
         name: E0.6 herb
+        alias: 草本
       - emoji: ☘️
         name: E1.0 shamrock
+        alias: 三葉草
       - emoji: 🍀
         name: E0.6 four leaf clover
+        alias: 四葉草
       - emoji: 🍁
         name: E0.6 maple leaf
+        alias: 楓葉
       - emoji: 🍂
         name: E0.6 fallen leaf
+        alias: 落葉
       - emoji: 🍃
         name: E0.6 leaf fluttering in wind
+        alias: 飄葉
       - emoji: 🪹
         name: E14.0 empty nest
+        alias: 空巢
       - emoji: 🪺
         name: E14.0 nest with eggs
+        alias: 巢蛋
       - emoji: 🍄
         name: E0.6 mushroom
+        alias: 蘑菇
       - emoji: 🪾
         name: E16.0 leafless tree
+        alias: 枯樹

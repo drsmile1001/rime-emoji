@@ -5,563 +5,844 @@ subGroups:
     emojis:
       - emoji: 👓
         name: E0.6 glasses
+        alias: 眼鏡
       - emoji: 🕶️
         name: E0.7 sunglasses
+        alias: 墨鏡
       - emoji: 🥽
         name: E11.0 goggles
+        alias: 護目鏡
       - emoji: 🥼
         name: E11.0 lab coat
+        alias: 白袍
       - emoji: 🦺
         name: E12.0 safety vest
+        alias: 反光衣
       - emoji: 👔
         name: E0.6 necktie
+        alias: 領帶
       - emoji: 👕
         name: E0.6 t-shirt
+        alias: T恤
       - emoji: 👖
         name: E0.6 jeans
+        alias: 牛仔褲
       - emoji: 🧣
         name: E5.0 scarf
+        alias: 圍巾
       - emoji: 🧤
         name: E5.0 gloves
+        alias: 手套
       - emoji: 🧥
         name: E5.0 coat
+        alias: 外套
       - emoji: 🧦
         name: E5.0 socks
+        alias: 襪子
       - emoji: 👗
         name: E0.6 dress
+        alias: 洋裝
       - emoji: 👘
         name: E0.6 kimono
+        alias: 和服
       - emoji: 🥻
         name: E12.0 sari
+        alias: 莎麗
       - emoji: 🩱
         name: E12.0 one-piece swimsuit
+        alias: 連身泳衣
       - emoji: 🩲
         name: E12.0 briefs
+        alias: 三角褲
       - emoji: 🩳
         name: E12.0 shorts
+        alias: 短褲
       - emoji: 👙
         name: E0.6 bikini
+        alias: 比基尼
       - emoji: 👚
         name: E0.6 woman’s clothes
+        alias: 女裝
       - emoji: 🪭
         name: E15.0 folding hand fan
+        alias: 摺扇
       - emoji: 👛
         name: E0.6 purse
+        alias: 錢包
       - emoji: 👜
         name: E0.6 handbag
+        alias: 手提包
       - emoji: 👝
         name: E0.6 clutch bag
+        alias: 手拿包
       - emoji: 🛍️
         name: E0.7 shopping bags
+        alias: 購物袋
       - emoji: 🎒
         name: E0.6 backpack
+        alias: 背包
       - emoji: 🩴
         name: E13.0 thong sandal
+        alias: 夾腳拖
       - emoji: 👞
         name: E0.6 man’s shoe
+        alias: 男鞋
       - emoji: 👟
         name: E0.6 running shoe
+        alias: 跑鞋
       - emoji: 🥾
         name: E11.0 hiking boot
+        alias: 登山靴
       - emoji: 🥿
         name: E11.0 flat shoe
+        alias: 平底鞋
       - emoji: 👠
         name: E0.6 high-heeled shoe
+        alias: 高跟鞋
       - emoji: 👡
         name: E0.6 woman’s sandal
+        alias: 涼鞋
       - emoji: 🩰
         name: E12.0 ballet shoes
+        alias: 芭蕾鞋
       - emoji: 👢
         name: E0.6 woman’s boot
+        alias: 女靴
       - emoji: 🪮
         name: E15.0 hair pick
+        alias: 髮梳
       - emoji: 👑
         name: E0.6 crown
+        alias: 皇冠
       - emoji: 👒
         name: E0.6 woman’s hat
+        alias: 女帽
       - emoji: 🎩
         name: E0.6 top hat
+        alias: 禮帽
       - emoji: 🎓
         name: E0.6 graduation cap
+        alias: 畢業帽
       - emoji: 🧢
         name: E5.0 billed cap
+        alias: 鴨舌帽
       - emoji: 🪖
         name: E13.0 military helmet
+        alias: 軍帽
       - emoji: ⛑️
         name: E0.7 rescue worker’s helmet
+        alias: 救援帽
       - emoji: 📿
         name: E1.0 prayer beads
+        alias: 念珠
       - emoji: 💄
         name: E0.6 lipstick
+        alias: 口紅
       - emoji: 💍
         name: E0.6 ring
+        alias: 戒指
       - emoji: 💎
         name: E0.6 gem stone
+        alias: 寶石
   - name: sound
+    alias: 聲音
     emojis:
       - emoji: 🔇
         name: E1.0 muted speaker
+        alias: 靜音
       - emoji: 🔈
         name: E0.7 speaker low volume
+        alias: 小聲
       - emoji: 🔉
         name: E1.0 speaker medium volume
+        alias: 中聲
       - emoji: 🔊
         name: E0.6 speaker high volume
+        alias: 大聲
       - emoji: 📢
         name: E0.6 loudspeaker
+        alias: 喇叭
       - emoji: 📣
         name: E0.6 megaphone
+        alias: 擴音器
       - emoji: 📯
         name: E1.0 postal horn
+        alias: 號角
       - emoji: 🔔
         name: E0.6 bell
+        alias: 鈴鐺
       - emoji: 🔕
         name: E1.0 bell with slash
+        alias: 禁鈴
   - name: music
+    alias: 音樂
     emojis:
       - emoji: 🎼
         name: E0.6 musical score
+        alias: 樂譜
       - emoji: 🎵
         name: E0.6 musical note
+        alias: 音符
       - emoji: 🎶
         name: E0.6 musical notes
+        alias: 音符群
       - emoji: 🎙️
         name: E0.7 studio microphone
+        alias: 麥克風
       - emoji: 🎚️
         name: E0.7 level slider
+        alias: 音量條
       - emoji: 🎛️
         name: E0.7 control knobs
+        alias: 控制鈕
       - emoji: 🎤
         name: E0.6 microphone
+        alias: 麥克風
       - emoji: 🎧
         name: E0.6 headphone
+        alias: 耳機
       - emoji: 📻
         name: E0.6 radio
+        alias: 收音機
   - name: musical-instrument
+    alias: 樂器
     emojis:
       - emoji: 🎷
         name: E0.6 saxophone
+        alias: 薩克斯
       - emoji: 🪗
         name: E13.0 accordion
+        alias: 手風琴
       - emoji: 🎸
         name: E0.6 guitar
+        alias: 吉他
       - emoji: 🎹
         name: E0.6 musical keyboard
+        alias: 鍵盤
       - emoji: 🎺
         name: E0.6 trumpet
+        alias: 小號
       - emoji: 🎻
         name: E0.6 violin
+        alias: 小提琴
       - emoji: 🪕
         name: E12.0 banjo
+        alias: 班卓琴
       - emoji: 🥁
         name: E3.0 drum
+        alias: 鼓
       - emoji: 🪘
         name: E13.0 long drum
+        alias: 長鼓
       - emoji: 🪇
         name: E15.0 maracas
+        alias: 沙鈴
       - emoji: 🪈
         name: E15.0 flute
+        alias: 長笛
       - emoji: 🪉
         name: E16.0 harp
+        alias: 豎琴
   - name: phone
+    alias: 電話
     emojis:
       - emoji: 📱
         name: E0.6 mobile phone
+        alias: 手機
       - emoji: 📲
         name: E0.6 mobile phone with arrow
+        alias: 手機箭頭
       - emoji: ☎️
         name: E0.6 telephone
+        alias: 座機
       - emoji: 📞
         name: E0.6 telephone receiver
+        alias: 話筒
       - emoji: 📟
         name: E0.6 pager
+        alias: 傳呼機
       - emoji: 📠
         name: E0.6 fax machine
+        alias: 傳真機
   - name: computer
+    alias: 電腦
     emojis:
       - emoji: 🔋
         name: E0.6 battery
+        alias: 電池
       - emoji: 🪫
         name: E14.0 low battery
+        alias: 低電量
       - emoji: 🔌
         name: E0.6 electric plug
+        alias: 插頭
       - emoji: 💻
         name: E0.6 laptop
+        alias: 筆記本
       - emoji: 🖥️
         name: E0.7 desktop computer
+        alias: 台式機
       - emoji: 🖨️
         name: E0.7 printer
+        alias: 打印機
       - emoji: ⌨️
         name: E1.0 keyboard
+        alias: 鍵盤
       - emoji: 🖱️
         name: E0.7 computer mouse
+        alias: 鼠標
       - emoji: 🖲️
         name: E0.7 trackball
+        alias: 軌跡球
       - emoji: 💽
         name: E0.6 computer disk
+        alias: 電腦磁盤
       - emoji: 💾
         name: E0.6 floppy disk
+        alias: 軟盤
       - emoji: 💿
         name: E0.6 optical disk
+        alias: 光盤
       - emoji: 📀
         name: E0.6 dvd
+        alias: DVD
       - emoji: 🧮
         name: E11.0 abacus
+        alias: 算盤
   - name: light & video
+    alias: 光影
     emojis:
       - emoji: 🎥
         name: E0.6 movie camera
+        alias: 攝影機
       - emoji: 🎞️
         name: E0.7 film frames
+        alias: 膠片
       - emoji: 📽️
         name: E0.7 film projector
+        alias: 放映機
       - emoji: 🎬
         name: E0.6 clapper board
+        alias: 拍板
       - emoji: 📺
         name: E0.6 television
+        alias: 電視
       - emoji: 📷
         name: E0.6 camera
+        alias: 相機
       - emoji: 📸
         name: E1.0 camera with flash
+        alias: 閃光相機
       - emoji: 📹
         name: E0.6 video camera
+        alias: 攝像機
       - emoji: 📼
         name: E0.6 videocassette
+        alias: 錄影帶
       - emoji: 🔍
         name: E0.6 magnifying glass tilted left
+        alias: 左放大鏡
       - emoji: 🔎
         name: E0.6 magnifying glass tilted right
+        alias: 右放大鏡
       - emoji: 🕯️
         name: E0.7 candle
+        alias: 蠟燭
       - emoji: 💡
         name: E0.6 light bulb
+        alias: 燈泡
       - emoji: 🔦
         name: E0.6 flashlight
+        alias: 手電筒
       - emoji: 🏮
         name: E0.6 red paper lantern
+        alias: 紅燈籠
       - emoji: 🪔
         name: E12.0 diya lamp
+        alias: 印度燈
   - name: book-paper
+    alias: 書紙
     emojis:
       - emoji: 📔
         name: E0.6 notebook with decorative cover
+        alias: 裝飾筆記本
       - emoji: 📕
         name: E0.6 closed book
+        alias: 閉合書
       - emoji: 📖
         name: E0.6 open book
+        alias: 打開書
       - emoji: 📗
         name: E0.6 green book
+        alias: 綠書
       - emoji: 📘
         name: E0.6 blue book
+        alias: 藍書
       - emoji: 📙
         name: E0.6 orange book
+        alias: 橙書
       - emoji: 📚
         name: E0.6 books
+        alias: 書籍
       - emoji: 📓
         name: E0.6 notebook
+        alias: 筆記本
       - emoji: 📒
         name: E0.6 ledger
+        alias: 賬簿
       - emoji: 📃
         name: E0.6 page with curl
+        alias: 卷頁
       - emoji: 📜
         name: E0.6 scroll
+        alias: 卷軸
       - emoji: 📄
         name: E0.6 page facing up
+        alias: 向上頁
       - emoji: 📰
         name: E0.6 newspaper
+        alias: 報紙
       - emoji: 🗞️
         name: E0.7 rolled-up newspaper
+        alias: 卷報紙
       - emoji: 📑
         name: E0.6 bookmark tabs
+        alias: 書籤
       - emoji: 🔖
         name: E0.6 bookmark
+        alias: 書籤
       - emoji: 🏷️
         name: E0.7 label
+        alias: 標籤
   - name: money
+    alias: 金錢
     emojis:
       - emoji: 💰
         name: E0.6 money bag
+        alias: 錢袋
       - emoji: 🪙
         name: E13.0 coin
+        alias: 硬幣
       - emoji: 💴
         name: E0.6 yen banknote
+        alias: 日元
       - emoji: 💵
         name: E0.6 dollar banknote
+        alias: 美元
       - emoji: 💶
         name: E1.0 euro banknote
+        alias: 歐元
       - emoji: 💷
         name: E1.0 pound banknote
+        alias: 英鎊
       - emoji: 💸
         name: E0.6 money with wings
+        alias: 飛錢
       - emoji: 💳
         name: E0.6 credit card
+        alias: 信用卡
       - emoji: 🧾
         name: E11.0 receipt
+        alias: 收據
       - emoji: 💹
         name: E0.6 chart increasing with yen
+        alias: 日元增長
   - name: mail
+    alias: 郵件
     emojis:
       - emoji: ✉️
         name: E0.6 envelope
+        alias: 信封
       - emoji: 📧
         name: E0.6 e-mail
+        alias: 電子郵件
       - emoji: 📨
         name: E0.6 incoming envelope
+        alias: 收信
       - emoji: 📩
         name: E0.6 envelope with arrow
+        alias: 信封箭頭
       - emoji: 📤
         name: E0.6 outbox tray
+        alias: 發件箱
       - emoji: 📥
         name: E0.6 inbox tray
+        alias: 收件箱
       - emoji: 📦
         name: E0.6 package
+        alias: 包裹
       - emoji: 📫
         name: E0.6 closed mailbox with raised flag
+        alias: 閉合郵箱
       - emoji: 📪
         name: E0.6 closed mailbox with lowered flag
+        alias: 閉合郵箱
       - emoji: 📬
         name: E0.7 open mailbox with raised flag
+        alias: 打開郵箱
       - emoji: 📭
         name: E0.7 open mailbox with lowered flag
+        alias: 打開郵箱
       - emoji: 📮
         name: E0.6 postbox
+        alias: 郵筒
       - emoji: 🗳️
         name: E0.7 ballot box with ballot
+        alias: 投票箱
   - name: writing
+    alias: 書寫
     emojis:
       - emoji: ✏️
         name: E0.6 pencil
+        alias: 鉛筆
       - emoji: ✒️
         name: E0.6 black nib
+        alias: 黑筆尖
       - emoji: 🖋️
         name: E0.7 fountain pen
+        alias: 鋼筆
       - emoji: 🖊️
         name: E0.7 pen
+        alias: 筆
       - emoji: 🖌️
         name: E0.7 paintbrush
+        alias: 畫筆
       - emoji: 🖍️
         name: E0.7 crayon
+        alias: 蠟筆
       - emoji: 📝
         name: E0.6 memo
+        alias: 備忘錄
   - name: office
+    alias: 辦公
     emojis:
       - emoji: 💼
         name: E0.6 briefcase
+        alias: 公文包
       - emoji: 📁
         name: E0.6 file folder
+        alias: 文件夾
       - emoji: 📂
         name: E0.6 open file folder
+        alias: 打開文件夾
       - emoji: 🗂️
         name: E0.7 card index dividers
+        alias: 卡片索引
       - emoji: 📅
         name: E0.6 calendar
+        alias: 日曆
       - emoji: 📆
         name: E0.6 tear-off calendar
+        alias: 撕下日曆
       - emoji: 🗒️
         name: E0.7 spiral notepad
+        alias: 螺旋筆記本
       - emoji: 🗓️
         name: E0.7 spiral calendar
+        alias: 螺旋日曆
       - emoji: 📇
         name: E0.6 card index
+        alias: 卡片索引
       - emoji: 📈
         name: E0.6 chart increasing
+        alias: 增長圖
       - emoji: 📉
         name: E0.6 chart decreasing
+        alias: 減少圖
       - emoji: 📊
         name: E0.6 bar chart
+        alias: 柱狀圖
       - emoji: 📋
         name: E0.6 clipboard
+        alias: 剪貼板
       - emoji: 📌
         name: E0.6 pushpin
+        alias: 大頭針
       - emoji: 📍
         name: E0.6 round pushpin
+        alias: 圓大頭針
       - emoji: 📎
         name: E0.6 paperclip
+        alias: 回形針
       - emoji: 🖇️
         name: E0.7 linked paperclips
+        alias: 連接回形針
       - emoji: 📏
         name: E0.6 straight ruler
+        alias: 直尺
       - emoji: 📐
         name: E0.6 triangular ruler
+        alias: 三角尺
       - emoji: ✂️
         name: E0.6 scissors
+        alias: 剪刀
       - emoji: 🗃️
         name: E0.7 card file box
+        alias: 卡片文件箱
       - emoji: 🗄️
         name: E0.7 file cabinet
+        alias: 文件櫃
       - emoji: 🗑️
         name: E0.7 wastebasket
+        alias: 垃圾桶
   - name: lock
+    alias: 鎖
     emojis:
       - emoji: 🔒
         name: E0.6 locked
+        alias: 鎖定
       - emoji: 🔓
         name: E0.6 unlocked
+        alias: 解鎖
       - emoji: 🔏
         name: E0.6 locked with pen
+        alias: 鎖筆
       - emoji: 🔐
         name: E0.6 locked with key
+        alias: 鎖鑰
       - emoji: 🔑
         name: E0.6 key
+        alias: 鑰匙
       - emoji: 🗝️
         name: E0.7 old key
+        alias: 老鑰匙
   - name: tool
+    alias: 工具
     emojis:
       - emoji: 🔨
         name: E0.6 hammer
+        alias: 錘子
       - emoji: 🪓
         name: E12.0 axe
+        alias: 斧頭
       - emoji: ⛏️
         name: E0.7 pick
+        alias: 鶴嘴鋤
       - emoji: ⚒️
         name: E1.0 hammer and pick
+        alias: 錘和鋤
       - emoji: 🛠️
         name: E0.7 hammer and wrench
+        alias: 錘和扳手
       - emoji: 🗡️
         name: E0.7 dagger
+        alias: 匕首
       - emoji: ⚔️
         name: E1.0 crossed swords
+        alias: 交叉劍
       - emoji: 💣
         name: E0.6 bomb
+        alias: 炸彈
       - emoji: 🪃
         name: E13.0 boomerang
+        alias: 回力鏢
       - emoji: 🏹
         name: E1.0 bow and arrow
+        alias: 弓箭
       - emoji: 🛡️
         name: E0.7 shield
+        alias: 盾牌
       - emoji: 🪚
         name: E13.0 carpentry saw
+        alias: 木工鋸
       - emoji: 🔧
         name: E0.6 wrench
+        alias: 扳手
       - emoji: 🪛
         name: E13.0 screwdriver
+        alias: 螺絲刀
       - emoji: 🔩
         name: E0.6 nut and bolt
+        alias: 螺母和螺栓
       - emoji: ⚙️
         name: E1.0 gear
+        alias: 齒輪
       - emoji: 🗜️
         name: E0.7 clamp
+        alias: 夾子
       - emoji: ⚖️
         name: E1.0 balance scale
+        alias: 天平
       - emoji: 🦯
         name: E12.0 white cane
+        alias: 白手杖
       - emoji: 🔗
         name: E0.6 link
+        alias: 鏈接
       - emoji: ⛓️‍💥
         name: E15.1 broken chain
+        alias: 斷鏈
       - emoji: ⛓️
         name: E0.7 chains
+        alias: 鏈條
       - emoji: 🪝
         name: E13.0 hook
+        alias: 鉤子
       - emoji: 🧰
         name: E11.0 toolbox
+        alias: 工具箱
       - emoji: 🧲
         name: E11.0 magnet
+        alias: 磁鐵
       - emoji: 🪜
         name: E13.0 ladder
+        alias: 梯子
       - emoji: 🪏
         name: E16.0 shovel
+        alias: 鏟子
   - name: science
+    alias: 科學
     emojis:
       - emoji: ⚗️
         name: E1.0 alembic
+        alias: 蒸餾器
       - emoji: 🧪
         name: E11.0 test tube
+        alias: 試管
       - emoji: 🧫
         name: E11.0 petri dish
+        alias: 培養皿
       - emoji: 🧬
         name: E11.0 dna
+        alias: DNA
       - emoji: 🔬
         name: E1.0 microscope
+        alias: 顯微鏡
       - emoji: 🔭
         name: E1.0 telescope
+        alias: 望遠鏡
       - emoji: 📡
         name: E0.6 satellite antenna
+        alias: 衛星天線
   - name: medical
+    alias: 醫療
     emojis:
       - emoji: 💉
         name: E0.6 syringe
+        alias: 注射器
       - emoji: 🩸
         name: E12.0 drop of blood
+        alias: 血滴
       - emoji: 💊
         name: E0.6 pill
+        alias: 藥丸
       - emoji: 🩹
         name: E12.0 adhesive bandage
+        alias: 創可貼
       - emoji: 🩼
         name: E14.0 crutch
+        alias: 拐杖
       - emoji: 🩺
         name: E12.0 stethoscope
+        alias: 聽診器
       - emoji: 🩻
         name: E14.0 x-ray
+        alias: X光
   - name: household
+    alias: 家居
     emojis:
       - emoji: 🚪
         name: E0.6 door
+        alias: 門
       - emoji: 🛗
         name: E13.0 elevator
+        alias: 電梯
       - emoji: 🪞
         name: E13.0 mirror
+        alias: 鏡子
       - emoji: 🪟
         name: E13.0 window
+        alias: 窗戶
       - emoji: 🛏️
         name: E0.7 bed
+        alias: 床
       - emoji: 🛋️
         name: E0.7 couch and lamp
+        alias: 沙發和燈
       - emoji: 🪑
         name: E12.0 chair
+        alias: 椅子
       - emoji: 🚽
         name: E0.6 toilet
+        alias: 馬桶
       - emoji: 🪠
         name: E13.0 plunger
+        alias: 馬桶吸
       - emoji: 🚿
         name: E1.0 shower
+        alias: 淋浴
       - emoji: 🛁
         name: E1.0 bathtub
+        alias: 浴缸
       - emoji: 🪤
         name: E13.0 mouse trap
+        alias: 捕鼠器
       - emoji: 🪒
         name: E12.0 razor
+        alias: 剃刀
       - emoji: 🧴
         name: E11.0 lotion bottle
+        alias: 潤膚瓶
       - emoji: 🧷
         name: E11.0 safety pin
+        alias: 安全別針
       - emoji: 🧹
         name: E11.0 broom
+        alias: 掃帚
       - emoji: 🧺
         name: E11.0 basket
+        alias: 籃子
       - emoji: 🧻
         name: E11.0 roll of paper
+        alias: 紙卷
       - emoji: 🪣
         name: E13.0 bucket
+        alias: 桶
       - emoji: 🧼
         name: E11.0 soap
+        alias: 肥皂
       - emoji: 🫧
         name: E14.0 bubbles
+        alias: 泡泡
       - emoji: 🪥
         name: E13.0 toothbrush
+        alias: 牙刷
       - emoji: 🧽
         name: E11.0 sponge
+        alias: 海綿
       - emoji: 🧯
         name: E11.0 fire extinguisher
+        alias: 滅火器
       - emoji: 🛒
         name: E3.0 shopping cart
+        alias: 購物車
   - name: other-object
+    alias: 其他物品
     emojis:
       - emoji: 🚬
         name: E0.6 cigarette
+        alias: 香煙
       - emoji: ⚰️
         name: E1.0 coffin
+        alias: 棺材
       - emoji: 🪦
         name: E13.0 headstone
+        alias: 墓碑
       - emoji: ⚱️
         name: E1.0 funeral urn
+        alias: 骨灰罈
       - emoji: 🧿
         name: E11.0 nazar amulet
+        alias: 護身符
       - emoji: 🪬
         name: E14.0 hamsa
+        alias: 哈姆薩
       - emoji: 🗿
         name: E0.6 moai
+        alias: 摩艾
       - emoji: 🪧
         name: E13.0 placard
+        alias: 標語牌
       - emoji: 🪪
         name: E14.0 identification card
+        alias: 身份證

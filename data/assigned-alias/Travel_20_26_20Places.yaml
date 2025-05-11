@@ -1,460 +1,689 @@
 name: Travel & Places
 subGroups:
   - name: place-map
+    alias: 地圖
     emojis:
       - emoji: 🌍
         name: E0.7 globe showing Europe-Africa
+        alias: 歐非
       - emoji: 🌎
         name: E0.7 globe showing Americas
+        alias: 美洲
       - emoji: 🌏
         name: E0.6 globe showing Asia-Australia
+        alias: 亞澳
       - emoji: 🌐
         name: E1.0 globe with meridians
+        alias: 經緯
       - emoji: 🗺️
         name: E0.7 world map
+        alias: 世界地圖
       - emoji: 🗾
         name: E0.6 map of Japan
+        alias: 日本地圖
       - emoji: 🧭
         name: E11.0 compass
+        alias: 指南針
   - name: place-geographic
+    alias: 地理
     emojis:
       - emoji: 🏔️
         name: E0.7 snow-capped mountain
+        alias: 雪山
       - emoji: ⛰️
         name: E0.7 mountain
+        alias: 山
       - emoji: 🌋
         name: E0.6 volcano
+        alias: 火山
       - emoji: 🗻
         name: E0.6 mount fuji
+        alias: 富士山
       - emoji: 🏕️
         name: E0.7 camping
+        alias: 露營
       - emoji: 🏖️
         name: E0.7 beach with umbrella
+        alias: 海灘
       - emoji: 🏜️
         name: E0.7 desert
+        alias: 沙漠
       - emoji: 🏝️
         name: E0.7 desert island
+        alias: 荒島
       - emoji: 🏞️
         name: E0.7 national park
+        alias: 國家公園
   - name: place-building
+    alias: 建築
     emojis:
       - emoji: 🏟️
         name: E0.7 stadium
+        alias: 體育場
       - emoji: 🏛️
         name: E0.7 classical building
+        alias: 古典建築
       - emoji: 🏗️
         name: E0.7 building construction
+        alias: 建築施工
       - emoji: 🧱
         name: E11.0 brick
+        alias: 磚
       - emoji: 🪨
         name: E13.0 rock
+        alias: 岩石
       - emoji: 🪵
         name: E13.0 wood
+        alias: 木材
       - emoji: 🛖
         name: E13.0 hut
+        alias: 小屋
       - emoji: 🏘️
         name: E0.7 houses
+        alias: 房屋
       - emoji: 🏚️
         name: E0.7 derelict house
+        alias: 廢棄房屋
       - emoji: 🏠
         name: E0.6 house
+        alias: 房子
       - emoji: 🏡
         name: E0.6 house with garden
+        alias: 花園房子
       - emoji: 🏢
         name: E0.6 office building
+        alias: 辦公樓
       - emoji: 🏣
         name: E0.6 Japanese post office
+        alias: 日本郵局
       - emoji: 🏤
         name: E1.0 post office
+        alias: 郵局
       - emoji: 🏥
         name: E0.6 hospital
+        alias: 醫院
       - emoji: 🏦
         name: E0.6 bank
+        alias: 銀行
       - emoji: 🏨
         name: E0.6 hotel
+        alias: 酒店
       - emoji: 🏩
         name: E0.6 love hotel
+        alias: 情侶酒店
       - emoji: 🏪
         name: E0.6 convenience store
+        alias: 便利店
       - emoji: 🏫
         name: E0.6 school
+        alias: 學校
       - emoji: 🏬
         name: E0.6 department store
+        alias: 百貨商店
       - emoji: 🏭
         name: E0.6 factory
+        alias: 工廠
       - emoji: 🏯
         name: E0.6 Japanese castle
+        alias: 日本城堡
       - emoji: 🏰
         name: E0.6 castle
+        alias: 城堡
       - emoji: 💒
         name: E0.6 wedding
+        alias: 婚禮
       - emoji: 🗼
         name: E0.6 Tokyo tower
+        alias: 東京塔
       - emoji: 🗽
         name: E0.6 Statue of Liberty
+        alias: 自由女神像
   - name: place-religious
+    alias: 宗教
     emojis:
       - emoji: ⛪
         name: E0.6 church
+        alias: 教堂
       - emoji: 🕌
         name: E1.0 mosque
+        alias: 清真寺
       - emoji: 🛕
         name: E12.0 hindu temple
+        alias: 印度教寺廟
       - emoji: 🕍
         name: E1.0 synagogue
+        alias: 猶太教堂
       - emoji: ⛩️
         name: E0.7 shinto shrine
+        alias: 神社
       - emoji: 🕋
         name: E1.0 kaaba
+        alias: 克爾白
   - name: place-other
+    alias: 其他
     emojis:
       - emoji: ⛲
         name: E0.6 fountain
+        alias: 噴泉
       - emoji: ⛺
         name: E0.6 tent
+        alias: 帳篷
       - emoji: 🌁
         name: E0.6 foggy
+        alias: 多霧
       - emoji: 🌃
         name: E0.6 night with stars
+        alias: 星空夜晚
       - emoji: 🏙️
         name: E0.7 cityscape
+        alias: 城市景觀
       - emoji: 🌄
         name: E0.6 sunrise over mountains
+        alias: 山中日出
       - emoji: 🌅
         name: E0.6 sunrise
+        alias: 日出
       - emoji: 🌆
         name: E0.6 cityscape at dusk
+        alias: 黃昏城市
       - emoji: 🌇
         name: E0.6 sunset
+        alias: 日落
       - emoji: 🌉
         name: E0.6 bridge at night
+        alias: 夜晚橋
       - emoji: ♨️
         name: E0.6 hot springs
+        alias: 溫泉
       - emoji: 🎠
         name: E0.6 carousel horse
+        alias: 旋轉木馬
       - emoji: 🛝
         name: E14.0 playground slide
+        alias: 滑梯
       - emoji: 🎡
         name: E0.6 ferris wheel
+        alias: 摩天輪
       - emoji: 🎢
         name: E0.6 roller coaster
+        alias: 過山車
       - emoji: 💈
         name: E0.6 barber pole
+        alias: 理髮柱
       - emoji: 🎪
         name: E0.6 circus tent
+        alias: 馬戲團帳篷
   - name: transport-ground
+    alias: 陸地交通
     emojis:
       - emoji: 🚂
         name: E1.0 locomotive
+        alias: 火車頭
       - emoji: 🚃
         name: E0.6 railway car
+        alias: 火車車廂
       - emoji: 🚄
         name: E0.6 high-speed train
+        alias: 高速列車
       - emoji: 🚅
         name: E0.6 bullet train
+        alias: 子彈列車
       - emoji: 🚆
         name: E1.0 train
+        alias: 火車
       - emoji: 🚇
         name: E0.6 metro
+        alias: 地鐵
       - emoji: 🚈
         name: E1.0 light rail
+        alias: 輕軌
       - emoji: 🚉
         name: E0.6 station
+        alias: 車站
       - emoji: 🚊
         name: E1.0 tram
+        alias: 電車
       - emoji: 🚝
         name: E1.0 monorail
+        alias: 單軌列車
       - emoji: 🚞
         name: E1.0 mountain railway
+        alias: 山地火車
       - emoji: 🚋
         name: E1.0 tram car
+        alias: 電車車廂
       - emoji: 🚌
         name: E0.6 bus
+        alias: 公車
       - emoji: 🚍
         name: E0.7 oncoming bus
+        alias: 迎面公車
       - emoji: 🚎
         name: E1.0 trolleybus
+        alias: 無軌電車
       - emoji: 🚐
         name: E1.0 minibus
+        alias: 小型巴士
       - emoji: 🚑
         name: E0.6 ambulance
+        alias: 救護車
       - emoji: 🚒
         name: E0.6 fire engine
+        alias: 消防車
       - emoji: 🚓
         name: E0.6 police car
+        alias: 警車
       - emoji: 🚔
         name: E0.7 oncoming police car
+        alias: 迎面警車
       - emoji: 🚕
         name: E0.6 taxi
+        alias: 計程車
       - emoji: 🚖
         name: E1.0 oncoming taxi
+        alias: 迎面計程車
       - emoji: 🚗
         name: E0.6 automobile
+        alias: 汽車
       - emoji: 🚘
         name: E0.7 oncoming automobile
+        alias: 迎面汽車
       - emoji: 🚙
         name: E0.6 sport utility vehicle
+        alias: 運動型多用途車
       - emoji: 🛻
         name: E13.0 pickup truck
+        alias: 皮卡車
       - emoji: 🚚
         name: E0.6 delivery truck
+        alias: 貨車
       - emoji: 🚛
         name: E1.0 articulated lorry
+        alias: 聯結卡車
       - emoji: 🚜
         name: E1.0 tractor
+        alias: 拖拉機
       - emoji: 🏎️
         name: E0.7 racing car
+        alias: 賽車
       - emoji: 🏍️
         name: E0.7 motorcycle
+        alias: 摩托車
       - emoji: 🛵
         name: E3.0 motor scooter
+        alias: 機車
       - emoji: 🦽
         name: E12.0 manual wheelchair
+        alias: 手動輪椅
       - emoji: 🦼
         name: E12.0 motorized wheelchair
+        alias: 電動輪椅
       - emoji: 🛺
         name: E12.0 auto rickshaw
+        alias: 自動人力車
       - emoji: 🚲
         name: E0.6 bicycle
+        alias: 自行車
       - emoji: 🛴
         name: E3.0 kick scooter
+        alias: 滑板車
       - emoji: 🛹
         name: E11.0 skateboard
+        alias: 滑板
       - emoji: 🛼
         name: E13.0 roller skate
+        alias: 滾軸溜冰鞋
       - emoji: 🚏
         name: E0.6 bus stop
+        alias: 公車站
       - emoji: 🛣️
         name: E0.7 motorway
+        alias: 高速公路
       - emoji: 🛤️
         name: E0.7 railway track
+        alias: 鐵路軌道
       - emoji: 🛢️
         name: E0.7 oil drum
+        alias: 油桶
       - emoji: ⛽
         name: E0.6 fuel pump
+        alias: 加油站
       - emoji: 🛞
         name: E14.0 wheel
+        alias: 車輪
       - emoji: 🚨
         name: E0.6 police car light
+        alias: 警車燈
       - emoji: 🚥
         name: E0.6 horizontal traffic light
+        alias: 水平交通燈
       - emoji: 🚦
         name: E1.0 vertical traffic light
+        alias: 垂直交通燈
       - emoji: 🛑
         name: E3.0 stop sign
+        alias: 停車標誌
       - emoji: 🚧
         name: E0.6 construction
+        alias: 施工
   - name: transport-water
+    alias: 水上交通
     emojis:
       - emoji: ⚓
         name: E0.6 anchor
+        alias: 錨
       - emoji: 🛟
         name: E14.0 ring buoy
+        alias: 救生圈
       - emoji: ⛵
         name: E0.6 sailboat
+        alias: 帆船
       - emoji: 🛶
         name: E3.0 canoe
+        alias: 獨木舟
       - emoji: 🚤
         name: E0.6 speedboat
+        alias: 快艇
       - emoji: 🛳️
         name: E0.7 passenger ship
+        alias: 客船
       - emoji: ⛴️
         name: E0.7 ferry
+        alias: 渡輪
       - emoji: 🛥️
         name: E0.7 motor boat
+        alias: 機動船
       - emoji: 🚢
         name: E0.6 ship
+        alias: 船
   - name: transport-air
+    alias: 空中交通
     emojis:
       - emoji: ✈️
         name: E0.6 airplane
+        alias: 飛機
       - emoji: 🛩️
         name: E0.7 small airplane
+        alias: 小型飛機
       - emoji: 🛫
         name: E1.0 airplane departure
+        alias: 飛機起飛
       - emoji: 🛬
         name: E1.0 airplane arrival
+        alias: 飛機降落
       - emoji: 🪂
         name: E12.0 parachute
+        alias: 降落傘
       - emoji: 💺
         name: E0.6 seat
+        alias: 座位
       - emoji: 🚁
         name: E1.0 helicopter
+        alias: 直升機
       - emoji: 🚟
         name: E1.0 suspension railway
+        alias: 懸掛式鐵路
       - emoji: 🚠
         name: E1.0 mountain cableway
+        alias: 山地纜車
       - emoji: 🚡
         name: E1.0 aerial tramway
+        alias: 空中纜車
       - emoji: 🛰️
         name: E0.7 satellite
+        alias: 衛星
       - emoji: 🚀
         name: E0.6 rocket
+        alias: 火箭
       - emoji: 🛸
         name: E5.0 flying saucer
+        alias: 飛碟
   - name: hotel
+    alias: 酒店
     emojis:
       - emoji: 🛎️
         name: E0.7 bellhop bell
+        alias: 服務鈴
       - emoji: 🧳
         name: E11.0 luggage
+        alias: 行李
   - name: time
+    alias: 時間
     emojis:
       - emoji: ⌛
         name: E0.6 hourglass done
+        alias: 沙漏完成
       - emoji: ⏳
         name: E0.6 hourglass not done
+        alias: 沙漏未完成
       - emoji: ⌚
         name: E0.6 watch
+        alias: 手錶
       - emoji: ⏰
         name: E0.6 alarm clock
+        alias: 鬧鐘
       - emoji: ⏱️
         name: E1.0 stopwatch
+        alias: 秒錶
       - emoji: ⏲️
         name: E1.0 timer clock
+        alias: 計時器
       - emoji: 🕰️
         name: E0.7 mantelpiece clock
+        alias: 壁爐時鐘
       - emoji: 🕛
         name: E0.6 twelve o’clock
+        alias: 十二點
       - emoji: 🕧
         name: E0.7 twelve-thirty
+        alias: 十二點半
       - emoji: 🕐
         name: E0.6 one o’clock
+        alias: 一點
       - emoji: 🕜
         name: E0.7 one-thirty
+        alias: 一點半
       - emoji: 🕑
         name: E0.6 two o’clock
+        alias: 兩點
       - emoji: 🕝
         name: E0.7 two-thirty
+        alias: 兩點半
       - emoji: 🕒
         name: E0.6 three o’clock
+        alias: 三點
       - emoji: 🕞
         name: E0.7 three-thirty
+        alias: 三點半
       - emoji: 🕓
         name: E0.6 four o’clock
+        alias: 四點
       - emoji: 🕟
         name: E0.7 four-thirty
+        alias: 四點半
       - emoji: 🕔
         name: E0.6 five o’clock
+        alias: 五點
       - emoji: 🕠
         name: E0.7 five-thirty
+        alias: 五點半
       - emoji: 🕕
         name: E0.6 six o’clock
+        alias: 六點
       - emoji: 🕡
         name: E0.7 six-thirty
+        alias: 六點半
       - emoji: 🕖
         name: E0.6 seven o’clock
+        alias: 七點
       - emoji: 🕢
         name: E0.7 seven-thirty
+        alias: 七點半
       - emoji: 🕗
         name: E0.6 eight o’clock
+        alias: 八點
       - emoji: 🕣
         name: E0.7 eight-thirty
+        alias: 八點半
       - emoji: 🕘
         name: E0.6 nine o’clock
+        alias: 九點
       - emoji: 🕤
         name: E0.7 nine-thirty
+        alias: 九點半
       - emoji: 🕙
         name: E0.6 ten o’clock
+        alias: 十點
       - emoji: 🕥
         name: E0.7 ten-thirty
+        alias: 十點半
       - emoji: 🕚
         name: E0.6 eleven o’clock
+        alias: 十一點
       - emoji: 🕦
         name: E0.7 eleven-thirty
+        alias: 十一點半
   - name: sky & weather
+    alias: 天空與天氣
     emojis:
       - emoji: 🌑
         name: E0.6 new moon
+        alias: 新月
       - emoji: 🌒
         name: E1.0 waxing crescent moon
+        alias: 盈月
       - emoji: 🌓
         name: E0.6 first quarter moon
+        alias: 上弦月
       - emoji: 🌔
         name: E0.6 waxing gibbous moon
+        alias: 盈凸月
       - emoji: 🌕
         name: E0.6 full moon
+        alias: 滿月
       - emoji: 🌖
         name: E1.0 waning gibbous moon
+        alias: 虧凸月
       - emoji: 🌗
         name: E1.0 last quarter moon
+        alias: 下弦月
       - emoji: 🌘
         name: E1.0 waning crescent moon
+        alias: 殘月
       - emoji: 🌙
         name: E0.6 crescent moon
+        alias: 月牙
       - emoji: 🌚
         name: E1.0 new moon face
+        alias: 新月臉
       - emoji: 🌛
         name: E0.6 first quarter moon face
+        alias: 上弦月臉
       - emoji: 🌜
         name: E0.7 last quarter moon face
+        alias: 下弦月臉
       - emoji: 🌡️
         name: E0.7 thermometer
+        alias: 溫度計
       - emoji: ☀️
         name: E0.6 sun
+        alias: 太陽
       - emoji: 🌝
         name: E1.0 full moon face
+        alias: 滿月臉
       - emoji: 🌞
         name: E1.0 sun with face
+        alias: 太陽臉
       - emoji: 🪐
         name: E12.0 ringed planet
+        alias: 環行星
       - emoji: ⭐
         name: E0.6 star
+        alias: 星星
       - emoji: 🌟
         name: E0.6 glowing star
+        alias: 發光星星
       - emoji: 🌠
         name: E0.6 shooting star
+        alias: 流星
       - emoji: 🌌
         name: E0.6 milky way
+        alias: 銀河
       - emoji: ☁️
         name: E0.6 cloud
+        alias: 雲
       - emoji: ⛅
         name: E0.6 sun behind cloud
+        alias: 雲後太陽
       - emoji: ⛈️
         name: E0.7 cloud with lightning and rain
+        alias: 雲雨閃電
       - emoji: 🌤️
         name: E0.7 sun behind small cloud
+        alias: 小雲後太陽
       - emoji: 🌥️
         name: E0.7 sun behind large cloud
+        alias: 大雲後太陽
       - emoji: 🌦️
         name: E0.7 sun behind rain cloud
+        alias: 雨雲後太陽
       - emoji: 🌧️
         name: E0.7 cloud with rain
+        alias: 雨雲
       - emoji: 🌨️
         name: E0.7 cloud with snow
+        alias: 雪雲
       - emoji: 🌩️
         name: E0.7 cloud with lightning
+        alias: 閃電雲
       - emoji: 🌪️
         name: E0.7 tornado
+        alias: 龍捲風
       - emoji: 🌫️
         name: E0.7 fog
+        alias: 霧
       - emoji: 🌬️
         name: E0.7 wind face
+        alias: 風臉
       - emoji: 🌀
         name: E0.6 cyclone
+        alias: 氣旋
       - emoji: 🌈
         name: E0.6 rainbow
+        alias: 彩虹
       - emoji: 🌂
         name: E0.6 closed umbrella
+        alias: 收傘
       - emoji: ☂️
         name: E0.7 umbrella
+        alias: 傘
       - emoji: ☔
         name: E0.6 umbrella with rain drops
+        alias: 雨傘
       - emoji: ⛱️
         name: E0.7 umbrella on ground
+        alias: 地上傘
       - emoji: ⚡
         name: E0.6 high voltage
+        alias: 高壓
       - emoji: ❄️
         name: E0.6 snowflake
+        alias: 雪花
       - emoji: ☃️
         name: E0.7 snowman
+        alias: 雪人
       - emoji: ⛄
         name: E0.6 snowman without snow
+        alias: 無雪雪人
       - emoji: ☄️
         name: E1.0 comet
+        alias: 彗星
       - emoji: 🔥
         name: E0.6 fire
+        alias: 火
       - emoji: 💧
         name: E0.6 droplet
+        alias: 水滴
       - emoji: 🌊
         name: E0.6 water wave
+        alias: 水波
