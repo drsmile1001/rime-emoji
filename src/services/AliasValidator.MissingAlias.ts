@@ -14,31 +14,31 @@ export class AliasValidatorMissingAlias implements AliasValidator {
     const issues: ValidationIssue[] = [];
 
     const subgroupAliases = await this.repo.getSubgroupAliases();
-    for (const sg of subgroupAliases) {
-      if (!sg.alias.length) {
+    for (const { alias, subgroup, group } of subgroupAliases) {
+      if (!alias.length) {
         issues.push({
-          code: `MISS_SUBGROUP_ALIAS_${encodeKey(
-            `${sg.group}__${sg.subgroup}`,
-          )}`,
-          validatorId: this.id,
-          type: "subgroup-alias-missing",
-          severity: "warn",
-          message: `子群組「${sg.group} / ${sg.subgroup}」缺少別名`,
-          metadata: sg,
+          code: `MISS_SUBGROUP_ALIAS_${encodeKey(`${group}__${subgroup}`)}`,
+          message: `子群組「${group} / ${subgroup}」缺少別名`,
+          metadata: {},
         });
       }
     }
 
+    const defs = await this.repo.getDefinitions();
+
     const emojiAliases = await this.repo.getEmojiAliases();
-    for (const emoji of emojiAliases) {
-      if (!emoji.alias.length) {
+    for (const { alias, emoji } of emojiAliases) {
+      if (!alias.length) {
+        const def = defs.find((d) => d.emoji === emoji)!;
         issues.push({
-          code: `MISS_EMOJI_ALIAS_${toCodePoints(emoji.emoji)}`,
-          validatorId: this.id,
-          type: "emoji-alias-missing",
-          severity: "warn",
-          message: `Emoji ${emoji.emoji} 缺少別名`,
-          metadata: emoji,
+          code: `MISS_EMOJI_ALIAS_${toCodePoints(emoji)}`,
+          message: `Emoji ${emoji} 缺少別名`,
+          metadata: {
+            emoji: def.emoji,
+            name: def.name,
+            group: def.group,
+            subgroup: def.subgroup,
+          },
         });
       }
     }

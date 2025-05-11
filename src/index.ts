@@ -69,9 +69,9 @@ cli.command("merge", "合併過濾後 emoji 為可維護別名檔").action(async
 
 cli.command("validate", "驗證別名定義是否有缺漏或重複").action(async () => {
   const source = new CategoryAliasRepoYaml(CATEGORY_ALIAS_DIR);
-  const validator = new AliasValidatorMissingAlias(source);
+  const missingAlias = new AliasValidatorMissingAlias(source);
   const reporter = new AliasValidationReporterYaml(OUTPUT_DIR);
-  const step = new StepValidateDefinitionAlias([validator], reporter);
+  const step = new StepValidateDefinitionAlias([missingAlias], reporter);
   await step.execute();
   console.log("✅ 別名驗證完成，請檢查報告");
 });

@@ -19,16 +19,13 @@ export interface CategoryAliasRepo {
   patchEmojiAliases(aliases: EmojiAlias[]): Promise<void>;
 
   /**
-   * 查詢目前的別名（可用於 export / validate）
+   * 查詢目前的別名
    */
   getSubgroupAliases(): Promise<SubgroupAlias[]>;
   getEmojiAliases(): Promise<EmojiAlias[]>;
 
   /**
-   * 查詢 emoji 定義，依據 group/subgroup 層級回傳
+   * 查詢目前的 emoji 定義
    */
-  getEmojiBySubgroup(
-    group: string,
-    subgroup: string,
-  ): Promise<EmojiDefinition[]>;
+  getDefinitions(): Promise<EmojiDefinition[]>;
 }

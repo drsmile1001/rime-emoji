@@ -74,4 +74,8 @@ export class CategoryAliasRepoMemory implements CategoryAliasRepo {
   private encodeSubgroupKey(group: string, subgroup: string): string {
     return `${group}:::${subgroup}`;
   }
+
+  getDefinitions(): Promise<EmojiDefinition[]> {
+    return Promise.resolve(this.emojiDefs);
+  }
 }

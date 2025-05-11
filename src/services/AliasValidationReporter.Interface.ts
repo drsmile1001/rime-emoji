@@ -2,19 +2,8 @@
 export type ValidationIssue = {
   /** 唯一錯誤識別鍵，例如 MISS_EMOJI_ALIAS_1F600 */
   code: string;
-
-  /** validator 的分類 ID，如 empty-alias、duplicate-alias */
-  validatorId: string;
-
-  /** 子分類型（可選，用於錯誤分類） */
-  type: string;
-
-  /** 嚴重程度 */
-  severity: "error" | "warn" | "info";
-
   /** 錯誤簡述訊息 */
   message: string;
-
   /** 補充資料，用於 debug 或記錄 */
   metadata: Record<string, any>;
 };

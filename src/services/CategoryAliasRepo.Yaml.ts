@@ -157,6 +157,27 @@ export class CategoryAliasRepoYaml implements CategoryAliasRepo {
     );
   }
 
+  async getDefinitions(): Promise<EmojiDefinition[]> {
+    const groups = await this.getAllGroups();
+    const result: EmojiDefinition[] = [];
+    for (const group of groups) {
+      const content = await this.loadGroupContent(group);
+      if (!content) continue;
+      for (const sg of content.subGroups) {
+        for (const e of sg.emojis) {
+          result.push({
+            emoji: e.emoji,
+            name: e.name,
+            group: content.name,
+            subgroup: sg.name,
+            codePoints: [],
+          });
+        }
+      }
+    }
+    return result;
+  }
+
   async getEmojiBySubgroup(
     group: string,
     subgroup: string,
