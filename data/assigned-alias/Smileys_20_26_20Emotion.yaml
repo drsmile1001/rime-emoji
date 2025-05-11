@@ -1,0 +1,372 @@
+name: Smileys & Emotion
+subGroups:
+  - name: face-smiling
+    emojis:
+      - emoji: 😀
+        name: E1.0 grinning face
+      - emoji: 😃
+        name: E0.6 grinning face with big eyes
+      - emoji: 😄
+        name: E0.6 grinning face with smiling eyes
+      - emoji: 😁
+        name: E0.6 beaming face with smiling eyes
+      - emoji: 😆
+        name: E0.6 grinning squinting face
+      - emoji: 😅
+        name: E0.6 grinning face with sweat
+      - emoji: 🤣
+        name: E3.0 rolling on the floor laughing
+      - emoji: 😂
+        name: E0.6 face with tears of joy
+      - emoji: 🙂
+        name: E1.0 slightly smiling face
+      - emoji: 🙃
+        name: E1.0 upside-down face
+      - emoji: 🫠
+        name: E14.0 melting face
+      - emoji: 😉
+        name: E0.6 winking face
+      - emoji: 😊
+        name: E0.6 smiling face with smiling eyes
+      - emoji: 😇
+        name: E1.0 smiling face with halo
+  - name: face-affection
+    emojis:
+      - emoji: 🥰
+        name: E11.0 smiling face with hearts
+      - emoji: 😍
+        name: E0.6 smiling face with heart-eyes
+      - emoji: 🤩
+        name: E5.0 star-struck
+      - emoji: 😘
+        name: E0.6 face blowing a kiss
+      - emoji: 😗
+        name: E1.0 kissing face
+      - emoji: ☺️
+        name: E0.6 smiling face
+      - emoji: 😚
+        name: E0.6 kissing face with closed eyes
+      - emoji: 😙
+        name: E1.0 kissing face with smiling eyes
+      - emoji: 🥲
+        name: E13.0 smiling face with tear
+  - name: face-tongue
+    emojis:
+      - emoji: 😋
+        name: E0.6 face savoring food
+      - emoji: 😛
+        name: E1.0 face with tongue
+      - emoji: 😜
+        name: E0.6 winking face with tongue
+      - emoji: 🤪
+        name: E5.0 zany face
+      - emoji: 😝
+        name: E0.6 squinting face with tongue
+      - emoji: 🤑
+        name: E1.0 money-mouth face
+  - name: face-hand
+    emojis:
+      - emoji: 🤗
+        name: E1.0 smiling face with open hands
+      - emoji: 🤭
+        name: E5.0 face with hand over mouth
+      - emoji: 🫢
+        name: E14.0 face with open eyes and hand over mouth
+      - emoji: 🫣
+        name: E14.0 face with peeking eye
+      - emoji: 🤫
+        name: E5.0 shushing face
+      - emoji: 🤔
+        name: E1.0 thinking face
+      - emoji: 🫡
+        name: E14.0 saluting face
+  - name: face-neutral-skeptical
+    emojis:
+      - emoji: 🤐
+        name: E1.0 zipper-mouth face
+      - emoji: 🤨
+        name: E5.0 face with raised eyebrow
+      - emoji: 😐
+        name: E0.7 neutral face
+      - emoji: 😑
+        name: E1.0 expressionless face
+      - emoji: 😶
+        name: E1.0 face without mouth
+      - emoji: 🫥
+        name: E14.0 dotted line face
+      - emoji: 😶‍🌫️
+        name: E13.1 face in clouds
+      - emoji: 😏
+        name: E0.6 smirking face
+      - emoji: 😒
+        name: E0.6 unamused face
+      - emoji: 🙄
+        name: E1.0 face with rolling eyes
+      - emoji: 😬
+        name: E1.0 grimacing face
+      - emoji: 😮‍💨
+        name: E13.1 face exhaling
+      - emoji: 🤥
+        name: E3.0 lying face
+      - emoji: 🫨
+        name: E15.0 shaking face
+      - emoji: 🙂‍↔️
+        name: E15.1 head shaking horizontally
+      - emoji: 🙂‍↕️
+        name: E15.1 head shaking vertically
+  - name: face-sleepy
+    emojis:
+      - emoji: 😌
+        name: E0.6 relieved face
+      - emoji: 😔
+        name: E0.6 pensive face
+      - emoji: 😪
+        name: E0.6 sleepy face
+      - emoji: 🤤
+        name: E3.0 drooling face
+      - emoji: 😴
+        name: E1.0 sleeping face
+      - emoji: 🫩
+        name: E16.0 face with bags under eyes
+  - name: face-unwell
+    emojis:
+      - emoji: 😷
+        name: E0.6 face with medical mask
+      - emoji: 🤒
+        name: E1.0 face with thermometer
+      - emoji: 🤕
+        name: E1.0 face with head-bandage
+      - emoji: 🤢
+        name: E3.0 nauseated face
+      - emoji: 🤮
+        name: E5.0 face vomiting
+      - emoji: 🤧
+        name: E3.0 sneezing face
+      - emoji: 🥵
+        name: E11.0 hot face
+      - emoji: 🥶
+        name: E11.0 cold face
+      - emoji: 🥴
+        name: E11.0 woozy face
+      - emoji: 😵
+        name: E0.6 face with crossed-out eyes
+      - emoji: 😵‍💫
+        name: E13.1 face with spiral eyes
+      - emoji: 🤯
+        name: E5.0 exploding head
+  - name: face-hat
+    emojis:
+      - emoji: 🤠
+        name: E3.0 cowboy hat face
+      - emoji: 🥳
+        name: E11.0 partying face
+      - emoji: 🥸
+        name: E13.0 disguised face
+  - name: face-glasses
+    emojis:
+      - emoji: 😎
+        name: E1.0 smiling face with sunglasses
+      - emoji: 🤓
+        name: E1.0 nerd face
+      - emoji: 🧐
+        name: E5.0 face with monocle
+  - name: face-concerned
+    emojis:
+      - emoji: 😕
+        name: E1.0 confused face
+      - emoji: 🫤
+        name: E14.0 face with diagonal mouth
+      - emoji: 😟
+        name: E1.0 worried face
+      - emoji: 🙁
+        name: E1.0 slightly frowning face
+      - emoji: ☹️
+        name: E0.7 frowning face
+      - emoji: 😮
+        name: E1.0 face with open mouth
+      - emoji: 😯
+        name: E1.0 hushed face
+      - emoji: 😲
+        name: E0.6 astonished face
+      - emoji: 😳
+        name: E0.6 flushed face
+      - emoji: 🥺
+        name: E11.0 pleading face
+      - emoji: 🥹
+        name: E14.0 face holding back tears
+      - emoji: 😦
+        name: E1.0 frowning face with open mouth
+      - emoji: 😧
+        name: E1.0 anguished face
+      - emoji: 😨
+        name: E0.6 fearful face
+      - emoji: 😰
+        name: E0.6 anxious face with sweat
+      - emoji: 😥
+        name: E0.6 sad but relieved face
+      - emoji: 😢
+        name: E0.6 crying face
+      - emoji: 😭
+        name: E0.6 loudly crying face
+      - emoji: 😱
+        name: E0.6 face screaming in fear
+      - emoji: 😖
+        name: E0.6 confounded face
+      - emoji: 😣
+        name: E0.6 persevering face
+      - emoji: 😞
+        name: E0.6 disappointed face
+      - emoji: 😓
+        name: E0.6 downcast face with sweat
+      - emoji: 😩
+        name: E0.6 weary face
+      - emoji: 😫
+        name: E0.6 tired face
+      - emoji: 🥱
+        name: E12.0 yawning face
+  - name: face-negative
+    emojis:
+      - emoji: 😤
+        name: E0.6 face with steam from nose
+      - emoji: 😡
+        name: E0.6 enraged face
+      - emoji: 😠
+        name: E0.6 angry face
+      - emoji: 🤬
+        name: E5.0 face with symbols on mouth
+      - emoji: 😈
+        name: E1.0 smiling face with horns
+      - emoji: 👿
+        name: E0.6 angry face with horns
+      - emoji: 💀
+        name: E0.6 skull
+      - emoji: ☠️
+        name: E1.0 skull and crossbones
+  - name: face-costume
+    emojis:
+      - emoji: 💩
+        name: E0.6 pile of poo
+      - emoji: 🤡
+        name: E3.0 clown face
+      - emoji: 👹
+        name: E0.6 ogre
+      - emoji: 👺
+        name: E0.6 goblin
+      - emoji: 👻
+        name: E0.6 ghost
+      - emoji: 👽
+        name: E0.6 alien
+      - emoji: 👾
+        name: E0.6 alien monster
+      - emoji: 🤖
+        name: E1.0 robot
+  - name: cat-face
+    emojis:
+      - emoji: 😺
+        name: E0.6 grinning cat
+      - emoji: 😸
+        name: E0.6 grinning cat with smiling eyes
+      - emoji: 😹
+        name: E0.6 cat with tears of joy
+      - emoji: 😻
+        name: E0.6 smiling cat with heart-eyes
+      - emoji: 😼
+        name: E0.6 cat with wry smile
+      - emoji: 😽
+        name: E0.6 kissing cat
+      - emoji: 🙀
+        name: E0.6 weary cat
+      - emoji: 😿
+        name: E0.6 crying cat
+      - emoji: 😾
+        name: E0.6 pouting cat
+  - name: monkey-face
+    emojis:
+      - emoji: 🙈
+        name: E0.6 see-no-evil monkey
+      - emoji: 🙉
+        name: E0.6 hear-no-evil monkey
+      - emoji: 🙊
+        name: E0.6 speak-no-evil monkey
+  - name: heart
+    emojis:
+      - emoji: 💌
+        name: E0.6 love letter
+      - emoji: 💘
+        name: E0.6 heart with arrow
+      - emoji: 💝
+        name: E0.6 heart with ribbon
+      - emoji: 💖
+        name: E0.6 sparkling heart
+      - emoji: 💗
+        name: E0.6 growing heart
+      - emoji: 💓
+        name: E0.6 beating heart
+      - emoji: 💞
+        name: E0.6 revolving hearts
+      - emoji: 💕
+        name: E0.6 two hearts
+      - emoji: 💟
+        name: E0.6 heart decoration
+      - emoji: ❣️
+        name: E1.0 heart exclamation
+      - emoji: 💔
+        name: E0.6 broken heart
+      - emoji: ❤️‍🔥
+        name: E13.1 heart on fire
+      - emoji: ❤️‍🩹
+        name: E13.1 mending heart
+      - emoji: ❤️
+        name: E0.6 red heart
+      - emoji: 🩷
+        name: E15.0 pink heart
+      - emoji: 🧡
+        name: E5.0 orange heart
+      - emoji: 💛
+        name: E0.6 yellow heart
+      - emoji: 💚
+        name: E0.6 green heart
+      - emoji: 💙
+        name: E0.6 blue heart
+      - emoji: 🩵
+        name: E15.0 light blue heart
+      - emoji: 💜
+        name: E0.6 purple heart
+      - emoji: 🤎
+        name: E12.0 brown heart
+      - emoji: 🖤
+        name: E3.0 black heart
+      - emoji: 🩶
+        name: E15.0 grey heart
+      - emoji: 🤍
+        name: E12.0 white heart
+  - name: emotion
+    emojis:
+      - emoji: 💋
+        name: E0.6 kiss mark
+      - emoji: 💯
+        name: E0.6 hundred points
+      - emoji: 💢
+        name: E0.6 anger symbol
+      - emoji: 💥
+        name: E0.6 collision
+      - emoji: 💫
+        name: E0.6 dizzy
+      - emoji: 💦
+        name: E0.6 sweat droplets
+      - emoji: 💨
+        name: E0.6 dashing away
+      - emoji: 🕳️
+        name: E0.7 hole
+      - emoji: 💬
+        name: E0.6 speech balloon
+      - emoji: 👁️‍🗨️
+        name: E2.0 eye in speech bubble
+      - emoji: 🗨️
+        name: E2.0 left speech bubble
+      - emoji: 🗯️
+        name: E0.7 right anger bubble
+      - emoji: 💭
+        name: E1.0 thought balloon
+      - emoji: 💤
+        name: E0.6 ZZZ

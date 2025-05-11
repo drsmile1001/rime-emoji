@@ -1,0 +1,567 @@
+name: Objects
+subGroups:
+  - name: clothing
+    alias: 衣服
+    emojis:
+      - emoji: 👓
+        name: E0.6 glasses
+      - emoji: 🕶️
+        name: E0.7 sunglasses
+      - emoji: 🥽
+        name: E11.0 goggles
+      - emoji: 🥼
+        name: E11.0 lab coat
+      - emoji: 🦺
+        name: E12.0 safety vest
+      - emoji: 👔
+        name: E0.6 necktie
+      - emoji: 👕
+        name: E0.6 t-shirt
+      - emoji: 👖
+        name: E0.6 jeans
+      - emoji: 🧣
+        name: E5.0 scarf
+      - emoji: 🧤
+        name: E5.0 gloves
+      - emoji: 🧥
+        name: E5.0 coat
+      - emoji: 🧦
+        name: E5.0 socks
+      - emoji: 👗
+        name: E0.6 dress
+      - emoji: 👘
+        name: E0.6 kimono
+      - emoji: 🥻
+        name: E12.0 sari
+      - emoji: 🩱
+        name: E12.0 one-piece swimsuit
+      - emoji: 🩲
+        name: E12.0 briefs
+      - emoji: 🩳
+        name: E12.0 shorts
+      - emoji: 👙
+        name: E0.6 bikini
+      - emoji: 👚
+        name: E0.6 woman’s clothes
+      - emoji: 🪭
+        name: E15.0 folding hand fan
+      - emoji: 👛
+        name: E0.6 purse
+      - emoji: 👜
+        name: E0.6 handbag
+      - emoji: 👝
+        name: E0.6 clutch bag
+      - emoji: 🛍️
+        name: E0.7 shopping bags
+      - emoji: 🎒
+        name: E0.6 backpack
+      - emoji: 🩴
+        name: E13.0 thong sandal
+      - emoji: 👞
+        name: E0.6 man’s shoe
+      - emoji: 👟
+        name: E0.6 running shoe
+      - emoji: 🥾
+        name: E11.0 hiking boot
+      - emoji: 🥿
+        name: E11.0 flat shoe
+      - emoji: 👠
+        name: E0.6 high-heeled shoe
+      - emoji: 👡
+        name: E0.6 woman’s sandal
+      - emoji: 🩰
+        name: E12.0 ballet shoes
+      - emoji: 👢
+        name: E0.6 woman’s boot
+      - emoji: 🪮
+        name: E15.0 hair pick
+      - emoji: 👑
+        name: E0.6 crown
+      - emoji: 👒
+        name: E0.6 woman’s hat
+      - emoji: 🎩
+        name: E0.6 top hat
+      - emoji: 🎓
+        name: E0.6 graduation cap
+      - emoji: 🧢
+        name: E5.0 billed cap
+      - emoji: 🪖
+        name: E13.0 military helmet
+      - emoji: ⛑️
+        name: E0.7 rescue worker’s helmet
+      - emoji: 📿
+        name: E1.0 prayer beads
+      - emoji: 💄
+        name: E0.6 lipstick
+      - emoji: 💍
+        name: E0.6 ring
+      - emoji: 💎
+        name: E0.6 gem stone
+  - name: sound
+    emojis:
+      - emoji: 🔇
+        name: E1.0 muted speaker
+      - emoji: 🔈
+        name: E0.7 speaker low volume
+      - emoji: 🔉
+        name: E1.0 speaker medium volume
+      - emoji: 🔊
+        name: E0.6 speaker high volume
+      - emoji: 📢
+        name: E0.6 loudspeaker
+      - emoji: 📣
+        name: E0.6 megaphone
+      - emoji: 📯
+        name: E1.0 postal horn
+      - emoji: 🔔
+        name: E0.6 bell
+      - emoji: 🔕
+        name: E1.0 bell with slash
+  - name: music
+    emojis:
+      - emoji: 🎼
+        name: E0.6 musical score
+      - emoji: 🎵
+        name: E0.6 musical note
+      - emoji: 🎶
+        name: E0.6 musical notes
+      - emoji: 🎙️
+        name: E0.7 studio microphone
+      - emoji: 🎚️
+        name: E0.7 level slider
+      - emoji: 🎛️
+        name: E0.7 control knobs
+      - emoji: 🎤
+        name: E0.6 microphone
+      - emoji: 🎧
+        name: E0.6 headphone
+      - emoji: 📻
+        name: E0.6 radio
+  - name: musical-instrument
+    emojis:
+      - emoji: 🎷
+        name: E0.6 saxophone
+      - emoji: 🪗
+        name: E13.0 accordion
+      - emoji: 🎸
+        name: E0.6 guitar
+      - emoji: 🎹
+        name: E0.6 musical keyboard
+      - emoji: 🎺
+        name: E0.6 trumpet
+      - emoji: 🎻
+        name: E0.6 violin
+      - emoji: 🪕
+        name: E12.0 banjo
+      - emoji: 🥁
+        name: E3.0 drum
+      - emoji: 🪘
+        name: E13.0 long drum
+      - emoji: 🪇
+        name: E15.0 maracas
+      - emoji: 🪈
+        name: E15.0 flute
+      - emoji: 🪉
+        name: E16.0 harp
+  - name: phone
+    emojis:
+      - emoji: 📱
+        name: E0.6 mobile phone
+      - emoji: 📲
+        name: E0.6 mobile phone with arrow
+      - emoji: ☎️
+        name: E0.6 telephone
+      - emoji: 📞
+        name: E0.6 telephone receiver
+      - emoji: 📟
+        name: E0.6 pager
+      - emoji: 📠
+        name: E0.6 fax machine
+  - name: computer
+    emojis:
+      - emoji: 🔋
+        name: E0.6 battery
+      - emoji: 🪫
+        name: E14.0 low battery
+      - emoji: 🔌
+        name: E0.6 electric plug
+      - emoji: 💻
+        name: E0.6 laptop
+      - emoji: 🖥️
+        name: E0.7 desktop computer
+      - emoji: 🖨️
+        name: E0.7 printer
+      - emoji: ⌨️
+        name: E1.0 keyboard
+      - emoji: 🖱️
+        name: E0.7 computer mouse
+      - emoji: 🖲️
+        name: E0.7 trackball
+      - emoji: 💽
+        name: E0.6 computer disk
+      - emoji: 💾
+        name: E0.6 floppy disk
+      - emoji: 💿
+        name: E0.6 optical disk
+      - emoji: 📀
+        name: E0.6 dvd
+      - emoji: 🧮
+        name: E11.0 abacus
+  - name: light & video
+    emojis:
+      - emoji: 🎥
+        name: E0.6 movie camera
+      - emoji: 🎞️
+        name: E0.7 film frames
+      - emoji: 📽️
+        name: E0.7 film projector
+      - emoji: 🎬
+        name: E0.6 clapper board
+      - emoji: 📺
+        name: E0.6 television
+      - emoji: 📷
+        name: E0.6 camera
+      - emoji: 📸
+        name: E1.0 camera with flash
+      - emoji: 📹
+        name: E0.6 video camera
+      - emoji: 📼
+        name: E0.6 videocassette
+      - emoji: 🔍
+        name: E0.6 magnifying glass tilted left
+      - emoji: 🔎
+        name: E0.6 magnifying glass tilted right
+      - emoji: 🕯️
+        name: E0.7 candle
+      - emoji: 💡
+        name: E0.6 light bulb
+      - emoji: 🔦
+        name: E0.6 flashlight
+      - emoji: 🏮
+        name: E0.6 red paper lantern
+      - emoji: 🪔
+        name: E12.0 diya lamp
+  - name: book-paper
+    emojis:
+      - emoji: 📔
+        name: E0.6 notebook with decorative cover
+      - emoji: 📕
+        name: E0.6 closed book
+      - emoji: 📖
+        name: E0.6 open book
+      - emoji: 📗
+        name: E0.6 green book
+      - emoji: 📘
+        name: E0.6 blue book
+      - emoji: 📙
+        name: E0.6 orange book
+      - emoji: 📚
+        name: E0.6 books
+      - emoji: 📓
+        name: E0.6 notebook
+      - emoji: 📒
+        name: E0.6 ledger
+      - emoji: 📃
+        name: E0.6 page with curl
+      - emoji: 📜
+        name: E0.6 scroll
+      - emoji: 📄
+        name: E0.6 page facing up
+      - emoji: 📰
+        name: E0.6 newspaper
+      - emoji: 🗞️
+        name: E0.7 rolled-up newspaper
+      - emoji: 📑
+        name: E0.6 bookmark tabs
+      - emoji: 🔖
+        name: E0.6 bookmark
+      - emoji: 🏷️
+        name: E0.7 label
+  - name: money
+    emojis:
+      - emoji: 💰
+        name: E0.6 money bag
+      - emoji: 🪙
+        name: E13.0 coin
+      - emoji: 💴
+        name: E0.6 yen banknote
+      - emoji: 💵
+        name: E0.6 dollar banknote
+      - emoji: 💶
+        name: E1.0 euro banknote
+      - emoji: 💷
+        name: E1.0 pound banknote
+      - emoji: 💸
+        name: E0.6 money with wings
+      - emoji: 💳
+        name: E0.6 credit card
+      - emoji: 🧾
+        name: E11.0 receipt
+      - emoji: 💹
+        name: E0.6 chart increasing with yen
+  - name: mail
+    emojis:
+      - emoji: ✉️
+        name: E0.6 envelope
+      - emoji: 📧
+        name: E0.6 e-mail
+      - emoji: 📨
+        name: E0.6 incoming envelope
+      - emoji: 📩
+        name: E0.6 envelope with arrow
+      - emoji: 📤
+        name: E0.6 outbox tray
+      - emoji: 📥
+        name: E0.6 inbox tray
+      - emoji: 📦
+        name: E0.6 package
+      - emoji: 📫
+        name: E0.6 closed mailbox with raised flag
+      - emoji: 📪
+        name: E0.6 closed mailbox with lowered flag
+      - emoji: 📬
+        name: E0.7 open mailbox with raised flag
+      - emoji: 📭
+        name: E0.7 open mailbox with lowered flag
+      - emoji: 📮
+        name: E0.6 postbox
+      - emoji: 🗳️
+        name: E0.7 ballot box with ballot
+  - name: writing
+    emojis:
+      - emoji: ✏️
+        name: E0.6 pencil
+      - emoji: ✒️
+        name: E0.6 black nib
+      - emoji: 🖋️
+        name: E0.7 fountain pen
+      - emoji: 🖊️
+        name: E0.7 pen
+      - emoji: 🖌️
+        name: E0.7 paintbrush
+      - emoji: 🖍️
+        name: E0.7 crayon
+      - emoji: 📝
+        name: E0.6 memo
+  - name: office
+    emojis:
+      - emoji: 💼
+        name: E0.6 briefcase
+      - emoji: 📁
+        name: E0.6 file folder
+      - emoji: 📂
+        name: E0.6 open file folder
+      - emoji: 🗂️
+        name: E0.7 card index dividers
+      - emoji: 📅
+        name: E0.6 calendar
+      - emoji: 📆
+        name: E0.6 tear-off calendar
+      - emoji: 🗒️
+        name: E0.7 spiral notepad
+      - emoji: 🗓️
+        name: E0.7 spiral calendar
+      - emoji: 📇
+        name: E0.6 card index
+      - emoji: 📈
+        name: E0.6 chart increasing
+      - emoji: 📉
+        name: E0.6 chart decreasing
+      - emoji: 📊
+        name: E0.6 bar chart
+      - emoji: 📋
+        name: E0.6 clipboard
+      - emoji: 📌
+        name: E0.6 pushpin
+      - emoji: 📍
+        name: E0.6 round pushpin
+      - emoji: 📎
+        name: E0.6 paperclip
+      - emoji: 🖇️
+        name: E0.7 linked paperclips
+      - emoji: 📏
+        name: E0.6 straight ruler
+      - emoji: 📐
+        name: E0.6 triangular ruler
+      - emoji: ✂️
+        name: E0.6 scissors
+      - emoji: 🗃️
+        name: E0.7 card file box
+      - emoji: 🗄️
+        name: E0.7 file cabinet
+      - emoji: 🗑️
+        name: E0.7 wastebasket
+  - name: lock
+    emojis:
+      - emoji: 🔒
+        name: E0.6 locked
+      - emoji: 🔓
+        name: E0.6 unlocked
+      - emoji: 🔏
+        name: E0.6 locked with pen
+      - emoji: 🔐
+        name: E0.6 locked with key
+      - emoji: 🔑
+        name: E0.6 key
+      - emoji: 🗝️
+        name: E0.7 old key
+  - name: tool
+    emojis:
+      - emoji: 🔨
+        name: E0.6 hammer
+      - emoji: 🪓
+        name: E12.0 axe
+      - emoji: ⛏️
+        name: E0.7 pick
+      - emoji: ⚒️
+        name: E1.0 hammer and pick
+      - emoji: 🛠️
+        name: E0.7 hammer and wrench
+      - emoji: 🗡️
+        name: E0.7 dagger
+      - emoji: ⚔️
+        name: E1.0 crossed swords
+      - emoji: 💣
+        name: E0.6 bomb
+      - emoji: 🪃
+        name: E13.0 boomerang
+      - emoji: 🏹
+        name: E1.0 bow and arrow
+      - emoji: 🛡️
+        name: E0.7 shield
+      - emoji: 🪚
+        name: E13.0 carpentry saw
+      - emoji: 🔧
+        name: E0.6 wrench
+      - emoji: 🪛
+        name: E13.0 screwdriver
+      - emoji: 🔩
+        name: E0.6 nut and bolt
+      - emoji: ⚙️
+        name: E1.0 gear
+      - emoji: 🗜️
+        name: E0.7 clamp
+      - emoji: ⚖️
+        name: E1.0 balance scale
+      - emoji: 🦯
+        name: E12.0 white cane
+      - emoji: 🔗
+        name: E0.6 link
+      - emoji: ⛓️‍💥
+        name: E15.1 broken chain
+      - emoji: ⛓️
+        name: E0.7 chains
+      - emoji: 🪝
+        name: E13.0 hook
+      - emoji: 🧰
+        name: E11.0 toolbox
+      - emoji: 🧲
+        name: E11.0 magnet
+      - emoji: 🪜
+        name: E13.0 ladder
+      - emoji: 🪏
+        name: E16.0 shovel
+  - name: science
+    emojis:
+      - emoji: ⚗️
+        name: E1.0 alembic
+      - emoji: 🧪
+        name: E11.0 test tube
+      - emoji: 🧫
+        name: E11.0 petri dish
+      - emoji: 🧬
+        name: E11.0 dna
+      - emoji: 🔬
+        name: E1.0 microscope
+      - emoji: 🔭
+        name: E1.0 telescope
+      - emoji: 📡
+        name: E0.6 satellite antenna
+  - name: medical
+    emojis:
+      - emoji: 💉
+        name: E0.6 syringe
+      - emoji: 🩸
+        name: E12.0 drop of blood
+      - emoji: 💊
+        name: E0.6 pill
+      - emoji: 🩹
+        name: E12.0 adhesive bandage
+      - emoji: 🩼
+        name: E14.0 crutch
+      - emoji: 🩺
+        name: E12.0 stethoscope
+      - emoji: 🩻
+        name: E14.0 x-ray
+  - name: household
+    emojis:
+      - emoji: 🚪
+        name: E0.6 door
+      - emoji: 🛗
+        name: E13.0 elevator
+      - emoji: 🪞
+        name: E13.0 mirror
+      - emoji: 🪟
+        name: E13.0 window
+      - emoji: 🛏️
+        name: E0.7 bed
+      - emoji: 🛋️
+        name: E0.7 couch and lamp
+      - emoji: 🪑
+        name: E12.0 chair
+      - emoji: 🚽
+        name: E0.6 toilet
+      - emoji: 🪠
+        name: E13.0 plunger
+      - emoji: 🚿
+        name: E1.0 shower
+      - emoji: 🛁
+        name: E1.0 bathtub
+      - emoji: 🪤
+        name: E13.0 mouse trap
+      - emoji: 🪒
+        name: E12.0 razor
+      - emoji: 🧴
+        name: E11.0 lotion bottle
+      - emoji: 🧷
+        name: E11.0 safety pin
+      - emoji: 🧹
+        name: E11.0 broom
+      - emoji: 🧺
+        name: E11.0 basket
+      - emoji: 🧻
+        name: E11.0 roll of paper
+      - emoji: 🪣
+        name: E13.0 bucket
+      - emoji: 🧼
+        name: E11.0 soap
+      - emoji: 🫧
+        name: E14.0 bubbles
+      - emoji: 🪥
+        name: E13.0 toothbrush
+      - emoji: 🧽
+        name: E11.0 sponge
+      - emoji: 🧯
+        name: E11.0 fire extinguisher
+      - emoji: 🛒
+        name: E3.0 shopping cart
+  - name: other-object
+    emojis:
+      - emoji: 🚬
+        name: E0.6 cigarette
+      - emoji: ⚰️
+        name: E1.0 coffin
+      - emoji: 🪦
+        name: E13.0 headstone
+      - emoji: ⚱️
+        name: E1.0 funeral urn
+      - emoji: 🧿
+        name: E11.0 nazar amulet
+      - emoji: 🪬
+        name: E14.0 hamsa
+      - emoji: 🗿
+        name: E0.6 moai
+      - emoji: 🪧
+        name: E13.0 placard
+      - emoji: 🪪
+        name: E14.0 identification card

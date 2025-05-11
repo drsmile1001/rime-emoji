@@ -1,0 +1,460 @@
+name: Travel & Places
+subGroups:
+  - name: place-map
+    emojis:
+      - emoji: 🌍
+        name: E0.7 globe showing Europe-Africa
+      - emoji: 🌎
+        name: E0.7 globe showing Americas
+      - emoji: 🌏
+        name: E0.6 globe showing Asia-Australia
+      - emoji: 🌐
+        name: E1.0 globe with meridians
+      - emoji: 🗺️
+        name: E0.7 world map
+      - emoji: 🗾
+        name: E0.6 map of Japan
+      - emoji: 🧭
+        name: E11.0 compass
+  - name: place-geographic
+    emojis:
+      - emoji: 🏔️
+        name: E0.7 snow-capped mountain
+      - emoji: ⛰️
+        name: E0.7 mountain
+      - emoji: 🌋
+        name: E0.6 volcano
+      - emoji: 🗻
+        name: E0.6 mount fuji
+      - emoji: 🏕️
+        name: E0.7 camping
+      - emoji: 🏖️
+        name: E0.7 beach with umbrella
+      - emoji: 🏜️
+        name: E0.7 desert
+      - emoji: 🏝️
+        name: E0.7 desert island
+      - emoji: 🏞️
+        name: E0.7 national park
+  - name: place-building
+    emojis:
+      - emoji: 🏟️
+        name: E0.7 stadium
+      - emoji: 🏛️
+        name: E0.7 classical building
+      - emoji: 🏗️
+        name: E0.7 building construction
+      - emoji: 🧱
+        name: E11.0 brick
+      - emoji: 🪨
+        name: E13.0 rock
+      - emoji: 🪵
+        name: E13.0 wood
+      - emoji: 🛖
+        name: E13.0 hut
+      - emoji: 🏘️
+        name: E0.7 houses
+      - emoji: 🏚️
+        name: E0.7 derelict house
+      - emoji: 🏠
+        name: E0.6 house
+      - emoji: 🏡
+        name: E0.6 house with garden
+      - emoji: 🏢
+        name: E0.6 office building
+      - emoji: 🏣
+        name: E0.6 Japanese post office
+      - emoji: 🏤
+        name: E1.0 post office
+      - emoji: 🏥
+        name: E0.6 hospital
+      - emoji: 🏦
+        name: E0.6 bank
+      - emoji: 🏨
+        name: E0.6 hotel
+      - emoji: 🏩
+        name: E0.6 love hotel
+      - emoji: 🏪
+        name: E0.6 convenience store
+      - emoji: 🏫
+        name: E0.6 school
+      - emoji: 🏬
+        name: E0.6 department store
+      - emoji: 🏭
+        name: E0.6 factory
+      - emoji: 🏯
+        name: E0.6 Japanese castle
+      - emoji: 🏰
+        name: E0.6 castle
+      - emoji: 💒
+        name: E0.6 wedding
+      - emoji: 🗼
+        name: E0.6 Tokyo tower
+      - emoji: 🗽
+        name: E0.6 Statue of Liberty
+  - name: place-religious
+    emojis:
+      - emoji: ⛪
+        name: E0.6 church
+      - emoji: 🕌
+        name: E1.0 mosque
+      - emoji: 🛕
+        name: E12.0 hindu temple
+      - emoji: 🕍
+        name: E1.0 synagogue
+      - emoji: ⛩️
+        name: E0.7 shinto shrine
+      - emoji: 🕋
+        name: E1.0 kaaba
+  - name: place-other
+    emojis:
+      - emoji: ⛲
+        name: E0.6 fountain
+      - emoji: ⛺
+        name: E0.6 tent
+      - emoji: 🌁
+        name: E0.6 foggy
+      - emoji: 🌃
+        name: E0.6 night with stars
+      - emoji: 🏙️
+        name: E0.7 cityscape
+      - emoji: 🌄
+        name: E0.6 sunrise over mountains
+      - emoji: 🌅
+        name: E0.6 sunrise
+      - emoji: 🌆
+        name: E0.6 cityscape at dusk
+      - emoji: 🌇
+        name: E0.6 sunset
+      - emoji: 🌉
+        name: E0.6 bridge at night
+      - emoji: ♨️
+        name: E0.6 hot springs
+      - emoji: 🎠
+        name: E0.6 carousel horse
+      - emoji: 🛝
+        name: E14.0 playground slide
+      - emoji: 🎡
+        name: E0.6 ferris wheel
+      - emoji: 🎢
+        name: E0.6 roller coaster
+      - emoji: 💈
+        name: E0.6 barber pole
+      - emoji: 🎪
+        name: E0.6 circus tent
+  - name: transport-ground
+    emojis:
+      - emoji: 🚂
+        name: E1.0 locomotive
+      - emoji: 🚃
+        name: E0.6 railway car
+      - emoji: 🚄
+        name: E0.6 high-speed train
+      - emoji: 🚅
+        name: E0.6 bullet train
+      - emoji: 🚆
+        name: E1.0 train
+      - emoji: 🚇
+        name: E0.6 metro
+      - emoji: 🚈
+        name: E1.0 light rail
+      - emoji: 🚉
+        name: E0.6 station
+      - emoji: 🚊
+        name: E1.0 tram
+      - emoji: 🚝
+        name: E1.0 monorail
+      - emoji: 🚞
+        name: E1.0 mountain railway
+      - emoji: 🚋
+        name: E1.0 tram car
+      - emoji: 🚌
+        name: E0.6 bus
+      - emoji: 🚍
+        name: E0.7 oncoming bus
+      - emoji: 🚎
+        name: E1.0 trolleybus
+      - emoji: 🚐
+        name: E1.0 minibus
+      - emoji: 🚑
+        name: E0.6 ambulance
+      - emoji: 🚒
+        name: E0.6 fire engine
+      - emoji: 🚓
+        name: E0.6 police car
+      - emoji: 🚔
+        name: E0.7 oncoming police car
+      - emoji: 🚕
+        name: E0.6 taxi
+      - emoji: 🚖
+        name: E1.0 oncoming taxi
+      - emoji: 🚗
+        name: E0.6 automobile
+      - emoji: 🚘
+        name: E0.7 oncoming automobile
+      - emoji: 🚙
+        name: E0.6 sport utility vehicle
+      - emoji: 🛻
+        name: E13.0 pickup truck
+      - emoji: 🚚
+        name: E0.6 delivery truck
+      - emoji: 🚛
+        name: E1.0 articulated lorry
+      - emoji: 🚜
+        name: E1.0 tractor
+      - emoji: 🏎️
+        name: E0.7 racing car
+      - emoji: 🏍️
+        name: E0.7 motorcycle
+      - emoji: 🛵
+        name: E3.0 motor scooter
+      - emoji: 🦽
+        name: E12.0 manual wheelchair
+      - emoji: 🦼
+        name: E12.0 motorized wheelchair
+      - emoji: 🛺
+        name: E12.0 auto rickshaw
+      - emoji: 🚲
+        name: E0.6 bicycle
+      - emoji: 🛴
+        name: E3.0 kick scooter
+      - emoji: 🛹
+        name: E11.0 skateboard
+      - emoji: 🛼
+        name: E13.0 roller skate
+      - emoji: 🚏
+        name: E0.6 bus stop
+      - emoji: 🛣️
+        name: E0.7 motorway
+      - emoji: 🛤️
+        name: E0.7 railway track
+      - emoji: 🛢️
+        name: E0.7 oil drum
+      - emoji: ⛽
+        name: E0.6 fuel pump
+      - emoji: 🛞
+        name: E14.0 wheel
+      - emoji: 🚨
+        name: E0.6 police car light
+      - emoji: 🚥
+        name: E0.6 horizontal traffic light
+      - emoji: 🚦
+        name: E1.0 vertical traffic light
+      - emoji: 🛑
+        name: E3.0 stop sign
+      - emoji: 🚧
+        name: E0.6 construction
+  - name: transport-water
+    emojis:
+      - emoji: ⚓
+        name: E0.6 anchor
+      - emoji: 🛟
+        name: E14.0 ring buoy
+      - emoji: ⛵
+        name: E0.6 sailboat
+      - emoji: 🛶
+        name: E3.0 canoe
+      - emoji: 🚤
+        name: E0.6 speedboat
+      - emoji: 🛳️
+        name: E0.7 passenger ship
+      - emoji: ⛴️
+        name: E0.7 ferry
+      - emoji: 🛥️
+        name: E0.7 motor boat
+      - emoji: 🚢
+        name: E0.6 ship
+  - name: transport-air
+    emojis:
+      - emoji: ✈️
+        name: E0.6 airplane
+      - emoji: 🛩️
+        name: E0.7 small airplane
+      - emoji: 🛫
+        name: E1.0 airplane departure
+      - emoji: 🛬
+        name: E1.0 airplane arrival
+      - emoji: 🪂
+        name: E12.0 parachute
+      - emoji: 💺
+        name: E0.6 seat
+      - emoji: 🚁
+        name: E1.0 helicopter
+      - emoji: 🚟
+        name: E1.0 suspension railway
+      - emoji: 🚠
+        name: E1.0 mountain cableway
+      - emoji: 🚡
+        name: E1.0 aerial tramway
+      - emoji: 🛰️
+        name: E0.7 satellite
+      - emoji: 🚀
+        name: E0.6 rocket
+      - emoji: 🛸
+        name: E5.0 flying saucer
+  - name: hotel
+    emojis:
+      - emoji: 🛎️
+        name: E0.7 bellhop bell
+      - emoji: 🧳
+        name: E11.0 luggage
+  - name: time
+    emojis:
+      - emoji: ⌛
+        name: E0.6 hourglass done
+      - emoji: ⏳
+        name: E0.6 hourglass not done
+      - emoji: ⌚
+        name: E0.6 watch
+      - emoji: ⏰
+        name: E0.6 alarm clock
+      - emoji: ⏱️
+        name: E1.0 stopwatch
+      - emoji: ⏲️
+        name: E1.0 timer clock
+      - emoji: 🕰️
+        name: E0.7 mantelpiece clock
+      - emoji: 🕛
+        name: E0.6 twelve o’clock
+      - emoji: 🕧
+        name: E0.7 twelve-thirty
+      - emoji: 🕐
+        name: E0.6 one o’clock
+      - emoji: 🕜
+        name: E0.7 one-thirty
+      - emoji: 🕑
+        name: E0.6 two o’clock
+      - emoji: 🕝
+        name: E0.7 two-thirty
+      - emoji: 🕒
+        name: E0.6 three o’clock
+      - emoji: 🕞
+        name: E0.7 three-thirty
+      - emoji: 🕓
+        name: E0.6 four o’clock
+      - emoji: 🕟
+        name: E0.7 four-thirty
+      - emoji: 🕔
+        name: E0.6 five o’clock
+      - emoji: 🕠
+        name: E0.7 five-thirty
+      - emoji: 🕕
+        name: E0.6 six o’clock
+      - emoji: 🕡
+        name: E0.7 six-thirty
+      - emoji: 🕖
+        name: E0.6 seven o’clock
+      - emoji: 🕢
+        name: E0.7 seven-thirty
+      - emoji: 🕗
+        name: E0.6 eight o’clock
+      - emoji: 🕣
+        name: E0.7 eight-thirty
+      - emoji: 🕘
+        name: E0.6 nine o’clock
+      - emoji: 🕤
+        name: E0.7 nine-thirty
+      - emoji: 🕙
+        name: E0.6 ten o’clock
+      - emoji: 🕥
+        name: E0.7 ten-thirty
+      - emoji: 🕚
+        name: E0.6 eleven o’clock
+      - emoji: 🕦
+        name: E0.7 eleven-thirty
+  - name: sky & weather
+    emojis:
+      - emoji: 🌑
+        name: E0.6 new moon
+      - emoji: 🌒
+        name: E1.0 waxing crescent moon
+      - emoji: 🌓
+        name: E0.6 first quarter moon
+      - emoji: 🌔
+        name: E0.6 waxing gibbous moon
+      - emoji: 🌕
+        name: E0.6 full moon
+      - emoji: 🌖
+        name: E1.0 waning gibbous moon
+      - emoji: 🌗
+        name: E1.0 last quarter moon
+      - emoji: 🌘
+        name: E1.0 waning crescent moon
+      - emoji: 🌙
+        name: E0.6 crescent moon
+      - emoji: 🌚
+        name: E1.0 new moon face
+      - emoji: 🌛
+        name: E0.6 first quarter moon face
+      - emoji: 🌜
+        name: E0.7 last quarter moon face
+      - emoji: 🌡️
+        name: E0.7 thermometer
+      - emoji: ☀️
+        name: E0.6 sun
+      - emoji: 🌝
+        name: E1.0 full moon face
+      - emoji: 🌞
+        name: E1.0 sun with face
+      - emoji: 🪐
+        name: E12.0 ringed planet
+      - emoji: ⭐
+        name: E0.6 star
+      - emoji: 🌟
+        name: E0.6 glowing star
+      - emoji: 🌠
+        name: E0.6 shooting star
+      - emoji: 🌌
+        name: E0.6 milky way
+      - emoji: ☁️
+        name: E0.6 cloud
+      - emoji: ⛅
+        name: E0.6 sun behind cloud
+      - emoji: ⛈️
+        name: E0.7 cloud with lightning and rain
+      - emoji: 🌤️
+        name: E0.7 sun behind small cloud
+      - emoji: 🌥️
+        name: E0.7 sun behind large cloud
+      - emoji: 🌦️
+        name: E0.7 sun behind rain cloud
+      - emoji: 🌧️
+        name: E0.7 cloud with rain
+      - emoji: 🌨️
+        name: E0.7 cloud with snow
+      - emoji: 🌩️
+        name: E0.7 cloud with lightning
+      - emoji: 🌪️
+        name: E0.7 tornado
+      - emoji: 🌫️
+        name: E0.7 fog
+      - emoji: 🌬️
+        name: E0.7 wind face
+      - emoji: 🌀
+        name: E0.6 cyclone
+      - emoji: 🌈
+        name: E0.6 rainbow
+      - emoji: 🌂
+        name: E0.6 closed umbrella
+      - emoji: ☂️
+        name: E0.7 umbrella
+      - emoji: ☔
+        name: E0.6 umbrella with rain drops
+      - emoji: ⛱️
+        name: E0.7 umbrella on ground
+      - emoji: ⚡
+        name: E0.6 high voltage
+      - emoji: ❄️
+        name: E0.6 snowflake
+      - emoji: ☃️
+        name: E0.7 snowman
+      - emoji: ⛄
+        name: E0.6 snowman without snow
+      - emoji: ☄️
+        name: E1.0 comet
+      - emoji: 🔥
+        name: E0.6 fire
+      - emoji: 💧
+        name: E0.6 droplet
+      - emoji: 🌊
+        name: E0.6 water wave

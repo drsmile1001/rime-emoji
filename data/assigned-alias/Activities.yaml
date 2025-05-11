@@ -1,0 +1,182 @@
+name: Activities
+subGroups:
+  - name: event
+    emojis:
+      - emoji: 🎃
+        name: E0.6 jack-o-lantern
+      - emoji: 🎄
+        name: E0.6 Christmas tree
+      - emoji: 🎆
+        name: E0.6 fireworks
+      - emoji: 🎇
+        name: E0.6 sparkler
+      - emoji: 🧨
+        name: E11.0 firecracker
+      - emoji: ✨
+        name: E0.6 sparkles
+      - emoji: 🎈
+        name: E0.6 balloon
+      - emoji: 🎉
+        name: E0.6 party popper
+      - emoji: 🎊
+        name: E0.6 confetti ball
+      - emoji: 🎋
+        name: E0.6 tanabata tree
+      - emoji: 🎍
+        name: E0.6 pine decoration
+      - emoji: 🎎
+        name: E0.6 Japanese dolls
+      - emoji: 🎏
+        name: E0.6 carp streamer
+      - emoji: 🎐
+        name: E0.6 wind chime
+      - emoji: 🎑
+        name: E0.6 moon viewing ceremony
+      - emoji: 🧧
+        name: E11.0 red envelope
+      - emoji: 🎀
+        name: E0.6 ribbon
+      - emoji: 🎁
+        name: E0.6 wrapped gift
+      - emoji: 🎗️
+        name: E0.7 reminder ribbon
+      - emoji: 🎟️
+        name: E0.7 admission tickets
+      - emoji: 🎫
+        name: E0.6 ticket
+  - name: award-medal
+    emojis:
+      - emoji: 🎖️
+        name: E0.7 military medal
+      - emoji: 🏆
+        name: E0.6 trophy
+      - emoji: 🏅
+        name: E1.0 sports medal
+      - emoji: 🥇
+        name: E3.0 1st place medal
+      - emoji: 🥈
+        name: E3.0 2nd place medal
+      - emoji: 🥉
+        name: E3.0 3rd place medal
+  - name: sport
+    emojis:
+      - emoji: ⚽
+        name: E0.6 soccer ball
+      - emoji: ⚾
+        name: E0.6 baseball
+      - emoji: 🥎
+        name: E11.0 softball
+      - emoji: 🏀
+        name: E0.6 basketball
+      - emoji: 🏐
+        name: E1.0 volleyball
+      - emoji: 🏈
+        name: E0.6 american football
+      - emoji: 🏉
+        name: E1.0 rugby football
+      - emoji: 🎾
+        name: E0.6 tennis
+      - emoji: 🥏
+        name: E11.0 flying disc
+      - emoji: 🎳
+        name: E0.6 bowling
+      - emoji: 🏏
+        name: E1.0 cricket game
+      - emoji: 🏑
+        name: E1.0 field hockey
+      - emoji: 🏒
+        name: E1.0 ice hockey
+      - emoji: 🥍
+        name: E11.0 lacrosse
+      - emoji: 🏓
+        name: E1.0 ping pong
+      - emoji: 🏸
+        name: E1.0 badminton
+      - emoji: 🥊
+        name: E3.0 boxing glove
+      - emoji: 🥋
+        name: E3.0 martial arts uniform
+      - emoji: 🥅
+        name: E3.0 goal net
+      - emoji: ⛳
+        name: E0.6 flag in hole
+      - emoji: ⛸️
+        name: E0.7 ice skate
+      - emoji: 🎣
+        name: E0.6 fishing pole
+      - emoji: 🤿
+        name: E12.0 diving mask
+      - emoji: 🎽
+        name: E0.6 running shirt
+      - emoji: 🎿
+        name: E0.6 skis
+      - emoji: 🛷
+        name: E5.0 sled
+      - emoji: 🥌
+        name: E5.0 curling stone
+  - name: game
+    emojis:
+      - emoji: 🎯
+        name: E0.6 bullseye
+      - emoji: 🪀
+        name: E12.0 yo-yo
+      - emoji: 🪁
+        name: E12.0 kite
+      - emoji: 🔫
+        name: E0.6 water pistol
+      - emoji: 🎱
+        name: E0.6 pool 8 ball
+      - emoji: 🔮
+        name: E0.6 crystal ball
+      - emoji: 🪄
+        name: E13.0 magic wand
+      - emoji: 🎮
+        name: E0.6 video game
+      - emoji: 🕹️
+        name: E0.7 joystick
+      - emoji: 🎰
+        name: E0.6 slot machine
+      - emoji: 🎲
+        name: E0.6 game die
+      - emoji: 🧩
+        name: E11.0 puzzle piece
+      - emoji: 🧸
+        name: E11.0 teddy bear
+      - emoji: 🪅
+        name: E13.0 piñata
+      - emoji: 🪩
+        name: E14.0 mirror ball
+      - emoji: 🪆
+        name: E13.0 nesting dolls
+      - emoji: ♠️
+        name: E0.6 spade suit
+      - emoji: ♥️
+        name: E0.6 heart suit
+      - emoji: ♦️
+        name: E0.6 diamond suit
+      - emoji: ♣️
+        name: E0.6 club suit
+      - emoji: ♟️
+        name: E11.0 chess pawn
+      - emoji: 🃏
+        name: E0.6 joker
+      - emoji: 🀄
+        name: E0.6 mahjong red dragon
+      - emoji: 🎴
+        name: E0.6 flower playing cards
+  - name: arts & crafts
+    emojis:
+      - emoji: 🎭
+        name: E0.6 performing arts
+      - emoji: 🖼️
+        name: E0.7 framed picture
+      - emoji: 🎨
+        name: E0.6 artist palette
+      - emoji: 🧵
+        name: E11.0 thread
+      - emoji: 🪡
+        name: E13.0 sewing needle
+      - emoji: 🧶
+        name: E11.0 yarn
+      - emoji: 🪢
+        name: E13.0 knot

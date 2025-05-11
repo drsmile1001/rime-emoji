@@ -1,0 +1,278 @@
+name: Food & Drink
+subGroups:
+  - name: food-fruit
+    emojis:
+      - emoji: 🍇
+        name: E0.6 grapes
+      - emoji: 🍈
+        name: E0.6 melon
+      - emoji: 🍉
+        name: E0.6 watermelon
+      - emoji: 🍊
+        name: E0.6 tangerine
+      - emoji: 🍋
+        name: E1.0 lemon
+      - emoji: 🍋‍🟩
+        name: E15.1 lime
+      - emoji: 🍌
+        name: E0.6 banana
+      - emoji: 🍍
+        name: E0.6 pineapple
+      - emoji: 🥭
+        name: E11.0 mango
+      - emoji: 🍎
+        name: E0.6 red apple
+      - emoji: 🍏
+        name: E0.6 green apple
+      - emoji: 🍐
+        name: E1.0 pear
+      - emoji: 🍑
+        name: E0.6 peach
+      - emoji: 🍒
+        name: E0.6 cherries
+      - emoji: 🍓
+        name: E0.6 strawberry
+      - emoji: 🫐
+        name: E13.0 blueberries
+      - emoji: 🥝
+        name: E3.0 kiwi fruit
+      - emoji: 🍅
+        name: E0.6 tomato
+      - emoji: 🫒
+        name: E13.0 olive
+      - emoji: 🥥
+        name: E5.0 coconut
+  - name: food-vegetable
+    emojis:
+      - emoji: 🥑
+        name: E3.0 avocado
+      - emoji: 🍆
+        name: E0.6 eggplant
+      - emoji: 🥔
+        name: E3.0 potato
+      - emoji: 🥕
+        name: E3.0 carrot
+      - emoji: 🌽
+        name: E0.6 ear of corn
+      - emoji: 🌶️
+        name: E0.7 hot pepper
+      - emoji: 🫑
+        name: E13.0 bell pepper
+      - emoji: 🥒
+        name: E3.0 cucumber
+      - emoji: 🥬
+        name: E11.0 leafy green
+      - emoji: 🥦
+        name: E5.0 broccoli
+      - emoji: 🧄
+        name: E12.0 garlic
+      - emoji: 🧅
+        name: E12.0 onion
+      - emoji: 🥜
+        name: E3.0 peanuts
+      - emoji: 🫘
+        name: E14.0 beans
+      - emoji: 🌰
+        name: E0.6 chestnut
+      - emoji: 🫚
+        name: E15.0 ginger root
+      - emoji: 🫛
+        name: E15.0 pea pod
+      - emoji: 🍄‍🟫
+        name: E15.1 brown mushroom
+      - emoji: 🫜
+        name: E16.0 root vegetable
+  - name: food-prepared
+    emojis:
+      - emoji: 🍞
+        name: E0.6 bread
+      - emoji: 🥐
+        name: E3.0 croissant
+      - emoji: 🥖
+        name: E3.0 baguette bread
+      - emoji: 🫓
+        name: E13.0 flatbread
+      - emoji: 🥨
+        name: E5.0 pretzel
+      - emoji: 🥯
+        name: E11.0 bagel
+      - emoji: 🥞
+        name: E3.0 pancakes
+      - emoji: 🧇
+        name: E12.0 waffle
+      - emoji: 🧀
+        name: E1.0 cheese wedge
+      - emoji: 🍖
+        name: E0.6 meat on bone
+      - emoji: 🍗
+        name: E0.6 poultry leg
+      - emoji: 🥩
+        name: E5.0 cut of meat
+      - emoji: 🥓
+        name: E3.0 bacon
+      - emoji: 🍔
+        name: E0.6 hamburger
+      - emoji: 🍟
+        name: E0.6 french fries
+      - emoji: 🍕
+        name: E0.6 pizza
+      - emoji: 🌭
+        name: E1.0 hot dog
+      - emoji: 🥪
+        name: E5.0 sandwich
+      - emoji: 🌮
+        name: E1.0 taco
+      - emoji: 🌯
+        name: E1.0 burrito
+      - emoji: 🫔
+        name: E13.0 tamale
+      - emoji: 🥙
+        name: E3.0 stuffed flatbread
+      - emoji: 🧆
+        name: E12.0 falafel
+      - emoji: 🥚
+        name: E3.0 egg
+      - emoji: 🍳
+        name: E0.6 cooking
+      - emoji: 🥘
+        name: E3.0 shallow pan of food
+      - emoji: 🍲
+        name: E0.6 pot of food
+      - emoji: 🫕
+        name: E13.0 fondue
+      - emoji: 🥣
+        name: E5.0 bowl with spoon
+      - emoji: 🥗
+        name: E3.0 green salad
+      - emoji: 🍿
+        name: E1.0 popcorn
+      - emoji: 🧈
+        name: E12.0 butter
+      - emoji: 🧂
+        name: E11.0 salt
+      - emoji: 🥫
+        name: E5.0 canned food
+  - name: food-asian
+    emojis:
+      - emoji: 🍱
+        name: E0.6 bento box
+      - emoji: 🍘
+        name: E0.6 rice cracker
+      - emoji: 🍙
+        name: E0.6 rice ball
+      - emoji: 🍚
+        name: E0.6 cooked rice
+      - emoji: 🍛
+        name: E0.6 curry rice
+      - emoji: 🍜
+        name: E0.6 steaming bowl
+      - emoji: 🍝
+        name: E0.6 spaghetti
+      - emoji: 🍠
+        name: E0.6 roasted sweet potato
+      - emoji: 🍢
+        name: E0.6 oden
+      - emoji: 🍣
+        name: E0.6 sushi
+      - emoji: 🍤
+        name: E0.6 fried shrimp
+      - emoji: 🍥
+        name: E0.6 fish cake with swirl
+      - emoji: 🥮
+        name: E11.0 moon cake
+      - emoji: 🍡
+        name: E0.6 dango
+      - emoji: 🥟
+        name: E5.0 dumpling
+      - emoji: 🥠
+        name: E5.0 fortune cookie
+      - emoji: 🥡
+        name: E5.0 takeout box
+  - name: food-sweet
+    emojis:
+      - emoji: 🍦
+        name: E0.6 soft ice cream
+      - emoji: 🍧
+        name: E0.6 shaved ice
+      - emoji: 🍨
+        name: E0.6 ice cream
+      - emoji: 🍩
+        name: E0.6 doughnut
+      - emoji: 🍪
+        name: E0.6 cookie
+      - emoji: 🎂
+        name: E0.6 birthday cake
+      - emoji: 🍰
+        name: E0.6 shortcake
+      - emoji: 🧁
+        name: E11.0 cupcake
+      - emoji: 🥧
+        name: E5.0 pie
+      - emoji: 🍫
+        name: E0.6 chocolate bar
+      - emoji: 🍬
+        name: E0.6 candy
+      - emoji: 🍭
+        name: E0.6 lollipop
+      - emoji: 🍮
+        name: E0.6 custard
+      - emoji: 🍯
+        name: E0.6 honey pot
+  - name: drink
+    emojis:
+      - emoji: 🍼
+        name: E1.0 baby bottle
+      - emoji: 🥛
+        name: E3.0 glass of milk
+      - emoji: ☕
+        name: E0.6 hot beverage
+      - emoji: 🫖
+        name: E13.0 teapot
+      - emoji: 🍵
+        name: E0.6 teacup without handle
+      - emoji: 🍶
+        name: E0.6 sake
+      - emoji: 🍾
+        name: E1.0 bottle with popping cork
+      - emoji: 🍷
+        name: E0.6 wine glass
+      - emoji: 🍸
+        name: E0.6 cocktail glass
+      - emoji: 🍹
+        name: E0.6 tropical drink
+      - emoji: 🍺
+        name: E0.6 beer mug
+      - emoji: 🍻
+        name: E0.6 clinking beer mugs
+      - emoji: 🥂
+        name: E3.0 clinking glasses
+      - emoji: 🥃
+        name: E3.0 tumbler glass
+      - emoji: 🫗
+        name: E14.0 pouring liquid
+      - emoji: 🥤
+        name: E5.0 cup with straw
+      - emoji: 🧋
+        name: E13.0 bubble tea
+      - emoji: 🧃
+        name: E12.0 beverage box
+      - emoji: 🧉
+        name: E12.0 mate
+      - emoji: 🧊
+        name: E12.0 ice
+  - name: dishware
+    emojis:
+      - emoji: 🥢
+        name: E5.0 chopsticks
+      - emoji: 🍽️
+        name: E0.7 fork and knife with plate
+      - emoji: 🍴
+        name: E0.6 fork and knife
+      - emoji: 🥄
+        name: E3.0 spoon
+      - emoji: 🔪
+        name: E0.6 kitchen knife
+      - emoji: 🫙
+        name: E14.0 jar
+      - emoji: 🏺
+        name: E1.0 amphora

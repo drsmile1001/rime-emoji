@@ -1,0 +1,336 @@
+name: Animals & Nature
+subGroups:
+  - name: animal-mammal
+    emojis:
+      - emoji: 🐵
+        name: E0.6 monkey face
+      - emoji: 🐒
+        name: E0.6 monkey
+      - emoji: 🦍
+        name: E3.0 gorilla
+      - emoji: 🦧
+        name: E12.0 orangutan
+      - emoji: 🐶
+        name: E0.6 dog face
+      - emoji: 🐕
+        name: E0.7 dog
+      - emoji: 🦮
+        name: E12.0 guide dog
+      - emoji: 🐕‍🦺
+        name: E12.0 service dog
+      - emoji: 🐩
+        name: E0.6 poodle
+      - emoji: 🐺
+        name: E0.6 wolf
+      - emoji: 🦊
+        name: E3.0 fox
+      - emoji: 🦝
+        name: E11.0 raccoon
+      - emoji: 🐱
+        name: E0.6 cat face
+      - emoji: 🐈
+        name: E0.7 cat
+      - emoji: 🐈‍⬛
+        name: E13.0 black cat
+      - emoji: 🦁
+        name: E1.0 lion
+      - emoji: 🐯
+        name: E0.6 tiger face
+      - emoji: 🐅
+        name: E1.0 tiger
+      - emoji: 🐆
+        name: E1.0 leopard
+      - emoji: 🐴
+        name: E0.6 horse face
+      - emoji: 🫎
+        name: E15.0 moose
+      - emoji: 🫏
+        name: E15.0 donkey
+      - emoji: 🐎
+        name: E0.6 horse
+      - emoji: 🦄
+        name: E1.0 unicorn
+      - emoji: 🦓
+        name: E5.0 zebra
+      - emoji: 🦌
+        name: E3.0 deer
+      - emoji: 🦬
+        name: E13.0 bison
+      - emoji: 🐮
+        name: E0.6 cow face
+      - emoji: 🐂
+        name: E1.0 ox
+      - emoji: 🐃
+        name: E1.0 water buffalo
+      - emoji: 🐄
+        name: E1.0 cow
+      - emoji: 🐷
+        name: E0.6 pig face
+      - emoji: 🐖
+        name: E1.0 pig
+      - emoji: 🐗
+        name: E0.6 boar
+      - emoji: 🐽
+        name: E0.6 pig nose
+      - emoji: 🐏
+        name: E1.0 ram
+      - emoji: 🐑
+        name: E0.6 ewe
+      - emoji: 🐐
+        name: E1.0 goat
+      - emoji: 🐪
+        name: E1.0 camel
+      - emoji: 🐫
+        name: E0.6 two-hump camel
+      - emoji: 🦙
+        name: E11.0 llama
+      - emoji: 🦒
+        name: E5.0 giraffe
+      - emoji: 🐘
+        name: E0.6 elephant
+      - emoji: 🦣
+        name: E13.0 mammoth
+      - emoji: 🦏
+        name: E3.0 rhinoceros
+      - emoji: 🦛
+        name: E11.0 hippopotamus
+      - emoji: 🐭
+        name: E0.6 mouse face
+      - emoji: 🐁
+        name: E1.0 mouse
+      - emoji: 🐀
+        name: E1.0 rat
+      - emoji: 🐹
+        name: E0.6 hamster
+      - emoji: 🐰
+        name: E0.6 rabbit face
+      - emoji: 🐇
+        name: E1.0 rabbit
+      - emoji: 🐿️
+        name: E0.7 chipmunk
+      - emoji: 🦫
+        name: E13.0 beaver
+      - emoji: 🦔
+        name: E5.0 hedgehog
+      - emoji: 🦇
+        name: E3.0 bat
+      - emoji: 🐻
+        name: E0.6 bear
+      - emoji: 🐻‍❄️
+        name: E13.0 polar bear
+      - emoji: 🐨
+        name: E0.6 koala
+      - emoji: 🐼
+        name: E0.6 panda
+      - emoji: 🦥
+        name: E12.0 sloth
+      - emoji: 🦦
+        name: E12.0 otter
+      - emoji: 🦨
+        name: E12.0 skunk
+      - emoji: 🦘
+        name: E11.0 kangaroo
+      - emoji: 🦡
+        name: E11.0 badger
+      - emoji: 🐾
+        name: E0.6 paw prints
+  - name: animal-bird
+    emojis:
+      - emoji: 🦃
+        name: E1.0 turkey
+      - emoji: 🐔
+        name: E0.6 chicken
+      - emoji: 🐓
+        name: E1.0 rooster
+      - emoji: 🐣
+        name: E0.6 hatching chick
+      - emoji: 🐤
+        name: E0.6 baby chick
+      - emoji: 🐥
+        name: E0.6 front-facing baby chick
+      - emoji: 🐦
+        name: E0.6 bird
+      - emoji: 🐧
+        name: E0.6 penguin
+      - emoji: 🕊️
+        name: E0.7 dove
+      - emoji: 🦅
+        name: E3.0 eagle
+      - emoji: 🦆
+        name: E3.0 duck
+      - emoji: 🦢
+        name: E11.0 swan
+      - emoji: 🦉
+        name: E3.0 owl
+      - emoji: 🦤
+        name: E13.0 dodo
+      - emoji: 🪶
+        name: E13.0 feather
+      - emoji: 🦩
+        name: E12.0 flamingo
+      - emoji: 🦚
+        name: E11.0 peacock
+      - emoji: 🦜
+        name: E11.0 parrot
+      - emoji: 🪽
+        name: E15.0 wing
+      - emoji: 🐦‍⬛
+        name: E15.0 black bird
+      - emoji: 🪿
+        name: E15.0 goose
+      - emoji: 🐦‍🔥
+        name: E15.1 phoenix
+  - name: animal-amphibian
+    emojis:
+      - emoji: 🐸
+        name: E0.6 frog
+  - name: animal-reptile
+    emojis:
+      - emoji: 🐊
+        name: E1.0 crocodile
+      - emoji: 🐢
+        name: E0.6 turtle
+      - emoji: 🦎
+        name: E3.0 lizard
+      - emoji: 🐍
+        name: E0.6 snake
+      - emoji: 🐲
+        name: E0.6 dragon face
+      - emoji: 🐉
+        name: E1.0 dragon
+      - emoji: 🦕
+        name: E5.0 sauropod
+      - emoji: 🦖
+        name: E5.0 T-Rex
+  - name: animal-marine
+    emojis:
+      - emoji: 🐳
+        name: E0.6 spouting whale
+      - emoji: 🐋
+        name: E1.0 whale
+      - emoji: 🐬
+        name: E0.6 dolphin
+      - emoji: 🦭
+        name: E13.0 seal
+      - emoji: 🐟
+        name: E0.6 fish
+      - emoji: 🐠
+        name: E0.6 tropical fish
+      - emoji: 🐡
+        name: E0.6 blowfish
+      - emoji: 🦈
+        name: E3.0 shark
+      - emoji: 🐙
+        name: E0.6 octopus
+      - emoji: 🐚
+        name: E0.6 spiral shell
+      - emoji: 🪸
+        name: E14.0 coral
+      - emoji: 🪼
+        name: E15.0 jellyfish
+      - emoji: 🦀
+        name: E1.0 crab
+      - emoji: 🦞
+        name: E11.0 lobster
+      - emoji: 🦐
+        name: E3.0 shrimp
+      - emoji: 🦑
+        name: E3.0 squid
+      - emoji: 🦪
+        name: E12.0 oyster
+  - name: animal-bug
+    emojis:
+      - emoji: 🐌
+        name: E0.6 snail
+      - emoji: 🦋
+        name: E3.0 butterfly
+      - emoji: 🐛
+        name: E0.6 bug
+      - emoji: 🐜
+        name: E0.6 ant
+      - emoji: 🐝
+        name: E0.6 honeybee
+      - emoji: 🪲
+        name: E13.0 beetle
+      - emoji: 🐞
+        name: E0.6 lady beetle
+      - emoji: 🦗
+        name: E5.0 cricket
+      - emoji: 🪳
+        name: E13.0 cockroach
+      - emoji: 🕷️
+        name: E0.7 spider
+      - emoji: 🕸️
+        name: E0.7 spider web
+      - emoji: 🦂
+        name: E1.0 scorpion
+      - emoji: 🦟
+        name: E11.0 mosquito
+      - emoji: 🪰
+        name: E13.0 fly
+      - emoji: 🪱
+        name: E13.0 worm
+      - emoji: 🦠
+        name: E11.0 microbe
+  - name: plant-flower
+    emojis:
+      - emoji: 💐
+        name: E0.6 bouquet
+      - emoji: 🌸
+        name: E0.6 cherry blossom
+      - emoji: 💮
+        name: E0.6 white flower
+      - emoji: 🪷
+        name: E14.0 lotus
+      - emoji: 🏵️
+        name: E0.7 rosette
+      - emoji: 🌹
+        name: E0.6 rose
+      - emoji: 🥀
+        name: E3.0 wilted flower
+      - emoji: 🌺
+        name: E0.6 hibiscus
+      - emoji: 🌻
+        name: E0.6 sunflower
+      - emoji: 🌼
+        name: E0.6 blossom
+      - emoji: 🌷
+        name: E0.6 tulip
+      - emoji: 🪻
+        name: E15.0 hyacinth
+  - name: plant-other
+    emojis:
+      - emoji: 🌱
+        name: E0.6 seedling
+      - emoji: 🪴
+        name: E13.0 potted plant
+      - emoji: 🌲
+        name: E1.0 evergreen tree
+      - emoji: 🌳
+        name: E1.0 deciduous tree
+      - emoji: 🌴
+        name: E0.6 palm tree
+      - emoji: 🌵
+        name: E0.6 cactus
+      - emoji: 🌾
+        name: E0.6 sheaf of rice
+      - emoji: 🌿
+        name: E0.6 herb
+      - emoji: ☘️
+        name: E1.0 shamrock
+      - emoji: 🍀
+        name: E0.6 four leaf clover
+      - emoji: 🍁
+        name: E0.6 maple leaf
+      - emoji: 🍂
+        name: E0.6 fallen leaf
+      - emoji: 🍃
+        name: E0.6 leaf fluttering in wind
+      - emoji: 🪹
+        name: E14.0 empty nest
+      - emoji: 🪺
+        name: E14.0 nest with eggs
+      - emoji: 🍄
+        name: E0.6 mushroom
+      - emoji: 🪾
+        name: E16.0 leafless tree

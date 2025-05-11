@@ -1,0 +1,478 @@
+name: Symbols
+subGroups:
+  - name: transport-sign
+    emojis:
+      - emoji: 🏧
+        name: E0.6 ATM sign
+      - emoji: 🚮
+        name: E1.0 litter in bin sign
+      - emoji: 🚰
+        name: E1.0 potable water
+      - emoji: ♿
+        name: E0.6 wheelchair symbol
+      - emoji: 🚹
+        name: E0.6 men’s room
+      - emoji: 🚺
+        name: E0.6 women’s room
+      - emoji: 🚻
+        name: E0.6 restroom
+      - emoji: 🚼
+        name: E0.6 baby symbol
+      - emoji: 🚾
+        name: E0.6 water closet
+      - emoji: 🛂
+        name: E1.0 passport control
+      - emoji: 🛃
+        name: E1.0 customs
+      - emoji: 🛄
+        name: E1.0 baggage claim
+      - emoji: 🛅
+        name: E1.0 left luggage
+  - name: warning
+    emojis:
+      - emoji: ⚠️
+        name: E0.6 warning
+      - emoji: 🚸
+        name: E1.0 children crossing
+      - emoji: ⛔
+        name: E0.6 no entry
+      - emoji: 🚫
+        name: E0.6 prohibited
+      - emoji: 🚳
+        name: E1.0 no bicycles
+      - emoji: 🚭
+        name: E0.6 no smoking
+      - emoji: 🚯
+        name: E1.0 no littering
+      - emoji: 🚱
+        name: E1.0 non-potable water
+      - emoji: 🚷
+        name: E1.0 no pedestrians
+      - emoji: 📵
+        name: E1.0 no mobile phones
+      - emoji: 🔞
+        name: E0.6 no one under eighteen
+      - emoji: ☢️
+        name: E1.0 radioactive
+      - emoji: ☣️
+        name: E1.0 biohazard
+  - name: arrow
+    emojis:
+      - emoji: ⬆️
+        name: E0.6 up arrow
+      - emoji: ↗️
+        name: E0.6 up-right arrow
+      - emoji: ➡️
+        name: E0.6 right arrow
+      - emoji: ↘️
+        name: E0.6 down-right arrow
+      - emoji: ⬇️
+        name: E0.6 down arrow
+      - emoji: ↙️
+        name: E0.6 down-left arrow
+      - emoji: ⬅️
+        name: E0.6 left arrow
+      - emoji: ↖️
+        name: E0.6 up-left arrow
+      - emoji: ↕️
+        name: E0.6 up-down arrow
+      - emoji: ↔️
+        name: E0.6 left-right arrow
+      - emoji: ↩️
+        name: E0.6 right arrow curving left
+      - emoji: ↪️
+        name: E0.6 left arrow curving right
+      - emoji: ⤴️
+        name: E0.6 right arrow curving up
+      - emoji: ⤵️
+        name: E0.6 right arrow curving down
+      - emoji: 🔃
+        name: E0.6 clockwise vertical arrows
+      - emoji: 🔄
+        name: E1.0 counterclockwise arrows button
+      - emoji: 🔙
+        name: E0.6 BACK arrow
+      - emoji: 🔚
+        name: E0.6 END arrow
+      - emoji: 🔛
+        name: E0.6 ON! arrow
+      - emoji: 🔜
+        name: E0.6 SOON arrow
+      - emoji: 🔝
+        name: E0.6 TOP arrow
+  - name: religion
+    emojis:
+      - emoji: 🛐
+        name: E1.0 place of worship
+      - emoji: ⚛️
+        name: E1.0 atom symbol
+      - emoji: 🕉️
+        name: E0.7 om
+      - emoji: ✡️
+        name: E0.7 star of David
+      - emoji: ☸️
+        name: E0.7 wheel of dharma
+      - emoji: ☯️
+        name: E0.7 yin yang
+      - emoji: ✝️
+        name: E0.7 latin cross
+      - emoji: ☦️
+        name: E1.0 orthodox cross
+      - emoji: ☪️
+        name: E0.7 star and crescent
+      - emoji: ☮️
+        name: E1.0 peace symbol
+      - emoji: 🕎
+        name: E1.0 menorah
+      - emoji: 🔯
+        name: E0.6 dotted six-pointed star
+      - emoji: 🪯
+        name: E15.0 khanda
+  - name: zodiac
+    emojis:
+      - emoji: ♈
+        name: E0.6 Aries
+      - emoji: ♉
+        name: E0.6 Taurus
+      - emoji: ♊
+        name: E0.6 Gemini
+      - emoji: ♋
+        name: E0.6 Cancer
+      - emoji: ♌
+        name: E0.6 Leo
+      - emoji: ♍
+        name: E0.6 Virgo
+      - emoji: ♎
+        name: E0.6 Libra
+      - emoji: ♏
+        name: E0.6 Scorpio
+      - emoji: ♐
+        name: E0.6 Sagittarius
+      - emoji: ♑
+        name: E0.6 Capricorn
+      - emoji: ♒
+        name: E0.6 Aquarius
+      - emoji: ♓
+        name: E0.6 Pisces
+      - emoji: ⛎
+        name: E0.6 Ophiuchus
+  - name: av-symbol
+    emojis:
+      - emoji: 🔀
+        name: E1.0 shuffle tracks button
+      - emoji: 🔁
+        name: E1.0 repeat button
+      - emoji: 🔂
+        name: E1.0 repeat single button
+      - emoji: ▶️
+        name: E0.6 play button
+      - emoji: ⏩
+        name: E0.6 fast-forward button
+      - emoji: ⏭️
+        name: E0.7 next track button
+      - emoji: ⏯️
+        name: E1.0 play or pause button
+      - emoji: ◀️
+        name: E0.6 reverse button
+      - emoji: ⏪
+        name: E0.6 fast reverse button
+      - emoji: ⏮️
+        name: E0.7 last track button
+      - emoji: 🔼
+        name: E0.6 upwards button
+      - emoji: ⏫
+        name: E0.6 fast up button
+      - emoji: 🔽
+        name: E0.6 downwards button
+      - emoji: ⏬
+        name: E0.6 fast down button
+      - emoji: ⏸️
+        name: E0.7 pause button
+      - emoji: ⏹️
+        name: E0.7 stop button
+      - emoji: ⏺️
+        name: E0.7 record button
+      - emoji: ⏏️
+        name: E1.0 eject button
+      - emoji: 🎦
+        name: E0.6 cinema
+      - emoji: 🔅
+        name: E1.0 dim button
+      - emoji: 🔆
+        name: E1.0 bright button
+      - emoji: 📶
+        name: E0.6 antenna bars
+      - emoji: 🛜
+        name: E15.0 wireless
+      - emoji: 📳
+        name: E0.6 vibration mode
+      - emoji: 📴
+        name: E0.6 mobile phone off
+  - name: gender
+    emojis:
+      - emoji: ♀️
+        name: E4.0 female sign
+      - emoji: ♂️
+        name: E4.0 male sign
+      - emoji: ⚧️
+        name: E13.0 transgender symbol
+  - name: math
+    emojis:
+      - emoji: ✖️
+        name: E0.6 multiply
+      - emoji: ➕
+        name: E0.6 plus
+      - emoji: ➖
+        name: E0.6 minus
+      - emoji: ➗
+        name: E0.6 divide
+      - emoji: 🟰
+        name: E14.0 heavy equals sign
+      - emoji: ♾️
+        name: E11.0 infinity
+  - name: punctuation
+    emojis:
+      - emoji: ‼️
+        name: E0.6 double exclamation mark
+      - emoji: ⁉️
+        name: E0.6 exclamation question mark
+      - emoji: ❓
+        name: E0.6 red question mark
+      - emoji: ❔
+        name: E0.6 white question mark
+      - emoji: ❕
+        name: E0.6 white exclamation mark
+      - emoji: ❗
+        name: E0.6 red exclamation mark
+      - emoji: 〰️
+        name: E0.6 wavy dash
+  - name: currency
+    emojis:
+      - emoji: 💱
+        name: E0.6 currency exchange
+      - emoji: 💲
+        name: E0.6 heavy dollar sign
+  - name: other-symbol
+    emojis:
+      - emoji: ⚕️
+        name: E4.0 medical symbol
+      - emoji: ♻️
+        name: E0.6 recycling symbol
+      - emoji: ⚜️
+        name: E1.0 fleur-de-lis
+      - emoji: 🔱
+        name: E0.6 trident emblem
+      - emoji: 📛
+        name: E0.6 name badge
+      - emoji: 🔰
+        name: E0.6 Japanese symbol for beginner
+      - emoji: ⭕
+        name: E0.6 hollow red circle
+      - emoji: ✅
+        name: E0.6 check mark button
+      - emoji: ☑️
+        name: E0.6 check box with check
+      - emoji: ✔️
+        name: E0.6 check mark
+      - emoji: ❌
+        name: E0.6 cross mark
+      - emoji: ❎
+        name: E0.6 cross mark button
+      - emoji: ➰
+        name: E0.6 curly loop
+      - emoji: ➿
+        name: E1.0 double curly loop
+      - emoji: 〽️
+        name: E0.6 part alternation mark
+      - emoji: ✳️
+        name: E0.6 eight-spoked asterisk
+      - emoji: ✴️
+        name: E0.6 eight-pointed star
+      - emoji: ❇️
+        name: E0.6 sparkle
+      - emoji: ©️
+        name: E0.6 copyright
+      - emoji: ®️
+        name: E0.6 registered
+      - emoji: ™️
+        name: E0.6 trade mark
+      - emoji: 🫟
+        name: E16.0 splatter
+  - name: keycap
+    emojis:
+      - emoji: "#️⃣"
+        name: "E0.6 keycap: #"
+      - emoji: "*️⃣"
+        name: "E2.0 keycap: *"
+      - emoji: 0️⃣
+        name: "E0.6 keycap: 0"
+      - emoji: 1️⃣
+        name: "E0.6 keycap: 1"
+      - emoji: 2️⃣
+        name: "E0.6 keycap: 2"
+      - emoji: 3️⃣
+        name: "E0.6 keycap: 3"
+      - emoji: 4️⃣
+        name: "E0.6 keycap: 4"
+      - emoji: 5️⃣
+        name: "E0.6 keycap: 5"
+      - emoji: 6️⃣
+        name: "E0.6 keycap: 6"
+      - emoji: 7️⃣
+        name: "E0.6 keycap: 7"
+      - emoji: 8️⃣
+        name: "E0.6 keycap: 8"
+      - emoji: 9️⃣
+        name: "E0.6 keycap: 9"
+      - emoji: 🔟
+        name: "E0.6 keycap: 10"
+  - name: alphanum
+    emojis:
+      - emoji: 🔠
+        name: E0.6 input latin uppercase
+      - emoji: 🔡
+        name: E0.6 input latin lowercase
+      - emoji: 🔢
+        name: E0.6 input numbers
+      - emoji: 🔣
+        name: E0.6 input symbols
+      - emoji: 🔤
+        name: E0.6 input latin letters
+      - emoji: 🅰️
+        name: E0.6 A button (blood type)
+      - emoji: 🆎
+        name: E0.6 AB button (blood type)
+      - emoji: 🅱️
+        name: E0.6 B button (blood type)
+      - emoji: 🆑
+        name: E0.6 CL button
+      - emoji: 🆒
+        name: E0.6 COOL button
+      - emoji: 🆓
+        name: E0.6 FREE button
+      - emoji: ℹ️
+        name: E0.6 information
+      - emoji: 🆔
+        name: E0.6 ID button
+      - emoji: Ⓜ️
+        name: E0.6 circled M
+      - emoji: 🆕
+        name: E0.6 NEW button
+      - emoji: 🆖
+        name: E0.6 NG button
+      - emoji: 🅾️
+        name: E0.6 O button (blood type)
+      - emoji: 🆗
+        name: E0.6 OK button
+      - emoji: 🅿️
+        name: E0.6 P button
+      - emoji: 🆘
+        name: E0.6 SOS button
+      - emoji: 🆙
+        name: E0.6 UP! button
+      - emoji: 🆚
+        name: E0.6 VS button
+      - emoji: 🈁
+        name: E0.6 Japanese “here” button
+      - emoji: 🈂️
+        name: E0.6 Japanese “service charge” button
+      - emoji: 🈷️
+        name: E0.6 Japanese “monthly amount” button
+      - emoji: 🈶
+        name: E0.6 Japanese “not free of charge” button
+      - emoji: 🈯
+        name: E0.6 Japanese “reserved” button
+      - emoji: 🉐
+        name: E0.6 Japanese “bargain” button
+      - emoji: 🈹
+        name: E0.6 Japanese “discount” button
+      - emoji: 🈚
+        name: E0.6 Japanese “free of charge” button
+      - emoji: 🈲
+        name: E0.6 Japanese “prohibited” button
+      - emoji: 🉑
+        name: E0.6 Japanese “acceptable” button
+      - emoji: 🈸
+        name: E0.6 Japanese “application” button
+      - emoji: 🈴
+        name: E0.6 Japanese “passing grade” button
+      - emoji: 🈳
+        name: E0.6 Japanese “vacancy” button
+      - emoji: ㊗️
+        name: E0.6 Japanese “congratulations” button
+      - emoji: ㊙️
+        name: E0.6 Japanese “secret” button
+      - emoji: 🈺
+        name: E0.6 Japanese “open for business” button
+      - emoji: 🈵
+        name: E0.6 Japanese “no vacancy” button
+  - name: geometric
+    emojis:
+      - emoji: 🔴
+        name: E0.6 red circle
+      - emoji: 🟠
+        name: E12.0 orange circle
+      - emoji: 🟡
+        name: E12.0 yellow circle
+      - emoji: 🟢
+        name: E12.0 green circle
+      - emoji: 🔵
+        name: E0.6 blue circle
+      - emoji: 🟣
+        name: E12.0 purple circle
+      - emoji: 🟤
+        name: E12.0 brown circle
+      - emoji: ⚫
+        name: E0.6 black circle
+      - emoji: ⚪
+        name: E0.6 white circle
+      - emoji: 🟥
+        name: E12.0 red square
+      - emoji: 🟧
+        name: E12.0 orange square
+      - emoji: 🟨
+        name: E12.0 yellow square
+      - emoji: 🟩
+        name: E12.0 green square
+      - emoji: 🟦
+        name: E12.0 blue square
+      - emoji: 🟪
+        name: E12.0 purple square
+      - emoji: 🟫
+        name: E12.0 brown square
+      - emoji: ⬛
+        name: E0.6 black large square
+      - emoji: ⬜
+        name: E0.6 white large square
+      - emoji: ◼️
+        name: E0.6 black medium square
+      - emoji: ◻️
+        name: E0.6 white medium square
+      - emoji: ◾
+        name: E0.6 black medium-small square
+      - emoji: ◽
+        name: E0.6 white medium-small square
+      - emoji: ▪️
+        name: E0.6 black small square
+      - emoji: ▫️
+        name: E0.6 white small square
+      - emoji: 🔶
+        name: E0.6 large orange diamond
+      - emoji: 🔷
+        name: E0.6 large blue diamond
+      - emoji: 🔸
+        name: E0.6 small orange diamond
+      - emoji: 🔹
+        name: E0.6 small blue diamond
+      - emoji: 🔺
+        name: E0.6 red triangle pointed up
+      - emoji: 🔻
+        name: E0.6 red triangle pointed down
+      - emoji: 💠
+        name: E0.6 diamond with a dot
+      - emoji: 🔘
+        name: E0.6 radio button
+      - emoji: 🔳
+        name: E0.6 white square button
+      - emoji: 🔲
+        name: E0.6 black square button
