@@ -1,6 +1,6 @@
 # 🧩 rime-emoji
 
-一個為 Rime 輸入法與 OpenCC 專案打造的 emoji 處理工具鏈，支援從 Unicode 官方下載 emoji 定義、逐步過濾、編輯群組與中文別名，最終輸出符合輸入法或文字轉換工具需求的格式。
+建立一套可維護、可驗證、可擴充的 emoji 中文別名處理工具鏈，並最終輸出為 Rime 輸入法用的 OpenCC 格式定義檔。
 
 ---
 
@@ -28,66 +28,92 @@ test/
 └── XxxRepo.test.ts # ✴️ Interface-based 測試可覆蓋多實作
 ```
 
-## 🧪 Pipeline 開發流程（資料科學導向）
+## ✅ 主要處理階段
 
-| 開發階段   | 操作                               | 輸出                      |
-| ---------- | ---------------------------------- | ------------------------- |
-| Fetch 定義 | 從 Unicode 官網抓取 emoji-test.txt | 完整原始 emoji 定義       |
-| Filter     | 使用策略排除膚色、性別合成等項目   | 留下需要處理的 emoji 子集 |
-| Merge 定義 | 將原始 emoji 加入可維護的群組檔    | `data/definitions/*.yaml` |
-| 撰寫別名   | 手動填寫中文別名與領域別名         | `data/aliases/*.yaml`     |
-| Validate   | 檢查別名重複、空值、對應錯誤       | 報告清單                  |
-| Export     | 輸出為 OpenCC、Rime 格式           | `.json` / `.dict.yaml`    |
+| 階段                | 模組                          | 說明                                                             |
+| ------------------- | ----------------------------- | ---------------------------------------------------------------- |
+| 1️⃣ 抓取最新定義     | `StepFetchLatestDefinition`   | 從 Unicode 官網下載 emoji-test.txt 並解析為 `EmojiDefinition[]`  |
+| 2️⃣ 過濾定義         | `StepFilterEmojiDefinition`   | 應用一組可配置策略（膚色、性別等）排除不必要 emoji               |
+| 3️⃣ 建立可維護別名檔 | `StepMergeEmojiAssignedAlias` | 合併定義並產出 emoji 為主體的分類別名檔（群組化 YAML）           |
+| 4️⃣ 驗證別名完整性   | `StepValidateDefinitionAlias` | 驗證 group/subgroup/emoji alias 是否缺漏，並支援錯誤 mute 控制   |
+| 5️⃣ 定義語意多義別名 | `DomainAliasRepo` + YAML      | 支援一個 alias 在多個 domain 中對應不同 emoji                    |
+| 6️⃣ 輸出輸入法定義檔 | `StepExportRime`              | 合併所有別名來源，輸出為 `OpenCCEmojiForRime` 所需格式（`.txt`） |
 
 👉 每一階段都可透過 Step 執行、測試、或用作後續開發基礎。
 
-## 🧱 核心概念對照表
+## 🧱 核心資料模型
 
-| 類型                  | 說明                                           |
-| --------------------- | ---------------------------------------------- |
-| `EmojiDefinition`     | 原始資料單位（含 emoji 字元、名稱、群組資訊）  |
-| `DefinitionAlias`     | 對 `group` / `subgroup` / `emoji` 的中文別名   |
-| `DomainAlias`         | 使用者輸入詞 → emoji 的對應表（多義詞支援）    |
-| `Step`                | 每個可執行的資料處理單位（具有明確責任與依賴） |
-| `EmojiFilterStrategy` | 策略模式的篩選器，可按需注入多項過濾邏輯       |
-| `*.Repo`              | 每一份資料的讀寫來源（YAML、Unicode、Memory）  |
-| `*.Reporter`          | 中繼資料、分析報告的輸出接口（如 YAML 報告）   |
+| 模型                 | 說明                                                |
+| -------------------- | --------------------------------------------------- |
+| `EmojiDefinition`    | emoji 的基本描述與結構（來源於 Unicode）            |
+| `EmojiAssignedAlias` | group/subgroup/emoji 各自的中文別名（分類別名）     |
+| `DomainAlias`        | 輸入詞為主體的語意定義（可對應多 emoji，多 domain） |
 
-## 🔄 開發策略建議
+## 🧭 系統資料流總覽：上下游與產出責任
 
-- 每個步驟可獨立測試：透過注入 MemoryRepo 模擬資料流
-- 每個資料來源都可替換：支援 Unicode、YAML、Fixture
-- 可逐步導入：先從單一步驟開發，逐步擴展處理邏輯
-- 資料優先於邏輯：所有處理流程均以 Entity 型別為核心輸入輸出
+### 抓取並更新最新定義
 
 ```mermaid
-classDiagram
-    class EmojiDefinition {
-        emoji: id
-        name
-        group
-        subgroup
-    }
+sequenceDiagram
+  actor 使用者
+  participant cli as rime-emoji
+  participant StepFetch as FetchLatestDefinition
+  participant UnicodeSource
+  participant StepFilter as FilterEmojiDefinition
+  participant StepMerge as MergeEmojiAssignedAlias
+  participant EmojiAssignedAlias as 指派別名定義檔
 
-    class GroupAlias {
-      group: id
-      alias?: string;
-    }
+  使用者 ->> cli: 合併最新 emoji 定義
+  cli -->> StepFetch: 執行
+  StepFetch -->> UnicodeSource: 下載 emoji-test.txt
+  UnicodeSource -->> StepFetch: 回傳 emoji-test.txt
+  StepFetch -->> StepFetch: 解析 emoji-test.txt
+  StepFetch -->> StepFilter: 輸出 EmojiDefinition[]
+  StepFilter -->> StepFilter: 多策略過濾 emoji 定義
+  StepFilter -->> 使用者: 報告過濾結果
+  StepFilter -->> StepMerge: 輸出過濾後 EmojiDefinition[]
+  StepMerge -->> EmojiAssignedAlias: 合併 emoji 定義到 指派別名定義檔
+  StepMerge -->> 使用者: 告知完成，可繼續編輯別名定義
+```
 
-    class SubgroupAlias = {
-      group: id
-      subgroup: id
-      alias?: string;
-    };
+### 編輯別名定義並檢查
 
-    export type EmojiAlias = {
-      emoji: id;
-      alias?: string;
-    };
+```mermaid
 
-    class AliasDefinition = {
-      alias: id:
-      domain: string;
-      emojis: string[];
-    }
+sequenceDiagram
+  actor 使用者
+  participant EmojiAssignedAlias as 指派別名定義檔
+  participant DomainAlias as 領域別名定義檔
+  participant cli as rime-emoji
+  participant StepValidateAlias
+  participant ErrorMute as 錯誤靜音清單
+loop 編輯別名定義
+  使用者 ->> EmojiAssignedAlias: 編輯別名定義
+  使用者 ->> cli: 驗證別名定義
+  cli -->> StepValidateAlias: 執行
+  StepValidateAlias -->> DomainAlias: 讀取領域別名定義檔
+  StepValidateAlias -->> EmojiAssignedAlias: 讀取指派別名定義檔
+  StepValidateAlias -->> StepValidateAlias: 驗證別名定義
+  StepValidateAlias -->> 使用者: 報告驗證結果
+  使用者 ->> ErrorMute: 編輯錯誤靜音清單
+end
+```
+
+### 輸出 OpenccEmojiForRime 格式
+
+```mermaid
+sequenceDiagram
+  actor 使用者
+  participant cli as rime-emoji
+  participant StepExportRime
+  participant EmojiAssignedAlias as 指派別名定義檔
+  participant DomainAlias as 領域別名定義檔
+  participant OpenccEmojiForRime as Rime 用的 opencc emoji 定義檔
+
+  使用者 ->> cli: 輸出 Rime 格式
+  cli -->> StepExportRime: 執行
+  StepExportRime -->> DomainAlias: 讀取領域別名定義檔
+  StepExportRime -->> EmojiAssignedAlias: 讀取指派別名定義檔
+  StepExportRime -->> StepExportRime: 合併別名定義
+  StepExportRime -->> OpenccEmojiForRime: 輸出
 ```
