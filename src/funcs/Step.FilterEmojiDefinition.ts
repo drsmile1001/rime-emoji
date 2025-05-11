@@ -1,16 +1,16 @@
 import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 import type { EmojiDefinitionRepo } from "@/services/EmojiDefinitionRepo.Interface";
 import type { FilterStrategy } from "@/services/FilterStrategy.Interface";
-import type { FilteringResultReporter } from "@/services/FilterEmojiDefinitionResultReporter.Interface";
 import type { FilterStrategyReporter } from "@/services/FilterStrategyReporter.Interface";
 import type { Step } from "./Step.Interface";
+import type { FilterSummaryReporter } from "@/services/FilterSummaryReporter.Interface";
 
 export class StepFilterDefinition implements Step {
   constructor(
     private sourceDefinitionRepo: EmojiDefinitionRepo,
     private filterStrategies: FilterStrategy[],
     private strategyReporter: FilterStrategyReporter,
-    private summaryReporter: FilteringResultReporter,
+    private summaryReporter: FilterSummaryReporter,
     private filterDefinitionRepo: EmojiDefinitionRepo,
   ) {}
 

@@ -48,11 +48,11 @@ export class CategoryAliasRepoYaml implements CategoryAliasRepo {
 
     const subGroups = existing.subGroups.map((sg) => ({
       name: sg.name,
-      alias: sg.alias ? [sg.alias] : [],
+      alias: sg.alias ? sg.alias.split(" ") : [],
       emojis: sg.emojis.map((e) => ({
         emoji: e.emoji,
         name: e.name,
-        alias: e.alias ? [e.alias] : [],
+        alias: e.alias ? e.alias.split(" ") : [],
       })),
     }));
 

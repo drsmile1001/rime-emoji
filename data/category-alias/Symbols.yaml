@@ -53,7 +53,7 @@ subGroups:
         alias: 孩童
       - emoji: ⛔
         name: E0.6 no entry
-        alias: 禁止
+        alias: 禁止 停止
       - emoji: 🚫
         name: E0.6 prohibited
         alias: 禁止
@@ -80,7 +80,7 @@ subGroups:
         alias: 未滿十八
       - emoji: ☢️
         name: E1.0 radioactive
-        alias: 放射性
+        alias: 放射 輻射
       - emoji: ☣️
         name: E1.0 biohazard
         alias: 生物危害

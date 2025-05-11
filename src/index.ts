@@ -13,6 +13,7 @@ import {
   FILTERED_DEFINITIONS_FILE,
   OUTPUT_DIR,
   RAW_DEFINITIONS_FILE,
+  SEMANTIC_ALIAS_DIR,
 } from "./constants";
 import { StepMergeDefinition } from "./funcs/Step.MergeDefinition";
 import { StepValidateDefinitionAlias } from "./funcs/Step.ValidateAlias";
@@ -20,6 +21,8 @@ import { AliasValidationReporterYaml } from "./services/AliasValidationReporter.
 import { CategoryAliasRepoYaml } from "./services/CategoryAliasRepo.Yaml";
 import { AliasValidatorMissingAlias } from "./services/AliasValidator.MissingAlias";
 import { EmojiDefinitionRepoYaml } from "./services/EmojiDefinitionRepo.Yaml";
+import { SemanticAliasRepoYaml } from "./services/SemanticAliasRepo.Yaml";
+import { StepExportRime } from "./funcs/Step.ExportRime";
 
 const cli = cac();
 
@@ -75,6 +78,23 @@ cli.command("validate", "驗證別名定義是否有缺漏或重複").action(asy
   await step.execute();
   console.log("✅ 別名驗證完成，請檢查報告");
 });
+
+cli
+  .command("export", "輸出為 Rime 可用格式（OpenCC .txt）")
+  .action(async () => {
+    const assignedRepo = new CategoryAliasRepoYaml(CATEGORY_ALIAS_DIR);
+    const domainRepo = new SemanticAliasRepoYaml(SEMANTIC_ALIAS_DIR);
+
+    const exportStep = new StepExportRime(
+      assignedRepo,
+      domainRepo,
+      OUTPUT_DIR,
+      "emoji.txt",
+    );
+    await exportStep.execute();
+
+    console.log(`✅ 匯出完成：${OUTPUT_DIR}/emoji.txt`);
+  });
 
 cli.help();
 cli.parse(process.argv, { run: false });
