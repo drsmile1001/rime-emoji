@@ -2,8 +2,8 @@ import type {
   EmojiAlias,
   GroupAlias,
   SubgroupAlias,
-} from "@/entities/DefinitionAlias";
-import type { DefinitionAliasRepo } from "./DefinitionAliasRepo.Interface";
+} from "@/entities/EmojiAssignedAlias";
+import type { EmojiAssignedAliasRepo } from "./EmojiAssignedAliasRepo.Interface";
 import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 import { YamlFile } from "@/utils/YamlFile";
 import { readdir, stat } from "node:fs/promises";
@@ -26,7 +26,7 @@ export type YamlDefinitionAlias = {
   }[];
 };
 
-export class YamlDefinitionAliasRepo implements DefinitionAliasRepo {
+export class YamlEmojiAssignedAliasRepo implements EmojiAssignedAliasRepo {
   constructor(private readonly dir: string) {}
 
   private safeFileName(group: string): string {

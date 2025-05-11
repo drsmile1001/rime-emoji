@@ -1,4 +1,4 @@
-import type { DefinitionAliasRepo } from "./DefinitionAliasRepo.Interface";
+import type { EmojiAssignedAliasRepo } from "./EmojiAssignedAliasRepo.Interface";
 import type { ValidationIssue } from "./AliasValidateResultReporter.Interface";
 import type { DefinitionAliasValidator } from "./DefinitionAliasValidator.Interface";
 
@@ -8,7 +8,7 @@ import type { DefinitionAliasValidator } from "./DefinitionAliasValidator.Interf
 export class EmptyAliasValidator implements DefinitionAliasValidator {
   readonly id = "empty-alias";
 
-  constructor(private readonly repo: DefinitionAliasRepo) {}
+  constructor(private readonly repo: EmojiAssignedAliasRepo) {}
 
   async validate(): Promise<ValidationIssue[]> {
     const issues: ValidationIssue[] = [];

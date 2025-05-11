@@ -4,12 +4,12 @@ import { getTestConfig } from "../config/TestConfig";
 import { resolveTmpDir } from "../utils/TestDir";
 import { MemoryEmojiDefinitionRepo } from "@/services/EmojiDefinitionRepo.Memory";
 import {
-  YamlDefinitionAliasRepo,
+  YamlEmojiAssignedAliasRepo,
   type YamlDefinitionAlias,
-} from "@/services/DefinitionAliasRepo.Yaml";
+} from "@/services/EmojiAssignedAliasRepo.Yaml";
 import kleur from "kleur";
 import { rm } from "node:fs/promises";
-import type { DefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Interface";
+import type { EmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Interface";
 import { YamlFile } from "@/utils/YamlFile";
 
 describe("YamlDefinitionAliasRepo", () => {
@@ -37,7 +37,9 @@ describe("YamlDefinitionAliasRepo", () => {
     const defs = createSampleEmojiDefinitions();
     await emojiRepo.saveAll(defs);
 
-    const repo: DefinitionAliasRepo = new YamlDefinitionAliasRepo(OUTPUT_DIR);
+    const repo: EmojiAssignedAliasRepo = new YamlEmojiAssignedAliasRepo(
+      OUTPUT_DIR,
+    );
     await repo.saveDefinitions(defs);
 
     const readBack = await new YamlFile<YamlDefinitionAlias>(
@@ -76,7 +78,7 @@ describe("YamlDefinitionAliasRepo", () => {
     const defs = createSampleEmojiDefinitions();
 
     // 第一次寫入
-    const repo = new YamlDefinitionAliasRepo(OUTPUT_DIR);
+    const repo = new YamlEmojiAssignedAliasRepo(OUTPUT_DIR);
     await repo.saveDefinitions(defs);
 
     // 模擬使用者填入 alias

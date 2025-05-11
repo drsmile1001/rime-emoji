@@ -1,18 +1,18 @@
 import { describe, expect, test } from "bun:test";
 import { createSampleEmojiDefinitions } from "../fixtures/Seeds";
-import type { DefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Interface";
+import type { EmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Interface";
 import type {
   EmojiAlias,
   GroupAlias,
   SubgroupAlias,
-} from "@/entities/DefinitionAlias";
-import { MemoryDefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Memory";
+} from "@/entities/EmojiAssignedAlias";
+import { MemoryEmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Memory";
 
 describe("MemoryDefinitionAliasRepo", () => {
   const defs = createSampleEmojiDefinitions();
 
   test("應能初始化 emoji 定義並查詢 group/subgroup/emoji 結構", async () => {
-    const repo: DefinitionAliasRepo = new MemoryDefinitionAliasRepo();
+    const repo: EmojiAssignedAliasRepo = new MemoryEmojiAssignedAliasRepo();
     await repo.saveDefinitions(defs);
 
     const groupAliases = await repo.getGroupAliases();
@@ -36,7 +36,7 @@ describe("MemoryDefinitionAliasRepo", () => {
   });
 
   test("應能補上 alias 並從查詢取得", async () => {
-    const repo: DefinitionAliasRepo = new MemoryDefinitionAliasRepo();
+    const repo: EmojiAssignedAliasRepo = new MemoryEmojiAssignedAliasRepo();
     await repo.saveDefinitions(defs);
 
     const emojiAlias: EmojiAlias = { emoji: "😀", alias: "笑臉" };
@@ -70,7 +70,7 @@ describe("MemoryDefinitionAliasRepo", () => {
   });
 
   test("應能查詢 emoji 清單 by group/subgroup", async () => {
-    const repo: DefinitionAliasRepo = new MemoryDefinitionAliasRepo();
+    const repo: EmojiAssignedAliasRepo = new MemoryEmojiAssignedAliasRepo();
     await repo.saveDefinitions(defs);
 
     const people = await repo.getEmojiByGroup("People & Body");

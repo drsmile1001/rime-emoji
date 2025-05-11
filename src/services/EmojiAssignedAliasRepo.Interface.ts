@@ -2,13 +2,13 @@ import type {
   GroupAlias,
   SubgroupAlias,
   EmojiAlias,
-} from "@/entities/DefinitionAlias";
+} from "@/entities/EmojiAssignedAlias";
 import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 
 /**
  * emoji 定義的存取與別名維護介面
  */
-export interface DefinitionAliasRepo {
+export interface EmojiAssignedAliasRepo {
   /**
    * 以原始 emoji 定義初始化資料結構。
    * 實作端應建立所有群組、子群組、emoji 對應資料。

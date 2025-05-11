@@ -1,13 +1,13 @@
 import { describe, expect, test } from "bun:test";
 import { StepMergeDefinition } from "@/funcs/Step.MergeDefinition";
 import { MemoryEmojiDefinitionRepo } from "@/services/EmojiDefinitionRepo.Memory";
-import { MemoryDefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Memory";
+import { MemoryEmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Memory";
 import { createSampleEmojiDefinitions } from "./fixtures/Seeds";
 
 describe("StepMergeDefinition", () => {
   test("應能初始化 aliasRepo 的群組結構", async () => {
     const emojiRepo = new MemoryEmojiDefinitionRepo();
-    const aliasRepo = new MemoryDefinitionAliasRepo();
+    const aliasRepo = new MemoryEmojiAssignedAliasRepo();
 
     const sampleDefs = createSampleEmojiDefinitions();
     await emojiRepo.saveAll(sampleDefs);

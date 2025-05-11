@@ -2,11 +2,11 @@ import type {
   EmojiAlias,
   GroupAlias,
   SubgroupAlias,
-} from "@/entities/DefinitionAlias";
-import type { DefinitionAliasRepo } from "./DefinitionAliasRepo.Interface";
+} from "@/entities/EmojiAssignedAlias";
+import type { EmojiAssignedAliasRepo } from "./EmojiAssignedAliasRepo.Interface";
 import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 
-export class MemoryDefinitionAliasRepo implements DefinitionAliasRepo {
+export class MemoryEmojiAssignedAliasRepo implements EmojiAssignedAliasRepo {
   private emojiDefs: EmojiDefinition[] = [];
 
   private groupAliasMap = new Map<string, string>(); // group → alias

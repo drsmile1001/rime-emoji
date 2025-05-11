@@ -1,10 +1,10 @@
 import { describe, expect, test } from "bun:test";
-import { MemoryDefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Memory";
+import { MemoryEmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Memory";
 import { EmptyAliasValidator } from "@/services/DefinitionAliasValidator.EmptyAlias";
 
 describe("EmptyAliasValidator", () => {
   test("應能產出 group、subgroup、emoji 的空 alias 錯誤", async () => {
-    const repo = new MemoryDefinitionAliasRepo();
+    const repo = new MemoryEmojiAssignedAliasRepo();
 
     await repo.saveDefinitions([
       {

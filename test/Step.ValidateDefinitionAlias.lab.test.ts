@@ -3,7 +3,7 @@ import { getTestConfig } from "./config/TestConfig";
 import { resolveTmpDir } from "./utils/TestDir";
 import kleur from "kleur";
 
-import { YamlDefinitionAliasRepo } from "@/services/DefinitionAliasRepo.Yaml";
+import { YamlEmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Yaml";
 import { StepValidateDefinitionAlias } from "@/funcs/Step.ValidateDefinitionAlias";
 import { EmptyAliasValidator } from "@/services/DefinitionAliasValidator.EmptyAlias";
 import { YamlAliasValidateResultReporter } from "@/services/AliasValidateResultReporter.YAML";
@@ -20,7 +20,7 @@ describe("StepValidateDefinitionAlias.LAB", () => {
       return;
     }
 
-    const aliasRepo = new YamlDefinitionAliasRepo(ALIAS_DIR);
+    const aliasRepo = new YamlEmojiAssignedAliasRepo(ALIAS_DIR);
     const validator = new EmptyAliasValidator(aliasRepo);
     const reporter = new YamlAliasValidateResultReporter(OUTPUT_DIR);
 
