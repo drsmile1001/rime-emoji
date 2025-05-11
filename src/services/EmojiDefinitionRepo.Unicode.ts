@@ -1,13 +1,12 @@
 import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 import type { EmojiDefinitionRepo } from "./EmojiDefinitionRepo.Interface";
-
-const EMOJI_TEST_URL = "https://unicode.org/Public/emoji/latest/emoji-test.txt";
+import { EMOJI_TEST_URL } from "@/constants";
 
 /**
  * UnicodeEmojiDefinitionRepo
  * 從 Unicode 官網即時下載 emoji 定義檔並解析為結構化物件。
  */
-export class UnicodeEmojiDefinitionRepo implements EmojiDefinitionRepo {
+export class EmojiDefinitionRepoUnicode implements EmojiDefinitionRepo {
   async getAll(): Promise<EmojiDefinition[]> {
     const txt = await this.fetch();
     return await this.parse(txt);

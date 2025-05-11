@@ -4,116 +4,191 @@
 
 ---
 
-## 🔧 專案定位與設計理念
+## 📜 CLI 指令總覽
 
-本專案為典型的 Pipeline 資料處理專案，其特色包含：
+| 指令                  | 說明                                                       |
+| --------------------- | ---------------------------------------------------------- |
+| `bun run fetch`       | 下載並解析 emoji-test.txt                                  |
+| `bun run filter`      | 套用策略過濾 emoji 定義                                    |
+| `bun run merge`       | 合併到 emoji-category-alias.yaml                           |
+| `bun run validate`    | 檢查 category alias 與 semantic mapping 的一致性與潛在問題 |
+| `bun run export-rime` | 輸出為 Rime/OpenCC 使用格式的 `.txt` 或 `.dict.yaml`       |
 
-- 🧱 多階段處理：每個處理步驟明確獨立，便於理解與重用
-- 🧪 開發導向資料產出：每個階段會輸出中繼資料，可用於觀察、測試、或作為下一步輸入
-- 📦 具備工程穩定性與資料科學探索彈性：結構嚴謹但可允許反覆實驗
-- 🧭 Clean Architecture + DI 策略：可替換的資料來源與策略，易測試、易維護
-
-## 🏗 專案結構
-
-```text
-src/
-├── entities/ # 📘 核心資料模型（emoji 定義、別名結構）
-├── funcs/ # 🔁 每個處理階段（Step）可獨立執行或組合
-│ └── Step.Xxx.ts # 各個步驟（fetch、filter、merge...）
-├── services/ # 💾 副作用與策略（Repo、輸出、過濾）
-├── utils/ # 🛠 通用工具，如 YAML 讀寫
-├── index.ts # 🧩 CLI 入口，組合 Step 為命令
-test/
-├── Step.\*.test.ts # 🎯 每個步驟可單獨測試，也可用作臨時執行器
-└── XxxRepo.test.ts # ✴️ Interface-based 測試可覆蓋多實作
-```
-
-## ✅ 主要處理階段
-
-| 階段                | 模組                          | 說明                                                             |
-| ------------------- | ----------------------------- | ---------------------------------------------------------------- |
-| 1️⃣ 抓取最新定義     | `StepFetchLatestDefinition`   | 從 Unicode 官網下載 emoji-test.txt 並解析為 `EmojiDefinition[]`  |
-| 2️⃣ 過濾定義         | `StepFilterEmojiDefinition`   | 應用一組可配置策略（膚色、性別等）排除不必要 emoji               |
-| 3️⃣ 建立可維護別名檔 | `StepMergeEmojiAssignedAlias` | 合併定義並產出 emoji 為主體的分類別名檔（群組化 YAML）           |
-| 4️⃣ 驗證別名完整性   | `StepValidateDefinitionAlias` | 驗證 group/subgroup/emoji alias 是否缺漏，並支援錯誤 mute 控制   |
-| 5️⃣ 定義語意多義別名 | `DomainAliasRepo` + YAML      | 支援一個 alias 在多個 domain 中對應不同 emoji                    |
-| 6️⃣ 輸出輸入法定義檔 | `StepExportRime`              | 合併所有別名來源，輸出為 `OpenCCEmojiForRime` 所需格式（`.txt`） |
-
-👉 每一階段都可透過 Step 執行、測試、或用作後續開發基礎。
-
-## 🧱 核心資料模型
-
-| 模型                 | 說明                                                |
-| -------------------- | --------------------------------------------------- |
-| `EmojiDefinition`    | emoji 的基本描述與結構（來源於 Unicode）            |
-| `EmojiAssignedAlias` | group/subgroup/emoji 各自的中文別名（分類別名）     |
-| `DomainAlias`        | 輸入詞為主體的語意定義（可對應多 emoji，多 domain） |
-
-## 🧭 系統資料流總覽：上下游與產出責任
+## 🔜 整體流程圖
 
 ### 抓取並更新最新定義
 
 ```mermaid
-sequenceDiagram
-  actor 使用者
-  participant cli as rime-emoji
-  participant StepFetch as FetchLatestDefinition
-  participant UnicodeSource
-  participant StepFilter as FilterEmojiDefinition
-  participant StepMerge as MergeEmojiAssignedAlias
-  participant EmojiAssignedAlias as 指派別名定義檔
+flowchart TD
+  subgraph A[拉取流程]
+    F1[Step.FetchLatestDefinition\n下載 Unicode emoji-test.txt]
+    F2[Step.FilterEmojiDefinition\n策略過濾複合 emoji]
+    F3[Step.MergeDefinition\n合併 emoji 定義 → 分類別名檔案]
+  end
 
-  使用者 ->> cli: 合併最新 emoji 定義
-  cli -->> StepFetch: 執行
-  StepFetch -->> UnicodeSource: 下載 emoji-test.txt
-  UnicodeSource -->> StepFetch: 回傳 emoji-test.txt
-  StepFetch -->> StepFetch: 解析 emoji-test.txt
-  StepFetch -->> StepFilter: 輸出 EmojiDefinition[]
-  StepFilter -->> StepFilter: 多策略過濾 emoji 定義
-  StepFilter -->> 使用者: 報告過濾結果
-  StepFilter -->> StepMerge: 輸出過濾後 EmojiDefinition[]
-  StepMerge -->> EmojiAssignedAlias: 合併 emoji 定義到 指派別名定義檔
-  StepMerge -->> 使用者: 告知完成，可繼續編輯別名定義
+  subgraph B[編輯與檢核流程]
+    C1[使用者編輯\ncategory-alias.yaml]
+    S1[使用者編輯\nsemantic-alias.yaml]
+    V1[Step.ValidateDefinitionAlias\n驗證兩組維護檔一致性]
+  end
+
+  subgraph C[輸出流程]
+    E1[Step.ExportRime\n輸出 Rime / OpenCC 格式]
+  end
+
+  F1 --> F2 --> F3
+  F3 --> C1
+  C1 --> V1
+  S1 --> V1
+  C1 --> E1
+  S1 --> E1
 ```
 
-### 編輯別名定義並檢查
+---
 
-```mermaid
+## 🧹 模組整理與清除建議
 
-sequenceDiagram
-  actor 使用者
-  participant EmojiAssignedAlias as 指派別名定義檔
-  participant DomainAlias as 領域別名定義檔
-  participant cli as rime-emoji
-  participant StepValidateAlias
-  participant ErrorMute as 錯誤靜音清單
-loop 編輯別名定義
-  使用者 ->> EmojiAssignedAlias: 編輯別名定義
-  使用者 ->> cli: 驗證別名定義
-  cli -->> StepValidateAlias: 執行
-  StepValidateAlias -->> DomainAlias: 讀取領域別名定義檔
-  StepValidateAlias -->> EmojiAssignedAlias: 讀取指派別名定義檔
-  StepValidateAlias -->> StepValidateAlias: 驗證別名定義
-  StepValidateAlias -->> 使用者: 報告驗證結果
-  使用者 ->> ErrorMute: 編輯錯誤靜音清單
-end
+### 🔥 建議移除
+
+| 檔案                                              | 原因                       |
+| ------------------------------------------------- | -------------------------- |
+| `src/funcs/StepBuildSemanticAliasFromCategory.ts` | 誤導性邏輯，與語意模型不符 |
+| `test/StepBuildSemanticAliasFromCategory.test.ts` | 測試對象已不存在           |
+| `README.md` 中提及自動建構 SemanticAlias 的部分   | 避免誤導維護流程           |
+
+### 🧱 模組命名與文件補強（配合刪除作業）
+
+| 原名                   | 建議新名                     | 理由                                              |
+| ---------------------- | ---------------------------- | ------------------------------------------------- |
+| `SemanticAlias.ts`     | `SemanticAliasMapping.ts`    | 符合你的概念定位：這是語意導向對應表              |
+| `SemanticAliasRepo.*`  | `SemanticAliasMappingRepo.*` | 對應資料模型名稱一致性                            |
+| CLI 名稱 `export-rime` | 可保留                       | 表達輸出語意清楚，並非依賴某個特定 alias 結構來源 |
+
+---
+
+🧭 下一步建議
+📌 1. 更新 CLI 文件 / README：
+
+    移除 build-semantic-alias
+
+    加入 semantic-alias-mapping.yaml 的語意說明
+
+    說明這是平行來源而非派生結果
+
+🧪 2. 重構測試覆蓋：
+
+    移除 build-semantic-alias 測試
+
+    確保 Step.ExportRime.test.ts 同時測試從兩個來源合併後的輸出邏輯
+
+📦 3. 設計封裝：
+
+    CLI 封裝為 bunx rime-emoji 套件時，這五個指令即為預設支援的維護流程
+
+---
+
+## 🧩 Emoji 中文別名維護格式
+
+本專案採用 可讀性與可維護性兼具 的 YAML 檔案結構，將 emoji 的中文別名維護分為兩種層次：
+
+### 📂 分類別名（Category Alias）
+
+定義：
+根據 Unicode 提供的群組與子群組分類（group / subgroup），為 emoji 指派中文別名。此類別名主要反映 emoji 原始語意與結構分類，用於分類呈現與基本語義支援。
+
+路徑：
+
+```txt
+category-alias/
 ```
 
-### 輸出 OpenccEmojiForRime 格式
+檔案命名規則：
+每個主分類（group）對應一個 YAML 檔，檔名採 URI-safe 編碼（空格 → _, & → \_26_ 等）。
 
-```mermaid
-sequenceDiagram
-  actor 使用者
-  participant cli as rime-emoji
-  participant StepExportRime
-  participant EmojiAssignedAlias as 指派別名定義檔
-  participant DomainAlias as 領域別名定義檔
-  participant OpenccEmojiForRime as Rime 用的 opencc emoji 定義檔
+範例檔案：
 
-  使用者 ->> cli: 輸出 Rime 格式
-  cli -->> StepExportRime: 執行
-  StepExportRime -->> DomainAlias: 讀取領域別名定義檔
-  StepExportRime -->> EmojiAssignedAlias: 讀取指派別名定義檔
-  StepExportRime -->> StepExportRime: 合併別名定義
-  StepExportRime -->> OpenccEmojiForRime: 輸出
+```txt
+category-alias/Activities.yaml
+category-alias/Animals_20_26_20Nature.yaml
+```
+
+檔案格式：
+
+```yaml
+name: Activities
+subGroups:
+  - name: event
+    alias: 活動 節慶
+    emojis:
+      - emoji: 🎃
+        alias: 南瓜燈 南瓜
+        name: E0.6 jack-o-lantern
+```
+
+> ✅ alias 欄位使用空格分隔多個別名
+> ✅ name 欄位為 Unicode 提供的原始英文名稱（可含版本標記）
+
+## 📂 語義別名（Semantic Alias）
+
+定義：
+以實際使用情境、行為意圖、應用語境為導向，建立 alias（輸入詞） → emoji 列表 的語義對應表。此類別名常見於工程開發、系統狀態、工作流程等場景。
+
+路徑：
+
+```txt
+semantic-alias/
+```
+
+檔案命名規則：
+每個檔案名稱代表一個語義主題，例如 development.yaml、status.yaml、interaction.yaml。檔名不影響輸出結構。
+
+範例檔案：
+
+```txt
+semantic-alias/development.yaml
+```
+
+檔案格式：
+
+```yaml
+- alias: 錯誤
+  emojis: ❌ 🚫 💥
+- alias: 成功
+  emojis: ✅ ☑️ ✔️
+- alias: 重啟
+  emojis: 🔄
+```
+
+> ✅ emojis 欄位使用空格分隔
+> ✅ 支援多對多關係（同一 emoji 可屬於多個語義）
+
+### 📌 對比總覽
+
+| 類型     | 中文名稱       | 英文名稱          | 儲存位置                         | 結構維度                     |
+| -------- | -------------- | ----------------- | -------------------------------- | ---------------------------- |
+| 分類別名 | Category Alias | `category-alias/` | group/subgroup → emoji → aliases | Unicode 分類結構、內容整理   |
+| 語義別名 | Semantic Alias | `semantic-alias/` | alias → emoji\[]                 | 應用語境、輸入字典、場景感知 |
+
+### 🔧 程式內部對應型別
+
+```typescript
+// 分類別名（檔案）
+export type CategoryAliasGroupFile = {
+  name: string;
+  subGroups: {
+    name: string;
+    alias: string;
+    emojis: {
+      emoji: string;
+      alias: string;
+      name: string;
+    }[];
+  }[];
+};
+
+// 語義別名（檔案）
+export type SemanticAliasEntry = {
+  alias: string;
+  emojis: string; // 空格分隔字串
+};
 ```

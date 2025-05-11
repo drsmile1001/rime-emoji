@@ -1,8 +1,8 @@
+import type { CategoryAliasRepo } from "@/services/CategoryAliasRepo.Interface";
 import type { Step } from "./Step.Interface";
-import type { DomainAliasRepo } from "@/services/DomainAliasRepo.Interface";
-import type { EmojiAssignedAliasRepo } from "@/services/EmojiAssignedAliasRepo.Interface";
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import type { SemanticAliasRepo } from "@/services/SemanticAliasRepo.Interface";
 
 /**
  * 匯出為 Rime 輸入法可用的 OpenCC emoji 替換檔（.txt）
@@ -10,8 +10,8 @@ import { join } from "node:path";
  */
 export class StepExportRime implements Step {
   constructor(
-    private readonly assignedRepo: EmojiAssignedAliasRepo,
-    private readonly domainRepo: DomainAliasRepo,
+    private readonly categoryRepo: CategoryAliasRepo,
+    private readonly semanticRepo: SemanticAliasRepo,
     private readonly outputDir: string,
     private readonly fileName: string = "emoji.txt",
   ) {}
@@ -19,16 +19,16 @@ export class StepExportRime implements Step {
   async execute(): Promise<void> {
     const aliasMap = new Map<string, Set<string>>();
 
-    // 來自 DomainAliasRepo
-    const domainAliases = await this.domainRepo.getAll();
-    for (const { alias, emojis } of domainAliases) {
+    // 來自 SemanticAliasRepo
+    const semanticAliases = await this.semanticRepo.getAll();
+    for (const { alias, emojis } of semanticAliases) {
       if (!alias.trim()) continue;
       if (!aliasMap.has(alias)) aliasMap.set(alias, new Set());
       emojis.forEach((e) => aliasMap.get(alias)!.add(e));
     }
 
-    // 來自 AssignedRepo（分類別名）
-    const emojiAliases = await this.assignedRepo.getEmojiAliases();
+    // 來自 CategoryRepo（分類別名）
+    const emojiAliases = await this.categoryRepo.getEmojiAliases();
     for (const { emoji, alias } of emojiAliases) {
       if (!alias?.trim()) continue;
       if (!aliasMap.has(alias)) aliasMap.set(alias, new Set());

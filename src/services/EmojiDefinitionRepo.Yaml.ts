@@ -17,7 +17,7 @@ export type EmojiDefinitionFile = {
   }[];
 }[];
 
-export class YamlEmojiDefinitionRepo implements EmojiDefinitionRepo {
+export class EmojiDefinitionRepoYaml implements EmojiDefinitionRepo {
   private readonly yamlFile: YamlFile<EmojiDefinitionFile>;
 
   constructor(private baseDir: string, private fileName: string) {
