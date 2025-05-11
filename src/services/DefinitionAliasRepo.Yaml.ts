@@ -41,31 +41,49 @@ export class YamlDefinitionAliasRepo implements DefinitionAliasRepo {
     }
 
     for (const [group, items] of grouped) {
+      const file = new YamlFile<YamlDefinitionAlias>(
+        this.dir,
+        this.safeFileName(group),
+        { name: group, subGroups: [] },
+      );
+      const existing = await file.read();
+
       const subgroupMap = new Map<string, EmojiDefinition[]>();
       for (const def of items) {
         if (!subgroupMap.has(def.subgroup)) subgroupMap.set(def.subgroup, []);
         subgroupMap.get(def.subgroup)!.push(def);
       }
 
-      const yamlData: YamlDefinitionAlias = {
-        name: group,
-        subGroups: Array.from(subgroupMap.entries()).map(
-          ([subgroup, defs]) => ({
+      const mergedSubGroups = Array.from(subgroupMap.entries()).map(
+        ([subgroup, defs]) => {
+          const existingGroup = existing.subGroups.find(
+            (g) => g.name === subgroup,
+          );
+          const existingEmojis = existingGroup?.emojis ?? [];
+          const emojiMap = new Map<string, (typeof existingEmojis)[number]>();
+          for (const e of existingEmojis) emojiMap.set(e.emoji, e);
+
+          for (const def of defs) {
+            if (!emojiMap.has(def.emoji)) {
+              emojiMap.set(def.emoji, { emoji: def.emoji, name: def.name });
+            }
+          }
+
+          return {
             name: subgroup,
-            emojis: defs.map((d) => ({
-              emoji: d.emoji,
-              name: d.name,
-            })),
-          }),
-        ),
+            alias: existingGroup?.alias,
+            emojis: Array.from(emojiMap.values()),
+          };
+        },
+      );
+
+      const merged: YamlDefinitionAlias = {
+        name: group,
+        alias: existing.alias,
+        subGroups: mergedSubGroups,
       };
 
-      const file = new YamlFile<YamlDefinitionAlias>(
-        this.dir,
-        this.safeFileName(group),
-        yamlData,
-      );
-      await file.write(yamlData);
+      await file.write(merged);
     }
   }
 
