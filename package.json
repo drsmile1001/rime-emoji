@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Hello World Bun Template",
   "dependencies": {
+    "@sinclair/typebox": "^0.34.33",
     "cac": "^6.7.14",
+    "kleur": "^4.1.5",
     "yaml": "^2.7.1"
   },
   "devDependencies": {

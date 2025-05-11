@@ -1,11 +1,10 @@
 import { cac } from "cac";
-import { greet } from "./commands/Greet";
 
 const cli = cac();
 
-cli.command("hello [name]", "向你打招呼").action((name: string = "world") => {
-  greet(name);
-});
+cli
+  .command("hello [name]", "向你打招呼")
+  .action((name: string = "world") => {});
 
 cli.help();
 cli.parse(process.argv, { run: false });
