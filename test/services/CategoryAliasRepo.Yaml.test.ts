@@ -5,7 +5,7 @@ import { resolveTmpDir } from "../utils/TestDir";
 import { EmojiDefinitionRepoMemory } from "@/services/EmojiDefinitionRepo.Memory";
 import {
   CategoryAliasRepoYaml,
-  type YamlDefinitionAlias,
+  type CategoryAliasYamlFileRaw,
 } from "@/services/CategoryAliasRepo.Yaml";
 import kleur from "kleur";
 import { rm } from "node:fs/promises";
@@ -40,7 +40,7 @@ describe("CategoryAliasRepoYaml", () => {
     const repo: CategoryAliasRepo = new CategoryAliasRepoYaml(OUTPUT_DIR);
     await repo.mergeDefinitions(defs);
 
-    const readBack = await new YamlFile<YamlDefinitionAlias>(
+    const readBack = await new YamlFile<CategoryAliasYamlFileRaw>(
       OUTPUT_DIR,
       "People_20_26_20Body.yaml",
       {
@@ -78,23 +78,27 @@ describe("CategoryAliasRepoYaml", () => {
     await repo.mergeDefinitions(defs);
 
     // 模擬使用者填入 alias
-    const groupFile = new YamlFile<any>(
+    const groupFile = new YamlFile<CategoryAliasYamlFileRaw>(
       OUTPUT_DIR,
       "People_20_26_20Body.yaml",
       { name: "", subGroups: [] },
     );
     const data = await groupFile.read();
-    data.alias = "人群";
-    data.subGroups[0].alias = "手部";
-    data.subGroups[0].emojis[0].alias = "招手";
+    data.subGroups[0].alias = "手部 手掌";
+    data.subGroups[0].emojis[0].alias = "招手 手";
     await groupFile.write(data);
 
     // 第二次執行 saveDefinitions，應保留 alias
     await repo.mergeDefinitions(defs);
 
-    const final = await groupFile.read();
-    expect(final.alias).toBe("人群");
-    expect(final.subGroups[0].alias).toBe("手部");
-    expect(final.subGroups[0].emojis[0].alias).toBe("招手");
+    const finalRaw = await groupFile.read();
+    expect(finalRaw.subGroups[0].alias).toBe("手部 手掌");
+    expect(finalRaw.subGroups[0].emojis[0].alias).toBe("招手 手");
+
+    // 驗證 alias 內容
+    const finalSubgroupAliases = await repo.getSubgroupAliases();
+    finalSubgroupAliases[0].alias = ["手部", "手掌"];
+    const finalEmojiAliases = await repo.getEmojiAliases();
+    finalEmojiAliases[0].alias = ["招手", "手"];
   });
 });
