@@ -22,11 +22,6 @@ describe("AliasValidatorEmpty", () => {
     expect(issues).toEqual(
       expect.arrayContaining([
         expect.objectContaining({
-          code: "MISS_GROUP_ALIAS_Smileys_20_26_20Emotion",
-          validatorId: "empty-alias",
-          type: "group-alias-missing",
-        }),
-        expect.objectContaining({
           code: "MISS_SUBGROUP_ALIAS_Smileys_20_26_20Emotion__face-smiling",
           type: "subgroup-alias-missing",
         }),

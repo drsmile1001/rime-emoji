@@ -15,7 +15,7 @@ export class AliasValidatorMissingAlias implements AliasValidator {
 
     const subgroupAliases = await this.repo.getSubgroupAliases();
     for (const sg of subgroupAliases) {
-      if (!sg.alias?.trim()) {
+      if (!sg.alias.length) {
         issues.push({
           code: `MISS_SUBGROUP_ALIAS_${encodeKey(
             `${sg.group}__${sg.subgroup}`,
@@ -31,7 +31,7 @@ export class AliasValidatorMissingAlias implements AliasValidator {
 
     const emojiAliases = await this.repo.getEmojiAliases();
     for (const emoji of emojiAliases) {
-      if (!emoji.alias?.trim()) {
+      if (!emoji.alias.length) {
         issues.push({
           code: `MISS_EMOJI_ALIAS_${toCodePoints(emoji.emoji)}`,
           validatorId: this.id,
