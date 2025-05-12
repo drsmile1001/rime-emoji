@@ -1,4 +1,5 @@
 # 💰 semantic-alias/finance.yaml
+# 用途：涵蓋金錢、付款、收入、費用、儲蓄與消費相關語意，適用於個人理財、發票管理、記帳與報銷場景。
 - alias: 金錢
   emojis: 💰 💸 🪙
 - alias: 現金
