@@ -1,0 +1,44 @@
+# 🏗️ semantic-alias/architecture.yaml
+# 用途：涵蓋架構設計、抽象元件、層次劃分、設計導向等語意，適用於 Clean Architecture、DDD、microservices 等上下文。
+- alias: 架構
+  emojis: 🧱 🏗️
+- alias: 模組
+  emojis: 📦 🧩
+- alias: 抽象
+  emojis: 🧩 🌀
+- alias: 邏輯
+  emojis: ♻️ 🧠
+- alias: 實體
+  emojis: 🧬 🧍
+- alias: 用例
+  emojis: 🎯 🧭
+- alias: 介面
+  emojis: 🧾 🔌
+- alias: 控制器
+  emojis: 🎮 🧃
+- alias: 邊界
+  emojis: 🚧 🛑
+- alias: 層級
+  emojis: 🧅 📚
+- alias: 流程
+  emojis: 🔁 🔂
+- alias: 中介層
+  emojis: 🪟 🚪
+- alias: 驅動
+  emojis: 🧲 ⚡
+- alias: 資源
+  emojis: 📚 🛠️
+- alias: 類別
+  emojis: 🧱 🗂️
+- alias: 實例
+  emojis: 🧍 🧸
+- alias: 策略
+  emojis: 🧠 🧭
+- alias: 實作
+  emojis: 🛠️ 🔧
+- alias: 依賴
+  emojis: 🧷 🔗
+- alias: 組合
+  emojis: 🧩 🤝
+- alias: 分層
+  emojis: 🧅 🪜

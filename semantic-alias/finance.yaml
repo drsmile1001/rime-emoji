@@ -1,0 +1,51 @@
+# 💰 semantic-alias/finance.yaml
+- alias: 金錢
+  emojis: 💰 💸 🪙
+- alias: 現金
+  emojis: 💵 💶 💷
+- alias: 零錢
+  emojis: 🪙 💱
+- alias: 錢包
+  emojis: 👛 👜
+- alias: 收入
+  emojis: 💵 🤑 📈
+- alias: 支出
+  emojis: 💸 📉 💳
+- alias: 儲蓄
+  emojis: 🏦 💰 🐷
+- alias: 花錢
+  emojis: 🛍️ 💸 💳
+- alias: 節省
+  emojis: 💡 🐷 ✂️
+- alias: 買東西
+  emojis: 🛍️ 🛒 💳
+- alias: 購物
+  emojis: 🛍️ 🛒
+- alias: 價格
+  emojis: 🏷️ 💲
+- alias: 付款
+  emojis: 💳 💸 📤
+- alias: 支付
+  emojis: 💳 📱
+- alias: 匯款
+  emojis: 💸 💱 🏧
+- alias: 收款
+  emojis: 📥 🏦
+- alias: 報帳
+  emojis: 🧾 📊
+- alias: 發票
+  emojis: 🧾 📄
+- alias: 薪水
+  emojis: 💵 📥 👨‍💼
+- alias: 小費
+  emojis: 💵 🙇
+- alias: 中獎
+  emojis: 🎰 🎉 💵
+- alias: 投資
+  emojis: 📈 📊 💹
+- alias: 股票
+  emojis: 📈 📉 💹
+- alias: 財報
+  emojis: 📊 🧾 📈
+- alias: 記帳
+  emojis: 🧾 ✍️ 📓

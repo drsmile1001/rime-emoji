@@ -1,0 +1,50 @@
+# ⛅ semantic-alias/weather.yaml
+# 用途：涵蓋天氣現象與自然景象，用於聊天、日記、氣象提醒或行程描述。
+- alias: 天氣
+  emojis: ⛅ 🌤️ 🌦️
+- alias: 晴天
+  emojis: ☀️ 🌞 🌤️
+- alias: 陽光
+  emojis: ☀️ 😎
+- alias: 陰天
+  emojis: ☁️ 🌥️
+- alias: 下雨
+  emojis: 🌧️ 🌦️ ☔
+- alias: 小雨
+  emojis: 🌦️ ☔
+- alias: 大雨
+  emojis: 🌧️ ⛈️
+- alias: 雷雨
+  emojis: ⛈️ ⚡🌩️
+- alias: 打雷
+  emojis: ⚡🌩️
+- alias: 閃電
+  emojis: ⚡ ⚡️
+- alias: 下雪
+  emojis: ❄️ 🌨️ ⛄
+- alias: 冰雹
+  emojis: 🌨️ ❄️
+- alias: 颱風
+  emojis: 🌀 🌪️
+- alias: 強風
+  emojis: 🌬️ 💨
+- alias: 彩虹
+  emojis: 🌈 🌦️
+- alias: 霧
+  emojis: 🌫️ 🫥
+- alias: 露水
+  emojis: 💧 🌫️
+- alias: 日出
+  emojis: 🌅 🌄
+- alias: 日落
+  emojis: 🌇 🌆
+- alias: 晚上
+  emojis: 🌙 🌌
+- alias: 星星
+  emojis: 🌟 ✨ ⭐
+- alias: 月亮
+  emojis: 🌙 🌛
+- alias: 太陽
+  emojis: ☀️ 🌞
+- alias: 天空
+  emojis: 🌌 ☁️

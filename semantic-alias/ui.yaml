@@ -1,0 +1,58 @@
+# 🖼️ semantic-alias/ui.yaml
+# 用途：涵蓋前端介面（UI）設計、使用者操作、互動元件與提示流程語意，適用於設計 wireframe、使用者說明、系統提示等場景。
+- alias: 按鈕
+  emojis: 🔘 🖲️
+- alias: 表單
+  emojis: 📝 📋
+- alias: 欄位
+  emojis: 📄 🪪
+- alias: 選單
+  emojis: 📑 ☰
+- alias: 分頁
+  emojis: 📄 📚
+- alias: 頁面
+  emojis: 🖥️ 🧾
+- alias: 圖示
+  emojis: 🖼️ 🎨
+- alias: 清除
+  emojis: ❌ 🧹
+- alias: 提交
+  emojis: 📤 📨
+- alias: 取消
+  emojis: ❌ 🚫
+- alias: 確認
+  emojis: ✔️ ☑️
+- alias: 編輯
+  emojis: ✏️ 🖊️
+- alias: 儲存
+  emojis: 💾 📥
+- alias: 返回
+  emojis: 🔙 ⬅️
+- alias: 下一步
+  emojis: ⏭️ ➡️
+- alias: 上一步
+  emojis: ⏮️ ⬅️
+- alias: 載入中
+  emojis: 🔄 ⏳
+- alias: 提示
+  emojis: 💡 🔔
+- alias: 警告
+  emojis: ⚠️ 🚨
+- alias: 錯誤
+  emojis: ❌ 🛑
+- alias: 成功
+  emojis: ✅ 🎉
+- alias: 搜尋
+  emojis: 🔍 🔎
+- alias: 展開
+  emojis: ➕ 🔽
+- alias: 收合
+  emojis: ➖ 🔼
+- alias: 拖曳
+  emojis: 🖱️ ✋
+- alias: 上傳
+  emojis: ⬆️ 📤
+- alias: 下載
+  emojis: ⬇️ 📥
+- alias: 預覽
+  emojis: 🧐 🖼️

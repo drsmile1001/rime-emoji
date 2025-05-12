@@ -1,0 +1,50 @@
+# 🗄️ semantic-alias/data.yaml
+# 用途：涵蓋資料操作、資料結構、儲存、查詢、資料流程等語意，適用於資料庫設計、API 開發、資料轉換等情境。
+- alias: 資料
+  emojis: 📄 🧾
+- alias: 數據
+  emojis: 📊 💾
+- alias: 圖表
+  emojis: 📊 📈 📉
+- alias: 趨勢
+  emojis: 📈 📉
+- alias: 向上
+  emojis: 📈 🔼
+- alias: 向下
+  emojis: 📉 🔽
+- alias: 快取
+  emojis: 🧂 🗃️
+- alias: 暫存
+  emojis: 🗃️ 🧊
+- alias: 儲存
+  emojis: 💾 🗄️
+- alias: 資料庫
+  emojis: 🗄️ 🧱
+- alias: 查詢
+  emojis: 🔍 🔎
+- alias: 搜尋
+  emojis: 🔍 🕵️
+- alias: 篩選
+  emojis: 🔎 🧹
+- alias: 欄位
+  emojis: 📋 🪪
+- alias: 表格
+  emojis: 📊 📋
+- alias: 匯入
+  emojis: 📥 ⬇️
+- alias: 匯出
+  emojis: 📤 ⬆️
+- alias: 同步
+  emojis: 🔄 🔁
+- alias: 異步
+  emojis: ⏳ 🚧
+- alias: 結構
+  emojis: 🧱 🧬
+- alias: 類型
+  emojis: 🧾 🧠
+- alias: 格式
+  emojis: 📐 🔤
+- alias: 對應
+  emojis: 🔁 ↔️
+- alias: 對齊
+  emojis: 📏 📐

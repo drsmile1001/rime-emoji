@@ -1,0 +1,58 @@
+# 🍽️ semantic-alias/food.yaml
+# 用途：涵蓋飲食類別、食物種類、用餐情境與行為，適用於記錄三餐、打卡分享、聊天互動等生活場合。
+- alias: 吃飯
+  emojis: 🍚 🍽️ 🍱
+- alias: 早餐
+  emojis: 🥞 🥚 ☕
+- alias: 午餐
+  emojis: 🍛 🍜 🥢
+- alias: 晚餐
+  emojis: 🍝 🍖 🍷
+- alias: 宵夜
+  emojis: 🌙 🍲 🍢
+- alias: 點心
+  emojis: 🍩 🍪 🧁
+- alias: 飲料
+  emojis: 🧃 🧋 🥤
+- alias: 水
+  emojis: 💧 🥛
+- alias: 咖啡
+  emojis: ☕ 🫘
+- alias: 茶
+  emojis: 🍵 🫖
+- alias: 酒
+  emojis: 🍺 🍻 🍷
+- alias: 果汁
+  emojis: 🧃 🍊
+- alias: 蔬菜
+  emojis: 🥦 🥬 🥕
+- alias: 水果
+  emojis: 🍎 🍇 🍌
+- alias: 肉
+  emojis: 🍖 🍗 🥩
+- alias: 海鮮
+  emojis: 🦐 🐟 🦑
+- alias: 炸物
+  emojis: 🍟 🍤 🧆
+- alias: 麵
+  emojis: 🍜 🍝 🍲
+- alias: 飯
+  emojis: 🍚 🍛
+- alias: 湯
+  emojis: 🥣 🍲
+- alias: 甜點
+  emojis: 🍰 🍮 🍦
+- alias: 餅乾
+  emojis: 🍪 🍘
+- alias: 冰品
+  emojis: 🍦 🍧 🧊
+- alias: 烤肉
+  emojis: 🍖 🔥 🍢
+- alias: 煮飯
+  emojis: 🍳 🧑‍🍳
+- alias: 外送
+  emojis: 🛵 🛍️ 📦
+- alias: 吃飽
+  emojis: 😋 🈵
+- alias: 餓
+  emojis: 🤤 😩 🍴

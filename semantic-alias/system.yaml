@@ -1,0 +1,44 @@
+# ✅ semantic-alias/system.yaml
+# 用途：描述系統流程狀態、執行行為、控制流程等常見語意。
+- alias: 開始
+  emojis: 🟢 ▶️
+- alias: 運行
+  emojis: ▶️ 🏃
+- alias: 進行中
+  emojis: 🔄 🔃
+- alias: 等待
+  emojis: ⌛ ⏳
+- alias: 完成
+  emojis: 🏁 ✅
+- alias: 成功
+  emojis: ✅ ☑️ ✔️
+- alias: 通過
+  emojis: ☑️ ✅
+- alias: 確認
+  emojis: ✔️ ☑️
+- alias: 錯誤
+  emojis: ❌ 💥 🧨
+- alias: 失敗
+  emojis: ❌ 💥
+- alias: 停止
+  emojis: ⛔ ✋
+- alias: 中止
+  emojis: 🛑 ⛔
+- alias: 禁止
+  emojis: 🚫 ⛔
+- alias: 重試
+  emojis: 🔁 🔃
+- alias: 重啟
+  emojis: 🔄 ♻️
+- alias: 回傳
+  emojis: 🔙 🔁
+- alias: 更新
+  emojis: 🔃 🔁 ♻️
+- alias: 同步
+  emojis: 🔄 🔁
+- alias: 計時
+  emojis: ⏱️ ⌛
+- alias: 鎖定
+  emojis: 🔒 🔐
+- alias: 解鎖
+  emojis: 🔓 🗝️

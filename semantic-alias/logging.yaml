@@ -1,0 +1,44 @@
+# 🪵 semantic-alias/logging.yaml
+# 用途：描述 console 輸出、log 訊息層級、提示與 debug 常見語意。
+- alias: 資訊
+  emojis: ℹ️ 📰
+- alias: 提示
+  emojis: 💡 🔎
+- alias: 注意
+  emojis: 📢 🔔
+- alias: 警告
+  emojis: ⚠️ 🚧
+- alias: 錯誤
+  emojis: ❌ 🧨 🐞
+- alias: 除錯
+  emojis: 🐞 🔍 🛠️
+- alias: 偵測
+  emojis: 🕵️ 🔍
+- alias: 監聽
+  emojis: 👂 📡
+- alias: 輸入
+  emojis: ⌨️ 🎛️
+- alias: 輸出
+  emojis: 📤 🖨️
+- alias: 模擬
+  emojis: 🎮 🧪
+- alias: 捕捉
+  emojis: 📸 🧲
+- alias: 跳過
+  emojis: ⏭️ ⏩
+- alias: 排除
+  emojis: 🚷 🚫
+- alias: 忽略
+  emojis: 🙈
+- alias: 停用
+  emojis: 🚫 🔕
+- alias: 啟用
+  emojis: 🔓 ✅
+- alias: 重新導向
+  emojis: 🔁 🔀
+- alias: 記錄
+  emojis: 📝 📜
+- alias: 備註
+  emojis: 💬 🗒️
+- alias: 標記
+  emojis: 📌 🖍️

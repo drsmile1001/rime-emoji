@@ -1,0 +1,50 @@
+# 🤝 semantic-alias/team.yaml
+# 用途：涵蓋團隊協作、溝通流程、任務分工、會議紀錄、決策與共識建立等語意，適用於工作指引與跨部門協作場景。
+- alias: 團隊
+  emojis: 🧑‍🤝‍🧑 👥
+- alias: 協作
+  emojis: 🤝 👯
+- alias: 任務
+  emojis: 📋 ✅
+- alias: 工作
+  emojis: 💼 🧰
+- alias: 負責
+  emojis: 🙋 📌
+- alias: 派發
+  emojis: 📤 📩
+- alias: 回報
+  emojis: 📮 📢
+- alias: 討論
+  emojis: 🗣️ 💬
+- alias: 意見
+  emojis: 💡 💭
+- alias: 共識
+  emojis: 🤝 ✨
+- alias: 協議
+  emojis: 🤝 📜
+- alias: 會議
+  emojis: 📅 🗣️
+- alias: 紀錄
+  emojis: 📝 📜
+- alias: 提案
+  emojis: 📄 🗳️
+- alias: 回饋
+  emojis: 🔁 💬
+- alias: 決策
+  emojis: 🧠 ⚖️
+- alias: 支援
+  emojis: 🆘 🙋
+- alias: 指引
+  emojis: 🧭 📘
+- alias: 計劃
+  emojis: 🗓️ 📝
+- alias: 排程
+  emojis: 📅 🧾
+- alias: 通知
+  emojis: 🔔 📣
+- alias: 待辦
+  emojis: 📝 ⏳
+- alias: 優先
+  emojis: 🔝 🥇
+- alias: 分工
+  emojis: ⚒️ 📤

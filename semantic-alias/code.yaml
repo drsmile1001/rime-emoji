@@ -1,0 +1,60 @@
+# 💻 semantic-alias/code.yaml
+# 用途：涵蓋程式開發中常見的操作與概念語意，包括撰寫、測試、部署、版本控制、命令行等。
+- alias: 撰寫
+  emojis: ✍️ ⌨️
+- alias: 編譯
+  emojis: 🛠️ 🧪
+- alias: 建置
+  emojis: 🛠️ 🧱
+- alias: 測試
+  emojis: 🧪 ✅
+- alias: 除錯
+  emojis: 🐞 🔍
+- alias: 模擬
+  emojis: 🎮 🧪
+- alias: 部署
+  emojis: 🚀 📦
+- alias: 上線
+  emojis: 🚀 ✅
+- alias: 指令
+  emojis: 📜 ⌨️
+- alias: 任務
+  emojis: 📋 ✅
+- alias: 腳本
+  emojis: 📜 🧾
+- alias: 執行
+  emojis: ▶️ 🟢
+- alias: 重啟
+  emojis: 🔄 ♻️
+- alias: 停止
+  emojis: ⛔ 🛑
+- alias: 重試
+  emojis: 🔁 🔃
+- alias: 更新
+  emojis: 🔃 ♻️
+- alias: 同步
+  emojis: 🔄 🔁
+- alias: 設定
+  emojis: ⚙️ 🧰
+- alias: 配置
+  emojis: 🧰 ⚙️
+- alias: 依賴
+  emojis: 🧷 🔗
+- alias: 安裝
+  emojis: 📦 ⬇️
+- alias: 升級
+  emojis: ⬆️ 📈
+- alias: 降級
+  emojis: ⬇️ 📉
+- alias: 版本
+  emojis: 🧾 🆚
+- alias: 分支
+  emojis: 🌿 🌱
+- alias: 合併
+  emojis: 🔀 🤝
+- alias: 衝突
+  emojis: ⚔️ 💥
+- alias: 比對
+  emojis: 🔍 📊
+- alias: 驗證
+  emojis: 🔐 ✅

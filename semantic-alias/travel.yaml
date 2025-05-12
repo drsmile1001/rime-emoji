@@ -1,0 +1,54 @@
+# ✈️ semantic-alias/travel.yaml
+# 用途：涵蓋旅遊、交通、地點、行李與景點等語意，適用於出差紀錄、假期安排、旅遊分享或行程備忘。
+- alias: 旅行
+  emojis: 🧳 ✈️ 🗺️
+- alias: 出國
+  emojis: 🛫 🌍 ✈️
+- alias: 回國
+  emojis: 🛬 🏠
+- alias: 出差
+  emojis: 💼 ✈️ 🏨
+- alias: 假期
+  emojis: 🏖️ 🌴 🍹
+- alias: 景點
+  emojis: 🗼 🏰 🗽
+- alias: 打卡
+  emojis: 📍 📸
+- alias: 拍照
+  emojis: 📸 🤳
+- alias: 地圖
+  emojis: 🗺️ 📍
+- alias: 行程
+  emojis: 🗓️ ✍️ 🧳
+- alias: 訂房
+  emojis: 🏨 🛏️ 🧾
+- alias: 搭飛機
+  emojis: ✈️ 🛫 🛬
+- alias: 飛機
+  emojis: ✈️ 🛩️
+- alias: 火車
+  emojis: 🚆 🚄
+- alias: 高鐵
+  emojis: 🚄 🛤️
+- alias: 公車
+  emojis: 🚌 🚏
+- alias: 地鐵
+  emojis: 🚇 🚉
+- alias: 出租車
+  emojis: 🚕 🚖
+- alias: 開車
+  emojis: 🚗 🛣️
+- alias: 騎車
+  emojis: 🛵 🚴
+- alias: 過海關
+  emojis: 🛂 🛃
+- alias: 行李
+  emojis: 🧳 🎒
+- alias: 护照
+  emojis: 🛂 📘
+- alias: 登機
+  emojis: 🛫 🎫
+- alias: 下機
+  emojis: 🛬 🛅
+- alias: 報到
+  emojis: 🧾 🛂

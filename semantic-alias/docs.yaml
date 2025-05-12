@@ -1,0 +1,48 @@
+# 📚 semantic-alias/docs.yaml
+# 用途：用於說明文件、程式註解、規格撰寫、教學內容與文件維護相關語意。
+- alias: 文件
+  emojis: 📄 📃
+- alias: 說明
+  emojis: 📖 📚
+- alias: 教學
+  emojis: 👨‍🏫 📚
+- alias: 指南
+  emojis: 🧭 🗺️
+- alias: 規格
+  emojis: 📐 📏
+- alias: 結構圖
+  emojis: 🗺️ 🧱
+- alias: 註解
+  emojis: 🖊️ 🧾
+- alias: 備註
+  emojis: 💬 🗒️
+- alias: 表單
+  emojis: 📋 📝
+- alias: 表格
+  emojis: 📊 📋
+- alias: 清單
+  emojis: 🗒️ ✅
+- alias: 範例
+  emojis: 🧾 📄
+- alias: 標記
+  emojis: 📌 🖍️
+- alias: 範本
+  emojis: 📄 📑
+- alias: 檔案
+  emojis: 📂 🗃️
+- alias: 步驟
+  emojis: 👣 🔢
+- alias: 歷史
+  emojis: 📜 🕰️
+- alias: 記錄
+  emojis: 📝 📜
+- alias: 檢核表
+  emojis: ☑️ 🧾
+- alias: 描述
+  emojis: 🖋️ 📝
+- alias: 統整
+  emojis: 🧾 📚
+- alias: 關聯
+  emojis: 🔗 ➰
+- alias: 限制
+  emojis: ⛓️ 🚫

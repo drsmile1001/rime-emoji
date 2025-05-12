@@ -1,0 +1,68 @@
+# 🏡 semantic-alias/daily.yaml
+# 用途：涵蓋日常生活中常見的行為與情境，例如起居、交通、作息、活動、家務、娛樂等。
+- alias: 起床
+  emojis: 🌅 ⏰ 😪
+- alias: 睡覺
+  emojis: 🛌 😴 💤
+- alias: 洗澡
+  emojis: 🚿 🛁 🫧
+- alias: 刷牙
+  emojis: 🪥 😬
+- alias: 吃飯
+  emojis: 🍚 🍱 🍽️
+- alias: 早餐
+  emojis: 🥞 🥚 ☕
+- alias: 午餐
+  emojis: 🍛 🍜 🍲
+- alias: 晚餐
+  emojis: 🍝 🍖 🍷
+- alias: 喝水
+  emojis: 💧 🥤
+- alias: 喝咖啡
+  emojis: ☕ 🫘
+- alias: 出門
+  emojis: 🚪 🧥 🧳
+- alias: 通勤
+  emojis: 🚶 🚋 🚇
+- alias: 上班
+  emojis: 🏢 💼
+- alias: 工作
+  emojis: 💼 👨‍💻
+- alias: 下班
+  emojis: 🌇 🧘
+- alias: 回家
+  emojis: 🏠 🚪
+- alias: 看書
+  emojis: 📖 📚
+- alias: 看劇
+  emojis: 📺 🎬
+- alias: 打遊戲
+  emojis: 🎮 🕹️
+- alias: 運動
+  emojis: 🏃‍♂️ 🧘 🏋️
+- alias: 散步
+  emojis: 🚶‍♀️ 🌳
+- alias: 洗衣服
+  emojis: 🧺 🧼
+- alias: 打掃
+  emojis: 🧹 🧽
+- alias: 購物
+  emojis: 🛒 🛍️
+- alias: 買東西
+  emojis: 💸 🛍️
+- alias: 煮飯
+  emojis: 🍳 🥘
+- alias: 出國
+  emojis: 🛫 🌍
+- alias: 旅行
+  emojis: 🧳 🗺️
+- alias: 看醫生
+  emojis: 🏥 👨‍⚕️ 💊
+- alias: 吃藥
+  emojis: 💊 🥼
+- alias: 生病
+  emojis: 🤒 🤧 🥴
+- alias: 打電話
+  emojis: 📞 ☎️
+- alias: 傳訊息
+  emojis: 💬 📱
