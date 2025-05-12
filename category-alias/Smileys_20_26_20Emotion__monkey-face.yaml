@@ -4,10 +4,10 @@ alias: 猴臉 遮眼 遮耳
 emojis:
   - emoji: 🙈
     name: E0.6 see-no-evil monkey
-    alias: 遮眼 微笑 安靜
+    alias: 遮眼 不看 看不見 忽視 隱藏
   - emoji: 🙉
     name: E0.6 hear-no-evil monkey
-    alias: 遮耳 微笑 安靜
+    alias: 遮耳 不聽 聽不見 忽聽 置之不理
   - emoji: 🙊
     name: E0.6 speak-no-evil monkey
-    alias: 遮嘴 微笑 安靜
+    alias: 遮嘴 不說 保密 閉嘴 沉默

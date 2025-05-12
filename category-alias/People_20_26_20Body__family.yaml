@@ -1,15 +1,22 @@
 group: People & Body
 subgroup: family
+alias: 家人 親情 伴侶
 emojis:
   - emoji: 🧑‍🤝‍🧑
     name: E12.0 people holding hands
+    alias: 牽手 朋友 伴侶
   - emoji: 👭
     name: E1.0 women holding hands
+    alias: 女女牽手 女伴 朋友
   - emoji: 👫
     name: E0.6 woman and man holding hands
+    alias: 男女牽手 情侶 伴侶
   - emoji: 👬
     name: E1.0 men holding hands
+    alias: 男男牽手 男伴 朋友
   - emoji: 💏
     name: E0.6 kiss
+    alias: 接吻 親親 情侶
   - emoji: 💑
     name: E0.6 couple with heart
+    alias: 情侶 愛心伴 心戀

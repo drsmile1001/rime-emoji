@@ -10,22 +10,22 @@ emojis:
     alias: 小聲 低音 微音
   - emoji: 🔉
     name: E1.0 speaker medium volume
-    alias: 中聲 中音 適中音量
+    alias: 中聲 中音 適音
   - emoji: 🔊
     name: E0.6 speaker high volume
-    alias: 大聲 高音 響亮音量
+    alias: 大聲 高音 響亮
   - emoji: 📢
     name: E0.6 loudspeaker
-    alias: 喇叭 擴音器 音響
+    alias: 喇叭 擴音 音響
   - emoji: 📣
     name: E0.6 megaphone
     alias: 擴音器 喊話器 大聲公
   - emoji: 📯
     name: E1.0 postal horn
-    alias: 號角 喇叭角 音樂角
+    alias: 號角 喇叭角 音角
   - emoji: 🔔
     name: E0.6 bell
-    alias: 鈴鐺 鈴聲 響鈴
+    alias: 鈴鐺 鈴 響鈴
   - emoji: 🔕
     name: E1.0 bell with slash
-    alias: 禁鈴 靜音鈴 無聲鈴
+    alias: 禁鈴 無聲鈴 靜鈴

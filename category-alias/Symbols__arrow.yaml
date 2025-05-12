@@ -34,16 +34,16 @@ emojis:
     alias: 左右 水平 水平方向
   - emoji: ↩️
     name: E0.6 right arrow curving left
-    alias: 右轉左 向左轉 左彎
+    alias: 右轉左 向左轉 左彎 右轉
   - emoji: ↪️
     name: E0.6 left arrow curving right
-    alias: 左轉右 向右轉 右彎
+    alias: 左轉右 向右轉 右彎 左轉
   - emoji: ⤴️
     name: E0.6 right arrow curving up
-    alias: 右轉上 向上轉 上彎
+    alias: 右轉上 向上轉 上彎 右轉上
   - emoji: ⤵️
     name: E0.6 right arrow curving down
-    alias: 右轉下 向下轉 下彎
+    alias: 右轉下 向下轉 下彎 右轉下
   - emoji: 🔃
     name: E0.6 clockwise vertical arrows
     alias: 順時針 旋轉 順時針旋轉
@@ -52,16 +52,16 @@ emojis:
     alias: 逆時針 旋轉 逆時針旋轉
   - emoji: 🔙
     name: E0.6 BACK arrow
-    alias: 返回 後退 回去
+    alias: 返回 後退 回去 撤回
   - emoji: 🔚
     name: E0.6 END arrow
-    alias: 結束 終止 終點
+    alias: 結束 終止 終點 完結
   - emoji: 🔛
     name: E0.6 ON! arrow
-    alias: 開啟 啟動 開始
+    alias: 開啟 啟動 開始 開始運作
   - emoji: 🔜
     name: E0.6 SOON arrow
-    alias: 即將 快速 即刻
+    alias: 即將 快速 即刻 立刻
   - emoji: 🔝
     name: E0.6 TOP arrow
     alias: 頂部 上方 最上

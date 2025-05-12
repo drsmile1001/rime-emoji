@@ -4,28 +4,28 @@ alias: 地理
 emojis:
   - emoji: 🏔️
     name: E0.7 snow-capped mountain
-    alias: 雪山 高山 冰山
+    alias: 雪山 高山 冰山 冰雪 山脈
   - emoji: ⛰️
     name: E0.7 mountain
-    alias: 山 高山 山脈
+    alias: 山 高山 山脈 峰頂
   - emoji: 🌋
     name: E0.6 volcano
-    alias: 火山 熔岩 山
+    alias: 火山 熔岩 山 龍山
   - emoji: 🗻
     name: E0.6 mount fuji
-    alias: 富士山 日本山 山
+    alias: 富士山 日本山 神山
   - emoji: 🏕️
     name: E0.7 camping
-    alias: 露營 帳篷 野營
+    alias: 露營 帳篷 野營 自然露營
   - emoji: 🏖️
     name: E0.7 beach with umbrella
-    alias: 海灘 沙灘 陽傘
+    alias: 海灘 沙灘 陽傘 海邊
   - emoji: 🏜️
     name: E0.7 desert
-    alias: 沙漠 荒地 乾燥
+    alias: 沙漠 荒地 乾燥 戈壁
   - emoji: 🏝️
     name: E0.7 desert island
-    alias: 荒島 小島 孤島
+    alias: 荒島 小島 孤島 熱帶島
   - emoji: 🏞️
     name: E0.7 national park
-    alias: 國家公園 公園 自然
+    alias: 國家公園 公園 自然 保護區

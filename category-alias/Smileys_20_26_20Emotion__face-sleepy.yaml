@@ -4,19 +4,19 @@ alias: 睡臉 睏臉 放鬆
 emojis:
   - emoji: 😌
     name: E0.6 relieved face
-    alias: 放鬆 微笑 安靜
+    alias: 放鬆 舒適 安心 解脫 輕鬆
   - emoji: 😔
     name: E0.6 pensive face
-    alias: 沉思 微笑 安靜
+    alias: 沉思 惆悵 深思 無聊 慍
   - emoji: 😪
     name: E0.6 sleepy face
-    alias: 睏臉 微笑 安靜
+    alias: 睏臉 疲倦 想睡 打哈欠 昏沉
   - emoji: 🤤
     name: E3.0 drooling face
-    alias: 流口 微笑 安靜
+    alias: 流口水 垂涎 睡意 沉睡 鬆弛
   - emoji: 😴
     name: E1.0 sleeping face
-    alias: 睡覺 微笑 安靜
+    alias: 睡覺 呼吸安穩 安眠 夢鄉 熟睡
   - emoji: 🫩
     name: E16.0 face with bags under eyes
-    alias: 黑眼 微笑 安靜
+    alias: 黑眼圈 疲勞 昏沉 累樣 沒精神

@@ -4,22 +4,22 @@ alias: 餐具 餐盤 餐刀
 emojis:
   - emoji: 🥢
     name: E5.0 chopsticks
-    alias: 筷子 小筷子 圓筷子
+    alias: 筷子 筷 雙筷 木筷
   - emoji: 🍽️
     name: E0.7 fork and knife with plate
-    alias: 餐盤 餐具 小餐盤
+    alias: 餐盤 餐具 盤 刀叉盤
   - emoji: 🍴
     name: E0.6 fork and knife
-    alias: 刀叉 餐刀 小刀叉
+    alias: 刀叉 餐刀 餐叉 叉 刀
   - emoji: 🥄
     name: E3.0 spoon
-    alias: 湯匙 小湯匙 圓湯匙
+    alias: 湯匙 匙 餐匙 小匙
   - emoji: 🔪
     name: E0.6 kitchen knife
-    alias: 菜刀 廚刀 小菜刀
+    alias: 菜刀 廚刀 刀 廚具刀
   - emoji: 🫙
     name: E14.0 jar
-    alias: 罐子 小罐子 圓罐子
+    alias: 罐子 罐 密封罐 儲物罐
   - emoji: 🏺
     name: E1.0 amphora
-    alias: 陶罐 小陶罐 圓陶罐
+    alias: 陶罐 古罐 陶 壺

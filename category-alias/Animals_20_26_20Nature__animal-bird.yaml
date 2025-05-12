@@ -4,67 +4,67 @@ alias: 鳥類 飛禽 動物
 emojis:
   - emoji: 🦃
     name: E1.0 turkey
-    alias: 火雞 大火雞 家禽
+    alias: 火雞 大火雞 家禽 火 雞
   - emoji: 🐔
     name: E0.6 chicken
-    alias: 雞 小雞 家禽
+    alias: 雞 小雞 家禽 母雞 雞隻
   - emoji: 🐓
     name: E1.0 rooster
-    alias: 公雞 雄雞 家禽
+    alias: 公雞 雄雞 雞 鳴雞 公
   - emoji: 🐣
     name: E0.6 hatching chick
-    alias: 雛雞 小雞 雞蛋
+    alias: 雛雞 小雞 雞蛋 孵蛋 雛
   - emoji: 🐤
     name: E0.6 baby chick
-    alias: 小雞 雛雞 黃雞
+    alias: 小雞 雛雞 黃雞 雞仔 雞寶
   - emoji: 🐥
     name: E0.6 front-facing baby chick
-    alias: 小雞臉 雛雞臉 黃雞臉
+    alias: 小雞臉 雛雞臉 黃雞臉 雞臉 臉
   - emoji: 🐦
     name: E0.6 bird
-    alias: 鳥 小鳥 飛鳥
+    alias: 鳥 小鳥 飛鳥 鳥兒 鳥類
   - emoji: 🐧
     name: E0.6 penguin
-    alias: 企鵝 南極鳥 小企鵝
+    alias: 企鵝 小企鵝 南極鳥 鵝 企
   - emoji: 🕊️
     name: E0.7 dove
-    alias: 鴿 白鴿 和平鴿
+    alias: 鴿 白鴿 和平 鴿子 和
   - emoji: 🦅
     name: E3.0 eagle
-    alias: 鷹 大鷹 猛禽
+    alias: 鷹 大鷹 老鷹 猛禽 鷹鳥
   - emoji: 🦆
     name: E3.0 duck
-    alias: 鴨 小鴨 家鴨
+    alias: 鴨 小鴨 家鴨 鴨子 鴨鴨
   - emoji: 🦢
     name: E11.0 swan
-    alias: 天鵝 白天鵝 大天鵝
+    alias: 天鵝 白天鵝 鵝 水鳥 優雅鳥
   - emoji: 🦉
     name: E3.0 owl
-    alias: 貓頭鷹 夜鷹 智慧鳥
+    alias: 貓頭鷹 夜鷹 智慧鳥 夜鳥 貓鷹
   - emoji: 🦤
     name: E13.0 dodo
-    alias: 渡渡鳥 滅絕鳥 大鳥
+    alias: 渡渡鳥 滅絕鳥 大鳥 古鳥 渡
   - emoji: 🪶
     name: E13.0 feather
-    alias: 羽毛 鳥毛 飛毛
+    alias: 羽毛 鳥毛 飛毛 羽 羽片
   - emoji: 🦩
     name: E12.0 flamingo
-    alias: 火烈鳥 紅鳥 長腿鳥
+    alias: 火烈鳥 紅鳥 長腿鳥 粉鳥 烈
   - emoji: 🦚
     name: E11.0 peacock
-    alias: 孔雀 開屏鳥 美麗鳥
+    alias: 孔雀 開屏鳥 美麗鳥 開屏 孔
   - emoji: 🦜
     name: E11.0 parrot
-    alias: 鸚鵡 說話鳥 彩色鳥
+    alias: 鸚鵡 說話鳥 彩色鳥 鵡 說鳥
   - emoji: 🪽
     name: E15.0 wing
-    alias: 翅膀 飛翼 鳥翼
+    alias: 翅膀 飛翼 鳥翼 翼 翅
   - emoji: 🐦‍⬛
     name: E15.0 black bird
-    alias: 黑鳥 烏鴉 黑色鳥
+    alias: 黑鳥 黑色鳥 烏鴉 鴉 黑
   - emoji: 🪿
     name: E15.0 goose
-    alias: 鵝 大鵝 家鵝
+    alias: 鵝 大鵝 家鵝 水鵝 鵝隻
   - emoji: 🐦‍🔥
     name: E15.1 phoenix
-    alias: 鳳凰 火鳥 神鳥
+    alias: 鳳凰 火鳥 神鳥 鳳 火鳥

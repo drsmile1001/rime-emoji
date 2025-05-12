@@ -1,9 +1,13 @@
 group: People & Body
 subgroup: person-resting
+alias: 休息 放鬆 靜態
 emojis:
   - emoji: 🧘
     name: E5.0 person in lotus position
+    alias: 打坐 冥想 坐禪
   - emoji: 🛀
     name: E0.6 person taking bath
+    alias: 洗澡 泡澡 沐浴
   - emoji: 🛌
     name: E1.0 person in bed
+    alias: 睡覺 躺床 休息床

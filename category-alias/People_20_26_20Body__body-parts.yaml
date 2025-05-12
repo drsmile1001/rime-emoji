@@ -1,39 +1,58 @@
 group: People & Body
 subgroup: body-parts
+alias: 身體 部位 器官
 emojis:
   - emoji: 💪
     name: E0.6 flexed biceps
+    alias: 手臂 肌肉 手肌
   - emoji: 🦾
     name: E12.0 mechanical arm
+    alias: 機械手 手械 機臂
   - emoji: 🦿
     name: E12.0 mechanical leg
+    alias: 機械腿 腿械 機腿
   - emoji: 🦵
     name: E11.0 leg
+    alias: 腿 大腿 小腿
   - emoji: 🦶
     name: E11.0 foot
+    alias: 腳 腳掌 足
   - emoji: 👂
     name: E0.6 ear
+    alias: 耳朵 聽器 耳
   - emoji: 🦻
     name: E12.0 ear with hearing aid
+    alias: 助聽耳 聽力輔助 聽障耳
   - emoji: 👃
     name: E0.6 nose
+    alias: 鼻子 鼻 嗅覺
   - emoji: 🧠
     name: E5.0 brain
+    alias: 腦 腦袋 大腦
   - emoji: 🫀
     name: E13.0 anatomical heart
+    alias: 心臟 心器 心
   - emoji: 🫁
     name: E13.0 lungs
+    alias: 肺 肺部 呼吸器
   - emoji: 🦷
     name: E11.0 tooth
+    alias: 牙 牙齒 齒
   - emoji: 🦴
     name: E11.0 bone
+    alias: 骨 骨頭 骨骼
   - emoji: 👀
     name: E0.6 eyes
+    alias: 眼睛 目 雙眼
   - emoji: 👁️
     name: E0.7 eye
+    alias: 單眼 眼睛 目
   - emoji: 👅
     name: E0.6 tongue
+    alias: 舌頭 舌 味覺
   - emoji: 👄
     name: E0.6 mouth
+    alias: 嘴巴 嘴 口
   - emoji: 🫦
     name: E14.0 biting lip
+    alias: 咬唇 唇 嘴唇

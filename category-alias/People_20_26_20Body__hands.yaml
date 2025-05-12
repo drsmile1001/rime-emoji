@@ -4,22 +4,22 @@ alias: 雙手
 emojis:
   - emoji: 👏
     name: E0.6 clapping hands
-    alias: 鼓掌
+    alias: 鼓掌 掌聲
   - emoji: 🙌
     name: E0.6 raising hands
-    alias: 舉手
+    alias: 舉手 揮手
   - emoji: 🫶
     name: E14.0 heart hands
-    alias: 愛心手
+    alias: 愛心手 心手
   - emoji: 👐
     name: E0.6 open hands
-    alias: 張手
+    alias: 張手 展開手
   - emoji: 🤲
     name: E5.0 palms up together
-    alias: 合掌
+    alias: 合掌 祈禱手
   - emoji: 🤝
     name: E3.0 handshake
-    alias: 握手
+    alias: 握手 合手
   - emoji: 🙏
     name: E0.6 folded hands
-    alias: 祈禱
+    alias: 祈禱 手合

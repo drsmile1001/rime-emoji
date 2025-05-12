@@ -4,19 +4,19 @@ alias: 宗教
 emojis:
   - emoji: ⛪
     name: E0.6 church
-    alias: 教堂
+    alias: 教堂 宗教場所 基督教堂
   - emoji: 🕌
     name: E1.0 mosque
-    alias: 清真寺
+    alias: 清真寺 穆斯林寺廟 伊斯蘭教
   - emoji: 🛕
     name: E12.0 hindu temple
-    alias: 印度教寺廟
+    alias: 印度教寺廟 神廟 印度教
   - emoji: 🕍
     name: E1.0 synagogue
-    alias: 猶太教堂
+    alias: 猶太教堂 猶太會堂 會堂
   - emoji: ⛩️
     name: E0.7 shinto shrine
-    alias: 神社
+    alias: 神社 日本神社 神道
   - emoji: 🕋
     name: E1.0 kaaba
-    alias: 克爾白
+    alias: 克爾白 聖地 朝聖

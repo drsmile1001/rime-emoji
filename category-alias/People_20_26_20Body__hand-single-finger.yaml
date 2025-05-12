@@ -1,17 +1,25 @@
 group: People & Body
 subgroup: hand-single-finger
+alias: 指向 手指 單指
 emojis:
   - emoji: 👈
     name: E0.6 backhand index pointing left
+    alias: 向左 左指 指左
   - emoji: 👉
     name: E0.6 backhand index pointing right
+    alias: 向右 右指 指右
   - emoji: 👆
     name: E0.6 backhand index pointing up
+    alias: 向上 上指 指上
   - emoji: 🖕
     name: E1.0 middle finger
+    alias: 中指 粗魯 比中
   - emoji: 👇
     name: E0.6 backhand index pointing down
+    alias: 向下 下指 指下
   - emoji: ☝️
     name: E0.6 index pointing up
+    alias: 上一指 舉指 手指上
   - emoji: 🫵
     name: E14.0 index pointing at the viewer
+    alias: 指你 你你 指著

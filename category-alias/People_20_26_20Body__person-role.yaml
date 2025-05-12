@@ -1,71 +1,106 @@
 group: People & Body
 subgroup: person-role
+alias: 角色 職業 身份
 emojis:
   - emoji: 🧑‍⚕️
     name: E12.1 health worker
+    alias: 醫護人員 健康工作者 醫生
   - emoji: 🧑‍🎓
     name: E12.1 student
+    alias: 學生 學人 學者
   - emoji: 🧑‍🏫
     name: E12.1 teacher
+    alias: 老師 教師 教書
   - emoji: 🧑‍⚖️
     name: E12.1 judge
+    alias: 法官 審判官 法律人員
   - emoji: 🧑‍🌾
     name: E12.1 farmer
+    alias: 農夫 農業工作者 田間人
   - emoji: 🧑‍🍳
     name: E12.1 cook
+    alias: 廚師 烹飪師 食物製作者
   - emoji: 🧑‍🔧
     name: E12.1 mechanic
+    alias: 機械工 工程師 修車工
   - emoji: 🧑‍🏭
     name: E12.1 factory worker
+    alias: 工廠工人 製造工 產業工作者
   - emoji: 🧑‍💼
     name: E12.1 office worker
+    alias: 辦公室人員 辦公工作者 上班族
   - emoji: 🧑‍🔬
     name: E12.1 scientist
+    alias: 科學家 研究者 實驗人員
   - emoji: 🧑‍💻
     name: E12.1 technologist
+    alias: 科技人員 IT人員 技術員
   - emoji: 🧑‍🎤
     name: E12.1 singer
+    alias: 歌手 演唱者 音樂人
   - emoji: 🧑‍🎨
     name: E12.1 artist
+    alias: 藝術家 創作者 畫家
   - emoji: 🧑‍✈️
     name: E12.1 pilot
+    alias: 飛行員 駕駛員 空中領航
   - emoji: 🧑‍🚀
     name: E12.1 astronaut
+    alias: 太空人 宇航員 太空探險家
   - emoji: 🧑‍🚒
     name: E12.1 firefighter
+    alias: 消防員 救火員 火警
   - emoji: 👮
     name: E0.6 police officer
+    alias: 警察 警員 執法人員
   - emoji: 🕵️
     name: E0.7 detective
+    alias: 偵探 私家偵探 探員
   - emoji: 💂
     name: E0.6 guard
+    alias: 守衛 護衛 保安
   - emoji: 🥷
     name: E13.0 ninja
+    alias: 忍者 隱身者 武士
   - emoji: 👷
     name: E0.6 construction worker
+    alias: 建築工人 工程工人 鋼筋工
   - emoji: 🫅
     name: E14.0 person with crown
+    alias: 王冠人 皇帝 國王
   - emoji: 🤴
     name: E3.0 prince
+    alias: 王子 皇子 貴族
   - emoji: 👸
     name: E0.6 princess
+    alias: 公主 皇女 貴族
   - emoji: 👳
     name: E0.6 person wearing turban
+    alias: 圍頭巾人 蘇丹 長巾
   - emoji: 👲
     name: E0.6 person with skullcap
+    alias: 戴小帽人 傳統帽子
   - emoji: 🧕
     name: E5.0 woman with headscarf
+    alias: 頭巾女士 穿頭巾的女人
   - emoji: 🤵
     name: E3.0 person in tuxedo
+    alias: 穿燕尾服人 正裝人
   - emoji: 👰
     name: E0.6 person with veil
+    alias: 戴面紗人 新娘
   - emoji: 🤰
     name: E3.0 pregnant woman
+    alias: 懷孕女性 孕婦 孕媽
   - emoji: 🫃
     name: E14.0 pregnant man
+    alias: 懷孕男性 孕男
   - emoji: 🫄
     name: E14.0 pregnant person
+    alias: 孕人 孕者
   - emoji: 🤱
     name: E5.0 breast-feeding
+    alias: 哺乳 媽媽餵奶
   - emoji: 🧑‍🍼
     name: E13.0 person feeding baby
+    alias: 哺乳者 餵奶人 媽媽餵養

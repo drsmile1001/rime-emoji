@@ -4,19 +4,19 @@ alias: 握拳
 emojis:
   - emoji: 👍
     name: E0.6 thumbs up
-    alias: 讚
+    alias: 讚 好
   - emoji: 👎
     name: E0.6 thumbs down
-    alias: 噓
+    alias: 噓 不
   - emoji: ✊
     name: E0.6 raised fist
-    alias: 拳頭
+    alias: 拳頭 舉拳 握拳
   - emoji: 👊
     name: E0.6 oncoming fist
-    alias: 揮拳
+    alias: 揮拳 出拳 正拳
   - emoji: 🤛
     name: E3.0 left-facing fist
-    alias: 左拳
+    alias: 左拳 左揮 左手拳
   - emoji: 🤜
     name: E3.0 right-facing fist
-    alias: 右拳
+    alias: 右拳 右揮 右手拳

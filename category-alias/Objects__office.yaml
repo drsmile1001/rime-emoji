@@ -4,70 +4,70 @@ alias: 辦公 文具 文件
 emojis:
   - emoji: 💼
     name: E0.6 briefcase
-    alias: 公文包 辦公包 文件包
+    alias: 公文包 手提包 文件包
   - emoji: 📁
     name: E0.6 file folder
-    alias: 文件夾 辦公夾 文具夾
+    alias: 文件夾 資料夾 夾子
   - emoji: 📂
     name: E0.6 open file folder
-    alias: 打開文件夾 辦公夾 文具夾
+    alias: 開夾 開資料夾 文件夾
   - emoji: 🗂️
     name: E0.7 card index dividers
-    alias: 卡片索引 辦公索引 文具索引
+    alias: 索引卡 卡片分頁 索引
   - emoji: 📅
     name: E0.6 calendar
-    alias: 日曆 辦公日曆 文具日曆
+    alias: 日曆 月曆 曆
   - emoji: 📆
     name: E0.6 tear-off calendar
-    alias: 撕下日曆 辦公日曆 文具日曆
+    alias: 撕曆 撕頁曆 日曆
   - emoji: 🗒️
     name: E0.7 spiral notepad
-    alias: 螺旋筆記本 辦公筆記本 文具筆記本
+    alias: 螺旋本 筆記本 記事本
   - emoji: 🗓️
     name: E0.7 spiral calendar
-    alias: 螺旋日曆 辦公日曆 文具日曆
+    alias: 螺旋曆 掛曆 日曆
   - emoji: 📇
     name: E0.6 card index
-    alias: 卡片索引 辦公索引 文具索引
+    alias: 卡片盒 索引盒 資料卡
   - emoji: 📈
     name: E0.6 chart increasing
-    alias: 增長圖 辦公圖 文具圖
+    alias: 上升圖 趨勢圖 升圖
   - emoji: 📉
     name: E0.6 chart decreasing
-    alias: 減少圖 辦公圖 文具圖
+    alias: 下降圖 跌圖 退圖
   - emoji: 📊
     name: E0.6 bar chart
-    alias: 柱狀圖 辦公圖 文具圖
+    alias: 柱狀圖 條形圖 圖表
   - emoji: 📋
     name: E0.6 clipboard
-    alias: 剪貼板 辦公板 文具板
+    alias: 記錄板 夾板 板子
   - emoji: 📌
     name: E0.6 pushpin
-    alias: 大頭針 辦公針 文具針
+    alias: 大頭針 圖釘 針
   - emoji: 📍
     name: E0.6 round pushpin
-    alias: 圓大頭針 辦公針 文具針
+    alias: 圓針 圓頭針 定位針
   - emoji: 📎
     name: E0.6 paperclip
-    alias: 回形針 辦公針 文具針
+    alias: 回形針 夾子 釘
   - emoji: 🖇️
     name: E0.7 linked paperclips
-    alias: 連接回形針 辦公針 文具針
+    alias: 連夾 雙夾 鏈夾
   - emoji: 📏
     name: E0.6 straight ruler
-    alias: 直尺 辦公尺 文具尺
+    alias: 直尺 尺子 測量尺
   - emoji: 📐
     name: E0.6 triangular ruler
-    alias: 三角尺 辦公尺 文具尺
+    alias: 三角尺 角尺 測角尺
   - emoji: ✂️
     name: E0.6 scissors
-    alias: 剪刀 辦公剪 文具剪
+    alias: 剪刀 剪子 裁剪
   - emoji: 🗃️
     name: E0.7 card file box
-    alias: 卡片文件箱 辦公箱 文具箱
+    alias: 文件箱 索引箱 檔案盒
   - emoji: 🗄️
     name: E0.7 file cabinet
-    alias: 文件櫃 辦公櫃 文具櫃
+    alias: 文件櫃 檔案櫃 資料櫃
   - emoji: 🗑️
     name: E0.7 wastebasket
-    alias: 垃圾桶 辦公桶 文具桶
+    alias: 垃圾桶 紙屑桶 回收桶

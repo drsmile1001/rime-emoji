@@ -4,19 +4,19 @@ alias: 鎖 安全 鑰匙
 emojis:
   - emoji: 🔒
     name: E0.6 locked
-    alias: 鎖定 安全鎖 鑰匙鎖
+    alias: 鎖定 鎖 上鎖 安全鎖
   - emoji: 🔓
     name: E0.6 unlocked
-    alias: 解鎖 安全解鎖 鑰匙解鎖
+    alias: 解鎖 開鎖 解 安全解
   - emoji: 🔏
     name: E0.6 locked with pen
-    alias: 鎖筆 安全鎖筆 鑰匙鎖筆
+    alias: 鎖筆 保密筆 簽章鎖
   - emoji: 🔐
     name: E0.6 locked with key
-    alias: 鎖鑰 安全鎖鑰 鑰匙鎖鑰
+    alias: 鎖鑰 鑰鎖 鑰匙鎖
   - emoji: 🔑
     name: E0.6 key
-    alias: 鑰匙 安全鑰匙 鎖鑰匙
+    alias: 鑰匙 鑰 鎖匙 金鑰
   - emoji: 🗝️
     name: E0.7 old key
-    alias: 老鑰匙 安全老鑰匙 鎖老鑰匙
+    alias: 老鑰匙 舊鑰匙 古鑰 舊鑰

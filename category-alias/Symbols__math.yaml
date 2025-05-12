@@ -4,19 +4,19 @@ alias: 數學 計算 符號
 emojis:
   - emoji: ✖️
     name: E0.6 multiply
-    alias: 乘 乘法 計算
+    alias: 乘 乘法 計算 乘號
   - emoji: ➕
     name: E0.6 plus
-    alias: 加 加法 計算
+    alias: 加 加法 計算 加號
   - emoji: ➖
     name: E0.6 minus
-    alias: 減 減法 計算
+    alias: 減 減法 計算 減號
   - emoji: ➗
     name: E0.6 divide
-    alias: 除 除法 計算
+    alias: 除 除法 計算 除號
   - emoji: 🟰
     name: E14.0 heavy equals sign
-    alias: 等於 相等 平等
+    alias: 等於 相等 平等 等號
   - emoji: ♾️
     name: E11.0 infinity
     alias: 無限 無窮 無邊

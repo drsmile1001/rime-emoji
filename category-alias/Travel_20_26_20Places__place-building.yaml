@@ -4,82 +4,82 @@ alias: 建築
 emojis:
   - emoji: 🏟️
     name: E0.7 stadium
-    alias: 體育場
+    alias: 體育場 體育館 運動場 比賽場地
   - emoji: 🏛️
     name: E0.7 classical building
-    alias: 古典建築
+    alias: 古典建築 歷史建築 宮殿
   - emoji: 🏗️
     name: E0.7 building construction
-    alias: 建築施工
+    alias: 建築施工 建設 現場
   - emoji: 🧱
     name: E11.0 brick
-    alias: 磚
+    alias: 磚 砌磚 建材
   - emoji: 🪨
     name: E13.0 rock
-    alias: 岩石
+    alias: 岩石 石材 建材
   - emoji: 🪵
     name: E13.0 wood
-    alias: 木材
+    alias: 木材 木頭 樹木
   - emoji: 🛖
     name: E13.0 hut
-    alias: 小屋
+    alias: 小屋 茅屋 小木屋
   - emoji: 🏘️
     name: E0.7 houses
-    alias: 房屋
+    alias: 房屋 住宅 住宅區
   - emoji: 🏚️
     name: E0.7 derelict house
-    alias: 廢棄房屋
+    alias: 廢棄房屋 破舊房屋 荒廢住宅
   - emoji: 🏠
     name: E0.6 house
-    alias: 房子
+    alias: 房子 家庭住宅 住宅
   - emoji: 🏡
     name: E0.6 house with garden
-    alias: 花園房子
+    alias: 花園房子 住宅 花園
   - emoji: 🏢
     name: E0.6 office building
-    alias: 辦公樓
+    alias: 辦公樓 商業大樓 公司樓
   - emoji: 🏣
     name: E0.6 Japanese post office
-    alias: 日本郵局
+    alias: 日本郵局 郵局
   - emoji: 🏤
     name: E1.0 post office
-    alias: 郵局
+    alias: 郵局 服務中心 郵政
   - emoji: 🏥
     name: E0.6 hospital
-    alias: 醫院
+    alias: 醫院 醫療機構 醫療設施
   - emoji: 🏦
     name: E0.6 bank
-    alias: 銀行
+    alias: 銀行 金融機構 銀行大樓
   - emoji: 🏨
     name: E0.6 hotel
-    alias: 酒店
+    alias: 酒店 旅館 住宿
   - emoji: 🏩
     name: E0.6 love hotel
-    alias: 情侶酒店
+    alias: 情侶酒店 愛情旅館
   - emoji: 🏪
     name: E0.6 convenience store
-    alias: 便利店
+    alias: 便利店 小商店 超市
   - emoji: 🏫
     name: E0.6 school
-    alias: 學校
+    alias: 學校 教育機構 校園
   - emoji: 🏬
     name: E0.6 department store
-    alias: 百貨商店
+    alias: 百貨商店 商場 購物中心
   - emoji: 🏭
     name: E0.6 factory
-    alias: 工廠
+    alias: 工廠 生產廠房 製造廠
   - emoji: 🏯
     name: E0.6 Japanese castle
-    alias: 日本城堡
+    alias: 日本城堡 城堡 古城
   - emoji: 🏰
     name: E0.6 castle
-    alias: 城堡
+    alias: 城堡 古堡 皇宮
   - emoji: 💒
     name: E0.6 wedding
-    alias: 婚禮
+    alias: 婚禮 結婚禮堂 婚宴
   - emoji: 🗼
     name: E0.6 Tokyo tower
-    alias: 東京塔
+    alias: 東京塔 高塔 觀光塔
   - emoji: 🗽
     name: E0.6 Statue of Liberty
-    alias: 自由女神像
+    alias: 自由女神像 自由女神 觀光地標

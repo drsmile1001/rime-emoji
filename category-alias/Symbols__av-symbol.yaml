@@ -4,76 +4,76 @@ alias: 媒體符號 音樂 視頻
 emojis:
   - emoji: 🔀
     name: E1.0 shuffle tracks button
-    alias: 隨機播放 隨機 音樂
+    alias: 隨機播放 隨機 音樂 隨機曲目
   - emoji: 🔁
     name: E1.0 repeat button
-    alias: 重複 循環 音樂
+    alias: 重複 循環 音樂 播放循環
   - emoji: 🔂
     name: E1.0 repeat single button
-    alias: 單曲重複 單曲 循環
+    alias: 單曲重複 單曲 循環 播放單曲
   - emoji: ▶️
     name: E0.6 play button
-    alias: 播放 開始 音樂
+    alias: 播放 開始 音樂 播放中
   - emoji: ⏩
     name: E0.6 fast-forward button
-    alias: 快進 前進 音樂
+    alias: 快進 前進 音樂 快速播放
   - emoji: ⏭️
     name: E0.7 next track button
-    alias: 下一曲 下一 音樂
+    alias: 下一曲 下一 音樂 下一首
   - emoji: ⏯️
     name: E1.0 play or pause button
-    alias: 播放暫停 暫停 音樂
+    alias: 播放暫停 暫停 音樂 停止播放
   - emoji: ◀️
     name: E0.6 reverse button
-    alias: 倒退 後退 音樂
+    alias: 倒退 後退 音樂 回放
   - emoji: ⏪
     name: E0.6 fast reverse button
-    alias: 快退 倒退 音樂
+    alias: 快退 倒退 音樂 快速回放
   - emoji: ⏮️
     name: E0.7 last track button
-    alias: 上一曲 上一 音樂
+    alias: 上一曲 上一 音樂 上一首
   - emoji: 🔼
     name: E0.6 upwards button
-    alias: 向上 上升 音樂
+    alias: 向上 上升 音樂 音量增大
   - emoji: ⏫
     name: E0.6 fast up button
-    alias: 快速向上 快速 音樂
+    alias: 快速向上 快速 音樂 音量快速增大
   - emoji: 🔽
     name: E0.6 downwards button
-    alias: 向下 下降 音樂
+    alias: 向下 下降 音樂 音量減少
   - emoji: ⏬
     name: E0.6 fast down button
-    alias: 快速向下 快速 音樂
+    alias: 快速向下 快速 音樂 音量快速減少
   - emoji: ⏸️
     name: E0.7 pause button
-    alias: 暫停 停止 音樂
+    alias: 暫停 停止 音樂 中斷播放
   - emoji: ⏹️
     name: E0.7 stop button
-    alias: 停止 結束 音樂
+    alias: 停止 結束 音樂 停止播放
   - emoji: ⏺️
     name: E0.7 record button
-    alias: 錄音 錄製 音樂
+    alias: 錄音 錄製 音樂 錄音中
   - emoji: ⏏️
     name: E1.0 eject button
-    alias: 彈出 退出 音樂
+    alias: 彈出 退出 音樂 移除
   - emoji: 🎦
     name: E0.6 cinema
-    alias: 電影院 影片 視頻
+    alias: 電影院 影片 視頻 影像
   - emoji: 🔅
     name: E1.0 dim button
-    alias: 暗 降低 光線
+    alias: 暗 降低 光線 減光
   - emoji: 🔆
     name: E1.0 bright button
-    alias: 亮 提高 光線
+    alias: 亮 提高 光線 增光
   - emoji: 📶
     name: E0.6 antenna bars
-    alias: 信號 網絡 連接
+    alias: 信號 網絡 連接 信號強度
   - emoji: 🛜
     name: E15.0 wireless
-    alias: 無線 網絡 連接
+    alias: 無線 網絡 連接 無線網絡
   - emoji: 📳
     name: E0.6 vibration mode
-    alias: 震動 振動 手機
+    alias: 震動 振動 手機 振動模式
   - emoji: 📴
     name: E0.6 mobile phone off
-    alias: 手機關閉 關機 手機
+    alias: 手機關閉 關機 手機 關閉狀態

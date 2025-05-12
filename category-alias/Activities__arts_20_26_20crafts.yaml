@@ -4,22 +4,22 @@ alias: 藝術 工藝 創作
 emojis:
   - emoji: 🎭
     name: E0.6 performing arts
-    alias: 表演 戲劇 面具
+    alias: 表演 戲劇 面具 戲 藝
   - emoji: 🖼️
     name: E0.7 framed picture
-    alias: 畫框 圖片框 畫作
+    alias: 畫框 畫作 圖 畫 展
   - emoji: 🎨
     name: E0.6 artist palette
-    alias: 調色盤 顏料盤 畫畫
+    alias: 調色盤 顏料盤 畫畫 色盤 畫具 彩
   - emoji: 🧵
     name: E11.0 thread
-    alias: 線 縫紉線 織布線
+    alias: 線 縫線 細線 織 線團
   - emoji: 🪡
     name: E13.0 sewing needle
-    alias: 縫針 針 縫紉
+    alias: 縫針 針 縫 細針 針線
   - emoji: 🧶
     name: E11.0 yarn
-    alias: 毛線 編織線 毛衣線
+    alias: 毛線 毛衣線 毛球 線團 編織
   - emoji: 🪢
     name: E13.0 knot
-    alias: 結 繩結 打結
+    alias: 結 繩結 打結 打繩 纏

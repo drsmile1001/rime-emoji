@@ -4,19 +4,19 @@ alias: 獎章 獎牌 勳章
 emojis:
   - emoji: 🎖️
     name: E0.7 military medal
-    alias: 勳章 獎章 榮譽章
+    alias: 勳章 獎章 榮譽章 獎 勛
   - emoji: 🏆
     name: E0.6 trophy
-    alias: 獎盃 冠軍盃 獎品
+    alias: 獎盃 冠軍盃 獎品 冠盃 杯
   - emoji: 🏅
     name: E1.0 sports medal
-    alias: 獎牌 運動獎牌 金牌
+    alias: 獎牌 運動獎牌 金牌 獎章 運動
   - emoji: 🥇
     name: E3.0 1st place medal
-    alias: 金牌 冠軍 第一名
+    alias: 金牌 冠軍 第一名 一名 金
   - emoji: 🥈
     name: E3.0 2nd place medal
-    alias: 銀牌 第二名 亞軍
+    alias: 銀牌 第二名 亞軍 二名 銀
   - emoji: 🥉
     name: E3.0 3rd place medal
-    alias: 銅牌 第三名 季軍
+    alias: 銅牌 第三名 季軍 三名 銅

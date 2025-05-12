@@ -4,28 +4,28 @@ alias: 水上交通
 emojis:
   - emoji: ⚓
     name: E0.6 anchor
-    alias: 錨
+    alias: 錨 船錨 船隻固定
   - emoji: 🛟
     name: E14.0 ring buoy
-    alias: 救生圈
+    alias: 救生圈 救生器 安全圈
   - emoji: ⛵
     name: E0.6 sailboat
-    alias: 帆船
+    alias: 帆船 小帆船
   - emoji: 🛶
     name: E3.0 canoe
-    alias: 獨木舟
+    alias: 獨木舟 小舟
   - emoji: 🚤
     name: E0.6 speedboat
-    alias: 快艇
+    alias: 快艇 汽艇
   - emoji: 🛳️
     name: E0.7 passenger ship
-    alias: 客船
+    alias: 客船 觀光船
   - emoji: ⛴️
     name: E0.7 ferry
-    alias: 渡輪
+    alias: 渡輪 輪渡 交通船
   - emoji: 🛥️
     name: E0.7 motor boat
-    alias: 機動船
+    alias: 機動船 小型機船
   - emoji: 🚢
     name: E0.6 ship
-    alias: 船
+    alias: 船 大船 運輸船

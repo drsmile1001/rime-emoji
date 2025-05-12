@@ -4,52 +4,52 @@ alias: 其他
 emojis:
   - emoji: ⛲
     name: E0.6 fountain
-    alias: 噴泉
+    alias: 噴泉 水池 景觀水景
   - emoji: ⛺
     name: E0.6 tent
-    alias: 帳篷
+    alias: 帳篷 露營帳篷 野營裝備
   - emoji: 🌁
     name: E0.6 foggy
-    alias: 多霧
+    alias: 多霧 霧霾 視野不清
   - emoji: 🌃
     name: E0.6 night with stars
-    alias: 星空夜晚
+    alias: 星空夜晚 夜空 星光
   - emoji: 🏙️
     name: E0.7 cityscape
-    alias: 城市景觀
+    alias: 城市景觀 都市 風景
   - emoji: 🌄
     name: E0.6 sunrise over mountains
-    alias: 山中日出
+    alias: 山中日出 日出 山景
   - emoji: 🌅
     name: E0.6 sunrise
-    alias: 日出
+    alias: 日出 清晨 朝霞
   - emoji: 🌆
     name: E0.6 cityscape at dusk
-    alias: 黃昏城市
+    alias: 黃昏城市 夜色城市
   - emoji: 🌇
     name: E0.6 sunset
-    alias: 日落
+    alias: 日落 傍晚 黃昏
   - emoji: 🌉
     name: E0.6 bridge at night
-    alias: 夜晚橋
+    alias: 夜晚橋 夜橋 夜景
   - emoji: ♨️
     name: E0.6 hot springs
-    alias: 溫泉
+    alias: 溫泉 泉水 養生
   - emoji: 🎠
     name: E0.6 carousel horse
-    alias: 旋轉木馬
+    alias: 旋轉木馬 遊樂設施 木馬
   - emoji: 🛝
     name: E14.0 playground slide
-    alias: 滑梯
+    alias: 滑梯 兒童遊樂場
   - emoji: 🎡
     name: E0.6 ferris wheel
-    alias: 摩天輪
+    alias: 摩天輪 觀光輪 遊樂設施
   - emoji: 🎢
     name: E0.6 roller coaster
-    alias: 過山車
+    alias: 過山車 遊樂園 驚險
   - emoji: 💈
     name: E0.6 barber pole
-    alias: 理髮柱
+    alias: 理髮柱 理髮店 商標
   - emoji: 🎪
     name: E0.6 circus tent
-    alias: 馬戲團帳篷
+    alias: 馬戲團帳篷 露天劇場 馬戲

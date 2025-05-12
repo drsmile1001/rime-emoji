@@ -1,31 +1,46 @@
 group: People & Body
 subgroup: person-fantasy
+alias: 幻想角色 魔法 奇幻
 emojis:
   - emoji: 👼
     name: E0.6 baby angel
+    alias: 小天使 天使 寶寶天使
   - emoji: 🎅
     name: E0.6 Santa Claus
+    alias: 聖誕老公公 聖誕老人 老公公
   - emoji: 🤶
     name: E3.0 Mrs. Claus
+    alias: 聖誕奶奶 老奶奶 聖誕婦人
   - emoji: 🧑‍🎄
     name: E13.0 Mx Claus
+    alias: 聖誕人 聖誕中性 中性老人
   - emoji: 🦸
     name: E11.0 superhero
+    alias: 超級英雄 英雄 超人
   - emoji: 🦹
     name: E11.0 supervillain
+    alias: 反派 壞蛋 超級壞人
   - emoji: 🧙
     name: E5.0 mage
+    alias: 魔法師 巫師 法師
   - emoji: 🧚
     name: E5.0 fairy
+    alias: 小仙子 精靈 仙女
   - emoji: 🧛
     name: E5.0 vampire
+    alias: 吸血鬼 夜行者 血族
   - emoji: 🧜
     name: E5.0 merperson
+    alias: 美人魚 人魚 海中人
   - emoji: 🧝
     name: E5.0 elf
+    alias: 精靈 耳尖人 幻想族
   - emoji: 🧞
     name: E5.0 genie
+    alias: 精靈神 灯神 魔神
   - emoji: 🧟
     name: E5.0 zombie
+    alias: 殭屍 活屍 喪屍
   - emoji: 🧌
     name: E14.0 troll
+    alias: 巨魔 怪物 地下怪

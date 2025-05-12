@@ -4,28 +4,28 @@ alias: 其他物品 雜物 物品
 emojis:
   - emoji: 🚬
     name: E0.6 cigarette
-    alias: 香煙 其他煙 雜物煙
+    alias: 香煙 煙 口煙
   - emoji: ⚰️
     name: E1.0 coffin
-    alias: 棺材 其他棺 雜物棺
+    alias: 棺材 棺 木棺
   - emoji: 🪦
     name: E13.0 headstone
-    alias: 墓碑 其他碑 雜物碑
+    alias: 墓碑 墓石 墓碑石
   - emoji: ⚱️
     name: E1.0 funeral urn
-    alias: 骨灰罈 其他罈 雜物罈
+    alias: 骨灰罈 骨罈 罈
   - emoji: 🧿
     name: E11.0 nazar amulet
-    alias: 護身符 其他符 雜物符
+    alias: 護身符 符 咒符
   - emoji: 🪬
     name: E14.0 hamsa
-    alias: 哈姆薩 其他薩 雜物薩
+    alias: 哈姆薩 薩手 幸運符
   - emoji: 🗿
     name: E0.6 moai
-    alias: 摩艾 其他艾 雜物艾
+    alias: 摩艾 石像 艾像
   - emoji: 🪧
     name: E13.0 placard
-    alias: 標語牌 其他牌 雜物牌
+    alias: 標語牌 牌子 佈告牌
   - emoji: 🪪
     name: E14.0 identification card
-    alias: 身份證 其他證 雜物證
+    alias: 身份證 證件 身分卡

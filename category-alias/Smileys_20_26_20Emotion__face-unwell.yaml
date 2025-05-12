@@ -4,37 +4,37 @@ alias: 不適 病臉 噁心
 emojis:
   - emoji: 😷
     name: E0.6 face with medical mask
-    alias: 口罩 微笑 安靜
+    alias: 口罩 防疫 生病 醫療 疾病
   - emoji: 🤒
     name: E1.0 face with thermometer
-    alias: 發燒 微笑 安靜
+    alias: 發燒 病人 量體溫 不適 虛弱
   - emoji: 🤕
     name: E1.0 face with head-bandage
-    alias: 包頭 微笑 安靜
+    alias: 包頭 傷痛 癒合 包紮 受傷
   - emoji: 🤢
     name: E3.0 nauseated face
-    alias: 噁心 微笑 安靜
+    alias: 噁心 想吐 嘔吐 暈眩 不舒服
   - emoji: 🤮
     name: E5.0 face vomiting
-    alias: 嘔吐 微笑 安靜
+    alias: 嘔吐 想吐 噁心 痛苦 無力
   - emoji: 🤧
     name: E3.0 sneezing face
-    alias: 打噴 微笑 安靜
+    alias: 打噴嚏 感冒 傷風 生病 痰
   - emoji: 🥵
     name: E11.0 hot face
-    alias: 熱臉 微笑 安靜
+    alias: 熱臉 出汗 熱浪 中暑 燥熱
   - emoji: 🥶
     name: E11.0 cold face
-    alias: 冷臉 微笑 安靜
+    alias: 冷臉 冷凍 寒冷 寒氣 冒冷汗
   - emoji: 🥴
     name: E11.0 woozy face
-    alias: 暈臉 微笑 安靜
+    alias: 暈臉 頭暈 不適 親暈 迷糊
   - emoji: 😵
     name: E0.6 face with crossed-out eyes
-    alias: 眩暈 微笑 安靜
+    alias: 眩暈 痛苦 無力 迷茫 混亂
   - emoji: 😵‍💫
     name: E13.1 face with spiral eyes
-    alias: 旋眼 微笑 安靜
+    alias: 旋眼 頭昏 暈眩 嚴重痛苦 昏厥
   - emoji: 🤯
     name: E5.0 exploding head
-    alias: 爆頭 微笑 安靜
+    alias: 爆頭 智力爆發 精神崩潰 崩潰 思考過載

@@ -4,151 +4,151 @@ alias: 陸地交通
 emojis:
   - emoji: 🚂
     name: E1.0 locomotive
-    alias: 火車頭
+    alias: 火車頭 火車機車
   - emoji: 🚃
     name: E0.6 railway car
-    alias: 火車車廂
+    alias: 火車車廂 車廂
   - emoji: 🚄
     name: E0.6 high-speed train
-    alias: 高速列車
+    alias: 高速列車 高速火車
   - emoji: 🚅
     name: E0.6 bullet train
-    alias: 子彈列車
+    alias: 子彈列車 高速列車
   - emoji: 🚆
     name: E1.0 train
-    alias: 火車
+    alias: 火車 長途列車
   - emoji: 🚇
     name: E0.6 metro
-    alias: 地鐵
+    alias: 地鐵 地下鐵
   - emoji: 🚈
     name: E1.0 light rail
-    alias: 輕軌
+    alias: 輕軌 電車
   - emoji: 🚉
     name: E0.6 station
-    alias: 車站
+    alias: 車站 火車站
   - emoji: 🚊
     name: E1.0 tram
-    alias: 電車
+    alias: 電車 有軌電車
   - emoji: 🚝
     name: E1.0 monorail
-    alias: 單軌列車
+    alias: 單軌列車 單軌鐵路
   - emoji: 🚞
     name: E1.0 mountain railway
-    alias: 山地火車
+    alias: 山地火車 高山列車
   - emoji: 🚋
     name: E1.0 tram car
-    alias: 電車車廂
+    alias: 電車車廂 電車座位
   - emoji: 🚌
     name: E0.6 bus
-    alias: 公車
+    alias: 公車 巴士
   - emoji: 🚍
     name: E0.7 oncoming bus
-    alias: 迎面公車
+    alias: 迎面公車 來車
   - emoji: 🚎
     name: E1.0 trolleybus
-    alias: 無軌電車
+    alias: 無軌電車 電動巴士
   - emoji: 🚐
     name: E1.0 minibus
-    alias: 小型巴士
+    alias: 小型巴士 小巴
   - emoji: 🚑
     name: E0.6 ambulance
-    alias: 救護車
+    alias: 救護車 救護車輛
   - emoji: 🚒
     name: E0.6 fire engine
-    alias: 消防車
+    alias: 消防車 滅火車
   - emoji: 🚓
     name: E0.6 police car
-    alias: 警車
+    alias: 警車 警察車
   - emoji: 🚔
     name: E0.7 oncoming police car
-    alias: 迎面警車
+    alias: 迎面警車 警察來車
   - emoji: 🚕
     name: E0.6 taxi
-    alias: 計程車
+    alias: 計程車 出租車
   - emoji: 🚖
     name: E1.0 oncoming taxi
-    alias: 迎面計程車
+    alias: 迎面計程車 計程車來車
   - emoji: 🚗
     name: E0.6 automobile
-    alias: 汽車
+    alias: 汽車 小車
   - emoji: 🚘
     name: E0.7 oncoming automobile
-    alias: 迎面汽車
+    alias: 迎面汽車 小車來車
   - emoji: 🚙
     name: E0.6 sport utility vehicle
-    alias: 運動型多用途車
+    alias: 運動型多用途車 SUV
   - emoji: 🛻
     name: E13.0 pickup truck
-    alias: 皮卡車
+    alias: 皮卡車 小卡車
   - emoji: 🚚
     name: E0.6 delivery truck
-    alias: 貨車
+    alias: 貨車 配送車
   - emoji: 🚛
     name: E1.0 articulated lorry
-    alias: 聯結卡車
+    alias: 聯結卡車 大卡車
   - emoji: 🚜
     name: E1.0 tractor
-    alias: 拖拉機
+    alias: 拖拉機 農業車
   - emoji: 🏎️
     name: E0.7 racing car
-    alias: 賽車
+    alias: 賽車 競速車
   - emoji: 🏍️
     name: E0.7 motorcycle
-    alias: 摩托車
+    alias: 摩托車 重型機車
   - emoji: 🛵
     name: E3.0 motor scooter
-    alias: 機車
+    alias: 機車 小型摩托車
   - emoji: 🦽
     name: E12.0 manual wheelchair
-    alias: 手動輪椅
+    alias: 手動輪椅 輪椅
   - emoji: 🦼
     name: E12.0 motorized wheelchair
-    alias: 電動輪椅
+    alias: 電動輪椅 行動輪椅
   - emoji: 🛺
     name: E12.0 auto rickshaw
-    alias: 自動人力車
+    alias: 自動人力車 三輪車
   - emoji: 🚲
     name: E0.6 bicycle
-    alias: 自行車
+    alias: 自行車 單車
   - emoji: 🛴
     name: E3.0 kick scooter
-    alias: 滑板車
+    alias: 滑板車 優步車
   - emoji: 🛹
     name: E11.0 skateboard
-    alias: 滑板
+    alias: 滑板 滑行板
   - emoji: 🛼
     name: E13.0 roller skate
-    alias: 滾軸溜冰鞋
+    alias: 滾軸溜冰鞋 溜冰鞋
   - emoji: 🚏
     name: E0.6 bus stop
-    alias: 公車站
+    alias: 公車站 公交站
   - emoji: 🛣️
     name: E0.7 motorway
-    alias: 高速公路
+    alias: 高速公路 快速道路
   - emoji: 🛤️
     name: E0.7 railway track
-    alias: 鐵路軌道
+    alias: 鐵路軌道 鐵道
   - emoji: 🛢️
     name: E0.7 oil drum
-    alias: 油桶
+    alias: 油桶 油罐
   - emoji: ⛽
     name: E0.6 fuel pump
-    alias: 加油站
+    alias: 加油站 油站
   - emoji: 🛞
     name: E14.0 wheel
-    alias: 車輪
+    alias: 車輪 輪胎
   - emoji: 🚨
     name: E0.6 police car light
-    alias: 警車燈
+    alias: 警車燈 警示燈
   - emoji: 🚥
     name: E0.6 horizontal traffic light
-    alias: 水平交通燈
+    alias: 水平交通燈 交通信號燈
   - emoji: 🚦
     name: E1.0 vertical traffic light
-    alias: 垂直交通燈
+    alias: 垂直交通燈 交通燈
   - emoji: 🛑
     name: E3.0 stop sign
-    alias: 停車標誌
+    alias: 停車標誌 停車標誌牌
   - emoji: 🚧
     name: E0.6 construction
-    alias: 施工
+    alias: 施工 工地 標誌

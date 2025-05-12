@@ -4,49 +4,49 @@ alias: 中性 平臉 無表情
 emojis:
   - emoji: 🤐
     name: E1.0 zipper-mouth face
-    alias: 閉嘴 微笑 安靜
+    alias: 閉嘴 沉默 默不作聲 安靜 忍住
   - emoji: 🤨
     name: E5.0 face with raised eyebrow
-    alias: 挑眉 微笑 驚訝
+    alias: 挑眉 懷疑 疑問 看不慣 不解
   - emoji: 😐
     name: E0.7 neutral face
-    alias: 平臉 微笑 安靜
+    alias: 平臉 無表情 冷靜 不動 不變
   - emoji: 😑
     name: E1.0 expressionless face
-    alias: 無表情 微笑 安靜
+    alias: 無表情 冷漠 無語 面無表情
   - emoji: 😶
     name: E1.0 face without mouth
-    alias: 無嘴 微笑 安靜
+    alias: 無嘴 沉默 不語 沒話 說不出
   - emoji: 🫥
     name: E14.0 dotted line face
-    alias: 虛線 微笑 安靜
+    alias: 虛線 沉默 隱瞞 看不清 無語
   - emoji: 😶‍🌫️
     name: E13.1 face in clouds
-    alias: 雲臉 微笑 安靜
+    alias: 雲臉 模糊 迷茫 漫遊 迷霧
   - emoji: 😏
     name: E0.6 smirking face
-    alias: 微笑 開心 驚訝
+    alias: 微笑 得意 質疑 傻笑 斜視
   - emoji: 😒
     name: E0.6 unamused face
-    alias: 不悅 微笑 安靜
+    alias: 不悅 不開心 不耐煩 無聊 厭煩
   - emoji: 🙄
     name: E1.0 face with rolling eyes
-    alias: 翻眼 微笑 驚訝
+    alias: 翻眼 白眼 看不起 不爽 無奈
   - emoji: 😬
     name: E1.0 grimacing face
-    alias: 齜牙 微笑 驚訝
+    alias: 齜牙 痛苦 不舒服 累 見鬼
   - emoji: 😮‍💨
     name: E13.1 face exhaling
-    alias: 吐氣 微笑 安靜
+    alias: 吐氣 疲憊 無奈 深呼吸
   - emoji: 🤥
     name: E3.0 lying face
-    alias: 說謊 微笑 安靜
+    alias: 說謊 狡猾 虛偽 騙人 假話
   - emoji: 🫨
     name: E15.0 shaking face
-    alias: 震臉 微笑 驚訝
+    alias: 震臉 驚嚇 震動 錯愕 吃驚
   - emoji: 🙂‍↔️
     name: E15.1 head shaking horizontally
-    alias: 左右 微笑 安靜
+    alias: 左右 搖頭 不同意 否定 頭搖
   - emoji: 🙂‍↕️
     name: E15.1 head shaking vertically
-    alias: 上下 微笑 安靜
+    alias: 上下 搖頭 否定 不行 頭晃

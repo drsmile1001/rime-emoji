@@ -4,10 +4,10 @@ alias: 手持物
 emojis:
   - emoji: ✍️
     name: E0.7 writing hand
-    alias: 寫字
+    alias: 寫字 書寫 筆記
   - emoji: 💅
     name: E0.6 nail polish
-    alias: 指甲油
+    alias: 指甲油 美甲 塗指
   - emoji: 🤳
     name: E3.0 selfie
-    alias: 自拍
+    alias: 自拍 拍照 拍自己

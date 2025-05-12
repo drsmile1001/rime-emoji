@@ -4,49 +4,49 @@ alias: 昆蟲 動物 小蟲
 emojis:
   - emoji: 🐌
     name: E0.6 snail
-    alias: 蝸牛 小蝸 陸蝸
+    alias: 蝸牛 蝸 牛 緩 牛殼
   - emoji: 🦋
     name: E3.0 butterfly
-    alias: 蝴蝶 小蝶 彩蝶
+    alias: 蝴蝶 蝶 彩蝶 飛蝶 美蝶
   - emoji: 🐛
     name: E0.6 bug
-    alias: 小蟲 陸蟲 昆蟲
+    alias: 小蟲 毛蟲 蟲 幼蟲
   - emoji: 🐜
     name: E0.6 ant
-    alias: 螞蟻 小蟻 陸蟻
+    alias: 螞蟻 蟻 工蟻 蟲族
   - emoji: 🐝
     name: E0.6 honeybee
-    alias: 蜜蜂 小蜂 陸蜂
+    alias: 蜜蜂 蜂 採蜜 蜂群
   - emoji: 🪲
     name: E13.0 beetle
-    alias: 甲蟲 小甲 陸甲
+    alias: 甲蟲 甲 昆蟲 硬殼蟲
   - emoji: 🐞
     name: E0.6 lady beetle
-    alias: 瓢蟲 小瓢 陸瓢
+    alias: 瓢蟲 小瓢 紅點蟲 瓢
   - emoji: 🦗
     name: E5.0 cricket
-    alias: 蟋蟀 小蟋 陸蟋
+    alias: 蟋蟀 蟀 鳴蟲 跳蟲
   - emoji: 🪳
     name: E13.0 cockroach
-    alias: 蟑螂 小蟑 陸蟑
+    alias: 蟑螂 蟑 噁蟲 螂 家害
   - emoji: 🕷️
     name: E0.7 spider
-    alias: 蜘蛛 小蛛 陸蛛
+    alias: 蜘蛛 蛛 網蟲 八腳
   - emoji: 🕸️
     name: E0.7 spider web
-    alias: 蜘蛛網 小蛛網 陸蛛網
+    alias: 蜘蛛網 蛛網 網 絲 網子
   - emoji: 🦂
     name: E1.0 scorpion
-    alias: 蠍子 小蠍 陸蠍
+    alias: 蠍子 蠍 毒尾 毒蟲
   - emoji: 🦟
     name: E11.0 mosquito
-    alias: 蚊子 小蚊 陸蚊
+    alias: 蚊子 蚊 吸血蟲 飛蟲
   - emoji: 🪰
     name: E13.0 fly
-    alias: 蒼蠅 小蠅 陸蠅
+    alias: 蒼蠅 蠅 飛蟲 髒蟲
   - emoji: 🪱
     name: E13.0 worm
-    alias: 蠕蟲 小蠕 陸蠕
+    alias: 蠕蟲 蠕 線蟲 地蟲
   - emoji: 🦠
     name: E11.0 microbe
-    alias: 微生物 小微 陸微
+    alias: 微生物 微 病原 細菌 病菌

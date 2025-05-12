@@ -1,37 +1,55 @@
 group: People & Body
 subgroup: person-sport
+alias: 運動 活動 體能
 emojis:
   - emoji: 🤺
     name: E3.0 person fencing
+    alias: 劍擊 運動劍 競技劍
   - emoji: 🏇
     name: E1.0 horse racing
+    alias: 賽馬 馬術 馬賽
   - emoji: ⛷️
     name: E0.7 skier
+    alias: 滑雪 滑雪者 冬季運動
   - emoji: 🏂
     name: E0.6 snowboarder
+    alias: 單板滑雪 雪板 滑雪
   - emoji: 🏌️
     name: E0.7 person golfing
+    alias: 高爾夫 打高爾夫 高球
   - emoji: 🏄
     name: E0.6 person surfing
+    alias: 衝浪 衝浪者 海上運動
   - emoji: 🚣
     name: E1.0 person rowing boat
+    alias: 划船 划艇 水上運動
   - emoji: 🏊
     name: E0.6 person swimming
+    alias: 游泳 水中運動 游泳者
   - emoji: ⛹️
     name: E0.7 person bouncing ball
+    alias: 籃球 打球 彈球
   - emoji: 🏋️
     name: E0.7 person lifting weights
+    alias: 舉重 重訓 健身
   - emoji: 🚴
     name: E1.0 person biking
+    alias: 騎車 騎腳踏車 自行車
   - emoji: 🚵
     name: E1.0 person mountain biking
+    alias: 山地自行車 自行車 運動騎行
   - emoji: 🤸
     name: E3.0 person cartwheeling
+    alias: 空翻 翻滾 體操
   - emoji: 🤼
     name: E3.0 people wrestling
+    alias: 摔跤 角力 體育摔跤
   - emoji: 🤽
     name: E3.0 person playing water polo
+    alias: 水球 水上手球 游泳球
   - emoji: 🤾
     name: E3.0 person playing handball
+    alias: 手球 球類運動 手掌球
   - emoji: 🤹
     name: E3.0 person juggling
+    alias: 玩雜耍 造型球 演藝

@@ -4,22 +4,22 @@ alias: 手臉 擁抱 驚訝
 emojis:
   - emoji: 🤗
     name: E1.0 smiling face with open hands
-    alias: 擁抱 微笑 開心
+    alias: 擁抱 歡迎 擁開 溫暖 接納
   - emoji: 🤭
     name: E5.0 face with hand over mouth
-    alias: 捂嘴 微笑 驚訝
+    alias: 捂嘴 忍笑 驚訝 害羞 偷笑
   - emoji: 🫢
     name: E14.0 face with open eyes and hand over mouth
-    alias: 驚訝 微笑 開心
+    alias: 驚訝 捂嘴 瞪眼 緊張 嚇到
   - emoji: 🫣
     name: E14.0 face with peeking eye
-    alias: 偷看 微笑 驚訝
+    alias: 偷看 躲躲 偷窺 看你 藏臉
   - emoji: 🤫
     name: E5.0 shushing face
-    alias: 噓聲 微笑 安靜
+    alias: 噓聲 安靜 閉嘴 小聲 保密
   - emoji: 🤔
     name: E1.0 thinking face
-    alias: 思考 微笑 開心
+    alias: 思考 想 想想 問號 懷疑
   - emoji: 🫡
     name: E14.0 saluting face
-    alias: 敬禮 微笑 開心
+    alias: 敬禮 致意 軍禮 致敬 尊敬

@@ -1,31 +1,46 @@
 group: People & Body
 subgroup: person
+alias: 人物 人類 個體
 emojis:
   - emoji: 👶
     name: E0.6 baby
+    alias: 嬰兒 小嬰 嬰寶
   - emoji: 🧒
     name: E5.0 child
+    alias: 孩子 小孩 小童
   - emoji: 👦
     name: E0.6 boy
+    alias: 男孩 小男 男童
   - emoji: 👧
     name: E0.6 girl
+    alias: 女孩 小女 女童
   - emoji: 🧑
     name: E5.0 person
+    alias: 成人 人類 人物
   - emoji: 👱
     name: "E0.6 person: blond hair"
+    alias: 金髮 金髮人 黃髮
   - emoji: 🧔
     name: "E5.0 person: beard"
+    alias: 鬍子 鬍鬚 鬍男
   - emoji: 🧑‍🦰
     name: "E12.1 person: red hair"
+    alias: 紅髮 紅髮人 紅頭
   - emoji: 🧑‍🦱
     name: "E12.1 person: curly hair"
+    alias: 卷髮 捲髮 卷頭
   - emoji: 🧑‍🦳
     name: "E12.1 person: white hair"
+    alias: 白髮 白頭 老白
   - emoji: 🧑‍🦲
     name: "E12.1 person: bald"
+    alias: 光頭 禿頭 光頂
   - emoji: 🧓
     name: E5.0 older person
+    alias: 老人 長者 年長
   - emoji: 👴
     name: E0.6 old man
+    alias: 老翁 老爺 爺爺
   - emoji: 👵
     name: E0.6 old woman
+    alias: 老嫗 老奶 奶奶

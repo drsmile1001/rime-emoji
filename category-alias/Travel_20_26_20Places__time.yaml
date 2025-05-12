@@ -10,7 +10,7 @@ emojis:
     alias: 沙漏未完成 計時中 未完成沙漏
   - emoji: ⌚
     name: E0.6 watch
-    alias: 手錶 腕錶 時間表
+    alias: 手錶 腕錶 時間表 手表
   - emoji: ⏰
     name: E0.6 alarm clock
     alias: 鬧鐘 醒鐘 時間鬧鐘
@@ -22,10 +22,10 @@ emojis:
     alias: 計時器 定時器 時間器
   - emoji: 🕰️
     name: E0.7 mantelpiece clock
-    alias: 壁爐時鐘
+    alias: 壁爐時鐘 擺鐘 懷舊鐘
   - emoji: 🕛
     name: E0.6 twelve o’clock
-    alias: 十二點
+    alias: 十二點 正午
   - emoji: 🕧
     name: E0.7 twelve-thirty
     alias: 十二點半

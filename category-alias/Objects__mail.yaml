@@ -4,40 +4,40 @@ alias: 郵件 信件 通訊
 emojis:
   - emoji: ✉️
     name: E0.6 envelope
-    alias: 信封 郵件封 通訊封
+    alias: 信封 封信 郵件封
   - emoji: 📧
     name: E0.6 e-mail
-    alias: 電子郵件 郵件 通訊
+    alias: 電子郵件 網絡信 郵件
   - emoji: 📨
     name: E0.6 incoming envelope
-    alias: 收信 郵件 通訊
+    alias: 收信 信封 收件
   - emoji: 📩
     name: E0.6 envelope with arrow
-    alias: 信封箭頭 郵件箭頭 通訊箭頭
+    alias: 信封箭頭 發送信 傳送信
   - emoji: 📤
     name: E0.6 outbox tray
-    alias: 發件箱 郵件箱 通訊箱
+    alias: 發件箱 郵件箱 寄信箱
   - emoji: 📥
     name: E0.6 inbox tray
-    alias: 收件箱 郵件箱 通訊箱
+    alias: 收件箱 郵箱 信箱
   - emoji: 📦
     name: E0.6 package
-    alias: 包裹 郵件包 通訊包
+    alias: 包裹 物品包 包
   - emoji: 📫
     name: E0.6 closed mailbox with raised flag
-    alias: 閉合郵箱 郵件箱 通訊箱
+    alias: 閉合郵箱 郵箱 投遞箱
   - emoji: 📪
     name: E0.6 closed mailbox with lowered flag
-    alias: 閉合郵箱 郵件箱 通訊箱
+    alias: 閉合郵箱 郵箱 收件箱
   - emoji: 📬
     name: E0.7 open mailbox with raised flag
-    alias: 打開郵箱 郵件箱 通訊箱
+    alias: 開放郵箱 開箱 郵件箱
   - emoji: 📭
     name: E0.7 open mailbox with lowered flag
-    alias: 打開郵箱 郵件箱 通訊箱
+    alias: 開放郵箱 開信箱
   - emoji: 📮
     name: E0.6 postbox
-    alias: 郵筒 郵件筒 通訊筒
+    alias: 郵筒 郵箱 信筒
   - emoji: 🗳️
     name: E0.7 ballot box with ballot
-    alias: 投票箱 郵件箱 通訊箱
+    alias: 投票箱 郵件箱 票箱

@@ -1,45 +1,67 @@
 group: People & Body
 subgroup: person-activity
+alias: 活動 動作 姿勢
 emojis:
   - emoji: 💆
     name: E0.6 person getting massage
+    alias: 按摩 放鬆 按壓
   - emoji: 💇
     name: E0.6 person getting haircut
+    alias: 剪髮 理髮 剪頭髮
   - emoji: 🚶
     name: E0.6 person walking
+    alias: 走路 行走 行人
   - emoji: 🚶‍➡️
     name: E15.1 person walking facing right
+    alias: 走路右 走向右 向右走
   - emoji: 🧍
     name: E12.0 person standing
+    alias: 站立 站著 停留
   - emoji: 🧎
     name: E12.0 person kneeling
+    alias: 跪下 跪姿 跪著
   - emoji: 🧎‍➡️
     name: E15.1 person kneeling facing right
+    alias: 跪右 向右跪 跪姿右
   - emoji: 🧑‍🦯
     name: E12.1 person with white cane
+    alias: 導盲 行走輔助 盲杖
   - emoji: 🧑‍🦯‍➡️
     name: E15.1 person with white cane facing right
+    alias: 導盲右 盲杖右 向右導盲
   - emoji: 🧑‍🦼
     name: E12.1 person in motorized wheelchair
+    alias: 電動輪椅 輪椅人 移動輔助
   - emoji: 🧑‍🦼‍➡️
     name: E15.1 person in motorized wheelchair facing right
+    alias: 電椅右 輪椅右 向右輪椅
   - emoji: 🧑‍🦽
     name: E12.1 person in manual wheelchair
+    alias: 手動輪椅 輪椅人 推輪椅
   - emoji: 🧑‍🦽‍➡️
     name: E15.1 person in manual wheelchair facing right
+    alias: 輪椅右 手椅右 向右輪椅
   - emoji: 🏃
     name: E0.6 person running
+    alias: 跑步 快跑 奔跑
   - emoji: 🏃‍➡️
     name: E15.1 person running facing right
+    alias: 跑右 向右跑 快跑右
   - emoji: 💃
     name: E0.6 woman dancing
+    alias: 女舞者 跳舞 女跳
   - emoji: 🕺
     name: E3.0 man dancing
+    alias: 男舞者 跳舞 男跳
   - emoji: 🕴️
     name: E0.7 person in suit levitating
+    alias: 飄浮 正裝 飄人
   - emoji: 👯
     name: E0.6 people with bunny ears
+    alias: 兔耳 雙人跳 女舞伴
   - emoji: 🧖
     name: E5.0 person in steamy room
+    alias: 蒸氣室 洗澡 桑拿
   - emoji: 🧗
     name: E5.0 person climbing
+    alias: 攀岩 爬牆 攀登

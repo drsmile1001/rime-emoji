@@ -4,142 +4,142 @@ alias: 天空與天氣
 emojis:
   - emoji: 🌑
     name: E0.6 new moon
-    alias: 新月
+    alias: 新月 月亮 夜空
   - emoji: 🌒
     name: E1.0 waxing crescent moon
-    alias: 盈月
+    alias: 盈月 月牙 上弦月
   - emoji: 🌓
     name: E0.6 first quarter moon
-    alias: 上弦月
+    alias: 上弦月 半月 月亮
   - emoji: 🌔
     name: E0.6 waxing gibbous moon
-    alias: 盈凸月
+    alias: 盈凸月 月亮 星月
   - emoji: 🌕
     name: E0.6 full moon
-    alias: 滿月
+    alias: 滿月 月圓
   - emoji: 🌖
     name: E1.0 waning gibbous moon
-    alias: 虧凸月
+    alias: 虧凸月 月亮 星月
   - emoji: 🌗
     name: E1.0 last quarter moon
-    alias: 下弦月
+    alias: 下弦月 月亮 半月
   - emoji: 🌘
     name: E1.0 waning crescent moon
-    alias: 殘月
+    alias: 殘月 月牙
   - emoji: 🌙
     name: E0.6 crescent moon
-    alias: 月牙
+    alias: 月牙 小月
   - emoji: 🌚
     name: E1.0 new moon face
-    alias: 新月臉
+    alias: 新月臉 月亮臉
   - emoji: 🌛
     name: E0.6 first quarter moon face
-    alias: 上弦月臉
+    alias: 上弦月臉 月亮臉
   - emoji: 🌜
     name: E0.7 last quarter moon face
-    alias: 下弦月臉
+    alias: 下弦月臉 月亮臉
   - emoji: 🌡️
     name: E0.7 thermometer
-    alias: 溫度計
+    alias: 溫度計 氣溫
   - emoji: ☀️
     name: E0.6 sun
-    alias: 太陽
+    alias: 太陽 日光 光輝
   - emoji: 🌝
     name: E1.0 full moon face
-    alias: 滿月臉
+    alias: 滿月臉 月亮臉
   - emoji: 🌞
     name: E1.0 sun with face
     alias: 太陽臉
   - emoji: 🪐
     name: E12.0 ringed planet
-    alias: 環行星
+    alias: 環行星 星球 天體
   - emoji: ⭐
     name: E0.6 star
-    alias: 星星
+    alias: 星星 夜空 星光
   - emoji: 🌟
     name: E0.6 glowing star
-    alias: 發光星星
+    alias: 發光星星 夜空
   - emoji: 🌠
     name: E0.6 shooting star
-    alias: 流星
+    alias: 流星 星塵 天文
   - emoji: 🌌
     name: E0.6 milky way
-    alias: 銀河
+    alias: 銀河 星系 星空
   - emoji: ☁️
     name: E0.6 cloud
-    alias: 雲
+    alias: 雲 天氣 雲層
   - emoji: ⛅
     name: E0.6 sun behind cloud
-    alias: 雲後太陽
+    alias: 雲後太陽 陰天
   - emoji: ⛈️
     name: E0.7 cloud with lightning and rain
-    alias: 雲雨閃電
+    alias: 雲雨閃電 雷陣雨 暴風
   - emoji: 🌤️
     name: E0.7 sun behind small cloud
-    alias: 小雲後太陽
+    alias: 小雲後太陽 晴間多雲
   - emoji: 🌥️
     name: E0.7 sun behind large cloud
-    alias: 大雲後太陽
+    alias: 大雲後太陽 多雲
   - emoji: 🌦️
     name: E0.7 sun behind rain cloud
-    alias: 雨雲後太陽
+    alias: 雨雲後太陽 陰雨
   - emoji: 🌧️
     name: E0.7 cloud with rain
-    alias: 雨雲
+    alias: 雨雲 降雨
   - emoji: 🌨️
     name: E0.7 cloud with snow
-    alias: 雪雲
+    alias: 雪雲 下雪
   - emoji: 🌩️
     name: E0.7 cloud with lightning
-    alias: 閃電雲
+    alias: 閃電雲 雷雲
   - emoji: 🌪️
     name: E0.7 tornado
-    alias: 龍捲風
+    alias: 龍捲風 風暴
   - emoji: 🌫️
     name: E0.7 fog
-    alias: 霧
+    alias: 霧 霧霾
   - emoji: 🌬️
     name: E0.7 wind face
-    alias: 風臉
+    alias: 風臉 風的臉
   - emoji: 🌀
     name: E0.6 cyclone
-    alias: 氣旋
+    alias: 氣旋 旋風
   - emoji: 🌈
     name: E0.6 rainbow
-    alias: 彩虹
+    alias: 彩虹 天氣現象
   - emoji: 🌂
     name: E0.6 closed umbrella
-    alias: 收傘
+    alias: 收傘 雨傘
   - emoji: ☂️
     name: E0.7 umbrella
-    alias: 傘
+    alias: 傘 雨具
   - emoji: ☔
     name: E0.6 umbrella with rain drops
-    alias: 雨傘
+    alias: 雨傘 雨具
   - emoji: ⛱️
     name: E0.7 umbrella on ground
-    alias: 地上傘
+    alias: 地上傘 露天傘
   - emoji: ⚡
     name: E0.6 high voltage
-    alias: 高壓
+    alias: 高壓 電閃
   - emoji: ❄️
     name: E0.6 snowflake
-    alias: 雪花
+    alias: 雪花 冬天
   - emoji: ☃️
     name: E0.7 snowman
-    alias: 雪人
+    alias: 雪人 冬季
   - emoji: ⛄
     name: E0.6 snowman without snow
-    alias: 無雪雪人
+    alias: 無雪雪人 雪人
   - emoji: ☄️
     name: E1.0 comet
-    alias: 彗星
+    alias: 彗星 天文
   - emoji: 🔥
     name: E0.6 fire
-    alias: 火
+    alias: 火 火焰
   - emoji: 💧
     name: E0.6 droplet
-    alias: 水滴
+    alias: 水滴 水
   - emoji: 🌊
     name: E0.6 water wave
-    alias: 水波
+    alias: 水波 波浪

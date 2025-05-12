@@ -1,25 +1,37 @@
 group: People & Body
 subgroup: person-symbol
+alias: 人物符號 人形符號 人相關
 emojis:
   - emoji: 🗣️
     name: E0.7 speaking head
+    alias: 說話頭 語音頭 發言
   - emoji: 👤
     name: E0.6 bust in silhouette
+    alias: 單人影 人影 單人
   - emoji: 👥
     name: E1.0 busts in silhouette
+    alias: 雙人影 群人影 群像
   - emoji: 🫂
     name: E13.0 people hugging
+    alias: 擁抱 擁人 抱抱
   - emoji: 👪
     name: E0.6 family
+    alias: 家庭 一家 家人
   - emoji: 🧑‍🧑‍🧒
     name: "E15.1 family: adult, adult, child"
+    alias: 雙親一孩 雙大一小 一家三口
   - emoji: 🧑‍🧑‍🧒‍🧒
     name: "E15.1 family: adult, adult, child, child"
+    alias: 雙親二孩 一家四口 四口之家
   - emoji: 🧑‍🧒
     name: "E15.1 family: adult, child"
+    alias: 單親一孩 一大一小 一家兩口
   - emoji: 🧑‍🧒‍🧒
     name: "E15.1 family: adult, child, child"
+    alias: 單親二孩 三口之家 一大兩小
   - emoji: 👣
     name: E0.6 footprints
+    alias: 腳印 足跡 踩印
   - emoji: 🫆
     name: E16.0 fingerprint
+    alias: 指紋 手印 身份印

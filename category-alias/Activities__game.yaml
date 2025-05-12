@@ -4,73 +4,73 @@ alias: 遊戲 娛樂 玩具
 emojis:
   - emoji: 🎯
     name: E0.6 bullseye
-    alias: 飛鏢 靶心 射擊
+    alias: 飛鏢 靶心 射擊 靶 鏢
   - emoji: 🪀
     name: E12.0 yo-yo
-    alias: 溜溜球 玩具球 懸掛球
+    alias: 溜溜球 球 懸球 玩球
   - emoji: 🪁
     name: E12.0 kite
-    alias: 風箏 放風箏 飛行
+    alias: 風箏 放風箏 飛箏 箏 飛
   - emoji: 🔫
     name: E0.6 water pistol
-    alias: 水槍 玩具槍 射水
+    alias: 水槍 玩具槍 射水 槍 射
   - emoji: 🎱
     name: E0.6 pool 8 ball
-    alias: 撞球 桌球 撞球賽
+    alias: 撞球 八號球 桌球 球 桌
   - emoji: 🔮
     name: E0.6 crystal ball
-    alias: 水晶球 預言球 魔法球
+    alias: 水晶球 預言 魔法球 球 占
   - emoji: 🪄
     name: E13.0 magic wand
-    alias: 魔杖 魔法棒 魔術
+    alias: 魔杖 魔法棒 魔術 杖 棒
   - emoji: 🎮
     name: E0.6 video game
-    alias: 遊戲機 電玩機 遊戲控制器
+    alias: 遊戲機 電玩 控制器 遊戲 電
   - emoji: 🕹️
     name: E0.7 joystick
-    alias: 搖桿 控制桿 遊戲桿
+    alias: 搖桿 控制桿 遊戲桿 桿 控
   - emoji: 🎰
     name: E0.6 slot machine
-    alias: 老虎機 賭博機 投幣機
+    alias: 老虎機 賭博機 投幣機 賭機 幣
   - emoji: 🎲
     name: E0.6 game die
-    alias: 骰子 擲骰子 桌遊
+    alias: 骰子 桌遊 骰 擲骰
   - emoji: 🧩
     name: E11.0 puzzle piece
-    alias: 拼圖 拼圖塊 拼圖遊戲
+    alias: 拼圖 拼塊 拼 益智圖 塊
   - emoji: 🧸
     name: E11.0 teddy bear
-    alias: 泰迪熊 玩具熊 毛絨熊
+    alias: 泰迪熊 玩具熊 熊 絨熊 玩熊
   - emoji: 🪅
     name: E13.0 piñata
-    alias: 彩罐 節慶罐 派對罐
+    alias: 彩罐 派對罐 節慶罐 罐 掛罐
   - emoji: 🪩
     name: E14.0 mirror ball
-    alias: 反光球 舞會球 鏡球
+    alias: 鏡球 舞會球 反光球 舞球 光球
   - emoji: 🪆
     name: E13.0 nesting dolls
-    alias: 套娃 俄羅斯娃娃 木偶
+    alias: 套娃 娃娃 木偶 套娃娃 俄娃
   - emoji: ♠️
     name: E0.6 spade suit
-    alias: 黑桃 撲克牌 黑桃A
+    alias: 黑桃 撲克牌 黑A ♠️ 桃
   - emoji: ♥️
     name: E0.6 heart suit
-    alias: 紅心 撲克牌 紅心A
+    alias: 紅心 撲克牌 紅A ♥️ 心
   - emoji: ♦️
     name: E0.6 diamond suit
-    alias: 方塊 撲克牌 方塊A
+    alias: 方塊 撲克牌 方A ♦️ 塊
   - emoji: ♣️
     name: E0.6 club suit
-    alias: 梅花 撲克牌 梅花A
+    alias: 梅花 撲克牌 梅A ♣️ 花
   - emoji: ♟️
     name: E11.0 chess pawn
-    alias: 棋子 國際象棋 棋盤
+    alias: 棋子 國際象棋 棋 棋卒 卒
   - emoji: 🃏
     name: E0.6 joker
-    alias: 小丑 撲克牌 小丑牌
+    alias: 小丑 小丑牌 撲克牌 丑 牌
   - emoji: 🀄
     name: E0.6 mahjong red dragon
-    alias: 麻將 紅中 麻將牌
+    alias: 麻將 紅中 麻 紅 🀄
   - emoji: 🎴
     name: E0.6 flower playing cards
-    alias: 花牌 日本花牌 卡牌
+    alias: 花牌 日本花牌 花 卡牌 牌

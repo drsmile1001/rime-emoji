@@ -4,22 +4,22 @@ alias: 科學 實驗 研究
 emojis:
   - emoji: ⚗️
     name: E1.0 alembic
-    alias: 蒸餾器 科學器 實驗器
+    alias: 蒸餾器 實驗器 科學器
   - emoji: 🧪
     name: E11.0 test tube
-    alias: 試管 科學管 實驗管
+    alias: 試管 實驗管 科學管
   - emoji: 🧫
     name: E11.0 petri dish
-    alias: 培養皿 科學皿 實驗皿
+    alias: 培養皿 實驗皿 科學皿
   - emoji: 🧬
     name: E11.0 dna
     alias: DNA 科學DNA 實驗DNA
   - emoji: 🔬
     name: E1.0 microscope
-    alias: 顯微鏡 科學鏡 實驗鏡
+    alias: 顯微鏡 實驗鏡 科學鏡
   - emoji: 🔭
     name: E1.0 telescope
-    alias: 望遠鏡 科學鏡 實驗鏡
+    alias: 望遠鏡 實驗鏡 科學鏡
   - emoji: 📡
     name: E0.6 satellite antenna
     alias: 衛星天線 科學天線 實驗天線

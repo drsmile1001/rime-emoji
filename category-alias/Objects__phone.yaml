@@ -4,19 +4,19 @@ alias: 電話 通訊 聯絡
 emojis:
   - emoji: 📱
     name: E0.6 mobile phone
-    alias: 手機 智能手機 通訊設備
+    alias: 手機 智慧機 智能機
   - emoji: 📲
     name: E0.6 mobile phone with arrow
-    alias: 手機箭頭 通訊箭頭 聯絡箭頭
+    alias: 發送機 手機箭 接收機
   - emoji: ☎️
     name: E0.6 telephone
-    alias: 座機 固定電話 通訊設備
+    alias: 座機 電話 固話
   - emoji: 📞
     name: E0.6 telephone receiver
-    alias: 話筒 電話筒 聯絡筒
+    alias: 話筒 聽筒 接聽器
   - emoji: 📟
     name: E0.6 pager
-    alias: 傳呼機 通訊機 聯絡機
+    alias: 傳呼機 呼機 呼叫器
   - emoji: 📠
     name: E0.6 fax machine
-    alias: 傳真機 通訊設備 聯絡設備
+    alias: 傳真機 傳真 電傳

@@ -4,76 +4,76 @@ alias: 家居 家庭 生活
 emojis:
   - emoji: 🚪
     name: E0.6 door
-    alias: 門 家居門 家庭門
+    alias: 門 出入口 房門
   - emoji: 🛗
     name: E13.0 elevator
-    alias: 電梯 家居梯 家庭梯
+    alias: 電梯 升降梯 梯
   - emoji: 🪞
     name: E13.0 mirror
-    alias: 鏡子 家居鏡 家庭鏡
+    alias: 鏡子 鏡 反射鏡
   - emoji: 🪟
     name: E13.0 window
-    alias: 窗戶 家居窗 家庭窗
+    alias: 窗戶 窗 玻璃窗
   - emoji: 🛏️
     name: E0.7 bed
-    alias: 床 家居床 家庭床
+    alias: 床 睡床 臥床
   - emoji: 🛋️
     name: E0.7 couch and lamp
-    alias: 沙發和燈 家居沙發 家庭沙發
+    alias: 沙發 客廳沙發 沙發燈
   - emoji: 🪑
     name: E12.0 chair
-    alias: 椅子 家居椅 家庭椅
+    alias: 椅子 椅 坐椅 單椅
   - emoji: 🚽
     name: E0.6 toilet
-    alias: 馬桶 家居馬桶 家庭馬桶
+    alias: 馬桶 廁所 坐廁
   - emoji: 🪠
     name: E13.0 plunger
-    alias: 馬桶吸 家居吸 家庭吸
+    alias: 馬桶吸 通馬器 吸盤器
   - emoji: 🚿
     name: E1.0 shower
-    alias: 淋浴 家居淋浴 家庭淋浴
+    alias: 淋浴 蓮蓬頭 洗澡
   - emoji: 🛁
     name: E1.0 bathtub
-    alias: 浴缸 家居浴缸 家庭浴缸
+    alias: 浴缸 泡澡缸 洗澡盆
   - emoji: 🪤
     name: E13.0 mouse trap
-    alias: 捕鼠器 家居捕鼠器 家庭捕鼠器
+    alias: 捕鼠器 陷阱 捕鼠
   - emoji: 🪒
     name: E12.0 razor
-    alias: 剃刀 家居剃刀 家庭剃刀
+    alias: 剃刀 刮鬍刀 修容刀
   - emoji: 🧴
     name: E11.0 lotion bottle
-    alias: 潤膚瓶 家居瓶 家庭瓶
+    alias: 潤膚瓶 乳液瓶 按壓瓶
   - emoji: 🧷
     name: E11.0 safety pin
-    alias: 安全別針 家居別針 家庭別針
+    alias: 安全別針 別針 扣針
   - emoji: 🧹
     name: E11.0 broom
-    alias: 掃帚 家居掃帚 家庭掃帚
+    alias: 掃帚 掃把 清掃工具
   - emoji: 🧺
     name: E11.0 basket
-    alias: 籃子 家居籃 家庭籃
+    alias: 籃子 提籃 收納籃
   - emoji: 🧻
     name: E11.0 roll of paper
-    alias: 紙卷 家居紙 家庭紙
+    alias: 衛生紙 紙卷 廁紙
   - emoji: 🪣
     name: E13.0 bucket
-    alias: 桶 家居桶 家庭桶
+    alias: 水桶 桶 提桶
   - emoji: 🧼
     name: E11.0 soap
-    alias: 肥皂 家居皂 家庭皂
+    alias: 肥皂 皂 洗手皂
   - emoji: 🫧
     name: E14.0 bubbles
-    alias: 泡泡 家居泡 家庭泡
+    alias: 泡泡 泡 泡沫
   - emoji: 🪥
     name: E13.0 toothbrush
-    alias: 牙刷 家居刷 家庭刷
+    alias: 牙刷 刷子 清潔刷
   - emoji: 🧽
     name: E11.0 sponge
-    alias: 海綿 家居綿 家庭綿
+    alias: 海綿 清潔綿 洗碗綿
   - emoji: 🧯
     name: E11.0 fire extinguisher
-    alias: 滅火器 家居器 家庭器
+    alias: 滅火器 消防器 滅火
   - emoji: 🛒
     name: E3.0 shopping cart
-    alias: 購物車 家居車 家庭車
+    alias: 購物車 推車 購物推車

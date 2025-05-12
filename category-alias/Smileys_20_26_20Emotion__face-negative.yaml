@@ -4,25 +4,25 @@ alias: 負面 憤怒 生氣
 emojis:
   - emoji: 😤
     name: E0.6 face with steam from nose
-    alias: 冒氣 微笑 安靜
+    alias: 冒氣 氣噗 氣呼 呼氣 氣炸
   - emoji: 😡
     name: E0.6 enraged face
-    alias: 憤怒 微笑 安靜
+    alias: 憤怒 爆怒 火臉 怒氣 火大
   - emoji: 😠
     name: E0.6 angry face
-    alias: 生氣 微笑 安靜
+    alias: 生氣 不爽 氣臉 惱 怒
   - emoji: 🤬
     name: E5.0 face with symbols on mouth
-    alias: 咒罵 微笑 安靜
+    alias: 咒罵 髒話 怒罵 爆粗 罵人
   - emoji: 😈
     name: E1.0 smiling face with horns
-    alias: 惡笑 微笑 安靜
+    alias: 惡笑 壞壞 調皮 邪惡 惡魔
   - emoji: 👿
     name: E0.6 angry face with horns
-    alias: 惡怒 微笑 安靜
+    alias: 惡怒 魔怒 惡臉 暴走 魔頭
   - emoji: 💀
     name: E0.6 skull
-    alias: 骷髏 微笑 安靜
+    alias: 骷髏 骨頭 死亡 鬼 頭骨
   - emoji: ☠️
     name: E1.0 skull and crossbones
-    alias: 骷髏 微笑 安靜
+    alias: 骷髏 骨頭 中毒 死亡 危險

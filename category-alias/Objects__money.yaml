@@ -4,31 +4,31 @@ alias: 金錢 財富 貨幣
 emojis:
   - emoji: 💰
     name: E0.6 money bag
-    alias: 錢袋 財富袋 貨幣袋
+    alias: 錢袋 財袋 財包
   - emoji: 🪙
     name: E13.0 coin
-    alias: 硬幣 貨幣 金屬幣
+    alias: 硬幣 錢幣 金幣
   - emoji: 💴
     name: E0.6 yen banknote
-    alias: 日元 貨幣 紙幣
+    alias: 日元 日幣 日紙
   - emoji: 💵
     name: E0.6 dollar banknote
-    alias: 美元 貨幣 紙幣
+    alias: 美元 美幣 美鈔
   - emoji: 💶
     name: E1.0 euro banknote
-    alias: 歐元 貨幣 紙幣
+    alias: 歐元 歐幣 歐鈔
   - emoji: 💷
     name: E1.0 pound banknote
-    alias: 英鎊 貨幣 紙幣
+    alias: 英鎊 鎊幣 鎊鈔
   - emoji: 💸
     name: E0.6 money with wings
-    alias: 飛錢 財富 貨幣
+    alias: 飛錢 金錢流失
   - emoji: 💳
     name: E0.6 credit card
-    alias: 信用卡 財富卡 貨幣卡
+    alias: 信用卡 財卡 卡
   - emoji: 🧾
     name: E11.0 receipt
-    alias: 收據 財富單 貨幣單
+    alias: 收據 發票 財單
   - emoji: 💹
     name: E0.6 chart increasing with yen
-    alias: 日元增長 財富增長 貨幣增長
+    alias: 日元增長 資產增長

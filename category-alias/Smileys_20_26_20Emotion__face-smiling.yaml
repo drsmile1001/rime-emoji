@@ -4,43 +4,43 @@ alias: 微笑 笑臉 開心
 emojis:
   - emoji: 😀
     name: E1.0 grinning face
-    alias: 笑臉 開心 臉笑
+    alias: 笑臉 笑 嘴角 樂臉 開心
   - emoji: 😃
     name: E0.6 grinning face with big eyes
-    alias: 大笑 笑容 開心
+    alias: 大笑 開心 張嘴 樂呵 笑眼
   - emoji: 😄
     name: E0.6 grinning face with smiling eyes
-    alias: 笑眼 笑容 開心
+    alias: 笑眼 笑彎 樂觀 暖笑 明亮
   - emoji: 😁
     name: E0.6 beaming face with smiling eyes
-    alias: 開心 笑容 笑臉
+    alias: 開心 露齒 樂臉 笑齒 熱情
   - emoji: 😆
     name: E0.6 grinning squinting face
-    alias: 笑眯 笑容 開心
+    alias: 笑眯 大笑 閉眼 哈哈 滑稽
   - emoji: 😅
     name: E0.6 grinning face with sweat
-    alias: 苦笑 笑汗 開心
+    alias: 苦笑 笑汗 尷尬 害羞 無奈
   - emoji: 🤣
     name: E3.0 rolling on the floor laughing
-    alias: 笑翻 大笑 滾笑
+    alias: 笑翻 大笑 滾地 爆笑 狂笑
   - emoji: 😂
     name: E0.6 face with tears of joy
-    alias: 笑哭 哭笑 開心
+    alias: 笑哭 哭笑 開懷 喜極而泣
   - emoji: 🙂
     name: E1.0 slightly smiling face
-    alias: 微笑 笑容 淡笑
+    alias: 微笑 淡笑 禮貌 輕笑 善意
   - emoji: 🙃
     name: E1.0 upside-down face
-    alias: 倒笑 反笑 開心
+    alias: 倒笑 反笑 無語 調皮 黑笑
   - emoji: 🫠
     name: E14.0 melting face
-    alias: 融化 溶解 笑融
+    alias: 融化 無力 笑融 垮臉 累笑
   - emoji: 😉
     name: E0.6 winking face
-    alias: 眨眼 微笑 眨笑
+    alias: 眨眼 挑眉 調情 暗示 俏皮
   - emoji: 😊
     name: E0.6 smiling face with smiling eyes
-    alias: 笑容 微笑 開心
+    alias: 微笑 親切 守禮 暖笑 善良
   - emoji: 😇
     name: E1.0 smiling face with halo
-    alias: 天使 微笑 光環
+    alias: 天使 光環 善笑 無邪 清純

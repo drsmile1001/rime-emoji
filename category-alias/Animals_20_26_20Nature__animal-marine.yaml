@@ -4,52 +4,52 @@ alias: 海洋 動物 水中
 emojis:
   - emoji: 🐳
     name: E0.6 spouting whale
-    alias: 噴水鯨 大鯨 海鯨
+    alias: 噴水鯨 鯨 噴鯨 海鯨 噴水
   - emoji: 🐋
     name: E1.0 whale
-    alias: 鯨 大鯨 海鯨
+    alias: 鯨 大鯨 海鯨 鯨魚
   - emoji: 🐬
     name: E0.6 dolphin
-    alias: 海豚 小豚 水豚
+    alias: 海豚 豚 小豚 水豚 跳豚
   - emoji: 🦭
     name: E13.0 seal
-    alias: 海豹 小豹 水豹
+    alias: 海豹 水豹 小豹 豹
   - emoji: 🐟
     name: E0.6 fish
-    alias: 魚 小魚 水魚
+    alias: 魚 小魚 魚兒 水魚
   - emoji: 🐠
     name: E0.6 tropical fish
-    alias: 熱帶魚 彩色魚 小熱魚
+    alias: 熱帶魚 彩魚 熱魚 花魚
   - emoji: 🐡
     name: E0.6 blowfish
-    alias: 河豚 大豚 水豚
+    alias: 河豚 豚 鼓魚 膨魚
   - emoji: 🦈
     name: E3.0 shark
-    alias: 鯊魚 大鯊 海鯊
+    alias: 鯊魚 鯊 海鯊 大鯊
   - emoji: 🐙
     name: E0.6 octopus
-    alias: 章魚 大章 水章
+    alias: 章魚 章 八腳 水章 觸手
   - emoji: 🐚
     name: E0.6 spiral shell
-    alias: 貝殼 海貝 小貝
+    alias: 貝殼 貝 海貝 螺殼 貝
   - emoji: 🪸
     name: E14.0 coral
-    alias: 珊瑚 海珊 小珊
+    alias: 珊瑚 珊 海珊 珊礁
   - emoji: 🪼
     name: E15.0 jellyfish
-    alias: 水母 海母 小母
+    alias: 水母 母 海母 傘形母
   - emoji: 🦀
     name: E1.0 crab
-    alias: 螃蟹 大蟹 海蟹
+    alias: 螃蟹 蟹 海蟹 螯蟹
   - emoji: 🦞
     name: E11.0 lobster
-    alias: 龍蝦 大蝦 海蝦
+    alias: 龍蝦 蝦 大蝦 海蝦 龍
   - emoji: 🦐
     name: E3.0 shrimp
-    alias: 蝦 小蝦 水蝦
+    alias: 蝦 小蝦 水蝦 蝦仁
   - emoji: 🦑
     name: E3.0 squid
-    alias: 魷魚 大魷 海魷
+    alias: 魷魚 魷 墨魚 魷魷
   - emoji: 🦪
     name: E12.0 oyster
-    alias: 牡蠣 海蠣 小蠣
+    alias: 牡蠣 蠣 蠣肉 海蠣

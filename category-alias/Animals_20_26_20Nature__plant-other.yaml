@@ -4,52 +4,52 @@ alias: 植物 樹 木
 emojis:
   - emoji: 🌱
     name: E0.6 seedling
-    alias: 幼苗 小苗 大苗
+    alias: 幼苗 苗 新芽 發芽
   - emoji: 🪴
     name: E13.0 potted plant
-    alias: 盆栽 小盆 大盆
+    alias: 盆栽 盆 植栽 室內植物
   - emoji: 🌲
     name: E1.0 evergreen tree
-    alias: 常青樹 小青 大青
+    alias: 常青樹 松樹 青樹 松
   - emoji: 🌳
     name: E1.0 deciduous tree
-    alias: 落葉樹 小落 大落
+    alias: 落葉樹 闊葉樹 樹葉 落樹
   - emoji: 🌴
     name: E0.6 palm tree
-    alias: 棕櫚樹 小棕 大棕
+    alias: 棕櫚樹 椰子樹 熱帶樹 棕櫚
   - emoji: 🌵
     name: E0.6 cactus
-    alias: 仙人掌 小仙 大仙
+    alias: 仙人掌 多肉 刺掌 沙漠植物
   - emoji: 🌾
     name: E0.6 sheaf of rice
-    alias: 稻穗 小稻 大稻
+    alias: 稻穗 稻 米 穀物 穗
   - emoji: 🌿
     name: E0.6 herb
-    alias: 草本 小草 大草
+    alias: 草本 草 香草 藥草
   - emoji: ☘️
     name: E1.0 shamrock
-    alias: 三葉草 小三 大三
+    alias: 三葉草 三葉 幸運草 綠葉
   - emoji: 🍀
     name: E0.6 four leaf clover
-    alias: 四葉草 小四 大四
+    alias: 四葉草 四葉 幸運草 四片葉
   - emoji: 🍁
     name: E0.6 maple leaf
-    alias: 楓葉 小楓 大楓
+    alias: 楓葉 楓 紅葉 楓紅
   - emoji: 🍂
     name: E0.6 fallen leaf
-    alias: 落葉 小落 大落
+    alias: 落葉 枯葉 飄葉 凋葉
   - emoji: 🍃
     name: E0.6 leaf fluttering in wind
-    alias: 飄葉 小飄 大飄
+    alias: 飄葉 綠葉 微風葉 風吹葉
   - emoji: 🪹
     name: E14.0 empty nest
-    alias: 空巢 小空 大空
+    alias: 空巢 巢 空鳥巢 空巢穴
   - emoji: 🪺
     name: E14.0 nest with eggs
-    alias: 巢蛋 小巢 大巢
+    alias: 巢蛋 巢 鳥巢 蛋巢
   - emoji: 🍄
     name: E0.6 mushroom
-    alias: 蘑菇 小菇 大菇
+    alias: 蘑菇 菇 香菇 菇類
   - emoji: 🪾
     name: E16.0 leafless tree
-    alias: 枯樹 小枯 大枯
+    alias: 枯樹 枯木 落木 無葉樹

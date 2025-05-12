@@ -1,23 +1,34 @@
 group: People & Body
 subgroup: person-gesture
+alias: 手勢 表情 動作
 emojis:
   - emoji: 🙍
     name: E0.6 person frowning
+    alias: 皺眉 生氣 臉部表情
   - emoji: 🙎
     name: E0.6 person pouting
+    alias: 撅嘴 噘嘴 不高興
   - emoji: 🙅
     name: E0.6 person gesturing NO
+    alias: 搖頭 不行 拒絕
   - emoji: 🙆
     name: E0.6 person gesturing OK
+    alias: 點頭 OK手勢 好
   - emoji: 💁
     name: E0.6 person tipping hand
+    alias: 擺手 示意 揮手
   - emoji: 🙋
     name: E0.6 person raising hand
+    alias: 舉手 握手 問題
   - emoji: 🧏
     name: E12.0 deaf person
+    alias: 聾人 失聰人 耳聾
   - emoji: 🙇
     name: E0.6 person bowing
+    alias: 鞠躬 行禮 致敬
   - emoji: 🤦
     name: E3.0 person facepalming
+    alias: 撞頭 哎呀 無奈
   - emoji: 🤷
     name: E3.0 person shrugging
+    alias: 聳肩 不知道 無所謂

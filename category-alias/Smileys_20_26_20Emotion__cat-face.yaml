@@ -4,28 +4,28 @@ alias: 貓臉 貓笑 貓愛
 emojis:
   - emoji: 😺
     name: E0.6 grinning cat
-    alias: 貓笑 微笑 安靜
+    alias: 貓笑 微笑 開心
   - emoji: 😸
     name: E0.6 grinning cat with smiling eyes
-    alias: 貓眼 微笑 安靜
+    alias: 貓眼 微笑 開心
   - emoji: 😹
     name: E0.6 cat with tears of joy
-    alias: 貓哭 微笑 安靜
+    alias: 貓哭 開心 哭笑
   - emoji: 😻
     name: E0.6 smiling cat with heart-eyes
-    alias: 貓愛 微笑 安靜
+    alias: 貓愛 微笑 心愛
   - emoji: 😼
     name: E0.6 cat with wry smile
-    alias: 貓笑 微笑 安靜
+    alias: 貓笑 鬼笑 狡笑
   - emoji: 😽
     name: E0.6 kissing cat
-    alias: 貓吻 微笑 安靜
+    alias: 貓吻 親吻 可愛
   - emoji: 🙀
     name: E0.6 weary cat
-    alias: 貓累 微笑 安靜
+    alias: 貓累 疲憊 無力
   - emoji: 😿
     name: E0.6 crying cat
-    alias: 貓泣 微笑 安靜
+    alias: 貓泣 哭泣 悲傷
   - emoji: 😾
     name: E0.6 pouting cat
-    alias: 貓怒 微笑 安靜
+    alias: 貓怒 鳴不平 生氣

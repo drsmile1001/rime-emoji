@@ -4,40 +4,40 @@ alias: 空中交通
 emojis:
   - emoji: ✈️
     name: E0.6 airplane
-    alias: 飛機
+    alias: 飛機 航空器 空中飛行
   - emoji: 🛩️
     name: E0.7 small airplane
-    alias: 小型飛機
+    alias: 小型飛機 小飛機 小型航空器
   - emoji: 🛫
     name: E1.0 airplane departure
-    alias: 飛機起飛
+    alias: 飛機起飛 起飛 空中出發
   - emoji: 🛬
     name: E1.0 airplane arrival
-    alias: 飛機降落
+    alias: 飛機降落 降落 空中抵達
   - emoji: 🪂
     name: E12.0 parachute
-    alias: 降落傘
+    alias: 降落傘 空降
   - emoji: 💺
     name: E0.6 seat
-    alias: 座位
+    alias: 座位 機艙座位
   - emoji: 🚁
     name: E1.0 helicopter
-    alias: 直升機
+    alias: 直升機 直升機飛行
   - emoji: 🚟
     name: E1.0 suspension railway
-    alias: 懸掛式鐵路
+    alias: 懸掛式鐵路 空中鐵道
   - emoji: 🚠
     name: E1.0 mountain cableway
-    alias: 山地纜車
+    alias: 山地纜車 高山纜車
   - emoji: 🚡
     name: E1.0 aerial tramway
-    alias: 空中纜車
+    alias: 空中纜車 纜車
   - emoji: 🛰️
     name: E0.7 satellite
-    alias: 衛星
+    alias: 衛星 太空衛星
   - emoji: 🚀
     name: E0.6 rocket
-    alias: 火箭
+    alias: 火箭 太空火箭
   - emoji: 🛸
     name: E5.0 flying saucer
-    alias: 飛碟
+    alias: 飛碟 外星飛行器

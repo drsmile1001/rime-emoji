@@ -4,199 +4,199 @@ alias: 獸類 哺乳類 動物
 emojis:
   - emoji: 🐵
     name: E0.6 monkey face
-    alias: 猴臉 猴子 臉猴
+    alias: 猴 臉猴 猴臉 猴子 靈長
   - emoji: 🐒
     name: E0.6 monkey
-    alias: 猴 猴子 靈長類
+    alias: 猴 猴子 靈長類 猿 靈長
   - emoji: 🦍
     name: E3.0 gorilla
-    alias: 大猩 猩猩 大猩猩
+    alias: 猩猩 大猩 猩 猿人 力士
   - emoji: 🦧
     name: E12.0 orangutan
-    alias: 猩猩 紅毛猩猩 靈長類
+    alias: 猩猩 紅猩 猿 紅毛 靈猿
   - emoji: 🐶
     name: E0.6 dog face
-    alias: 狗臉 小狗 狗頭
+    alias: 狗 狗臉 小狗 狗頭 臉狗
   - emoji: 🐕
     name: E0.7 dog
-    alias: 狗 小狗 犬
+    alias: 狗 犬 小狗 狗狗
   - emoji: 🦮
     name: E12.0 guide dog
-    alias: 導盲 導盲犬 幫助犬
+    alias: 導盲犬 導盲 幫狗 領犬
   - emoji: 🐕‍🦺
     name: E12.0 service dog
-    alias: 工作犬 服務犬 幫助犬
+    alias: 服務犬 工作犬 幫助犬 輔助犬
   - emoji: 🐩
     name: E0.6 poodle
-    alias: 貴賓 貴賓犬 卷毛狗
+    alias: 貴賓犬 貴賓 卷毛狗 美犬
   - emoji: 🐺
     name: E0.6 wolf
-    alias: 狼 野狼 灰狼
+    alias: 狼 野狼 灰狼 狼犬
   - emoji: 🦊
     name: E3.0 fox
-    alias: 狐 狐狸 小狐
+    alias: 狐 狐狸 小狐 紅狐 狡狐
   - emoji: 🦝
     name: E11.0 raccoon
-    alias: 浣熊 小浣熊 洗熊
+    alias: 浣熊 小浣 洗熊 熊臉
   - emoji: 🐱
     name: E0.6 cat face
-    alias: 貓臉 小貓 貓頭
+    alias: 貓 貓臉 小貓 臉貓
   - emoji: 🐈
     name: E0.7 cat
-    alias: 貓 小貓 家貓
+    alias: 貓 小貓 家貓 貓咪
   - emoji: 🐈‍⬛
     name: E13.0 black cat
-    alias: 黑貓 黑色貓 小黑貓
+    alias: 黑貓 小黑 黑色貓 暗貓
   - emoji: 🦁
     name: E1.0 lion
-    alias: 獅 獅子 森林之王
+    alias: 獅 獅子 森林王 王者
   - emoji: 🐯
     name: E0.6 tiger face
-    alias: 虎臉 老虎臉 虎頭
+    alias: 虎 臉虎 虎臉 老虎
   - emoji: 🐅
     name: E1.0 tiger
-    alias: 虎 老虎 大貓
+    alias: 虎 老虎 猛虎 大貓
   - emoji: 🐆
     name: E1.0 leopard
-    alias: 豹 獵豹 斑點貓
+    alias: 豹 獵豹 斑豹 豹紋
   - emoji: 🐴
     name: E0.6 horse face
-    alias: 馬臉 馬頭 小馬臉
+    alias: 馬 馬臉 臉馬 小馬
   - emoji: 🫎
     name: E15.0 moose
-    alias: 麋鹿 大鹿 北美鹿
+    alias: 麋鹿 大鹿 長角鹿 北鹿
   - emoji: 🫏
     name: E15.0 donkey
-    alias: 驢 小驢 驢子
+    alias: 驢 小驢 驢子 驢獸
   - emoji: 🐎
     name: E0.6 horse
-    alias: 馬 小馬 騎馬
+    alias: 馬 小馬 騎馬 馬匹
   - emoji: 🦄
     name: E1.0 unicorn
-    alias: 獨角 獨角獸 神獸
+    alias: 獨角 獨角獸 神獸 角獸
   - emoji: 🦓
     name: E5.0 zebra
-    alias: 斑馬 黑白馬 草原馬
+    alias: 斑馬 黑白馬 條紋馬 草原馬
   - emoji: 🦌
     name: E3.0 deer
-    alias: 鹿 小鹿 麋鹿
+    alias: 鹿 小鹿 麋鹿 野鹿
   - emoji: 🦬
     name: E13.0 bison
-    alias: 野牛 美洲野牛 大牛
+    alias: 野牛 大牛 美洲牛 牛獸
   - emoji: 🐮
     name: E0.6 cow face
-    alias: 牛臉 小牛 牛頭
+    alias: 牛 牛臉 牛頭 臉牛
   - emoji: 🐂
     name: E1.0 ox
-    alias: 公牛 牛 大牛
+    alias: 公牛 牛 大牛 鬥牛
   - emoji: 🐃
     name: E1.0 water buffalo
-    alias: 水牛 水中牛 大水牛
+    alias: 水牛 大水牛 牛 水獸
   - emoji: 🐄
     name: E1.0 cow
-    alias: 母牛 奶牛 家牛
+    alias: 母牛 奶牛 家牛 牛隻
   - emoji: 🐷
     name: E0.6 pig face
-    alias: 豬臉 小豬 豬頭
+    alias: 豬 豬臉 小豬 臉豬
   - emoji: 🐖
     name: E1.0 pig
-    alias: 豬 小豬 家豬
+    alias: 豬 小豬 家豬 肥豬
   - emoji: 🐗
     name: E0.6 boar
-    alias: 野豬 山豬 大豬
+    alias: 野豬 山豬 公豬 獵豬
   - emoji: 🐽
     name: E0.6 pig nose
-    alias: 豬鼻 豬鼻子 小豬鼻
+    alias: 豬鼻 鼻子 鼻 豬鼻子
   - emoji: 🐏
     name: E1.0 ram
-    alias: 公羊 山羊 羊
+    alias: 公羊 羊 山羊 角羊
   - emoji: 🐑
     name: E0.6 ewe
     alias: 母羊 綿羊 羊
   - emoji: 🐐
     name: E1.0 goat
-    alias: 山羊 羊 小山羊
+    alias: 山羊 羊 小羊 羊角
   - emoji: 🐪
     name: E1.0 camel
-    alias: 駱駝 沙漠駝 雙峰駝
+    alias: 駱駝 單峰 沙漠獸 駝
   - emoji: 🐫
     name: E0.6 two-hump camel
-    alias: 雙峰 雙峰駝 沙漠駝
+    alias: 雙峰駝 雙峰 沙駝 駱
   - emoji: 🦙
     name: E11.0 llama
-    alias: 羊駝 草泥馬 小羊駝
+    alias: 羊駝 草泥馬 小羊駝 駝羊
   - emoji: 🦒
     name: E5.0 giraffe
-    alias: 長頸 長頸鹿 高頸鹿
+    alias: 長頸鹿 長頸 高鹿 頸鹿
   - emoji: 🐘
     name: E0.6 elephant
-    alias: 象 大象 長鼻象
+    alias: 象 大象 長鼻 象群
   - emoji: 🦣
     name: E13.0 mammoth
-    alias: 長毛象 史前象 巨象
+    alias: 長毛象 巨象 史前象 毛象
   - emoji: 🦏
     name: E3.0 rhinoceros
-    alias: 犀牛 大犀牛 角牛
+    alias: 犀牛 大犀 角牛 獨角牛
   - emoji: 🦛
     name: E11.0 hippopotamus
-    alias: 河馬 水馬 大河馬
+    alias: 河馬 水馬 大嘴馬 馬獸
   - emoji: 🐭
     name: E0.6 mouse face
-    alias: 鼠臉 小鼠 鼠頭
+    alias: 鼠 鼠臉 小鼠 臉鼠
   - emoji: 🐁
     name: E1.0 mouse
     alias: 老鼠 小鼠 家鼠
   - emoji: 🐀
     name: E1.0 rat
-    alias: 大鼠 老鼠 黑鼠
+    alias: 大鼠 黑鼠 鼠類 地鼠
   - emoji: 🐹
     name: E0.6 hamster
-    alias: 倉鼠 小倉鼠 寵物鼠
+    alias: 倉鼠 寵物鼠 鼠 小倉鼠
   - emoji: 🐰
     name: E0.6 rabbit face
-    alias: 兔臉 小兔 兔頭
+    alias: 兔 兔臉 小兔 臉兔
   - emoji: 🐇
     name: E1.0 rabbit
-    alias: 兔 小兔 家兔
+    alias: 兔 小兔 家兔 跳兔
   - emoji: 🐿️
     name: E0.7 chipmunk
-    alias: 花栗鼠 小松鼠 松鼠
+    alias: 花栗鼠 松鼠 小松 鼠
   - emoji: 🦫
     name: E13.0 beaver
-    alias: 河狸 水狸 建築狸
+    alias: 河狸 建築狸 水狸 齧齒
   - emoji: 🦔
     name: E5.0 hedgehog
-    alias: 刺蝟 小刺蝟 針鼠
+    alias: 刺蝟 小刺蝟 針鼠 螺毛
   - emoji: 🦇
     name: E3.0 bat
-    alias: 蝙蝠 夜行蝠 飛鼠
+    alias: 蝙蝠 夜行蝠 飛鼠 黑翼
   - emoji: 🐻
     name: E0.6 bear
-    alias: 熊 大熊 森林熊
+    alias: 熊 大熊 森林熊 棕熊
   - emoji: 🐻‍❄️
     name: E13.0 polar bear
-    alias: 北極熊 白熊 冰熊
+    alias: 北極熊 白熊 冰熊 寒熊
   - emoji: 🐨
     name: E0.6 koala
-    alias: 無尾熊 樹袋熊 小熊
+    alias: 無尾熊 樹袋熊 小熊 樹熊
   - emoji: 🐼
     name: E0.6 panda
-    alias: 熊貓 大熊貓 國寶
+    alias: 熊貓 國寶 大熊貓 黑白熊
   - emoji: 🦥
     name: E12.0 sloth
-    alias: 樹懶 懶猴 慢動物
+    alias: 樹懶 懶猴 慢獸 懶熊
   - emoji: 🦦
     name: E12.0 otter
-    alias: 水獺 海獺 小獺
+    alias: 水獺 海獺 小獺 獺
   - emoji: 🦨
     name: E12.0 skunk
-    alias: 臭鼬 臭貓 臭動物
+    alias: 臭鼬 臭貓 臭獸 黑白鼠
   - emoji: 🦘
     name: E11.0 kangaroo
-    alias: 袋鼠 跳跳鼠 澳洲鼠
+    alias: 袋鼠 跳跳鼠 澳洲鼠 跳鼠
   - emoji: 🦡
     name: E11.0 badger
-    alias: 獾 小獾 挖洞獸
+    alias: 獾 小獾 挖洞獸 地獸
   - emoji: 🐾
     name: E0.6 paw prints
-    alias: 爪印 足跡 動物腳印
+    alias: 爪印 足跡 動物腳印 腳印 足印

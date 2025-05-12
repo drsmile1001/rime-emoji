@@ -4,16 +4,16 @@ alias: 字母數字 字母 數字
 emojis:
   - emoji: 🔠
     name: E0.6 input latin uppercase
-    alias: 大寫字母 大寫 拉丁字母
+    alias: 大寫字母 拉丁大寫 字母
   - emoji: 🔡
     name: E0.6 input latin lowercase
-    alias: 小寫字母 小寫 拉丁字母
+    alias: 小寫字母 拉丁小寫 字母
   - emoji: 🔢
     name: E0.6 input numbers
-    alias: 數字 數字輸入 數字鍵
+    alias: 數字 數字鍵 數字輸入
   - emoji: 🔣
     name: E0.6 input symbols
-    alias: 符號 符號輸入 符號鍵
+    alias: 符號 符號鍵 輸入符號
   - emoji: 🔤
     name: E0.6 input latin letters
     alias: 拉丁字母 字母 輸入

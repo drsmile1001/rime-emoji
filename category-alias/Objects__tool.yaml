@@ -4,82 +4,82 @@ alias: 工具 器材 設備
 emojis:
   - emoji: 🔨
     name: E0.6 hammer
-    alias: 錘子 工具錘 器材錘
+    alias: 錘子 錘 打錘
   - emoji: 🪓
     name: E12.0 axe
-    alias: 斧頭 工具斧 器材斧
+    alias: 斧頭 斧 劈斧
   - emoji: ⛏️
     name: E0.7 pick
-    alias: 鶴嘴鋤 工具鋤 器材鋤
+    alias: 鶴嘴鋤 鋤 挖鋤
   - emoji: ⚒️
     name: E1.0 hammer and pick
-    alias: 錘和鋤 工具錘鋤 器材錘鋤
+    alias: 錘鋤 錘與鋤 工具組
   - emoji: 🛠️
     name: E0.7 hammer and wrench
-    alias: 錘和扳手 工具錘扳手 器材錘扳手
+    alias: 錘扳 錘與扳 手工具
   - emoji: 🗡️
     name: E0.7 dagger
-    alias: 匕首 工具匕 器材匕
+    alias: 匕首 短劍 小刀
   - emoji: ⚔️
     name: E1.0 crossed swords
-    alias: 交叉劍 工具劍 器材劍
+    alias: 雙劍 劍 戰劍
   - emoji: 💣
     name: E0.6 bomb
-    alias: 炸彈 工具炸 器材炸
+    alias: 炸彈 爆彈 炸
   - emoji: 🪃
     name: E13.0 boomerang
-    alias: 回力鏢 工具鏢 器材鏢
+    alias: 回力鏢 鏢 投擲鏢
   - emoji: 🏹
     name: E1.0 bow and arrow
-    alias: 弓箭 工具弓 器材弓
+    alias: 弓箭 弓 弓弦
   - emoji: 🛡️
     name: E0.7 shield
-    alias: 盾牌 工具盾 器材盾
+    alias: 盾牌 盾 防具
   - emoji: 🪚
     name: E13.0 carpentry saw
-    alias: 木工鋸 工具鋸 器材鋸
+    alias: 木工鋸 鋸 鋸子
   - emoji: 🔧
     name: E0.6 wrench
-    alias: 扳手 工具扳 器材扳
+    alias: 扳手 扳 工具扳
   - emoji: 🪛
     name: E13.0 screwdriver
-    alias: 螺絲刀 工具刀 器材刀
+    alias: 螺絲刀 起子 螺刀
   - emoji: 🔩
     name: E0.6 nut and bolt
-    alias: 螺母和螺栓 工具螺 器材螺
+    alias: 螺栓 螺母 螺
   - emoji: ⚙️
     name: E1.0 gear
-    alias: 齒輪 工具齒 器材齒
+    alias: 齒輪 齒 齒件
   - emoji: 🗜️
     name: E0.7 clamp
-    alias: 夾子 工具夾 器材夾
+    alias: 夾具 夾子 固定夾
   - emoji: ⚖️
     name: E1.0 balance scale
-    alias: 天平 工具平 器材平
+    alias: 天平 秤 平衡秤
   - emoji: 🦯
     name: E12.0 white cane
-    alias: 白手杖 工具杖 器材杖
+    alias: 白手杖 手杖 導盲杖
   - emoji: 🔗
     name: E0.6 link
-    alias: 鏈接 工具鏈 器材鏈
+    alias: 鏈接 鏈 鎖鏈
   - emoji: ⛓️‍💥
     name: E15.1 broken chain
-    alias: 斷鏈 工具鏈 器材鏈
+    alias: 斷鏈 破鏈 裂鏈
   - emoji: ⛓️
     name: E0.7 chains
-    alias: 鏈條 工具鏈 器材鏈
+    alias: 鏈條 鐵鏈 鎖鏈
   - emoji: 🪝
     name: E13.0 hook
-    alias: 鉤子 工具鉤 器材鉤
+    alias: 鉤子 掛鉤 鉤
   - emoji: 🧰
     name: E11.0 toolbox
-    alias: 工具箱 器材箱 設備箱
+    alias: 工具箱 箱 工具包
   - emoji: 🧲
     name: E11.0 magnet
-    alias: 磁鐵 工具磁 器材磁
+    alias: 磁鐵 吸鐵 磁
   - emoji: 🪜
     name: E13.0 ladder
-    alias: 梯子 工具梯 器材梯
+    alias: 梯子 梯 登梯
   - emoji: 🪏
     name: E16.0 shovel
-    alias: 鏟子 工具鏟 器材鏟
+    alias: 鏟子 鏟 鐵鏟

@@ -4,52 +4,52 @@ alias: 書紙 文具 書籍
 emojis:
   - emoji: 📔
     name: E0.6 notebook with decorative cover
-    alias: 裝飾筆記本 文具本 書籍本
+    alias: 裝飾本 筆記本 書本
   - emoji: 📕
     name: E0.6 closed book
-    alias: 閉合書 書籍本 文具本
+    alias: 閉書 紅書 書
   - emoji: 📖
     name: E0.6 open book
-    alias: 打開書 書籍本 文具本
+    alias: 打開書 開書 閱讀書 書本
   - emoji: 📗
     name: E0.6 green book
-    alias: 綠書 書籍本 文具本
+    alias: 綠書 書 綠本
   - emoji: 📘
     name: E0.6 blue book
-    alias: 藍書 書籍本 文具本
+    alias: 藍書 書 藍本
   - emoji: 📙
     name: E0.6 orange book
-    alias: 橙書 書籍本 文具本
+    alias: 橙書 書 橘本
   - emoji: 📚
     name: E0.6 books
-    alias: 書籍 文具本 書本
+    alias: 書籍 書 書堆 書本
   - emoji: 📓
     name: E0.6 notebook
-    alias: 筆記本 文具本 書本
+    alias: 筆記本 記事本 本子
   - emoji: 📒
     name: E0.6 ledger
-    alias: 賬簿 文具本 書本
+    alias: 賬簿 帳本 登記本
   - emoji: 📃
     name: E0.6 page with curl
-    alias: 卷頁 書頁 文具頁
+    alias: 卷頁 書頁 彎頁 頁
   - emoji: 📜
     name: E0.6 scroll
-    alias: 卷軸 書卷 文具卷
+    alias: 卷軸 書卷 卷 古卷
   - emoji: 📄
     name: E0.6 page facing up
-    alias: 向上頁 書頁 文具頁
+    alias: 書頁 紙頁 頁 文件頁
   - emoji: 📰
     name: E0.6 newspaper
-    alias: 報紙 文具紙 書紙
+    alias: 報紙 新聞紙 報 報刊
   - emoji: 🗞️
     name: E0.7 rolled-up newspaper
-    alias: 卷報紙 文具紙 書紙
+    alias: 卷報紙 報 報筒 新聞卷
   - emoji: 📑
     name: E0.6 bookmark tabs
-    alias: 書籤 文具籤 書籍籤
+    alias: 書籤 籤 分頁籤 標籤
   - emoji: 🔖
     name: E0.6 bookmark
-    alias: 書籤 文具籤 書籍籤
+    alias: 書籤 標籤 書夾 籤
   - emoji: 🏷️
     name: E0.7 label
-    alias: 標籤 文具籤 書籍籤
+    alias: 標籤 標 記籤 吊牌

@@ -4,67 +4,67 @@ alias: 其他符號 特殊 符號
 emojis:
   - emoji: ⚕️
     name: E4.0 medical symbol
-    alias: 醫療 健康 醫學
+    alias: 醫療 健康 醫學 醫學符號
   - emoji: ♻️
     name: E0.6 recycling symbol
-    alias: 回收 循環 環保
+    alias: 回收 循環 環保 回收符號
   - emoji: ⚜️
     name: E1.0 fleur-de-lis
-    alias: 百合花 花形 裝飾
+    alias: 百合花 花形 裝飾 標誌
   - emoji: 🔱
     name: E0.6 trident emblem
-    alias: 三叉戟 武器 標誌
+    alias: 三叉戟 武器 標誌 象徵
   - emoji: 📛
     name: E0.6 name badge
-    alias: 名牌 標識 名稱
+    alias: 名牌 標識 名稱 標籤
   - emoji: 🔰
     name: E0.6 Japanese symbol for beginner
-    alias: 初學者 新手 初級
+    alias: 初學者 新手 初級 初學
   - emoji: ⭕
     name: E0.6 hollow red circle
-    alias: 空心紅圈 圈形 圓形
+    alias: 空心紅圈 圈形 圓形 標識
   - emoji: ✅
     name: E0.6 check mark button
-    alias: 勾選 確認 標記
+    alias: 勾選 確認 標記 勾號
   - emoji: ☑️
     name: E0.6 check box with check
-    alias: 勾選框 確認框 標記框
+    alias: 勾選框 確認框 標記框 核對
   - emoji: ✔️
     name: E0.6 check mark
-    alias: 勾 確認 標記
+    alias: 勾 確認 標記 勾號
   - emoji: ❌
     name: E0.6 cross mark
-    alias: 叉 錯誤 標記
+    alias: 叉 錯誤 標記 叉號
   - emoji: ❎
     name: E0.6 cross mark button
-    alias: 叉按鈕 錯誤按鈕 標記按鈕
+    alias: 叉按鈕 錯誤按鈕 標記按鈕 叉號
   - emoji: ➰
     name: E0.6 curly loop
-    alias: 彎曲環 環形 彎曲
+    alias: 彎曲環 環形 彎曲 圓環
   - emoji: ➿
     name: E1.0 double curly loop
-    alias: 雙彎曲環 雙環 彎曲
+    alias: 雙彎曲環 雙環 彎曲 雙圈
   - emoji: 〽️
     name: E0.6 part alternation mark
-    alias: 部分交替 交替 標記
+    alias: 部分交替 交替 標記 分隔
   - emoji: ✳️
     name: E0.6 eight-spoked asterisk
-    alias: 八角星 星形 標記
+    alias: 八角星 星形 標記 星號
   - emoji: ✴️
     name: E0.6 eight-pointed star
-    alias: 八角星 星形 標記
+    alias: 八角星 星形 標記 星星
   - emoji: ❇️
     name: E0.6 sparkle
-    alias: 閃光 光芒 星形
+    alias: 閃光 光芒 星形 閃爍
   - emoji: ©️
     name: E0.6 copyright
-    alias: 版權 著作權 標記
+    alias: 版權 著作權 標記 版權符號
   - emoji: ®️
     name: E0.6 registered
-    alias: 註冊 商標 標記
+    alias: 註冊 商標 標記 註冊符號
   - emoji: ™️
     name: E0.6 trade mark
-    alias: 商標 標記 標識
+    alias: 商標 標記 標識 商業
   - emoji: 🫟
     name: E16.0 splatter
-    alias: 濺射 飛濺 標記
+    alias: 濺射 飛濺 標記 水花
