@@ -1,0 +1,22 @@
+group: Symbols
+subgroup: math
+alias: 數學 計算 符號
+emojis:
+  - emoji: ✖️
+    name: E0.6 multiply
+    alias: 乘 乘法 計算
+  - emoji: ➕
+    name: E0.6 plus
+    alias: 加 加法 計算
+  - emoji: ➖
+    name: E0.6 minus
+    alias: 減 減法 計算
+  - emoji: ➗
+    name: E0.6 divide
+    alias: 除 除法 計算
+  - emoji: 🟰
+    name: E14.0 heavy equals sign
+    alias: 等於 相等 平等
+  - emoji: ♾️
+    name: E11.0 infinity
+    alias: 無限 無窮 無邊

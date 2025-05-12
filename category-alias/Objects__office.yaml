@@ -1,0 +1,73 @@
+group: Objects
+subgroup: office
+alias: 辦公 文具 文件
+emojis:
+  - emoji: 💼
+    name: E0.6 briefcase
+    alias: 公文包 辦公包 文件包
+  - emoji: 📁
+    name: E0.6 file folder
+    alias: 文件夾 辦公夾 文具夾
+  - emoji: 📂
+    name: E0.6 open file folder
+    alias: 打開文件夾 辦公夾 文具夾
+  - emoji: 🗂️
+    name: E0.7 card index dividers
+    alias: 卡片索引 辦公索引 文具索引
+  - emoji: 📅
+    name: E0.6 calendar
+    alias: 日曆 辦公日曆 文具日曆
+  - emoji: 📆
+    name: E0.6 tear-off calendar
+    alias: 撕下日曆 辦公日曆 文具日曆
+  - emoji: 🗒️
+    name: E0.7 spiral notepad
+    alias: 螺旋筆記本 辦公筆記本 文具筆記本
+  - emoji: 🗓️
+    name: E0.7 spiral calendar
+    alias: 螺旋日曆 辦公日曆 文具日曆
+  - emoji: 📇
+    name: E0.6 card index
+    alias: 卡片索引 辦公索引 文具索引
+  - emoji: 📈
+    name: E0.6 chart increasing
+    alias: 增長圖 辦公圖 文具圖
+  - emoji: 📉
+    name: E0.6 chart decreasing
+    alias: 減少圖 辦公圖 文具圖
+  - emoji: 📊
+    name: E0.6 bar chart
+    alias: 柱狀圖 辦公圖 文具圖
+  - emoji: 📋
+    name: E0.6 clipboard
+    alias: 剪貼板 辦公板 文具板
+  - emoji: 📌
+    name: E0.6 pushpin
+    alias: 大頭針 辦公針 文具針
+  - emoji: 📍
+    name: E0.6 round pushpin
+    alias: 圓大頭針 辦公針 文具針
+  - emoji: 📎
+    name: E0.6 paperclip
+    alias: 回形針 辦公針 文具針
+  - emoji: 🖇️
+    name: E0.7 linked paperclips
+    alias: 連接回形針 辦公針 文具針
+  - emoji: 📏
+    name: E0.6 straight ruler
+    alias: 直尺 辦公尺 文具尺
+  - emoji: 📐
+    name: E0.6 triangular ruler
+    alias: 三角尺 辦公尺 文具尺
+  - emoji: ✂️
+    name: E0.6 scissors
+    alias: 剪刀 辦公剪 文具剪
+  - emoji: 🗃️
+    name: E0.7 card file box
+    alias: 卡片文件箱 辦公箱 文具箱
+  - emoji: 🗄️
+    name: E0.7 file cabinet
+    alias: 文件櫃 辦公櫃 文具櫃
+  - emoji: 🗑️
+    name: E0.7 wastebasket
+    alias: 垃圾桶 辦公桶 文具桶

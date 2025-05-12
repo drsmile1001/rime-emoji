@@ -1,0 +1,106 @@
+group: Food & Drink
+subgroup: food-prepared
+alias: 熟食 熟菜 熟品
+emojis:
+  - emoji: 🍞
+    name: E0.6 bread
+    alias: 麵包 白麵包 小麵包
+  - emoji: 🥐
+    name: E3.0 croissant
+    alias: 可頌 牛角麵包 小可頌
+  - emoji: 🥖
+    name: E3.0 baguette bread
+    alias: 法棍 長麵包 法式麵包
+  - emoji: 🫓
+    name: E13.0 flatbread
+    alias: 薄餅 平麵餅 小薄餅
+  - emoji: 🥨
+    name: E5.0 pretzel
+    alias: 椒鹽捲餅 鹹餅 小捲餅
+  - emoji: 🥯
+    name: E11.0 bagel
+    alias: 貝果 圓貝果 小貝果
+  - emoji: 🥞
+    name: E3.0 pancakes
+    alias: 鬆餅 圓鬆餅 小鬆餅
+  - emoji: 🧇
+    name: E12.0 waffle
+    alias: 格子餅 方格餅 小格餅
+  - emoji: 🧀
+    name: E1.0 cheese wedge
+    alias: 起司 黃起司 小起司
+  - emoji: 🍖
+    name: E0.6 meat on bone
+    alias: 肉骨 大肉骨 小肉骨
+  - emoji: 🍗
+    name: E0.6 poultry leg
+    alias: 雞腿 大雞腿 小雞腿
+  - emoji: 🥩
+    name: E5.0 cut of meat
+    alias: 肉排 牛肉排 小肉排
+  - emoji: 🥓
+    name: E3.0 bacon
+    alias: 培根 煎培根 小培根
+  - emoji: 🍔
+    name: E0.6 hamburger
+    alias: 漢堡 牛肉漢堡 小漢堡
+  - emoji: 🍟
+    name: E0.6 french fries
+    alias: 薯條 炸薯條 小薯條
+  - emoji: 🍕
+    name: E0.6 pizza
+    alias: 披薩 圓披薩 小披薩
+  - emoji: 🌭
+    name: E1.0 hot dog
+    alias: 熱狗 香腸麵包 小熱狗
+  - emoji: 🥪
+    name: E5.0 sandwich
+    alias: 三明治 夾心麵包 小三明治
+  - emoji: 🌮
+    name: E1.0 taco
+    alias: 塔可 墨西哥餅 小塔可
+  - emoji: 🌯
+    name: E1.0 burrito
+    alias: 墨西哥捲 捲餅 小捲餅
+  - emoji: 🫔
+    name: E13.0 tamale
+    alias: 玉米粽 粽子 小玉米粽
+  - emoji: 🥙
+    name: E3.0 stuffed flatbread
+    alias: 夾餅 夾心餅 小夾餅
+  - emoji: 🧆
+    name: E12.0 falafel
+    alias: 炸豆丸 豆丸 小豆丸
+  - emoji: 🥚
+    name: E3.0 egg
+    alias: 雞蛋 白雞蛋 小雞蛋
+  - emoji: 🍳
+    name: E0.6 cooking
+    alias: 煎蛋 炒蛋 小煎蛋
+  - emoji: 🥘
+    name: E3.0 shallow pan of food
+    alias: 平底鍋菜 鍋菜 小鍋菜
+  - emoji: 🍲
+    name: E0.6 pot of food
+    alias: 鍋菜 湯鍋菜 小鍋菜
+  - emoji: 🫕
+    name: E13.0 fondue
+    alias: 起司火鍋 火鍋 小火鍋
+  - emoji: 🥣
+    name: E5.0 bowl with spoon
+    alias: 湯碗 湯匙碗 小湯碗
+  - emoji: 🥗
+    name: E3.0 green salad
+    alias: 沙拉 綠沙拉 小沙拉
+  - emoji: 🍿
+    name: E1.0 popcorn
+    alias: 爆米花 玉米花 小爆米花
+  - emoji: 🧈
+    name: E12.0 butter
+    alias: 奶油 黃奶油 小奶油
+  - emoji: 🧂
+    name: E11.0 salt
+    alias: 鹽 白鹽 小鹽
+  - emoji: 🥫
+    name: E5.0 canned food
+    alias: 罐頭 食品罐 小罐頭

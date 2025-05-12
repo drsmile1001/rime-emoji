@@ -1,0 +1,22 @@
+group: Activities
+subgroup: award-medal
+alias: 獎章 獎牌 勳章
+emojis:
+  - emoji: 🎖️
+    name: E0.7 military medal
+    alias: 勳章 獎章 榮譽章
+  - emoji: 🏆
+    name: E0.6 trophy
+    alias: 獎盃 冠軍盃 獎品
+  - emoji: 🏅
+    name: E1.0 sports medal
+    alias: 獎牌 運動獎牌 金牌
+  - emoji: 🥇
+    name: E3.0 1st place medal
+    alias: 金牌 冠軍 第一名
+  - emoji: 🥈
+    name: E3.0 2nd place medal
+    alias: 銀牌 第二名 亞軍
+  - emoji: 🥉
+    name: E3.0 3rd place medal
+    alias: 銅牌 第三名 季軍

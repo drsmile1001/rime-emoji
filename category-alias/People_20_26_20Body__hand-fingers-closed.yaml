@@ -1,0 +1,22 @@
+group: People & Body
+subgroup: hand-fingers-closed
+alias: 握拳
+emojis:
+  - emoji: 👍
+    name: E0.6 thumbs up
+    alias: 讚
+  - emoji: 👎
+    name: E0.6 thumbs down
+    alias: 噓
+  - emoji: ✊
+    name: E0.6 raised fist
+    alias: 拳頭
+  - emoji: 👊
+    name: E0.6 oncoming fist
+    alias: 揮拳
+  - emoji: 🤛
+    name: E3.0 left-facing fist
+    alias: 左拳
+  - emoji: 🤜
+    name: E3.0 right-facing fist
+    alias: 右拳

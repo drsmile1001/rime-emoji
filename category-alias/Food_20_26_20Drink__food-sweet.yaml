@@ -1,0 +1,46 @@
+group: Food & Drink
+subgroup: food-sweet
+alias: 甜食 甜品 糖果
+emojis:
+  - emoji: 🍦
+    name: E0.6 soft ice cream
+    alias: 霜淇淋 冰淇淋 小霜淇淋
+  - emoji: 🍧
+    name: E0.6 shaved ice
+    alias: 刨冰 冰沙 小刨冰
+  - emoji: 🍨
+    name: E0.6 ice cream
+    alias: 冰淇淋 圓冰淇淋 小冰淇淋
+  - emoji: 🍩
+    name: E0.6 doughnut
+    alias: 甜甜圈 圓甜甜圈 小甜甜圈
+  - emoji: 🍪
+    name: E0.6 cookie
+    alias: 餅乾 小餅乾 圓餅乾
+  - emoji: 🎂
+    name: E0.6 birthday cake
+    alias: 蛋糕 圓蛋糕 小蛋糕
+  - emoji: 🍰
+    name: E0.6 shortcake
+    alias: 草莓蛋糕 小蛋糕 小草莓蛋糕
+  - emoji: 🧁
+    name: E11.0 cupcake
+    alias: 杯子蛋糕 小蛋糕 小杯子蛋糕
+  - emoji: 🥧
+    name: E5.0 pie
+    alias: 派 圓派 小派
+  - emoji: 🍫
+    name: E0.6 chocolate bar
+    alias: 巧克力 巧克力棒 小巧克力
+  - emoji: 🍬
+    name: E0.6 candy
+    alias: 糖果 小糖果 圓糖果
+  - emoji: 🍭
+    name: E0.6 lollipop
+    alias: 棒棒糖 小棒棒糖 圓棒棒糖
+  - emoji: 🍮
+    name: E0.6 custard
+    alias: 布丁 小布丁 圓布丁
+  - emoji: 🍯
+    name: E0.6 honey pot
+    alias: 蜂蜜 小蜂蜜 蜂蜜罐

@@ -1,0 +1,43 @@
+group: Symbols
+subgroup: transport-sign
+alias: 交通標誌 標誌 指示
+emojis:
+  - emoji: 🏧
+    name: E0.6 ATM sign
+    alias: 提款機 自動提款機 ATM
+  - emoji: 🚮
+    name: E1.0 litter in bin sign
+    alias: 丟垃圾 垃圾桶 丟棄
+  - emoji: 🚰
+    name: E1.0 potable water
+    alias: 可飲水 飲用水 水源
+  - emoji: ♿
+    name: E0.6 wheelchair symbol
+    alias: 輪椅 無障礙 殘疾
+  - emoji: 🚹
+    name: E0.6 men’s room
+    alias: 男廁 男士廁所 男衛生間
+  - emoji: 🚺
+    name: E0.6 women’s room
+    alias: 女廁 女士廁所 女衛生間
+  - emoji: 🚻
+    name: E0.6 restroom
+    alias: 廁所 公共廁所 洗手間
+  - emoji: 🚼
+    name: E0.6 baby symbol
+    alias: 嬰兒 嬰兒室 嬰兒標誌
+  - emoji: 🚾
+    name: E0.6 water closet
+    alias: 洗手間 廁所 衛生間
+  - emoji: 🛂
+    name: E1.0 passport control
+    alias: 護照 海關 出入境
+  - emoji: 🛃
+    name: E1.0 customs
+    alias: 海關 檢查 申報
+  - emoji: 🛄
+    name: E1.0 baggage claim
+    alias: 行李 提取 行李提取
+  - emoji: 🛅
+    name: E1.0 left luggage
+    alias: 寄存 行李寄存 存放

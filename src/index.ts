@@ -9,11 +9,14 @@ import { FilterStrategyReporterYaml } from "@/services/FilterStrategyReporter.Ya
 import { cac } from "cac";
 import {
   CATEGORY_ALIAS_DIR,
-  FILTER_REPORT_DIR,
+  EXPORT_EMOJI_OPENCC_FILE,
   FILTERED_DEFINITIONS_FILE,
-  OUTPUT_DIR,
   RAW_DEFINITIONS_FILE,
   SEMANTIC_ALIAS_DIR,
+  STEP_FETCH_DIR,
+  STEP_FILTER_DIR,
+  OPENCC_DIR,
+  STEP_VALIDATE_DIR,
 } from "./constants";
 import { StepMergeDefinition } from "./funcs/Step.MergeDefinition";
 import { StepValidateDefinitionAlias } from "./funcs/Step.ValidateAlias";
@@ -28,20 +31,26 @@ const cli = cac();
 
 cli.command("fetch", "下載並解析最新 emoji 定義").action(async () => {
   const source = new EmojiDefinitionRepoUnicode();
-  const target = new EmojiDefinitionRepoYaml(OUTPUT_DIR, RAW_DEFINITIONS_FILE);
+  const target = new EmojiDefinitionRepoYaml(
+    STEP_FETCH_DIR,
+    RAW_DEFINITIONS_FILE,
+  );
   const step = new StepFetchDefinition(source, target);
   await step.execute();
   console.log("✅ 下載與儲存完成");
 });
 
 cli.command("filter", "過濾 emoji 定義並產生過濾報告").action(async () => {
-  const source = new EmojiDefinitionRepoYaml(OUTPUT_DIR, RAW_DEFINITIONS_FILE);
+  const source = new EmojiDefinitionRepoYaml(
+    STEP_FETCH_DIR,
+    RAW_DEFINITIONS_FILE,
+  );
   const target = new EmojiDefinitionRepoYaml(
-    OUTPUT_DIR,
+    STEP_FILTER_DIR,
     FILTERED_DEFINITIONS_FILE,
   );
-  const strategyReporter = new FilterStrategyReporterYaml(FILTER_REPORT_DIR);
-  const summaryReporter = new FilterSummaryReporterYaml(FILTER_REPORT_DIR);
+  const strategyReporter = new FilterStrategyReporterYaml(STEP_FILTER_DIR);
+  const summaryReporter = new FilterSummaryReporterYaml(STEP_FILTER_DIR);
 
   const step = new StepFilterDefinition(
     source,
@@ -61,7 +70,7 @@ cli.command("filter", "過濾 emoji 定義並產生過濾報告").action(async (
 
 cli.command("merge", "合併過濾後 emoji 為可維護別名檔").action(async () => {
   const source = new EmojiDefinitionRepoYaml(
-    OUTPUT_DIR,
+    STEP_FILTER_DIR,
     FILTERED_DEFINITIONS_FILE,
   );
   const target = new CategoryAliasRepoYaml(CATEGORY_ALIAS_DIR);
@@ -73,7 +82,7 @@ cli.command("merge", "合併過濾後 emoji 為可維護別名檔").action(async
 cli.command("validate", "驗證別名定義是否有缺漏或重複").action(async () => {
   const source = new CategoryAliasRepoYaml(CATEGORY_ALIAS_DIR);
   const missingAlias = new AliasValidatorMissingAlias(source);
-  const reporter = new AliasValidationReporterYaml(OUTPUT_DIR);
+  const reporter = new AliasValidationReporterYaml(STEP_VALIDATE_DIR);
   const step = new StepValidateDefinitionAlias([missingAlias], reporter);
   await step.execute();
   console.log("✅ 別名驗證完成，請檢查報告");
@@ -84,16 +93,15 @@ cli
   .action(async () => {
     const assignedRepo = new CategoryAliasRepoYaml(CATEGORY_ALIAS_DIR);
     const domainRepo = new SemanticAliasRepoYaml(SEMANTIC_ALIAS_DIR);
-
     const exportStep = new StepExportRime(
       assignedRepo,
       domainRepo,
-      OUTPUT_DIR,
-      "emoji.txt",
+      OPENCC_DIR,
+      EXPORT_EMOJI_OPENCC_FILE,
     );
     await exportStep.execute();
 
-    console.log(`✅ 匯出完成：${OUTPUT_DIR}/emoji.txt`);
+    console.log(`✅ 匯出完成：${OPENCC_DIR}/${EXPORT_EMOJI_OPENCC_FILE}`);
   });
 
 cli.help();

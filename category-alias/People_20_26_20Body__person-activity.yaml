@@ -1,0 +1,45 @@
+group: People & Body
+subgroup: person-activity
+emojis:
+  - emoji: 💆
+    name: E0.6 person getting massage
+  - emoji: 💇
+    name: E0.6 person getting haircut
+  - emoji: 🚶
+    name: E0.6 person walking
+  - emoji: 🚶‍➡️
+    name: E15.1 person walking facing right
+  - emoji: 🧍
+    name: E12.0 person standing
+  - emoji: 🧎
+    name: E12.0 person kneeling
+  - emoji: 🧎‍➡️
+    name: E15.1 person kneeling facing right
+  - emoji: 🧑‍🦯
+    name: E12.1 person with white cane
+  - emoji: 🧑‍🦯‍➡️
+    name: E15.1 person with white cane facing right
+  - emoji: 🧑‍🦼
+    name: E12.1 person in motorized wheelchair
+  - emoji: 🧑‍🦼‍➡️
+    name: E15.1 person in motorized wheelchair facing right
+  - emoji: 🧑‍🦽
+    name: E12.1 person in manual wheelchair
+  - emoji: 🧑‍🦽‍➡️
+    name: E15.1 person in manual wheelchair facing right
+  - emoji: 🏃
+    name: E0.6 person running
+  - emoji: 🏃‍➡️
+    name: E15.1 person running facing right
+  - emoji: 💃
+    name: E0.6 woman dancing
+  - emoji: 🕺
+    name: E3.0 man dancing
+  - emoji: 🕴️
+    name: E0.7 person in suit levitating
+  - emoji: 👯
+    name: E0.6 people with bunny ears
+  - emoji: 🧖
+    name: E5.0 person in steamy room
+  - emoji: 🧗
+    name: E5.0 person climbing

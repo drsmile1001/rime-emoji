@@ -1,0 +1,23 @@
+group: People & Body
+subgroup: person-gesture
+emojis:
+  - emoji: 🙍
+    name: E0.6 person frowning
+  - emoji: 🙎
+    name: E0.6 person pouting
+  - emoji: 🙅
+    name: E0.6 person gesturing NO
+  - emoji: 🙆
+    name: E0.6 person gesturing OK
+  - emoji: 💁
+    name: E0.6 person tipping hand
+  - emoji: 🙋
+    name: E0.6 person raising hand
+  - emoji: 🧏
+    name: E12.0 deaf person
+  - emoji: 🙇
+    name: E0.6 person bowing
+  - emoji: 🤦
+    name: E3.0 person facepalming
+  - emoji: 🤷
+    name: E3.0 person shrugging

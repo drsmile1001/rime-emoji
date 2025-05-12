@@ -1,0 +1,55 @@
+group: Animals & Nature
+subgroup: animal-marine
+alias: 海洋 動物 水中
+emojis:
+  - emoji: 🐳
+    name: E0.6 spouting whale
+    alias: 噴水鯨 大鯨 海鯨
+  - emoji: 🐋
+    name: E1.0 whale
+    alias: 鯨 大鯨 海鯨
+  - emoji: 🐬
+    name: E0.6 dolphin
+    alias: 海豚 小豚 水豚
+  - emoji: 🦭
+    name: E13.0 seal
+    alias: 海豹 小豹 水豹
+  - emoji: 🐟
+    name: E0.6 fish
+    alias: 魚 小魚 水魚
+  - emoji: 🐠
+    name: E0.6 tropical fish
+    alias: 熱帶魚 彩色魚 小熱魚
+  - emoji: 🐡
+    name: E0.6 blowfish
+    alias: 河豚 大豚 水豚
+  - emoji: 🦈
+    name: E3.0 shark
+    alias: 鯊魚 大鯊 海鯊
+  - emoji: 🐙
+    name: E0.6 octopus
+    alias: 章魚 大章 水章
+  - emoji: 🐚
+    name: E0.6 spiral shell
+    alias: 貝殼 海貝 小貝
+  - emoji: 🪸
+    name: E14.0 coral
+    alias: 珊瑚 海珊 小珊
+  - emoji: 🪼
+    name: E15.0 jellyfish
+    alias: 水母 海母 小母
+  - emoji: 🦀
+    name: E1.0 crab
+    alias: 螃蟹 大蟹 海蟹
+  - emoji: 🦞
+    name: E11.0 lobster
+    alias: 龍蝦 大蝦 海蝦
+  - emoji: 🦐
+    name: E3.0 shrimp
+    alias: 蝦 小蝦 水蝦
+  - emoji: 🦑
+    name: E3.0 squid
+    alias: 魷魚 大魷 海魷
+  - emoji: 🦪
+    name: E12.0 oyster
+    alias: 牡蠣 海蠣 小蠣

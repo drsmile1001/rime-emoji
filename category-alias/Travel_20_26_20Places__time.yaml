@@ -1,0 +1,97 @@
+group: Travel & Places
+subgroup: time
+alias: 時間 時鐘 計時
+emojis:
+  - emoji: ⌛
+    name: E0.6 hourglass done
+    alias: 沙漏完成 時間到 完成沙漏
+  - emoji: ⏳
+    name: E0.6 hourglass not done
+    alias: 沙漏未完成 計時中 未完成沙漏
+  - emoji: ⌚
+    name: E0.6 watch
+    alias: 手錶 腕錶 時間表
+  - emoji: ⏰
+    name: E0.6 alarm clock
+    alias: 鬧鐘 醒鐘 時間鬧鐘
+  - emoji: ⏱️
+    name: E1.0 stopwatch
+    alias: 秒錶 計時錶 計秒器
+  - emoji: ⏲️
+    name: E1.0 timer clock
+    alias: 計時器 定時器 時間器
+  - emoji: 🕰️
+    name: E0.7 mantelpiece clock
+    alias: 壁爐時鐘
+  - emoji: 🕛
+    name: E0.6 twelve o’clock
+    alias: 十二點
+  - emoji: 🕧
+    name: E0.7 twelve-thirty
+    alias: 十二點半
+  - emoji: 🕐
+    name: E0.6 one o’clock
+    alias: 一點
+  - emoji: 🕜
+    name: E0.7 one-thirty
+    alias: 一點半
+  - emoji: 🕑
+    name: E0.6 two o’clock
+    alias: 兩點
+  - emoji: 🕝
+    name: E0.7 two-thirty
+    alias: 兩點半
+  - emoji: 🕒
+    name: E0.6 three o’clock
+    alias: 三點
+  - emoji: 🕞
+    name: E0.7 three-thirty
+    alias: 三點半
+  - emoji: 🕓
+    name: E0.6 four o’clock
+    alias: 四點
+  - emoji: 🕟
+    name: E0.7 four-thirty
+    alias: 四點半
+  - emoji: 🕔
+    name: E0.6 five o’clock
+    alias: 五點
+  - emoji: 🕠
+    name: E0.7 five-thirty
+    alias: 五點半
+  - emoji: 🕕
+    name: E0.6 six o’clock
+    alias: 六點
+  - emoji: 🕡
+    name: E0.7 six-thirty
+    alias: 六點半
+  - emoji: 🕖
+    name: E0.6 seven o’clock
+    alias: 七點
+  - emoji: 🕢
+    name: E0.7 seven-thirty
+    alias: 七點半
+  - emoji: 🕗
+    name: E0.6 eight o’clock
+    alias: 八點
+  - emoji: 🕣
+    name: E0.7 eight-thirty
+    alias: 八點半
+  - emoji: 🕘
+    name: E0.6 nine o’clock
+    alias: 九點
+  - emoji: 🕤
+    name: E0.7 nine-thirty
+    alias: 九點半
+  - emoji: 🕙
+    name: E0.6 ten o’clock
+    alias: 十點
+  - emoji: 🕥
+    name: E0.7 ten-thirty
+    alias: 十點半
+  - emoji: 🕚
+    name: E0.6 eleven o’clock
+    alias: 十一點
+  - emoji: 🕦
+    name: E0.7 eleven-thirty
+    alias: 十一點半

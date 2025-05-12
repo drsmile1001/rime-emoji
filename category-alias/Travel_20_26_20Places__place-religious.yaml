@@ -1,0 +1,22 @@
+group: Travel & Places
+subgroup: place-religious
+alias: 宗教
+emojis:
+  - emoji: ⛪
+    name: E0.6 church
+    alias: 教堂
+  - emoji: 🕌
+    name: E1.0 mosque
+    alias: 清真寺
+  - emoji: 🛕
+    name: E12.0 hindu temple
+    alias: 印度教寺廟
+  - emoji: 🕍
+    name: E1.0 synagogue
+    alias: 猶太教堂
+  - emoji: ⛩️
+    name: E0.7 shinto shrine
+    alias: 神社
+  - emoji: 🕋
+    name: E1.0 kaaba
+    alias: 克爾白

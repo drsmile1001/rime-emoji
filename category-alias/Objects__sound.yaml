@@ -1,0 +1,31 @@
+group: Objects
+subgroup: sound
+alias: 聲音 音效 噪音
+emojis:
+  - emoji: 🔇
+    name: E1.0 muted speaker
+    alias: 靜音 無聲 關音
+  - emoji: 🔈
+    name: E0.7 speaker low volume
+    alias: 小聲 低音 微音
+  - emoji: 🔉
+    name: E1.0 speaker medium volume
+    alias: 中聲 中音 適中音量
+  - emoji: 🔊
+    name: E0.6 speaker high volume
+    alias: 大聲 高音 響亮音量
+  - emoji: 📢
+    name: E0.6 loudspeaker
+    alias: 喇叭 擴音器 音響
+  - emoji: 📣
+    name: E0.6 megaphone
+    alias: 擴音器 喊話器 大聲公
+  - emoji: 📯
+    name: E1.0 postal horn
+    alias: 號角 喇叭角 音樂角
+  - emoji: 🔔
+    name: E0.6 bell
+    alias: 鈴鐺 鈴聲 響鈴
+  - emoji: 🔕
+    name: E1.0 bell with slash
+    alias: 禁鈴 靜音鈴 無聲鈴

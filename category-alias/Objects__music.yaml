@@ -1,0 +1,31 @@
+group: Objects
+subgroup: music
+alias: 音樂 樂曲 歌聲
+emojis:
+  - emoji: 🎼
+    name: E0.6 musical score
+    alias: 樂譜 曲譜 音符譜
+  - emoji: 🎵
+    name: E0.6 musical note
+    alias: 音符 樂符 曲符
+  - emoji: 🎶
+    name: E0.6 musical notes
+    alias: 音符群 樂符群 曲符群
+  - emoji: 🎙️
+    name: E0.7 studio microphone
+    alias: 麥克風 錄音麥克風 專業麥克風
+  - emoji: 🎚️
+    name: E0.7 level slider
+    alias: 音量條 調音條 控制條
+  - emoji: 🎛️
+    name: E0.7 control knobs
+    alias: 控制鈕 音量鈕 調節鈕
+  - emoji: 🎤
+    name: E0.6 microphone
+    alias: 麥克風 手持麥克風 唱歌麥克風
+  - emoji: 🎧
+    name: E0.6 headphone
+    alias: 耳機 聽音耳機 音樂耳機
+  - emoji: 📻
+    name: E0.6 radio
+    alias: 收音機 廣播機 音樂機

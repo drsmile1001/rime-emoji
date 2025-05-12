@@ -62,15 +62,6 @@ export class CategoryAliasRepoMemory implements CategoryAliasRepo {
     }));
   }
 
-  async getEmojiBySubgroup(
-    group: string,
-    subgroup: string,
-  ): Promise<EmojiDefinition[]> {
-    return this.emojiDefs.filter(
-      (def) => def.group === group && def.subgroup === subgroup,
-    );
-  }
-
   private encodeSubgroupKey(group: string, subgroup: string): string {
     return `${group}:::${subgroup}`;
   }

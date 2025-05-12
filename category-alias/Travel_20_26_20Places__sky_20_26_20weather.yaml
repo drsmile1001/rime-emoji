@@ -1,0 +1,145 @@
+group: Travel & Places
+subgroup: sky & weather
+alias: 天空與天氣
+emojis:
+  - emoji: 🌑
+    name: E0.6 new moon
+    alias: 新月
+  - emoji: 🌒
+    name: E1.0 waxing crescent moon
+    alias: 盈月
+  - emoji: 🌓
+    name: E0.6 first quarter moon
+    alias: 上弦月
+  - emoji: 🌔
+    name: E0.6 waxing gibbous moon
+    alias: 盈凸月
+  - emoji: 🌕
+    name: E0.6 full moon
+    alias: 滿月
+  - emoji: 🌖
+    name: E1.0 waning gibbous moon
+    alias: 虧凸月
+  - emoji: 🌗
+    name: E1.0 last quarter moon
+    alias: 下弦月
+  - emoji: 🌘
+    name: E1.0 waning crescent moon
+    alias: 殘月
+  - emoji: 🌙
+    name: E0.6 crescent moon
+    alias: 月牙
+  - emoji: 🌚
+    name: E1.0 new moon face
+    alias: 新月臉
+  - emoji: 🌛
+    name: E0.6 first quarter moon face
+    alias: 上弦月臉
+  - emoji: 🌜
+    name: E0.7 last quarter moon face
+    alias: 下弦月臉
+  - emoji: 🌡️
+    name: E0.7 thermometer
+    alias: 溫度計
+  - emoji: ☀️
+    name: E0.6 sun
+    alias: 太陽
+  - emoji: 🌝
+    name: E1.0 full moon face
+    alias: 滿月臉
+  - emoji: 🌞
+    name: E1.0 sun with face
+    alias: 太陽臉
+  - emoji: 🪐
+    name: E12.0 ringed planet
+    alias: 環行星
+  - emoji: ⭐
+    name: E0.6 star
+    alias: 星星
+  - emoji: 🌟
+    name: E0.6 glowing star
+    alias: 發光星星
+  - emoji: 🌠
+    name: E0.6 shooting star
+    alias: 流星
+  - emoji: 🌌
+    name: E0.6 milky way
+    alias: 銀河
+  - emoji: ☁️
+    name: E0.6 cloud
+    alias: 雲
+  - emoji: ⛅
+    name: E0.6 sun behind cloud
+    alias: 雲後太陽
+  - emoji: ⛈️
+    name: E0.7 cloud with lightning and rain
+    alias: 雲雨閃電
+  - emoji: 🌤️
+    name: E0.7 sun behind small cloud
+    alias: 小雲後太陽
+  - emoji: 🌥️
+    name: E0.7 sun behind large cloud
+    alias: 大雲後太陽
+  - emoji: 🌦️
+    name: E0.7 sun behind rain cloud
+    alias: 雨雲後太陽
+  - emoji: 🌧️
+    name: E0.7 cloud with rain
+    alias: 雨雲
+  - emoji: 🌨️
+    name: E0.7 cloud with snow
+    alias: 雪雲
+  - emoji: 🌩️
+    name: E0.7 cloud with lightning
+    alias: 閃電雲
+  - emoji: 🌪️
+    name: E0.7 tornado
+    alias: 龍捲風
+  - emoji: 🌫️
+    name: E0.7 fog
+    alias: 霧
+  - emoji: 🌬️
+    name: E0.7 wind face
+    alias: 風臉
+  - emoji: 🌀
+    name: E0.6 cyclone
+    alias: 氣旋
+  - emoji: 🌈
+    name: E0.6 rainbow
+    alias: 彩虹
+  - emoji: 🌂
+    name: E0.6 closed umbrella
+    alias: 收傘
+  - emoji: ☂️
+    name: E0.7 umbrella
+    alias: 傘
+  - emoji: ☔
+    name: E0.6 umbrella with rain drops
+    alias: 雨傘
+  - emoji: ⛱️
+    name: E0.7 umbrella on ground
+    alias: 地上傘
+  - emoji: ⚡
+    name: E0.6 high voltage
+    alias: 高壓
+  - emoji: ❄️
+    name: E0.6 snowflake
+    alias: 雪花
+  - emoji: ☃️
+    name: E0.7 snowman
+    alias: 雪人
+  - emoji: ⛄
+    name: E0.6 snowman without snow
+    alias: 無雪雪人
+  - emoji: ☄️
+    name: E1.0 comet
+    alias: 彗星
+  - emoji: 🔥
+    name: E0.6 fire
+    alias: 火
+  - emoji: 💧
+    name: E0.6 droplet
+    alias: 水滴
+  - emoji: 🌊
+    name: E0.6 water wave
+    alias: 水波

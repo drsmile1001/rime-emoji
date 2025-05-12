@@ -14,11 +14,11 @@ rime-emoji 是一套針對 emoji 輸入法需求所設計的別名維護工具�
 
 ### 1️⃣ 下載字典檔案
 
-前往本專案的 `data/opencc/` 資料夾，複製 `emoji.txt`：
+前往本專案的 `opencc/` 資料夾，複製 `emoji.txt`, `emoji.json` 兩個檔案。
 
 ### 2️⃣ 放入 Rime 設定資料夾
 
-將 `emoji.txt` 放入對應 Rime 資料夾：
+將 `emoji.txt`, `emoji.json` 放入對應 Rime 資料夾：
 
 - macOS / Linux（fcitx5）：
   `~/.local/share/fcitx5/rime/`
@@ -29,15 +29,29 @@ rime-emoji 是一套針對 emoji 輸入法需求所設計的別名維護工具�
 
 ### 3️⃣ 修改輸入方案設定
 
-在你的 `luna_pinyin.custom.yaml` 中加入：
+請編輯你的輸入法設定檔 `luna_pinyin.custom.yaml`（沒有的話請自己建立一個）。  
+如果檔案中已有 `patch:` 區塊，請將下方內容合併進去。  
+**注意：YAML 檔案非常依賴縮排（建議使用 2 個空格），請確保排版正確。**
 
 ```yaml
 patch:
-"engine/filters/@before 0": simplifier@emoji_suggestion
-emoji_suggestion:
-  opencc_config: emoji.txt
-  option_name: emoji_suggestion
+  switches/@next:
+    name: emoji_suggestion
+    reset: 1
+    states: ["🈚︎", "🈶️"]
+  "engine/filters/@before 0": simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: none
+    inherit_comment: false
 ```
+
+這段設定的效果為：
+
+- 可透過 🈶️ / 🈚︎ 切換 emoji 替換開關
+- 不顯示過多提示資訊，保持輸入介面乾淨
+- 使用 `emoji.json` 作為替換詞典定義，可擴充管理
 
 ### 4️⃣ 重新部署
 
@@ -58,20 +72,19 @@ emoji_suggestion:
 每個 emoji 可對應多個中文別名（以空格分隔），如下：
 
 ```yaml
-name: Smileys & Emotion
-subGroups:
-  - name: face-smiling
-    alias: 笑臉 表情 臉部
-    emojis:
-      - emoji: 😀
-        name: E0.6 grinning face
-        alias: 笑 臉 開心
-      - emoji: 😁
-        name: E0.6 beaming face with smiling eyes
-        alias: 笑臉 喜悅 樂觀
-      - emoji: 😊
-        name: E0.6 smiling face with smiling eyes
-        alias: 微笑 滿足 讚美
+group: Smileys & Emotion
+subgroup: face-smiling
+alias: 笑臉 表情 臉部
+emojis:
+  - emoji: 😀
+    name: E0.6 grinning face
+    alias: 笑 臉 開心
+  - emoji: 😁
+    name: E0.6 beaming face with smiling eyes
+    alias: 笑臉 喜悅 樂觀
+  - emoji: 😊
+    name: E0.6 smiling face with smiling eyes
+    alias: 微笑 滿足 讚美
 ```
 
 📥 當你這樣設定之後，Rime 輸入法將能有以下效果：
@@ -80,10 +93,10 @@ subGroups:
 - 輸入「笑臉」 → 😀 😁
 - 輸入「臉部」 → 😀 😁 😊 …（所有屬於 face-smiling 子群組的 emoji）
 
-這些設定通常儲存在：
+這些設定放置於 `category-alias/`：
 
 ```txt
-category-alias/Smileys_20_26_20Emotion.yaml
+category-alias/Smileys_20_26_20Emotion__face-smiling.yaml
 ```
 
 > （注意：檔名使用 URI 安全編碼，例如空格為 _、& 為 \_26_）
@@ -114,17 +127,17 @@ category-alias/Smileys_20_26_20Emotion.yaml
 - 輸入「上線」 → 🚀 ✅
 - 輸入「部署」 → 🚀
 
-這些設定通常儲存在：
+這些設定放置於 `semantic-alias/`：
 
 ```txt
 semantic-alias/development.yaml
 ```
 
-你可以根據自己常用的詞彙，建立多個語義主題檔（如：development.yaml, emotion.yaml, communication.yaml），彈性維護輸入語境與表達風格。
+你可以根據自己常用的詞彙，建立多個語義主題檔（如：`development.yaml` , `emotion.yaml`, `communication.yaml`），彈性維護輸入語境與表達風格。
 
 ### 🧠 分類與語義可同時使用
 
-你可以同時啟用 `category-alias/` 和 `semantic-alias/`，讓 emoji 輸入更有彈性。
+你可以同時使用 `category-alias/` 和 `semantic-alias/`，讓 emoji 輸入更有彈性。
 
 這代表 emoji 可以同時從它的「圖像分類」與「語義用途」兩個角度被搜尋與輸出。例如：
 
@@ -206,17 +219,17 @@ bun run validate    # 驗證你所維護的別名檔案內容是否正確
 bun run export      # 匯出為 OpenCC 替換字典檔（例如 emoji.txt）
 ```
 
-完成後你會在 data/opencc/emoji.txt 看到產出結果，這就是 Rime 輸入法可用的輸入詞 → emoji 對應表。
+完成後你會在 `opencc/emoji.txt` 看到產出結果，這就是 Rime 輸入法可用的輸入詞 → emoji 對應表。
 
 ## 🏗️ 專案架構
 
 ### 📁 資料與設定檔案
 
-| 資料夾/檔案             | 說明                                       |
-| ----------------------- | ------------------------------------------ |
-| `category-alias/`       | 按 emoji 分類儲存分類別名檔，每群組一檔    |
-| `semantic-alias/`       | 按語義主題儲存語義別名檔，可自由命名與分群 |
-| `data/opencc/emoji.txt` | 匯出結果，供 Rime/OpenCC 使用              |
+| 資料夾/檔案        | 說明                                       |
+| ------------------ | ------------------------------------------ |
+| `category-alias/`  | 按 emoji 分類儲存分類別名檔，每群組一檔    |
+| `semantic-alias/`  | 按語義主題儲存語義別名檔，可自由命名與分群 |
+| `opencc/emoji.txt` | 匯出結果，供 Rime/OpenCC 使用              |
 
 ### 🧩 核心程式模組
 

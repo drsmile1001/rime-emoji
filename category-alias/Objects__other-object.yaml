@@ -1,0 +1,31 @@
+group: Objects
+subgroup: other-object
+alias: 其他物品 雜物 物品
+emojis:
+  - emoji: 🚬
+    name: E0.6 cigarette
+    alias: 香煙 其他煙 雜物煙
+  - emoji: ⚰️
+    name: E1.0 coffin
+    alias: 棺材 其他棺 雜物棺
+  - emoji: 🪦
+    name: E13.0 headstone
+    alias: 墓碑 其他碑 雜物碑
+  - emoji: ⚱️
+    name: E1.0 funeral urn
+    alias: 骨灰罈 其他罈 雜物罈
+  - emoji: 🧿
+    name: E11.0 nazar amulet
+    alias: 護身符 其他符 雜物符
+  - emoji: 🪬
+    name: E14.0 hamsa
+    alias: 哈姆薩 其他薩 雜物薩
+  - emoji: 🗿
+    name: E0.6 moai
+    alias: 摩艾 其他艾 雜物艾
+  - emoji: 🪧
+    name: E13.0 placard
+    alias: 標語牌 其他牌 雜物牌
+  - emoji: 🪪
+    name: E14.0 identification card
+    alias: 身份證 其他證 雜物證

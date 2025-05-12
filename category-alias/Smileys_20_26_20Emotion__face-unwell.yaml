@@ -1,0 +1,40 @@
+group: Smileys & Emotion
+subgroup: face-unwell
+alias: 不適 病臉 噁心
+emojis:
+  - emoji: 😷
+    name: E0.6 face with medical mask
+    alias: 口罩 微笑 安靜
+  - emoji: 🤒
+    name: E1.0 face with thermometer
+    alias: 發燒 微笑 安靜
+  - emoji: 🤕
+    name: E1.0 face with head-bandage
+    alias: 包頭 微笑 安靜
+  - emoji: 🤢
+    name: E3.0 nauseated face
+    alias: 噁心 微笑 安靜
+  - emoji: 🤮
+    name: E5.0 face vomiting
+    alias: 嘔吐 微笑 安靜
+  - emoji: 🤧
+    name: E3.0 sneezing face
+    alias: 打噴 微笑 安靜
+  - emoji: 🥵
+    name: E11.0 hot face
+    alias: 熱臉 微笑 安靜
+  - emoji: 🥶
+    name: E11.0 cold face
+    alias: 冷臉 微笑 安靜
+  - emoji: 🥴
+    name: E11.0 woozy face
+    alias: 暈臉 微笑 安靜
+  - emoji: 😵
+    name: E0.6 face with crossed-out eyes
+    alias: 眩暈 微笑 安靜
+  - emoji: 😵‍💫
+    name: E13.1 face with spiral eyes
+    alias: 旋眼 微笑 安靜
+  - emoji: 🤯
+    name: E5.0 exploding head
+    alias: 爆頭 微笑 安靜

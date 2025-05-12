@@ -1,0 +1,22 @@
+group: Smileys & Emotion
+subgroup: face-tongue
+alias: 舌頭 搞怪 美味
+emojis:
+  - emoji: 😋
+    name: E0.6 face savoring food
+    alias: 美味 舌臉 開心
+  - emoji: 😛
+    name: E1.0 face with tongue
+    alias: 舌臉 搞怪 開心
+  - emoji: 😜
+    name: E0.6 winking face with tongue
+    alias: 眨舌 搞怪 開心
+  - emoji: 🤪
+    name: E5.0 zany face
+    alias: 搞怪 笑臉 開心
+  - emoji: 😝
+    name: E0.6 squinting face with tongue
+    alias: 笑舌 搞怪 開心
+  - emoji: 🤑
+    name: E1.0 money-mouth face
+    alias: 錢嘴 搞怪 開心

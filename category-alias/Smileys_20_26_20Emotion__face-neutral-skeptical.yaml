@@ -1,0 +1,52 @@
+group: Smileys & Emotion
+subgroup: face-neutral-skeptical
+alias: 中性 平臉 無表情
+emojis:
+  - emoji: 🤐
+    name: E1.0 zipper-mouth face
+    alias: 閉嘴 微笑 安靜
+  - emoji: 🤨
+    name: E5.0 face with raised eyebrow
+    alias: 挑眉 微笑 驚訝
+  - emoji: 😐
+    name: E0.7 neutral face
+    alias: 平臉 微笑 安靜
+  - emoji: 😑
+    name: E1.0 expressionless face
+    alias: 無表情 微笑 安靜
+  - emoji: 😶
+    name: E1.0 face without mouth
+    alias: 無嘴 微笑 安靜
+  - emoji: 🫥
+    name: E14.0 dotted line face
+    alias: 虛線 微笑 安靜
+  - emoji: 😶‍🌫️
+    name: E13.1 face in clouds
+    alias: 雲臉 微笑 安靜
+  - emoji: 😏
+    name: E0.6 smirking face
+    alias: 微笑 開心 驚訝
+  - emoji: 😒
+    name: E0.6 unamused face
+    alias: 不悅 微笑 安靜
+  - emoji: 🙄
+    name: E1.0 face with rolling eyes
+    alias: 翻眼 微笑 驚訝
+  - emoji: 😬
+    name: E1.0 grimacing face
+    alias: 齜牙 微笑 驚訝
+  - emoji: 😮‍💨
+    name: E13.1 face exhaling
+    alias: 吐氣 微笑 安靜
+  - emoji: 🤥
+    name: E3.0 lying face
+    alias: 說謊 微笑 安靜
+  - emoji: 🫨
+    name: E15.0 shaking face
+    alias: 震臉 微笑 驚訝
+  - emoji: 🙂‍↔️
+    name: E15.1 head shaking horizontally
+    alias: 左右 微笑 安靜
+  - emoji: 🙂‍↕️
+    name: E15.1 head shaking vertically
+    alias: 上下 微笑 安靜

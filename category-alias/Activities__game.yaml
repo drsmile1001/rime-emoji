@@ -1,0 +1,76 @@
+group: Activities
+subgroup: game
+alias: 遊戲 娛樂 玩具
+emojis:
+  - emoji: 🎯
+    name: E0.6 bullseye
+    alias: 飛鏢 靶心 射擊
+  - emoji: 🪀
+    name: E12.0 yo-yo
+    alias: 溜溜球 玩具球 懸掛球
+  - emoji: 🪁
+    name: E12.0 kite
+    alias: 風箏 放風箏 飛行
+  - emoji: 🔫
+    name: E0.6 water pistol
+    alias: 水槍 玩具槍 射水
+  - emoji: 🎱
+    name: E0.6 pool 8 ball
+    alias: 撞球 桌球 撞球賽
+  - emoji: 🔮
+    name: E0.6 crystal ball
+    alias: 水晶球 預言球 魔法球
+  - emoji: 🪄
+    name: E13.0 magic wand
+    alias: 魔杖 魔法棒 魔術
+  - emoji: 🎮
+    name: E0.6 video game
+    alias: 遊戲機 電玩機 遊戲控制器
+  - emoji: 🕹️
+    name: E0.7 joystick
+    alias: 搖桿 控制桿 遊戲桿
+  - emoji: 🎰
+    name: E0.6 slot machine
+    alias: 老虎機 賭博機 投幣機
+  - emoji: 🎲
+    name: E0.6 game die
+    alias: 骰子 擲骰子 桌遊
+  - emoji: 🧩
+    name: E11.0 puzzle piece
+    alias: 拼圖 拼圖塊 拼圖遊戲
+  - emoji: 🧸
+    name: E11.0 teddy bear
+    alias: 泰迪熊 玩具熊 毛絨熊
+  - emoji: 🪅
+    name: E13.0 piñata
+    alias: 彩罐 節慶罐 派對罐
+  - emoji: 🪩
+    name: E14.0 mirror ball
+    alias: 反光球 舞會球 鏡球
+  - emoji: 🪆
+    name: E13.0 nesting dolls
+    alias: 套娃 俄羅斯娃娃 木偶
+  - emoji: ♠️
+    name: E0.6 spade suit
+    alias: 黑桃 撲克牌 黑桃A
+  - emoji: ♥️
+    name: E0.6 heart suit
+    alias: 紅心 撲克牌 紅心A
+  - emoji: ♦️
+    name: E0.6 diamond suit
+    alias: 方塊 撲克牌 方塊A
+  - emoji: ♣️
+    name: E0.6 club suit
+    alias: 梅花 撲克牌 梅花A
+  - emoji: ♟️
+    name: E11.0 chess pawn
+    alias: 棋子 國際象棋 棋盤
+  - emoji: 🃏
+    name: E0.6 joker
+    alias: 小丑 撲克牌 小丑牌
+  - emoji: 🀄
+    name: E0.6 mahjong red dragon
+    alias: 麻將 紅中 麻將牌
+  - emoji: 🎴
+    name: E0.6 flower playing cards
+    alias: 花牌 日本花牌 卡牌

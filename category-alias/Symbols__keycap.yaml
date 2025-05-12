@@ -1,0 +1,43 @@
+group: Symbols
+subgroup: keycap
+alias: 按鍵帽 鍵盤 按鍵
+emojis:
+  - emoji: "#️⃣"
+    name: "E0.6 keycap: #"
+    alias: 鍵帽# 按鍵# 符號#
+  - emoji: "*️⃣"
+    name: "E2.0 keycap: *"
+    alias: 鍵帽* 按鍵* 符號*
+  - emoji: 0️⃣
+    name: "E0.6 keycap: 0"
+    alias: 鍵帽0 按鍵0 符號0
+  - emoji: 1️⃣
+    name: "E0.6 keycap: 1"
+    alias: 鍵帽1 按鍵1 符號1
+  - emoji: 2️⃣
+    name: "E0.6 keycap: 2"
+    alias: 鍵帽2 按鍵2 符號2
+  - emoji: 3️⃣
+    name: "E0.6 keycap: 3"
+    alias: 鍵帽3 按鍵3 符號3
+  - emoji: 4️⃣
+    name: "E0.6 keycap: 4"
+    alias: 鍵帽4 按鍵4 符號4
+  - emoji: 5️⃣
+    name: "E0.6 keycap: 5"
+    alias: 鍵帽5 按鍵5 符號5
+  - emoji: 6️⃣
+    name: "E0.6 keycap: 6"
+    alias: 鍵帽6 按鍵6 符號6
+  - emoji: 7️⃣
+    name: "E0.6 keycap: 7"
+    alias: 鍵帽7 按鍵7 符號7
+  - emoji: 8️⃣
+    name: "E0.6 keycap: 8"
+    alias: 鍵帽8 按鍵8 符號8
+  - emoji: 9️⃣
+    name: "E0.6 keycap: 9"
+    alias: 鍵帽9 按鍵9 符號9
+  - emoji: 🔟
+    name: "E0.6 keycap: 10"
+    alias: 鍵帽10 按鍵10 符號10

@@ -1,0 +1,52 @@
+group: Objects
+subgroup: light & video
+alias: 光影 視頻 照明
+emojis:
+  - emoji: 🎥
+    name: E0.6 movie camera
+    alias: 攝影機 錄影機 視頻設備
+  - emoji: 🎞️
+    name: E0.7 film frames
+    alias: 膠片 視頻膠片 照片膠片
+  - emoji: 📽️
+    name: E0.7 film projector
+    alias: 放映機 視頻放映機 照片放映機
+  - emoji: 🎬
+    name: E0.6 clapper board
+    alias: 拍板 視頻拍板 照片拍板
+  - emoji: 📺
+    name: E0.6 television
+    alias: 電視 視頻設備 照明設備
+  - emoji: 📷
+    name: E0.6 camera
+    alias: 相機 照相機 視頻設備
+  - emoji: 📸
+    name: E1.0 camera with flash
+    alias: 閃光相機 照相機 視頻設備
+  - emoji: 📹
+    name: E0.6 video camera
+    alias: 攝像機 視頻設備 照明設備
+  - emoji: 📼
+    name: E0.6 videocassette
+    alias: 錄影帶 視頻帶 照片帶
+  - emoji: 🔍
+    name: E0.6 magnifying glass tilted left
+    alias: 左放大鏡 視頻放大鏡 照片放大鏡
+  - emoji: 🔎
+    name: E0.6 magnifying glass tilted right
+    alias: 右放大鏡 視頻放大鏡 照片放大鏡
+  - emoji: 🕯️
+    name: E0.7 candle
+    alias: 蠟燭 照明設備 視頻設備
+  - emoji: 💡
+    name: E0.6 light bulb
+    alias: 燈泡 照明設備 視頻設備
+  - emoji: 🔦
+    name: E0.6 flashlight
+    alias: 手電筒 照明設備 視頻設備
+  - emoji: 🏮
+    name: E0.6 red paper lantern
+    alias: 紅燈籠 照明設備 視頻設備
+  - emoji: 🪔
+    name: E12.0 diya lamp
+    alias: 印度燈 照明設備 視頻設備

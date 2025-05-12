@@ -1,0 +1,43 @@
+group: Symbols
+subgroup: warning
+alias: 警告 注意 危險
+emojis:
+  - emoji: ⚠️
+    name: E0.6 warning
+    alias: 警告 注意 危險
+  - emoji: 🚸
+    name: E1.0 children crossing
+    alias: 孩童 兒童 過馬路
+  - emoji: ⛔
+    name: E0.6 no entry
+    alias: 禁止 停止 禁入
+  - emoji: 🚫
+    name: E0.6 prohibited
+    alias: 禁止 不允許 禁止標誌
+  - emoji: 🚳
+    name: E1.0 no bicycles
+    alias: 禁止自行車 禁止騎車 禁止騎行
+  - emoji: 🚭
+    name: E0.6 no smoking
+    alias: 禁止吸煙 禁煙 吸煙區
+  - emoji: 🚯
+    name: E1.0 no littering
+    alias: 禁止丟垃圾 禁止亂丟 垃圾區
+  - emoji: 🚱
+    name: E1.0 non-potable water
+    alias: 非飲用水 不可飲用 水源
+  - emoji: 🚷
+    name: E1.0 no pedestrians
+    alias: 禁止行人 禁止通行 行人區
+  - emoji: 📵
+    name: E1.0 no mobile phones
+    alias: 禁止手機 禁止使用手機 手機禁用
+  - emoji: 🔞
+    name: E0.6 no one under eighteen
+    alias: 未滿十八 禁止未成年人 成年限制
+  - emoji: ☢️
+    name: E1.0 radioactive
+    alias: 放射 輻射 危險
+  - emoji: ☣️
+    name: E1.0 biohazard
+    alias: 生物危害 危險 有害

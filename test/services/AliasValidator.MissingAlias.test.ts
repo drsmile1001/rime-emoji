@@ -23,11 +23,9 @@ describe("AliasValidatorEmpty", () => {
       expect.arrayContaining([
         expect.objectContaining({
           code: "MISS_SUBGROUP_ALIAS_Smileys_20_26_20Emotion__face-smiling",
-          type: "subgroup-alias-missing",
         }),
         expect.objectContaining({
           code: "MISS_EMOJI_ALIAS_1F600",
-          type: "emoji-alias-missing",
         }),
       ]),
     );

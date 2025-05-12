@@ -1,0 +1,25 @@
+group: People & Body
+subgroup: hands
+alias: 雙手
+emojis:
+  - emoji: 👏
+    name: E0.6 clapping hands
+    alias: 鼓掌
+  - emoji: 🙌
+    name: E0.6 raising hands
+    alias: 舉手
+  - emoji: 🫶
+    name: E14.0 heart hands
+    alias: 愛心手
+  - emoji: 👐
+    name: E0.6 open hands
+    alias: 張手
+  - emoji: 🤲
+    name: E5.0 palms up together
+    alias: 合掌
+  - emoji: 🤝
+    name: E3.0 handshake
+    alias: 握手
+  - emoji: 🙏
+    name: E0.6 folded hands
+    alias: 祈禱

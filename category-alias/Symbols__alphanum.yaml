@@ -1,0 +1,121 @@
+group: Symbols
+subgroup: alphanum
+alias: 字母數字 字母 數字
+emojis:
+  - emoji: 🔠
+    name: E0.6 input latin uppercase
+    alias: 大寫字母 大寫 拉丁字母
+  - emoji: 🔡
+    name: E0.6 input latin lowercase
+    alias: 小寫字母 小寫 拉丁字母
+  - emoji: 🔢
+    name: E0.6 input numbers
+    alias: 數字 數字輸入 數字鍵
+  - emoji: 🔣
+    name: E0.6 input symbols
+    alias: 符號 符號輸入 符號鍵
+  - emoji: 🔤
+    name: E0.6 input latin letters
+    alias: 拉丁字母 字母 輸入
+  - emoji: 🅰️
+    name: E0.6 A button (blood type)
+    alias: A型 血型A A
+  - emoji: 🆎
+    name: E0.6 AB button (blood type)
+    alias: AB型 血型AB AB
+  - emoji: 🅱️
+    name: E0.6 B button (blood type)
+    alias: B型 血型B B
+  - emoji: 🆑
+    name: E0.6 CL button
+    alias: CL 按鍵CL 符號CL
+  - emoji: 🆒
+    name: E0.6 COOL button
+    alias: 酷 按鍵COOL 符號COOL
+  - emoji: 🆓
+    name: E0.6 FREE button
+    alias: 免費 按鍵FREE 符號FREE
+  - emoji: ℹ️
+    name: E0.6 information
+    alias: 信息 資訊 符號信息
+  - emoji: 🆔
+    name: E0.6 ID button
+    alias: 身份 按鍵ID 符號ID
+  - emoji: Ⓜ️
+    name: E0.6 circled M
+    alias: 圈M 符號M 圈形M
+  - emoji: 🆕
+    name: E0.6 NEW button
+    alias: 新 按鍵NEW 符號NEW
+  - emoji: 🆖
+    name: E0.6 NG button
+    alias: NG 按鍵NG 符號NG
+  - emoji: 🅾️
+    name: E0.6 O button (blood type)
+    alias: O型 血型O O
+  - emoji: 🆗
+    name: E0.6 OK button
+    alias: 好 按鍵OK 符號OK
+  - emoji: 🅿️
+    name: E0.6 P button
+    alias: P 按鍵P 符號P
+  - emoji: 🆘
+    name: E0.6 SOS button
+    alias: 求救 按鍵SOS 符號SOS
+  - emoji: 🆙
+    name: E0.6 UP! button
+    alias: 向上 按鍵UP 符號UP
+  - emoji: 🆚
+    name: E0.6 VS button
+    alias: 對比 按鍵VS 符號VS
+  - emoji: 🈁
+    name: E0.6 Japanese “here” button
+    alias: 這裡 按鍵這裡 符號這裡
+  - emoji: 🈂️
+    name: E0.6 Japanese “service charge” button
+    alias: 服務費 按鍵服務費 符號服務費
+  - emoji: 🈷️
+    name: E0.6 Japanese “monthly amount” button
+    alias: 月費 按鍵月費 符號月費
+  - emoji: 🈶
+    name: E0.6 Japanese “not free of charge” button
+    alias: 收費 按鍵收費 符號收費
+  - emoji: 🈯
+    name: E0.6 Japanese “reserved” button
+    alias: 預留 按鍵預留 符號預留
+  - emoji: 🉐
+    name: E0.6 Japanese “bargain” button
+    alias: 優惠 按鍵優惠 符號優惠
+  - emoji: 🈹
+    name: E0.6 Japanese “discount” button
+    alias: 折扣 按鍵折扣 符號折扣
+  - emoji: 🈚
+    name: E0.6 Japanese “free of charge” button
+    alias: 免費 按鍵免費 符號免費
+  - emoji: 🈲
+    name: E0.6 Japanese “prohibited” button
+    alias: 禁止 按鍵禁止 符號禁止
+  - emoji: 🉑
+    name: E0.6 Japanese “acceptable” button
+    alias: 可接受 按鍵可接受 符號可接受
+  - emoji: 🈸
+    name: E0.6 Japanese “application” button
+    alias: 申請 按鍵申請 符號申請
+  - emoji: 🈴
+    name: E0.6 Japanese “passing grade” button
+    alias: 合格 按鍵合格 符號合格
+  - emoji: 🈳
+    name: E0.6 Japanese “vacancy” button
+    alias: 空缺 按鍵空缺 符號空缺
+  - emoji: ㊗️
+    name: E0.6 Japanese “congratulations” button
+    alias: 恭喜 按鍵恭喜 符號恭喜
+  - emoji: ㊙️
+    name: E0.6 Japanese “secret” button
+    alias: 秘密 按鍵秘密 符號秘密
+  - emoji: 🈺
+    name: E0.6 Japanese “open for business” button
+    alias: 營業 按鍵營業 符號營業
+  - emoji: 🈵
+    name: E0.6 Japanese “no vacancy” button
+    alias: 滿員 按鍵滿員 符號滿員

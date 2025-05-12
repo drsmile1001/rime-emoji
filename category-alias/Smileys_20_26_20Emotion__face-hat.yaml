@@ -1,0 +1,13 @@
+group: Smileys & Emotion
+subgroup: face-hat
+alias: 帽臉 牛仔 派對
+emojis:
+  - emoji: 🤠
+    name: E3.0 cowboy hat face
+    alias: 牛仔 微笑 安靜
+  - emoji: 🥳
+    name: E11.0 partying face
+    alias: 派對 微笑 安靜
+  - emoji: 🥸
+    name: E13.0 disguised face
+    alias: 偽裝 微笑 安靜

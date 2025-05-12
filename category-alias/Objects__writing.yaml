@@ -1,0 +1,25 @@
+group: Objects
+subgroup: writing
+alias: 書寫 文具 筆記
+emojis:
+  - emoji: ✏️
+    name: E0.6 pencil
+    alias: 鉛筆 文具筆 書寫筆
+  - emoji: ✒️
+    name: E0.6 black nib
+    alias: 黑筆尖 文具筆尖 書寫筆尖
+  - emoji: 🖋️
+    name: E0.7 fountain pen
+    alias: 鋼筆 文具筆 書寫筆
+  - emoji: 🖊️
+    name: E0.7 pen
+    alias: 筆 文具筆 書寫筆
+  - emoji: 🖌️
+    name: E0.7 paintbrush
+    alias: 畫筆 文具筆 書寫筆
+  - emoji: 🖍️
+    name: E0.7 crayon
+    alias: 蠟筆 文具筆 書寫筆
+  - emoji: 📝
+    name: E0.6 memo
+    alias: 備忘錄 文具記錄 書寫記錄

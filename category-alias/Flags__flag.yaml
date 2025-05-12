@@ -1,0 +1,28 @@
+group: Flags
+subgroup: flag
+alias: 旗幟 旗子 標誌
+emojis:
+  - emoji: 🏁
+    name: E0.6 chequered flag
+    alias: 格旗 賽旗 終點旗
+  - emoji: 🚩
+    name: E0.6 triangular flag
+    alias: 三角旗 紅旗 小旗
+  - emoji: 🎌
+    name: E0.6 crossed flags
+    alias: 交叉旗 日本旗 交叉標誌
+  - emoji: 🏴
+    name: E1.0 black flag
+    alias: 黑旗 暗旗 黑色旗
+  - emoji: 🏳️
+    name: E0.7 white flag
+    alias: 白旗 投降旗 和平旗
+  - emoji: 🏳️‍🌈
+    name: E4.0 rainbow flag
+    alias: 彩虹旗 同志旗 多彩旗
+  - emoji: 🏳️‍⚧️
+    name: E13.0 transgender flag
+    alias: 跨性旗 性別旗 變性旗
+  - emoji: 🏴‍☠️
+    name: E11.0 pirate flag
+    alias: 海盜旗 骷髏旗 黑旗

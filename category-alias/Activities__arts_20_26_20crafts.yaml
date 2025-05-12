@@ -1,0 +1,25 @@
+group: Activities
+subgroup: arts & crafts
+alias: 藝術 工藝 創作
+emojis:
+  - emoji: 🎭
+    name: E0.6 performing arts
+    alias: 表演 戲劇 面具
+  - emoji: 🖼️
+    name: E0.7 framed picture
+    alias: 畫框 圖片框 畫作
+  - emoji: 🎨
+    name: E0.6 artist palette
+    alias: 調色盤 顏料盤 畫畫
+  - emoji: 🧵
+    name: E11.0 thread
+    alias: 線 縫紉線 織布線
+  - emoji: 🪡
+    name: E13.0 sewing needle
+    alias: 縫針 針 縫紉
+  - emoji: 🧶
+    name: E11.0 yarn
+    alias: 毛線 編織線 毛衣線
+  - emoji: 🪢
+    name: E13.0 knot
+    alias: 結 繩結 打結

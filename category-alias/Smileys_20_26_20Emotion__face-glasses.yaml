@@ -1,0 +1,13 @@
+group: Smileys & Emotion
+subgroup: face-glasses
+alias: 眼鏡 墨鏡 書呆
+emojis:
+  - emoji: 😎
+    name: E1.0 smiling face with sunglasses
+    alias: 墨鏡 微笑 安靜
+  - emoji: 🤓
+    name: E1.0 nerd face
+    alias: 書呆 微笑 安靜
+  - emoji: 🧐
+    name: E5.0 face with monocle
+    alias: 單鏡 微笑 安靜

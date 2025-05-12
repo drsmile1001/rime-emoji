@@ -1,0 +1,13 @@
+group: People & Body
+subgroup: hand-prop
+alias: 手持物
+emojis:
+  - emoji: ✍️
+    name: E0.7 writing hand
+    alias: 寫字
+  - emoji: 💅
+    name: E0.6 nail polish
+    alias: 指甲油
+  - emoji: 🤳
+    name: E3.0 selfie
+    alias: 自拍

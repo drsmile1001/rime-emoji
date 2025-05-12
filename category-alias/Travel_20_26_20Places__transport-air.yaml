@@ -1,0 +1,43 @@
+group: Travel & Places
+subgroup: transport-air
+alias: 空中交通
+emojis:
+  - emoji: ✈️
+    name: E0.6 airplane
+    alias: 飛機
+  - emoji: 🛩️
+    name: E0.7 small airplane
+    alias: 小型飛機
+  - emoji: 🛫
+    name: E1.0 airplane departure
+    alias: 飛機起飛
+  - emoji: 🛬
+    name: E1.0 airplane arrival
+    alias: 飛機降落
+  - emoji: 🪂
+    name: E12.0 parachute
+    alias: 降落傘
+  - emoji: 💺
+    name: E0.6 seat
+    alias: 座位
+  - emoji: 🚁
+    name: E1.0 helicopter
+    alias: 直升機
+  - emoji: 🚟
+    name: E1.0 suspension railway
+    alias: 懸掛式鐵路
+  - emoji: 🚠
+    name: E1.0 mountain cableway
+    alias: 山地纜車
+  - emoji: 🚡
+    name: E1.0 aerial tramway
+    alias: 空中纜車
+  - emoji: 🛰️
+    name: E0.7 satellite
+    alias: 衛星
+  - emoji: 🚀
+    name: E0.6 rocket
+    alias: 火箭
+  - emoji: 🛸
+    name: E5.0 flying saucer
+    alias: 飛碟

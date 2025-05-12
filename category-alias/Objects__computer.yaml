@@ -1,0 +1,46 @@
+group: Objects
+subgroup: computer
+alias: 電腦 計算機 信息設備
+emojis:
+  - emoji: 🔋
+    name: E0.6 battery
+    alias: 電池 能量源 電力設備
+  - emoji: 🪫
+    name: E14.0 low battery
+    alias: 低電量 電池不足 能量不足
+  - emoji: 🔌
+    name: E0.6 electric plug
+    alias: 插頭 電源插頭 能量插頭
+  - emoji: 💻
+    name: E0.6 laptop
+    alias: 筆記本 移動電腦 信息設備
+  - emoji: 🖥️
+    name: E0.7 desktop computer
+    alias: 台式機 固定電腦 信息設備
+  - emoji: 🖨️
+    name: E0.7 printer
+    alias: 打印機 輸出設備 信息設備
+  - emoji: ⌨️
+    name: E1.0 keyboard
+    alias: 鍵盤 輸入設備 信息設備
+  - emoji: 🖱️
+    name: E0.7 computer mouse
+    alias: 鼠標 輸入設備 信息設備
+  - emoji: 🖲️
+    name: E0.7 trackball
+    alias: 軌跡球 輸入設備 信息設備
+  - emoji: 💽
+    name: E0.6 computer disk
+    alias: 電腦磁盤 存儲設備 信息設備
+  - emoji: 💾
+    name: E0.6 floppy disk
+    alias: 軟盤 存儲設備 信息設備
+  - emoji: 💿
+    name: E0.6 optical disk
+    alias: 光盤 存儲設備 信息設備
+  - emoji: 📀
+    name: E0.6 dvd
+    alias: DVD 存儲設備 信息設備
+  - emoji: 🧮
+    name: E11.0 abacus
+    alias: 算盤 計算工具 信息設備

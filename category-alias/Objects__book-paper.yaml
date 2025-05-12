@@ -1,0 +1,55 @@
+group: Objects
+subgroup: book-paper
+alias: 書紙 文具 書籍
+emojis:
+  - emoji: 📔
+    name: E0.6 notebook with decorative cover
+    alias: 裝飾筆記本 文具本 書籍本
+  - emoji: 📕
+    name: E0.6 closed book
+    alias: 閉合書 書籍本 文具本
+  - emoji: 📖
+    name: E0.6 open book
+    alias: 打開書 書籍本 文具本
+  - emoji: 📗
+    name: E0.6 green book
+    alias: 綠書 書籍本 文具本
+  - emoji: 📘
+    name: E0.6 blue book
+    alias: 藍書 書籍本 文具本
+  - emoji: 📙
+    name: E0.6 orange book
+    alias: 橙書 書籍本 文具本
+  - emoji: 📚
+    name: E0.6 books
+    alias: 書籍 文具本 書本
+  - emoji: 📓
+    name: E0.6 notebook
+    alias: 筆記本 文具本 書本
+  - emoji: 📒
+    name: E0.6 ledger
+    alias: 賬簿 文具本 書本
+  - emoji: 📃
+    name: E0.6 page with curl
+    alias: 卷頁 書頁 文具頁
+  - emoji: 📜
+    name: E0.6 scroll
+    alias: 卷軸 書卷 文具卷
+  - emoji: 📄
+    name: E0.6 page facing up
+    alias: 向上頁 書頁 文具頁
+  - emoji: 📰
+    name: E0.6 newspaper
+    alias: 報紙 文具紙 書紙
+  - emoji: 🗞️
+    name: E0.7 rolled-up newspaper
+    alias: 卷報紙 文具紙 書紙
+  - emoji: 📑
+    name: E0.6 bookmark tabs
+    alias: 書籤 文具籤 書籍籤
+  - emoji: 🔖
+    name: E0.6 bookmark
+    alias: 書籤 文具籤 書籍籤
+  - emoji: 🏷️
+    name: E0.7 label
+    alias: 標籤 文具籤 書籍籤

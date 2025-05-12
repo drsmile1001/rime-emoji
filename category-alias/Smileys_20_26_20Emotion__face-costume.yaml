@@ -1,0 +1,28 @@
+group: Smileys & Emotion
+subgroup: face-costume
+alias: 裝扮 小丑 怪物
+emojis:
+  - emoji: 💩
+    name: E0.6 pile of poo
+    alias: 糞便 微笑 安靜
+  - emoji: 🤡
+    name: E3.0 clown face
+    alias: 小丑 微笑 安靜
+  - emoji: 👹
+    name: E0.6 ogre
+    alias: 怪物 微笑 安靜
+  - emoji: 👺
+    name: E0.6 goblin
+    alias: 妖怪 微笑 安靜
+  - emoji: 👻
+    name: E0.6 ghost
+    alias: 鬼魂 微笑 安靜
+  - emoji: 👽
+    name: E0.6 alien
+    alias: 外星 微笑 安靜
+  - emoji: 👾
+    name: E0.6 alien monster
+    alias: 怪獸 微笑 安靜
+  - emoji: 🤖
+    name: E1.0 robot
+    alias: 機器 微笑 安靜

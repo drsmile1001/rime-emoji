@@ -51,16 +51,4 @@ describe("CategoryAliasRepoMemory", () => {
       updatedSubgroupAliases.find((s) => s.subgroup === "face-smiling")?.alias,
     ).toEqual(["微笑臉"]);
   });
-
-  test("應能查詢 emoji 清單 by group/subgroup", async () => {
-    const repo: CategoryAliasRepo = new CategoryAliasRepoMemory();
-    await repo.mergeDefinitions(defs);
-
-    const smileys = await repo.getEmojiBySubgroup(
-      "Smileys & Emotion",
-      "face-smiling",
-    );
-    expect(smileys.length).toBe(1);
-    expect(smileys[0].emoji).toBe("😀");
-  });
 });

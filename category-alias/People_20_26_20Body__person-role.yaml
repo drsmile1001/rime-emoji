@@ -1,0 +1,71 @@
+group: People & Body
+subgroup: person-role
+emojis:
+  - emoji: 🧑‍⚕️
+    name: E12.1 health worker
+  - emoji: 🧑‍🎓
+    name: E12.1 student
+  - emoji: 🧑‍🏫
+    name: E12.1 teacher
+  - emoji: 🧑‍⚖️
+    name: E12.1 judge
+  - emoji: 🧑‍🌾
+    name: E12.1 farmer
+  - emoji: 🧑‍🍳
+    name: E12.1 cook
+  - emoji: 🧑‍🔧
+    name: E12.1 mechanic
+  - emoji: 🧑‍🏭
+    name: E12.1 factory worker
+  - emoji: 🧑‍💼
+    name: E12.1 office worker
+  - emoji: 🧑‍🔬
+    name: E12.1 scientist
+  - emoji: 🧑‍💻
+    name: E12.1 technologist
+  - emoji: 🧑‍🎤
+    name: E12.1 singer
+  - emoji: 🧑‍🎨
+    name: E12.1 artist
+  - emoji: 🧑‍✈️
+    name: E12.1 pilot
+  - emoji: 🧑‍🚀
+    name: E12.1 astronaut
+  - emoji: 🧑‍🚒
+    name: E12.1 firefighter
+  - emoji: 👮
+    name: E0.6 police officer
+  - emoji: 🕵️
+    name: E0.7 detective
+  - emoji: 💂
+    name: E0.6 guard
+  - emoji: 🥷
+    name: E13.0 ninja
+  - emoji: 👷
+    name: E0.6 construction worker
+  - emoji: 🫅
+    name: E14.0 person with crown
+  - emoji: 🤴
+    name: E3.0 prince
+  - emoji: 👸
+    name: E0.6 princess
+  - emoji: 👳
+    name: E0.6 person wearing turban
+  - emoji: 👲
+    name: E0.6 person with skullcap
+  - emoji: 🧕
+    name: E5.0 woman with headscarf
+  - emoji: 🤵
+    name: E3.0 person in tuxedo
+  - emoji: 👰
+    name: E0.6 person with veil
+  - emoji: 🤰
+    name: E3.0 pregnant woman
+  - emoji: 🫃
+    name: E14.0 pregnant man
+  - emoji: 🫄
+    name: E14.0 pregnant person
+  - emoji: 🤱
+    name: E5.0 breast-feeding
+  - emoji: 🧑‍🍼
+    name: E13.0 person feeding baby

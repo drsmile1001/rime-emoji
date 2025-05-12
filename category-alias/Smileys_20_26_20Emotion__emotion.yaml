@@ -1,0 +1,46 @@
+group: Smileys & Emotion
+subgroup: emotion
+alias: 情感 百分 怒符
+emojis:
+  - emoji: 💋
+    name: E0.6 kiss mark
+    alias: 唇印 微笑 安靜
+  - emoji: 💯
+    name: E0.6 hundred points
+    alias: 百分 微笑 安靜
+  - emoji: 💢
+    name: E0.6 anger symbol
+    alias: 怒符 微笑 安靜
+  - emoji: 💥
+    name: E0.6 collision
+    alias: 碰撞 微笑 安靜
+  - emoji: 💫
+    name: E0.6 dizzy
+    alias: 眩暈 微笑 安靜
+  - emoji: 💦
+    name: E0.6 sweat droplets
+    alias: 汗滴 微笑 安靜
+  - emoji: 💨
+    name: E0.6 dashing away
+    alias: 飛奔 微笑 安靜
+  - emoji: 🕳️
+    name: E0.7 hole
+    alias: 洞 微笑 安靜
+  - emoji: 💬
+    name: E0.6 speech balloon
+    alias: 氣泡 微笑 安靜
+  - emoji: 👁️‍🗨️
+    name: E2.0 eye in speech bubble
+    alias: 眼泡 微笑 安靜
+  - emoji: 🗨️
+    name: E2.0 left speech bubble
+    alias: 左泡 微笑 安靜
+  - emoji: 🗯️
+    name: E0.7 right anger bubble
+    alias: 怒泡 微笑 安靜
+  - emoji: 💭
+    name: E1.0 thought balloon
+    alias: 思泡 微笑 安靜
+  - emoji: 💤
+    name: E0.6 ZZZ
+    alias: 睡聲 微笑 安靜

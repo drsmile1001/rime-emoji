@@ -1,0 +1,79 @@
+group: Smileys & Emotion
+subgroup: heart
+alias: 心 愛心 情感
+emojis:
+  - emoji: 💌
+    name: E0.6 love letter
+    alias: 情書 微笑 安靜
+  - emoji: 💘
+    name: E0.6 heart with arrow
+    alias: 箭心 微笑 安靜
+  - emoji: 💝
+    name: E0.6 heart with ribbon
+    alias: 禮心 微笑 安靜
+  - emoji: 💖
+    name: E0.6 sparkling heart
+    alias: 閃心 微笑 安靜
+  - emoji: 💗
+    name: E0.6 growing heart
+    alias: 長心 微笑 安靜
+  - emoji: 💓
+    name: E0.6 beating heart
+    alias: 跳心 微笑 安靜
+  - emoji: 💞
+    name: E0.6 revolving hearts
+    alias: 轉心 微笑 安靜
+  - emoji: 💕
+    name: E0.6 two hearts
+    alias: 雙心 微笑 安靜
+  - emoji: 💟
+    name: E0.6 heart decoration
+    alias: 裝心 微笑 安靜
+  - emoji: ❣️
+    name: E1.0 heart exclamation
+    alias: 驚心 微笑 安靜
+  - emoji: 💔
+    name: E0.6 broken heart
+    alias: 碎心 微笑 安靜
+  - emoji: ❤️‍🔥
+    name: E13.1 heart on fire
+    alias: 火心 微笑 安靜
+  - emoji: ❤️‍🩹
+    name: E13.1 mending heart
+    alias: 補心 微笑 安靜
+  - emoji: ❤️
+    name: E0.6 red heart
+    alias: 紅心 微笑 安靜
+  - emoji: 🩷
+    name: E15.0 pink heart
+    alias: 粉心 微笑 安靜
+  - emoji: 🧡
+    name: E5.0 orange heart
+    alias: 橙心 微笑 安靜
+  - emoji: 💛
+    name: E0.6 yellow heart
+    alias: 黃心 微笑 安靜
+  - emoji: 💚
+    name: E0.6 green heart
+    alias: 綠心 微笑 安靜
+  - emoji: 💙
+    name: E0.6 blue heart
+    alias: 藍心 微笑 安靜
+  - emoji: 🩵
+    name: E15.0 light blue heart
+    alias: 淡藍 微笑 安靜
+  - emoji: 💜
+    name: E0.6 purple heart
+    alias: 紫心 微笑 安靜
+  - emoji: 🤎
+    name: E12.0 brown heart
+    alias: 棕心 微笑 安靜
+  - emoji: 🖤
+    name: E3.0 black heart
+    alias: 黑心 微笑 安靜
+  - emoji: 🩶
+    name: E15.0 grey heart
+    alias: 灰心 微笑 安靜
+  - emoji: 🤍
+    name: E12.0 white heart
+    alias: 白心 微笑 安靜

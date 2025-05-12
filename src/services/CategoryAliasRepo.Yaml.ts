@@ -4,242 +4,178 @@ import type { EmojiDefinition } from "@/entities/EmojiDefinition";
 import { YamlFile } from "@/utils/YamlFile";
 import { readdir, stat } from "node:fs/promises";
 import { join } from "node:path";
+import { toCodePoints } from "@/utils/CodePoints";
 
 export type CategoryAliasYamlFileRaw = {
-  name: string;
-  subGroups: {
+  group: string;
+  subgroup: string;
+  alias?: string;
+  emojis: {
+    emoji: string;
     name: string;
     alias?: string;
-    emojis: {
-      emoji: string;
-      name: string;
-      alias?: string;
-    }[];
   }[];
 };
 
 export type CategoryAliasYamlFileContent = {
-  name: string;
-  subGroups: {
+  group: string;
+  subgroup: string;
+  alias: string[];
+  emojis: {
+    emoji: string;
     name: string;
     alias: string[];
-    emojis: {
-      emoji: string;
-      name: string;
-      alias: string[];
-    }[];
   }[];
 };
 
 export class CategoryAliasRepoYaml implements CategoryAliasRepo {
   constructor(private readonly dir: string) {}
 
-  private safeFileName(group: string): string {
-    return `${encodeURIComponent(group).replace(/%/g, "_")}.yaml`;
+  private buildFileName(group: string, subgroup: string): string {
+    return `${encodeURIComponent(`${group}__${subgroup}`).replace(
+      /%/g,
+      "_",
+    )}.yaml`;
   }
 
-  async loadGroupContent(group: string): Promise<CategoryAliasYamlFileContent> {
-    const file = new YamlFile<CategoryAliasYamlFileRaw>(
-      this.dir,
-      this.safeFileName(group),
-      { name: group, subGroups: [] },
-    );
+  async loadContent(fileName: string): Promise<CategoryAliasYamlFileContent> {
+    const file = new YamlFile<CategoryAliasYamlFileRaw>(this.dir, fileName, {
+      group: "",
+      subgroup: "",
+      emojis: [],
+    });
     const existing = await file.read();
 
-    const subGroups = existing.subGroups.map((sg) => ({
-      name: sg.name,
-      alias: sg.alias ? sg.alias.split(" ") : [],
-      emojis: sg.emojis.map((e) => ({
-        emoji: e.emoji,
-        name: e.name,
-        alias: e.alias ? e.alias.split(" ") : [],
-      })),
+    const emojis = existing.emojis.map((e) => ({
+      emoji: e.emoji,
+      name: e.name,
+      alias: this.rawAliasToAlias(e.alias),
     }));
 
     return {
-      name: existing.name,
-      subGroups,
+      group: existing.group,
+      subgroup: existing.subgroup,
+      alias: this.rawAliasToAlias(existing.alias),
+      emojis,
     };
   }
 
-  async saveGroupContent(group: string, context: CategoryAliasYamlFileContent) {
-    const file = new YamlFile<CategoryAliasYamlFileRaw>(
-      this.dir,
-      this.safeFileName(group),
-      { name: group, subGroups: [] },
-    );
-    const raw = {
-      name: context.name,
-      subGroups: context.subGroups.map((sg) => ({
-        name: sg.name,
-        alias: sg.alias.length > 0 ? sg.alias.join(" ") : undefined,
-        emojis: sg.emojis.map((e) => ({
-          emoji: e.emoji,
-          name: e.name,
-          alias: e.alias.length > 0 ? e.alias.join(" ") : undefined,
-        })),
+  aliasToRawAlias(alias: string[]): string | undefined {
+    if (alias.length === 0) return undefined;
+    return alias.join(" ");
+  }
+
+  rawAliasToAlias(raw: string | undefined): string[] {
+    if (!raw) return [];
+    return raw.split(" ");
+  }
+
+  async saveGroupContent(
+    fileName: string,
+    context: CategoryAliasYamlFileContent,
+  ) {
+    const file = new YamlFile<CategoryAliasYamlFileRaw>(this.dir, fileName, {
+      group: "",
+      subgroup: "",
+      emojis: [],
+    });
+    const raw: CategoryAliasYamlFileRaw = {
+      group: context.group,
+      subgroup: context.subgroup,
+      alias: this.aliasToRawAlias(context.alias),
+      emojis: context.emojis.map((e) => ({
+        emoji: e.emoji,
+        name: e.name,
+        alias: this.aliasToRawAlias(e.alias),
       })),
     };
     await file.write(raw);
   }
 
   async mergeDefinitions(defs: EmojiDefinition[]): Promise<void> {
-    // 先將 defs 按 group 分組
-    const grouped = new Map<string, EmojiDefinition[]>();
-    for (const def of defs) {
-      if (!grouped.has(def.group)) grouped.set(def.group, []);
-      grouped.get(def.group)!.push(def);
-    }
+    const fileNameGroupedDefinitions = defs.reduce((acc, e) => {
+      const key = this.buildFileName(e.group, e.subgroup);
+      const emojis = acc.get(key) ?? [];
+      emojis.push(e);
+      acc.set(key, emojis);
+      return acc;
+    }, new Map<string, EmojiDefinition[]>());
 
-    for (const [group, mergeDefs] of grouped) {
-      // 讀取現有的 YAML 檔案
-      const existing = await this.loadGroupContent(group);
+    for (const [fileName, defs] of fileNameGroupedDefinitions) {
+      const existing = await this.loadContent(fileName);
+      const groupAliases = existing.alias;
+      const emojiAliasMap = existing.emojis.reduce((acc, e) => {
+        acc.set(e.emoji, e.alias);
+        return acc;
+      }, new Map<string, string[]>());
+      const group = defs[0].group;
+      const subgroup = defs[0].subgroup;
 
-      // 合併 emoji 依據 subgroup 分組
-      const subgroupMap = new Map<string, EmojiDefinition[]>();
-      for (const mergeDef of mergeDefs) {
-        if (!subgroupMap.has(mergeDef.subgroup))
-          subgroupMap.set(mergeDef.subgroup, []);
-        subgroupMap.get(mergeDef.subgroup)!.push(mergeDef);
-      }
-
-      const mergedSubGroups = Array.from(subgroupMap.entries()).map(
-        ([subgroup, mergeDefs]) => {
-          const existingGroup = existing.subGroups.find(
-            (g) => g.name === subgroup,
-          );
-          const existingEmojis = existingGroup?.emojis ?? [];
-          const existingEmojiMap = new Map<
-            string,
-            (typeof existingEmojis)[number]
-          >();
-          for (const existingEmoji of existingEmojis)
-            existingEmojiMap.set(existingEmoji.emoji, existingEmoji);
-
-          for (const mergeDef of mergeDefs) {
-            if (!existingEmojiMap.has(mergeDef.emoji)) {
-              existingEmojiMap.set(mergeDef.emoji, {
-                emoji: mergeDef.emoji,
-                name: mergeDef.name,
-                alias: [],
-              });
-            }
-          }
-
-          return {
-            name: subgroup,
-            alias: existingGroup?.alias ?? [],
-            emojis: Array.from(existingEmojiMap.values()),
-          };
-        },
-      );
-
-      const merged: CategoryAliasYamlFileContent = {
-        name: group,
-        subGroups: mergedSubGroups,
-      };
-
-      await this.saveGroupContent(group, merged);
+      await this.saveGroupContent(fileName, {
+        group,
+        subgroup,
+        alias: groupAliases,
+        emojis: defs.map((e) => ({
+          emoji: e.emoji,
+          name: e.name,
+          alias: emojiAliasMap.get(e.emoji) ?? [],
+        })),
+      });
     }
   }
 
-  async getEmojiByGroup(group: string): Promise<EmojiDefinition[]> {
-    const yaml = await this.loadGroupContent(group);
-    if (!yaml) return [];
-    return yaml.subGroups.flatMap((sg) =>
-      sg.emojis.map((e) => ({
-        emoji: e.emoji,
-        name: e.name,
-        group: yaml.name,
-        subgroup: sg.name,
-        codePoints: [],
-      })),
-    );
+  private async getAllContents(): Promise<CategoryAliasYamlFileContent[]> {
+    const files = await readdir(this.dir);
+    const contents: CategoryAliasYamlFileContent[] = [];
+    for (const file of files) {
+      if (!file.endsWith(".yaml") && !file.endsWith(".yml")) continue;
+      const filePath = join(this.dir, file);
+      const fileStat = await stat(filePath);
+      if (fileStat.isFile()) {
+        const content = await this.loadContent(file);
+        contents.push(content);
+      }
+    }
+    return contents;
   }
 
   async getDefinitions(): Promise<EmojiDefinition[]> {
-    const groups = await this.getAllGroups();
+    const contents = await this.getAllContents();
     const result: EmojiDefinition[] = [];
-    for (const group of groups) {
-      const content = await this.loadGroupContent(group);
-      if (!content) continue;
-      for (const sg of content.subGroups) {
-        for (const e of sg.emojis) {
-          result.push({
-            emoji: e.emoji,
-            name: e.name,
-            group: content.name,
-            subgroup: sg.name,
-            codePoints: [],
-          });
-        }
-      }
-    }
-    return result;
-  }
-
-  async getEmojiBySubgroup(
-    group: string,
-    subgroup: string,
-  ): Promise<EmojiDefinition[]> {
-    const yaml = await this.loadGroupContent(group);
-    if (!yaml) return [];
-    const sg = yaml.subGroups.find((g) => g.name === subgroup);
-    if (!sg) return [];
-    return sg.emojis.map((e) => ({
-      emoji: e.emoji,
-      name: e.name,
-      group: yaml.name,
-      subgroup: sg.name,
-      codePoints: [],
-    }));
-  }
-
-  async getEmojiAliases(): Promise<EmojiAlias[]> {
-    const result: EmojiAlias[] = [];
-    const groups = await this.getAllGroups();
-    for (const group of groups) {
-      const yaml = await this.loadGroupContent(group);
-      if (!yaml) continue;
-      for (const sg of yaml.subGroups) {
-        for (const e of sg.emojis) {
-          result.push({ emoji: e.emoji, alias: e.alias ?? "" });
-        }
-      }
-    }
-    return result;
-  }
-
-  async getSubgroupAliases(): Promise<SubgroupAlias[]> {
-    const groups = await this.getAllGroups();
-    const result: SubgroupAlias[] = [];
-    for (const group of groups) {
-      const yaml = await this.loadGroupContent(group);
-      if (!yaml) continue;
-      for (const sg of yaml.subGroups) {
+    for (const content of contents) {
+      for (const e of content.emojis) {
         result.push({
-          group: yaml.name,
-          subgroup: sg.name,
-          alias: sg.alias,
+          emoji: e.emoji,
+          name: e.name,
+          group: content.group,
+          subgroup: content.subgroup,
+          codePoints: toCodePoints(e.emoji),
         });
       }
     }
     return result;
   }
 
-  // --- helpers ---
-  private async getAllGroups(): Promise<string[]> {
-    const files = await readdir(this.dir);
-    const result: string[] = [];
-    for (const f of files) {
-      if (!f.endsWith(".yaml")) continue;
-      const filePath = join(this.dir, f);
-      const st = await stat(filePath);
-      if (!st.isFile()) continue;
-      const encoded = f.replace(/\.yaml$/, "").replace(/_/g, "%");
-      result.push(decodeURIComponent(encoded));
-    }
-    return result;
+  async getEmojiAliases(): Promise<EmojiAlias[]> {
+    const contents = await this.getAllContents();
+    return contents
+      .flatMap((content) => content.emojis)
+      .filter((e) => e.alias.length > 0)
+      .map((e) => ({
+        emoji: e.emoji,
+        alias: e.alias,
+      }));
+  }
+
+  async getSubgroupAliases(): Promise<SubgroupAlias[]> {
+    const contents = await this.getAllContents();
+    return contents
+      .filter((c) => c.alias.length > 0)
+      .map((c) => ({
+        group: c.group,
+        subgroup: c.subgroup,
+        alias: c.alias,
+      }));
   }
 
   patchSubgroupAliases(aliases: SubgroupAlias[]): Promise<void> {

@@ -1,0 +1,25 @@
+group: Smileys & Emotion
+subgroup: face-hand
+alias: 手臉 擁抱 驚訝
+emojis:
+  - emoji: 🤗
+    name: E1.0 smiling face with open hands
+    alias: 擁抱 微笑 開心
+  - emoji: 🤭
+    name: E5.0 face with hand over mouth
+    alias: 捂嘴 微笑 驚訝
+  - emoji: 🫢
+    name: E14.0 face with open eyes and hand over mouth
+    alias: 驚訝 微笑 開心
+  - emoji: 🫣
+    name: E14.0 face with peeking eye
+    alias: 偷看 微笑 驚訝
+  - emoji: 🤫
+    name: E5.0 shushing face
+    alias: 噓聲 微笑 安靜
+  - emoji: 🤔
+    name: E1.0 thinking face
+    alias: 思考 微笑 開心
+  - emoji: 🫡
+    name: E14.0 saluting face
+    alias: 敬禮 微笑 開心

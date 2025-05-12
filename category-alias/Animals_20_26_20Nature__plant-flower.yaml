@@ -1,0 +1,40 @@
+group: Animals & Nature
+subgroup: plant-flower
+alias: 花卉 植物 花
+emojis:
+  - emoji: 💐
+    name: E0.6 bouquet
+    alias: 花束 大花束 小花束
+  - emoji: 🌸
+    name: E0.6 cherry blossom
+    alias: 櫻花 小櫻 大櫻
+  - emoji: 💮
+    name: E0.6 white flower
+    alias: 白花 小白 大白
+  - emoji: 🪷
+    name: E14.0 lotus
+    alias: 蓮花 小蓮 大蓮
+  - emoji: 🏵️
+    name: E0.7 rosette
+    alias: 玫瑰花 小玫 大玫
+  - emoji: 🌹
+    name: E0.6 rose
+    alias: 玫瑰 小玫 大玫
+  - emoji: 🥀
+    name: E3.0 wilted flower
+    alias: 枯花 小枯 大枯
+  - emoji: 🌺
+    name: E0.6 hibiscus
+    alias: 木槿 小木 大木
+  - emoji: 🌻
+    name: E0.6 sunflower
+    alias: 向日葵 小向 大向
+  - emoji: 🌼
+    name: E0.6 blossom
+    alias: 花朵 小花 大花
+  - emoji: 🌷
+    name: E0.6 tulip
+    alias: 鬱金香 小鬱 大鬱
+  - emoji: 🪻
+    name: E15.0 hyacinth
+    alias: 風信子 小風 大風

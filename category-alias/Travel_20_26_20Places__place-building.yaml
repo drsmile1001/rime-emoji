@@ -1,0 +1,85 @@
+group: Travel & Places
+subgroup: place-building
+alias: 建築
+emojis:
+  - emoji: 🏟️
+    name: E0.7 stadium
+    alias: 體育場
+  - emoji: 🏛️
+    name: E0.7 classical building
+    alias: 古典建築
+  - emoji: 🏗️
+    name: E0.7 building construction
+    alias: 建築施工
+  - emoji: 🧱
+    name: E11.0 brick
+    alias: 磚
+  - emoji: 🪨
+    name: E13.0 rock
+    alias: 岩石
+  - emoji: 🪵
+    name: E13.0 wood
+    alias: 木材
+  - emoji: 🛖
+    name: E13.0 hut
+    alias: 小屋
+  - emoji: 🏘️
+    name: E0.7 houses
+    alias: 房屋
+  - emoji: 🏚️
+    name: E0.7 derelict house
+    alias: 廢棄房屋
+  - emoji: 🏠
+    name: E0.6 house
+    alias: 房子
+  - emoji: 🏡
+    name: E0.6 house with garden
+    alias: 花園房子
+  - emoji: 🏢
+    name: E0.6 office building
+    alias: 辦公樓
+  - emoji: 🏣
+    name: E0.6 Japanese post office
+    alias: 日本郵局
+  - emoji: 🏤
+    name: E1.0 post office
+    alias: 郵局
+  - emoji: 🏥
+    name: E0.6 hospital
+    alias: 醫院
+  - emoji: 🏦
+    name: E0.6 bank
+    alias: 銀行
+  - emoji: 🏨
+    name: E0.6 hotel
+    alias: 酒店
+  - emoji: 🏩
+    name: E0.6 love hotel
+    alias: 情侶酒店
+  - emoji: 🏪
+    name: E0.6 convenience store
+    alias: 便利店
+  - emoji: 🏫
+    name: E0.6 school
+    alias: 學校
+  - emoji: 🏬
+    name: E0.6 department store
+    alias: 百貨商店
+  - emoji: 🏭
+    name: E0.6 factory
+    alias: 工廠
+  - emoji: 🏯
+    name: E0.6 Japanese castle
+    alias: 日本城堡
+  - emoji: 🏰
+    name: E0.6 castle
+    alias: 城堡
+  - emoji: 💒
+    name: E0.6 wedding
+    alias: 婚禮
+  - emoji: 🗼
+    name: E0.6 Tokyo tower
+    alias: 東京塔
+  - emoji: 🗽
+    name: E0.6 Statue of Liberty
+    alias: 自由女神像

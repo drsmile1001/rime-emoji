@@ -1,0 +1,25 @@
+group: Travel & Places
+subgroup: place-map
+alias: 地圖
+emojis:
+  - emoji: 🌍
+    name: E0.7 globe showing Europe-Africa
+    alias: 歐非 地球 歐洲
+  - emoji: 🌎
+    name: E0.7 globe showing Americas
+    alias: 美洲 地球 美國
+  - emoji: 🌏
+    name: E0.6 globe showing Asia-Australia
+    alias: 亞澳 地球 亞洲
+  - emoji: 🌐
+    name: E1.0 globe with meridians
+    alias: 經緯 地球 全球
+  - emoji: 🗺️
+    name: E0.7 world map
+    alias: 世界地圖 地圖 全球
+  - emoji: 🗾
+    name: E0.6 map of Japan
+    alias: 日本地圖 地圖 日本
+  - emoji: 🧭
+    name: E11.0 compass
+    alias: 指南針 羅盤 方位

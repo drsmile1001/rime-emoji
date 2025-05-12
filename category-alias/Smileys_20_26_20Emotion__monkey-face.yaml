@@ -1,0 +1,13 @@
+group: Smileys & Emotion
+subgroup: monkey-face
+alias: 猴臉 遮眼 遮耳
+emojis:
+  - emoji: 🙈
+    name: E0.6 see-no-evil monkey
+    alias: 遮眼 微笑 安靜
+  - emoji: 🙉
+    name: E0.6 hear-no-evil monkey
+    alias: 遮耳 微笑 安靜
+  - emoji: 🙊
+    name: E0.6 speak-no-evil monkey
+    alias: 遮嘴 微笑 安靜

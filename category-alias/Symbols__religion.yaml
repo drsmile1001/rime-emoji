@@ -1,0 +1,43 @@
+group: Symbols
+subgroup: religion
+alias: 宗教 信仰 神聖
+emojis:
+  - emoji: 🛐
+    name: E1.0 place of worship
+    alias: 禮拜 祈禱 崇拜
+  - emoji: ⚛️
+    name: E1.0 atom symbol
+    alias: 原子 科學 原子符號
+  - emoji: 🕉️
+    name: E0.7 om
+    alias: 唵 印度教 禱告
+  - emoji: ✡️
+    name: E0.7 star of David
+    alias: 大衛星 猶太教 星形
+  - emoji: ☸️
+    name: E0.7 wheel of dharma
+    alias: 法輪 佛教 輪子
+  - emoji: ☯️
+    name: E0.7 yin yang
+    alias: 陰陽 太極 平衡
+  - emoji: ✝️
+    name: E0.7 latin cross
+    alias: 十字架 基督教 信仰
+  - emoji: ☦️
+    name: E1.0 orthodox cross
+    alias: 東正十字 東正教 十字
+  - emoji: ☪️
+    name: E0.7 star and crescent
+    alias: 星月 伊斯蘭教 月亮
+  - emoji: ☮️
+    name: E1.0 peace symbol
+    alias: 和平 和諧 平靜
+  - emoji: 🕎
+    name: E1.0 menorah
+    alias: 燭台 猶太教 燈台
+  - emoji: 🔯
+    name: E0.6 dotted six-pointed star
+    alias: 六角星 星形 點星
+  - emoji: 🪯
+    name: E15.0 khanda
+    alias: 卡達 印度教 劍形

@@ -1,0 +1,64 @@
+group: Food & Drink
+subgroup: food-fruit
+alias: 水果 果實 果類
+emojis:
+  - emoji: 🍇
+    name: E0.6 grapes
+    alias: 葡萄 紫葡萄 果實
+  - emoji: 🍈
+    name: E0.6 melon
+    alias: 哈密瓜 香瓜 瓜類
+  - emoji: 🍉
+    name: E0.6 watermelon
+    alias: 西瓜 大西瓜 瓜果
+  - emoji: 🍊
+    name: E0.6 tangerine
+    alias: 橘子 柑橘 小橘
+  - emoji: 🍋
+    name: E1.0 lemon
+    alias: 檸檬 黃檸檬 酸檸檬
+  - emoji: 🍋‍🟩
+    name: E15.1 lime
+    alias: 萊姆 青檸檬 酸檸
+  - emoji: 🍌
+    name: E0.6 banana
+    alias: 香蕉 黃香蕉 果蕉
+  - emoji: 🍍
+    name: E0.6 pineapple
+    alias: 鳳梨 菠蘿 黃果
+  - emoji: 🥭
+    name: E11.0 mango
+    alias: 芒果 黃芒果 熱帶果
+  - emoji: 🍎
+    name: E0.6 red apple
+    alias: 紅蘋果 蘋果 果子
+  - emoji: 🍏
+    name: E0.6 green apple
+    alias: 青蘋果 綠蘋果 果實
+  - emoji: 🍐
+    name: E1.0 pear
+    alias: 梨 水梨 黃梨
+  - emoji: 🍑
+    name: E0.6 peach
+    alias: 桃子 水蜜桃 果桃
+  - emoji: 🍒
+    name: E0.6 cherries
+    alias: 櫻桃 紅櫻桃 小果
+  - emoji: 🍓
+    name: E0.6 strawberry
+    alias: 草莓 紅莓 小莓
+  - emoji: 🫐
+    name: E13.0 blueberries
+    alias: 藍莓 小藍莓 果莓
+  - emoji: 🥝
+    name: E3.0 kiwi fruit
+    alias: 奇異果 綠果 奇果
+  - emoji: 🍅
+    name: E0.6 tomato
+    alias: 番茄 紅番茄 果茄
+  - emoji: 🫒
+    name: E13.0 olive
+    alias: 橄欖 綠橄欖 小橄欖
+  - emoji: 🥥
+    name: E5.0 coconut
+    alias: 椰子 大椰子 熱帶果

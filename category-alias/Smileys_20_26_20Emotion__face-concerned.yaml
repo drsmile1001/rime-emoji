@@ -1,0 +1,82 @@
+group: Smileys & Emotion
+subgroup: face-concerned
+alias: 擔憂 困惑 驚訝
+emojis:
+  - emoji: 😕
+    name: E1.0 confused face
+    alias: 困惑 微笑 安靜
+  - emoji: 🫤
+    name: E14.0 face with diagonal mouth
+    alias: 斜嘴 微笑 安靜
+  - emoji: 😟
+    name: E1.0 worried face
+    alias: 擔心 微笑 安靜
+  - emoji: 🙁
+    name: E1.0 slightly frowning face
+    alias: 微皺 微笑 安靜
+  - emoji: ☹️
+    name: E0.7 frowning face
+    alias: 皺眉 微笑 安靜
+  - emoji: 😮
+    name: E1.0 face with open mouth
+    alias: 張嘴 微笑 安靜
+  - emoji: 😯
+    name: E1.0 hushed face
+    alias: 安靜 微笑 安靜
+  - emoji: 😲
+    name: E0.6 astonished face
+    alias: 驚訝 微笑 安靜
+  - emoji: 😳
+    name: E0.6 flushed face
+    alias: 臉紅 微笑 安靜
+  - emoji: 🥺
+    name: E11.0 pleading face
+    alias: 哀求 微笑 安靜
+  - emoji: 🥹
+    name: E14.0 face holding back tears
+    alias: 忍淚 微笑 安靜
+  - emoji: 😦
+    name: E1.0 frowning face with open mouth
+    alias: 張皺 微笑 安靜
+  - emoji: 😧
+    name: E1.0 anguished face
+    alias: 痛苦 微笑 安靜
+  - emoji: 😨
+    name: E0.6 fearful face
+    alias: 害怕 微笑 安靜
+  - emoji: 😰
+    name: E0.6 anxious face with sweat
+    alias: 焦慮 微笑 安靜
+  - emoji: 😥
+    name: E0.6 sad but relieved face
+    alias: 悲鬆 微笑 安靜
+  - emoji: 😢
+    name: E0.6 crying face
+    alias: 哭泣 微笑 安靜
+  - emoji: 😭
+    name: E0.6 loudly crying face
+    alias: 大哭 微笑 安靜
+  - emoji: 😱
+    name: E0.6 face screaming in fear
+    alias: 尖叫 微笑 安靜
+  - emoji: 😖
+    name: E0.6 confounded face
+    alias: 困惑 微笑 安靜
+  - emoji: 😣
+    name: E0.6 persevering face
+    alias: 堅持 微笑 安靜
+  - emoji: 😞
+    name: E0.6 disappointed face
+    alias: 失望 微笑 安靜
+  - emoji: 😓
+    name: E0.6 downcast face with sweat
+    alias: 沮喪 微笑 安靜
+  - emoji: 😩
+    name: E0.6 weary face
+    alias: 疲憊 微笑 安靜
+  - emoji: 😫
+    name: E0.6 tired face
+    alias: 疲倦 微笑 安靜
+  - emoji: 🥱
+    name: E12.0 yawning face
+    alias: 打哈 微笑 安靜

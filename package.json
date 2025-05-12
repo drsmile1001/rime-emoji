@@ -2,6 +2,13 @@
   "name": "rime-emoji",
   "version": "0.1.0",
   "description": "Hello World Bun Template",
+  "scripts": {
+    "fetch": "bun src/index.ts fetch",
+    "filter": "bun src/index.ts filter",
+    "merge": "bun src/index.ts merge",
+    "validate": "bun src/index.ts validate",
+    "export": "bun src/index.ts export"
+  },
   "dependencies": {
     "@sinclair/typebox": "^0.34.33",
     "cac": "^6.7.14",

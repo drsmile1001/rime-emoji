@@ -1,0 +1,25 @@
+group: People & Body
+subgroup: person-symbol
+emojis:
+  - emoji: 🗣️
+    name: E0.7 speaking head
+  - emoji: 👤
+    name: E0.6 bust in silhouette
+  - emoji: 👥
+    name: E1.0 busts in silhouette
+  - emoji: 🫂
+    name: E13.0 people hugging
+  - emoji: 👪
+    name: E0.6 family
+  - emoji: 🧑‍🧑‍🧒
+    name: "E15.1 family: adult, adult, child"
+  - emoji: 🧑‍🧑‍🧒‍🧒
+    name: "E15.1 family: adult, adult, child, child"
+  - emoji: 🧑‍🧒
+    name: "E15.1 family: adult, child"
+  - emoji: 🧑‍🧒‍🧒
+    name: "E15.1 family: adult, child, child"
+  - emoji: 👣
+    name: E0.6 footprints
+  - emoji: 🫆
+    name: E16.0 fingerprint

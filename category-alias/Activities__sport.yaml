@@ -1,0 +1,85 @@
+group: Activities
+subgroup: sport
+alias: 運動 體育 比賽
+emojis:
+  - emoji: ⚽
+    name: E0.6 soccer ball
+    alias: 足球 球賽 足球賽
+  - emoji: ⚾
+    name: E0.6 baseball
+    alias: 棒球 球賽 棒球賽
+  - emoji: 🥎
+    name: E11.0 softball
+    alias: 壘球 球賽 壘球賽
+  - emoji: 🏀
+    name: E0.6 basketball
+    alias: 籃球 球賽 籃球賽
+  - emoji: 🏐
+    name: E1.0 volleyball
+    alias: 排球 球賽 排球賽
+  - emoji: 🏈
+    name: E0.6 american football
+    alias: 美式足球 橄欖球 球賽
+  - emoji: 🏉
+    name: E1.0 rugby football
+    alias: 橄欖球 球賽 橄欖球賽
+  - emoji: 🎾
+    name: E0.6 tennis
+    alias: 網球 球賽 網球賽
+  - emoji: 🥏
+    name: E11.0 flying disc
+    alias: 飛盤 圓盤 投擲盤
+  - emoji: 🎳
+    name: E0.6 bowling
+    alias: 保齡球 球賽 保齡球賽
+  - emoji: 🏏
+    name: E1.0 cricket game
+    alias: 板球 球賽 板球賽
+  - emoji: 🏑
+    name: E1.0 field hockey
+    alias: 曲棍球 球賽 曲棍球賽
+  - emoji: 🏒
+    name: E1.0 ice hockey
+    alias: 冰球 球賽 冰球賽
+  - emoji: 🥍
+    name: E11.0 lacrosse
+    alias: 長曲棍球 球賽 長曲棍球賽
+  - emoji: 🏓
+    name: E1.0 ping pong
+    alias: 乒乓球 桌球 乒乓球賽
+  - emoji: 🏸
+    name: E1.0 badminton
+    alias: 羽毛球 球賽 羽毛球賽
+  - emoji: 🥊
+    name: E3.0 boxing glove
+    alias: 拳擊手套 拳擊 比賽
+  - emoji: 🥋
+    name: E3.0 martial arts uniform
+    alias: 武術服 空手道服 武術
+  - emoji: 🥅
+    name: E3.0 goal net
+    alias: 球門 足球門 球網
+  - emoji: ⛳
+    name: E0.6 flag in hole
+    alias: 高爾夫 球洞 高爾夫球
+  - emoji: ⛸️
+    name: E0.7 ice skate
+    alias: 溜冰鞋 冰鞋 滑冰
+  - emoji: 🎣
+    name: E0.6 fishing pole
+    alias: 釣魚 釣竿 垂釣
+  - emoji: 🤿
+    name: E12.0 diving mask
+    alias: 潛水 潛水面罩 水下
+  - emoji: 🎽
+    name: E0.6 running shirt
+    alias: 跑步衣 運動衣 跑步
+  - emoji: 🎿
+    name: E0.6 skis
+    alias: 滑雪 雪板 滑雪板
+  - emoji: 🛷
+    name: E5.0 sled
+    alias: 雪橇 冰橇 滑雪橇
+  - emoji: 🥌
+    name: E5.0 curling stone
+    alias: 冰壺 冰上運動 冰壺賽

@@ -42,28 +42,25 @@ describe("CategoryAliasRepoYaml", () => {
 
     const readBack = await new YamlFile<CategoryAliasYamlFileRaw>(
       OUTPUT_DIR,
-      "People_20_26_20Body.yaml",
+      "People_20_26_20Body__hand-fingers-part.yaml",
       {
-        name: "",
-        subGroups: [],
+        group: "",
+        subgroup: "",
+        emojis: [],
       },
     ).read();
 
     // ✅ 驗證 YAML 結構
     expect(readBack).toEqual({
-      name: "People & Body",
-      subGroups: [
+      group: "People & Body",
+      subgroup: "hand-fingers-part",
+      alias: undefined,
+      emojis: [
+        { emoji: "✋", name: "Raised Hand", alias: undefined },
         {
-          name: "hand-fingers-part",
+          emoji: "🖐️",
+          name: "Hand with Fingers Splayed",
           alias: undefined,
-          emojis: [
-            { emoji: "✋", name: "Raised Hand", alias: undefined },
-            {
-              emoji: "🖐️",
-              name: "Hand with Fingers Splayed",
-              alias: undefined,
-            },
-          ],
         },
       ],
     });
@@ -80,20 +77,20 @@ describe("CategoryAliasRepoYaml", () => {
     // 模擬使用者填入 alias
     const groupFile = new YamlFile<CategoryAliasYamlFileRaw>(
       OUTPUT_DIR,
-      "People_20_26_20Body.yaml",
-      { name: "", subGroups: [] },
+      "People_20_26_20Body__hand-fingers-part.yaml",
+      { group: "", subgroup: "", emojis: [] },
     );
     const data = await groupFile.read();
-    data.subGroups[0].alias = "手部 手掌";
-    data.subGroups[0].emojis[0].alias = "招手 手";
+    data.alias = "手部 手掌";
+    data.emojis[0].alias = "招手 手";
     await groupFile.write(data);
 
     // 第二次執行 saveDefinitions，應保留 alias
     await repo.mergeDefinitions(defs);
 
     const finalRaw = await groupFile.read();
-    expect(finalRaw.subGroups[0].alias).toBe("手部 手掌");
-    expect(finalRaw.subGroups[0].emojis[0].alias).toBe("招手 手");
+    expect(finalRaw.alias).toBe("手部 手掌");
+    expect(finalRaw.emojis[0].alias).toBe("招手 手");
 
     // 驗證 alias 內容
     const finalSubgroupAliases = await repo.getSubgroupAliases();

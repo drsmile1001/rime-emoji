@@ -1,0 +1,67 @@
+group: Symbols
+subgroup: arrow
+alias: 箭頭 指向 方向
+emojis:
+  - emoji: ⬆️
+    name: E0.6 up arrow
+    alias: 向上 上升 上
+  - emoji: ↗️
+    name: E0.6 up-right arrow
+    alias: 右上 向右上 右上角
+  - emoji: ➡️
+    name: E0.6 right arrow
+    alias: 向右 右移 右
+  - emoji: ↘️
+    name: E0.6 down-right arrow
+    alias: 右下 向右下 右下角
+  - emoji: ⬇️
+    name: E0.6 down arrow
+    alias: 向下 下降 下
+  - emoji: ↙️
+    name: E0.6 down-left arrow
+    alias: 左下 向左下 左下角
+  - emoji: ⬅️
+    name: E0.6 left arrow
+    alias: 向左 左移 左
+  - emoji: ↖️
+    name: E0.6 up-left arrow
+    alias: 左上 向左上 左上角
+  - emoji: ↕️
+    name: E0.6 up-down arrow
+    alias: 上下 垂直 垂直方向
+  - emoji: ↔️
+    name: E0.6 left-right arrow
+    alias: 左右 水平 水平方向
+  - emoji: ↩️
+    name: E0.6 right arrow curving left
+    alias: 右轉左 向左轉 左彎
+  - emoji: ↪️
+    name: E0.6 left arrow curving right
+    alias: 左轉右 向右轉 右彎
+  - emoji: ⤴️
+    name: E0.6 right arrow curving up
+    alias: 右轉上 向上轉 上彎
+  - emoji: ⤵️
+    name: E0.6 right arrow curving down
+    alias: 右轉下 向下轉 下彎
+  - emoji: 🔃
+    name: E0.6 clockwise vertical arrows
+    alias: 順時針 旋轉 順時針旋轉
+  - emoji: 🔄
+    name: E1.0 counterclockwise arrows button
+    alias: 逆時針 旋轉 逆時針旋轉
+  - emoji: 🔙
+    name: E0.6 BACK arrow
+    alias: 返回 後退 回去
+  - emoji: 🔚
+    name: E0.6 END arrow
+    alias: 結束 終止 終點
+  - emoji: 🔛
+    name: E0.6 ON! arrow
+    alias: 開啟 啟動 開始
+  - emoji: 🔜
+    name: E0.6 SOON arrow
+    alias: 即將 快速 即刻
+  - emoji: 🔝
+    name: E0.6 TOP arrow
+    alias: 頂部 上方 最上

@@ -1,0 +1,55 @@
+group: Travel & Places
+subgroup: place-other
+alias: 其他
+emojis:
+  - emoji: ⛲
+    name: E0.6 fountain
+    alias: 噴泉
+  - emoji: ⛺
+    name: E0.6 tent
+    alias: 帳篷
+  - emoji: 🌁
+    name: E0.6 foggy
+    alias: 多霧
+  - emoji: 🌃
+    name: E0.6 night with stars
+    alias: 星空夜晚
+  - emoji: 🏙️
+    name: E0.7 cityscape
+    alias: 城市景觀
+  - emoji: 🌄
+    name: E0.6 sunrise over mountains
+    alias: 山中日出
+  - emoji: 🌅
+    name: E0.6 sunrise
+    alias: 日出
+  - emoji: 🌆
+    name: E0.6 cityscape at dusk
+    alias: 黃昏城市
+  - emoji: 🌇
+    name: E0.6 sunset
+    alias: 日落
+  - emoji: 🌉
+    name: E0.6 bridge at night
+    alias: 夜晚橋
+  - emoji: ♨️
+    name: E0.6 hot springs
+    alias: 溫泉
+  - emoji: 🎠
+    name: E0.6 carousel horse
+    alias: 旋轉木馬
+  - emoji: 🛝
+    name: E14.0 playground slide
+    alias: 滑梯
+  - emoji: 🎡
+    name: E0.6 ferris wheel
+    alias: 摩天輪
+  - emoji: 🎢
+    name: E0.6 roller coaster
+    alias: 過山車
+  - emoji: 💈
+    name: E0.6 barber pole
+    alias: 理髮柱
+  - emoji: 🎪
+    name: E0.6 circus tent
+    alias: 馬戲團帳篷

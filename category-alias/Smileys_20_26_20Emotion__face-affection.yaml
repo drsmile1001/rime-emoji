@@ -1,0 +1,31 @@
+group: Smileys & Emotion
+subgroup: face-affection
+alias: 愛意 心愛 情感
+emojis:
+  - emoji: 🥰
+    name: E11.0 smiling face with hearts
+    alias: 心笑 愛心 開心
+  - emoji: 😍
+    name: E0.6 smiling face with heart-eyes
+    alias: 愛心 心眼 開心
+  - emoji: 🤩
+    name: E5.0 star-struck
+    alias: 星眼 開心 驚喜
+  - emoji: 😘
+    name: E0.6 face blowing a kiss
+    alias: 飛吻 親吻 愛心
+  - emoji: 😗
+    name: E1.0 kissing face
+    alias: 親吻 微笑 愛心
+  - emoji: ☺️
+    name: E0.6 smiling face
+    alias: 笑臉 微笑 開心
+  - emoji: 😚
+    name: E0.6 kissing face with closed eyes
+    alias: 親臉 微笑 愛心
+  - emoji: 😙
+    name: E1.0 kissing face with smiling eyes
+    alias: 笑吻 微笑 愛心
+  - emoji: 🥲
+    name: E13.0 smiling face with tear
+    alias: 淚笑 微笑 哭笑

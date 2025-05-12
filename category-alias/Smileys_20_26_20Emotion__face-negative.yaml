@@ -1,0 +1,28 @@
+group: Smileys & Emotion
+subgroup: face-negative
+alias: 負面 憤怒 生氣
+emojis:
+  - emoji: 😤
+    name: E0.6 face with steam from nose
+    alias: 冒氣 微笑 安靜
+  - emoji: 😡
+    name: E0.6 enraged face
+    alias: 憤怒 微笑 安靜
+  - emoji: 😠
+    name: E0.6 angry face
+    alias: 生氣 微笑 安靜
+  - emoji: 🤬
+    name: E5.0 face with symbols on mouth
+    alias: 咒罵 微笑 安靜
+  - emoji: 😈
+    name: E1.0 smiling face with horns
+    alias: 惡笑 微笑 安靜
+  - emoji: 👿
+    name: E0.6 angry face with horns
+    alias: 惡怒 微笑 安靜
+  - emoji: 💀
+    name: E0.6 skull
+    alias: 骷髏 微笑 安靜
+  - emoji: ☠️
+    name: E1.0 skull and crossbones
+    alias: 骷髏 微笑 安靜

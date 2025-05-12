@@ -1,0 +1,781 @@
+group: Flags
+subgroup: country-flag
+alias: 國旗 國家旗幟 國家標誌
+emojis:
+  - emoji: 🇦🇨
+    name: "E2.0 flag: Ascension Island"
+    alias: 阿森松 阿森松島
+  - emoji: 🇦🇩
+    name: "E2.0 flag: Andorra"
+    alias: 安道爾 安道爾國旗
+  - emoji: 🇦🇪
+    name: "E2.0 flag: United Arab Emirates"
+    alias: 阿聯酋 阿拉伯聯合酋長國
+  - emoji: 🇦🇫
+    name: "E2.0 flag: Afghanistan"
+    alias: 阿富汗 阿富汗國旗
+  - emoji: 🇦🇬
+    name: "E2.0 flag: Antigua & Barbuda"
+    alias: 安巴 安提瓜和巴布達
+  - emoji: 🇦🇮
+    name: "E2.0 flag: Anguilla"
+    alias: 安圭拉 安圭拉島
+  - emoji: 🇦🇱
+    name: "E2.0 flag: Albania"
+    alias: 阿爾巴 阿爾巴尼亞
+  - emoji: 🇦🇲
+    name: "E2.0 flag: Armenia"
+    alias: 亞美尼亞 亞美尼亞國旗
+  - emoji: 🇦🇴
+    name: "E2.0 flag: Angola"
+    alias: 安哥拉 安哥拉國旗
+  - emoji: 🇦🇶
+    name: "E2.0 flag: Antarctica"
+    alias: 南極 南極洲
+  - emoji: 🇦🇷
+    name: "E2.0 flag: Argentina"
+    alias: 阿根廷 阿根廷國旗
+  - emoji: 🇦🇸
+    name: "E2.0 flag: American Samoa"
+    alias: 美屬薩摩亞 薩摩亞
+  - emoji: 🇦🇹
+    name: "E2.0 flag: Austria"
+    alias: 奧地利 奧地利國旗
+  - emoji: 🇦🇺
+    name: "E2.0 flag: Australia"
+    alias: 澳大利亞 澳洲 澳大利亞國旗
+  - emoji: 🇦🇼
+    name: "E2.0 flag: Aruba"
+    alias: 阿魯巴 阿魯巴島
+  - emoji: 🇦🇽
+    name: "E2.0 flag: Åland Islands"
+    alias: 奧蘭 奧蘭群島
+  - emoji: 🇦🇿
+    name: "E2.0 flag: Azerbaijan"
+    alias: 阿塞拜疆 阿塞拜疆國旗
+  - emoji: 🇧🇦
+    name: "E2.0 flag: Bosnia & Herzegovina"
+    alias: 波黑 波斯尼亞和黑塞哥維那
+  - emoji: 🇧🇧
+    name: "E2.0 flag: Barbados"
+    alias: 巴巴多斯 巴巴多斯國旗
+  - emoji: 🇧🇩
+    name: "E2.0 flag: Bangladesh"
+    alias: 孟加拉 孟加拉國旗
+  - emoji: 🇧🇪
+    name: "E2.0 flag: Belgium"
+    alias: 比利時 比利時國旗
+  - emoji: 🇧🇫
+    name: "E2.0 flag: Burkina Faso"
+    alias: 布基納法索 布基納法索國旗
+  - emoji: 🇧🇬
+    name: "E2.0 flag: Bulgaria"
+    alias: 保加利亞 保加利亞國旗
+  - emoji: 🇧🇭
+    name: "E2.0 flag: Bahrain"
+    alias: 巴林 巴林國旗
+  - emoji: 🇧🇮
+    name: "E2.0 flag: Burundi"
+    alias: 布隆迪 布隆迪國旗
+  - emoji: 🇧🇯
+    name: "E2.0 flag: Benin"
+    alias: 貝寧 貝寧國旗
+  - emoji: 🇧🇱
+    name: "E2.0 flag: St. Barthélemy"
+    alias: 聖巴 聖巴泰勒米
+  - emoji: 🇧🇲
+    name: "E2.0 flag: Bermuda"
+    alias: 百慕大 百慕大群島
+  - emoji: 🇧🇳
+    name: "E2.0 flag: Brunei"
+    alias: 文萊 文萊國旗
+  - emoji: 🇧🇴
+    name: "E2.0 flag: Bolivia"
+    alias: 玻利維亞 玻利維亞國旗
+  - emoji: 🇧🇶
+    name: "E2.0 flag: Caribbean Netherlands"
+    alias: 荷屬加勒比 荷屬加勒比群島
+  - emoji: 🇧🇷
+    name: "E2.0 flag: Brazil"
+    alias: 巴西 巴西國旗
+  - emoji: 🇧🇸
+    name: "E2.0 flag: Bahamas"
+    alias: 巴哈馬 巴哈馬群島
+  - emoji: 🇧🇹
+    name: "E2.0 flag: Bhutan"
+    alias: 不丹 不丹國旗
+  - emoji: 🇧🇻
+    name: "E2.0 flag: Bouvet Island"
+    alias: 布韋島 布韋
+  - emoji: 🇧🇼
+    name: "E2.0 flag: Botswana"
+    alias: 博茨瓦納 博茨瓦納國旗
+  - emoji: 🇧🇾
+    name: "E2.0 flag: Belarus"
+    alias: 白俄羅斯 白俄羅斯國旗
+  - emoji: 🇧🇿
+    name: "E2.0 flag: Belize"
+    alias: 伯利茲 伯利茲國旗
+  - emoji: 🇨🇦
+    name: "E2.0 flag: Canada"
+    alias: 加拿大 加拿大國旗
+  - emoji: 🇨🇨
+    name: "E2.0 flag: Cocos (Keeling) Islands"
+    alias: 科科斯 科科斯群島
+  - emoji: 🇨🇩
+    name: "E2.0 flag: Congo - Kinshasa"
+    alias: 剛果金 剛果民主共和國
+  - emoji: 🇨🇫
+    name: "E2.0 flag: Central African Republic"
+    alias: 中非 中非共和國
+  - emoji: 🇨🇬
+    name: "E2.0 flag: Congo - Brazzaville"
+    alias: 剛果布 剛果共和國
+  - emoji: 🇨🇭
+    name: "E2.0 flag: Switzerland"
+    alias: 瑞士 瑞士國旗
+  - emoji: 🇨🇮
+    name: "E2.0 flag: Côte d’Ivoire"
+    alias: 象牙海岸 科特迪瓦
+  - emoji: 🇨🇰
+    name: "E2.0 flag: Cook Islands"
+    alias: 庫克群島 庫克
+  - emoji: 🇨🇱
+    name: "E2.0 flag: Chile"
+    alias: 智利 智利國旗
+  - emoji: 🇨🇲
+    name: "E2.0 flag: Cameroon"
+    alias: 喀麥隆 喀麥隆國旗
+  - emoji: 🇨🇳
+    name: "E0.6 flag: China"
+    alias: 中國 中國國旗
+  - emoji: 🇨🇴
+    name: "E2.0 flag: Colombia"
+    alias: 哥倫比亞 哥倫比亞國旗
+  - emoji: 🇨🇵
+    name: "E2.0 flag: Clipperton Island"
+    alias: 克利珀頓 克利珀頓島
+  - emoji: 🇨🇶
+    name: "E16.0 flag: Sark"
+    alias: 塞克 塞克島
+  - emoji: 🇨🇷
+    name: "E2.0 flag: Costa Rica"
+    alias: 哥斯達黎加 哥斯達黎加國旗
+  - emoji: 🇨🇺
+    name: "E2.0 flag: Cuba"
+    alias: 古巴 古巴國旗
+  - emoji: 🇨🇻
+    name: "E2.0 flag: Cape Verde"
+    alias: 佛得角 佛得角群島
+  - emoji: 🇨🇼
+    name: "E2.0 flag: Curaçao"
+    alias: 庫拉索 庫拉索島
+  - emoji: 🇨🇽
+    name: "E2.0 flag: Christmas Island"
+    alias: 聖誕島 聖誕
+  - emoji: 🇨🇾
+    name: "E2.0 flag: Cyprus"
+    alias: 塞浦路斯 塞浦路斯國旗
+  - emoji: 🇨🇿
+    name: "E2.0 flag: Czechia"
+    alias: 捷克 捷克國旗
+  - emoji: 🇩🇪
+    name: "E0.6 flag: Germany"
+    alias: 德國 德國國旗
+  - emoji: 🇩🇬
+    name: "E2.0 flag: Diego Garcia"
+    alias: 迪戈加西亞 迪戈加西亞島
+  - emoji: 🇩🇯
+    name: "E2.0 flag: Djibouti"
+    alias: 吉布提 吉布提國旗
+  - emoji: 🇩🇰
+    name: "E2.0 flag: Denmark"
+    alias: 丹麥 丹麥國旗
+  - emoji: 🇩🇲
+    name: "E2.0 flag: Dominica"
+    alias: 多米尼克 多米尼克國旗
+  - emoji: 🇩🇴
+    name: "E2.0 flag: Dominican Republic"
+    alias: 多米尼加 多米尼加共和國
+  - emoji: 🇩🇿
+    name: "E2.0 flag: Algeria"
+    alias: 阿爾及利亞 阿爾及利亞國旗
+  - emoji: 🇪🇦
+    name: "E2.0 flag: Ceuta & Melilla"
+    alias: 塞烏塔梅利利亞 塞烏塔 梅利利亞
+  - emoji: 🇪🇨
+    name: "E2.0 flag: Ecuador"
+    alias: 厄瓜多爾 厄瓜多爾國旗
+  - emoji: 🇪🇪
+    name: "E2.0 flag: Estonia"
+    alias: 愛沙尼亞 愛沙尼亞國旗
+  - emoji: 🇪🇬
+    name: "E2.0 flag: Egypt"
+    alias: 埃及 埃及國旗
+  - emoji: 🇪🇭
+    name: "E2.0 flag: Western Sahara"
+    alias: 西撒哈拉 西撒哈拉國旗
+  - emoji: 🇪🇷
+    name: "E2.0 flag: Eritrea"
+    alias: 厄立特里亞 厄立特里亞國旗
+  - emoji: 🇪🇸
+    name: "E0.6 flag: Spain"
+    alias: 西班牙 西班牙國旗
+  - emoji: 🇪🇹
+    name: "E2.0 flag: Ethiopia"
+    alias: 埃塞俄比亞 埃塞俄比亞國旗
+  - emoji: 🇪🇺
+    name: "E2.0 flag: European Union"
+    alias: 歐盟 歐洲聯盟
+  - emoji: 🇫🇮
+    name: "E2.0 flag: Finland"
+    alias: 芬蘭 芬蘭國旗
+  - emoji: 🇫🇯
+    name: "E2.0 flag: Fiji"
+    alias: 斐濟 斐濟國旗
+  - emoji: 🇫🇰
+    name: "E2.0 flag: Falkland Islands"
+    alias: 福克蘭 福克蘭群島
+  - emoji: 🇫🇲
+    name: "E2.0 flag: Micronesia"
+    alias: 密克羅尼西亞 密克羅尼西亞國旗
+  - emoji: 🇫🇴
+    name: "E2.0 flag: Faroe Islands"
+    alias: 法羅群島 法羅
+  - emoji: 🇫🇷
+    name: "E0.6 flag: France"
+    alias: 法國 法國國旗
+  - emoji: 🇬🇦
+    name: "E2.0 flag: Gabon"
+    alias: 加蓬 加蓬國旗
+  - emoji: 🇬🇧
+    name: "E0.6 flag: United Kingdom"
+    alias: 英國 英國國旗
+  - emoji: 🇬🇩
+    name: "E2.0 flag: Grenada"
+    alias: 格林納達 格林納達國旗
+  - emoji: 🇬🇪
+    name: "E2.0 flag: Georgia"
+    alias: 喬治亞 喬治亞國旗
+  - emoji: 🇬🇫
+    name: "E2.0 flag: French Guiana"
+    alias: 法屬圭亞那 圭亞那
+  - emoji: 🇬🇬
+    name: "E2.0 flag: Guernsey"
+    alias: 根西 根西島
+  - emoji: 🇬🇭
+    name: "E2.0 flag: Ghana"
+    alias: 加納 加納國旗
+  - emoji: 🇬🇮
+    name: "E2.0 flag: Gibraltar"
+    alias: 直布羅陀 直布羅陀國旗
+  - emoji: 🇬🇱
+    name: "E2.0 flag: Greenland"
+    alias: 格陵蘭 格陵蘭島
+  - emoji: 🇬🇲
+    name: "E2.0 flag: Gambia"
+    alias: 岡比亞 岡比亞國旗
+  - emoji: 🇬🇳
+    name: "E2.0 flag: Guinea"
+    alias: 幾內亞 幾內亞國旗
+  - emoji: 🇬🇵
+    name: "E2.0 flag: Guadeloupe"
+    alias: 瓜德羅普 瓜德羅普島
+  - emoji: 🇬🇶
+    name: "E2.0 flag: Equatorial Guinea"
+    alias: 赤道幾內亞 赤道幾內亞國旗
+  - emoji: 🇬🇷
+    name: "E2.0 flag: Greece"
+    alias: 希臘 希臘國旗
+  - emoji: 🇬🇸
+    name: "E2.0 flag: South Georgia & South Sandwich Islands"
+    alias: 南喬治亞南三明治 南喬治亞 南三明治
+  - emoji: 🇬🇹
+    name: "E2.0 flag: Guatemala"
+    alias: 危地馬拉 危地馬拉國旗
+  - emoji: 🇬🇺
+    name: "E2.0 flag: Guam"
+    alias: 關島 關島國旗
+  - emoji: 🇬🇼
+    name: "E2.0 flag: Guinea-Bissau"
+    alias: 幾內亞比紹 幾內亞比紹國旗
+  - emoji: 🇬🇾
+    name: "E2.0 flag: Guyana"
+    alias: 圭亞那 圭亞那國旗
+  - emoji: 🇭🇰
+    name: "E2.0 flag: Hong Kong SAR China"
+    alias: 香港 香港特別行政區
+  - emoji: 🇭🇲
+    name: "E2.0 flag: Heard & McDonald Islands"
+    alias: 赫德麥克唐納 赫德島 麥克唐納島
+  - emoji: 🇭🇳
+    name: "E2.0 flag: Honduras"
+    alias: 洪都拉斯 洪都拉斯國旗
+  - emoji: 🇭🇷
+    name: "E2.0 flag: Croatia"
+    alias: 克羅地亞 克羅地亞國旗
+  - emoji: 🇭🇹
+    name: "E2.0 flag: Haiti"
+    alias: 海地 海地國旗
+  - emoji: 🇭🇺
+    name: "E2.0 flag: Hungary"
+    alias: 匈牙利 匈牙利國旗
+  - emoji: 🇮🇨
+    name: "E2.0 flag: Canary Islands"
+    alias: 加那利群島 加那利
+  - emoji: 🇮🇩
+    name: "E2.0 flag: Indonesia"
+    alias: 印尼 印度尼西亞
+  - emoji: 🇮🇪
+    name: "E2.0 flag: Ireland"
+    alias: 愛爾蘭 愛爾蘭國旗
+  - emoji: 🇮🇱
+    name: "E2.0 flag: Israel"
+    alias: 以色列 以色列國旗
+  - emoji: 🇮🇲
+    name: "E2.0 flag: Isle of Man"
+    alias: 曼島 曼島國旗
+  - emoji: 🇮🇳
+    name: "E2.0 flag: India"
+    alias: 印度 印度國旗
+  - emoji: 🇮🇴
+    name: "E2.0 flag: British Indian Ocean Territory"
+    alias: 英屬印度洋 英屬印度洋領地
+  - emoji: 🇮🇶
+    name: "E2.0 flag: Iraq"
+    alias: 伊拉克 伊拉克國旗
+  - emoji: 🇮🇷
+    name: "E2.0 flag: Iran"
+    alias: 伊朗 伊朗國旗
+  - emoji: 🇮🇸
+    name: "E2.0 flag: Iceland"
+    alias: 冰島 冰島國旗
+  - emoji: 🇮🇹
+    name: "E0.6 flag: Italy"
+    alias: 意大利 意大利國旗
+  - emoji: 🇯🇪
+    name: "E2.0 flag: Jersey"
+    alias: 澤西 澤西島
+  - emoji: 🇯🇲
+    name: "E2.0 flag: Jamaica"
+    alias: 牙買加 牙買加國旗
+  - emoji: 🇯🇴
+    name: "E2.0 flag: Jordan"
+    alias: 約旦 約旦國旗
+  - emoji: 🇯🇵
+    name: "E0.6 flag: Japan"
+    alias: 日本 日本國旗
+  - emoji: 🇰🇪
+    name: "E2.0 flag: Kenya"
+    alias: 肯尼亞 肯尼亞國旗
+  - emoji: 🇰🇬
+    name: "E2.0 flag: Kyrgyzstan"
+    alias: 吉爾吉斯斯坦 吉爾吉斯斯坦國旗
+  - emoji: 🇰🇭
+    name: "E2.0 flag: Cambodia"
+    alias: 柬埔寨 柬埔寨國旗
+  - emoji: 🇰🇮
+    name: "E2.0 flag: Kiribati"
+    alias: 基里巴斯 基里巴斯國旗
+  - emoji: 🇰🇲
+    name: "E2.0 flag: Comoros"
+    alias: 科摩羅 科摩羅國旗
+  - emoji: 🇰🇳
+    name: "E2.0 flag: St. Kitts & Nevis"
+    alias: 聖基茨尼維斯 聖基茨和尼維斯
+  - emoji: 🇰🇵
+    name: "E2.0 flag: North Korea"
+    alias: 朝鮮 朝鮮國旗
+  - emoji: 🇰🇷
+    name: "E0.6 flag: South Korea"
+    alias: 韓國 韓國國旗
+  - emoji: 🇰🇼
+    name: "E2.0 flag: Kuwait"
+    alias: 科威特 科威特國旗
+  - emoji: 🇰🇾
+    name: "E2.0 flag: Cayman Islands"
+    alias: 開曼群島 開曼
+  - emoji: 🇰🇿
+    name: "E2.0 flag: Kazakhstan"
+    alias: 哈薩克斯坦 哈薩克斯坦國旗
+  - emoji: 🇱🇦
+    name: "E2.0 flag: Laos"
+    alias: 老撾 老撾國旗
+  - emoji: 🇱🇧
+    name: "E2.0 flag: Lebanon"
+    alias: 黎巴嫩 黎巴嫩國旗
+  - emoji: 🇱🇨
+    name: "E2.0 flag: St. Lucia"
+    alias: 聖盧西亞 聖盧西亞國旗
+  - emoji: 🇱🇮
+    name: "E2.0 flag: Liechtenstein"
+    alias: 列支敦士登 列支敦士登國旗
+  - emoji: 🇱🇰
+    name: "E2.0 flag: Sri Lanka"
+    alias: 斯里蘭卡 斯里蘭卡國旗
+  - emoji: 🇱🇷
+    name: "E2.0 flag: Liberia"
+    alias: 利比里亞 利比里亞國旗
+  - emoji: 🇱🇸
+    name: "E2.0 flag: Lesotho"
+    alias: 萊索托 萊索托國旗
+  - emoji: 🇱🇹
+    name: "E2.0 flag: Lithuania"
+    alias: 立陶宛 立陶宛國旗
+  - emoji: 🇱🇺
+    name: "E2.0 flag: Luxembourg"
+    alias: 盧森堡 盧森堡國旗
+  - emoji: 🇱🇻
+    name: "E2.0 flag: Latvia"
+    alias: 拉脫維亞 拉脫維亞國旗
+  - emoji: 🇱🇾
+    name: "E2.0 flag: Libya"
+    alias: 利比亞 利比亞國旗
+  - emoji: 🇲🇦
+    name: "E2.0 flag: Morocco"
+    alias: 摩洛哥 摩洛哥國旗
+  - emoji: 🇲🇨
+    name: "E2.0 flag: Monaco"
+    alias: 摩納哥 摩納哥國旗
+  - emoji: 🇲🇩
+    name: "E2.0 flag: Moldova"
+    alias: 摩爾多瓦 摩爾多瓦國旗
+  - emoji: 🇲🇪
+    name: "E2.0 flag: Montenegro"
+    alias: 黑山 黑山國旗
+  - emoji: 🇲🇫
+    name: "E2.0 flag: St. Martin"
+    alias: 聖馬丁 聖馬丁國旗
+  - emoji: 🇲🇬
+    name: "E2.0 flag: Madagascar"
+    alias: 馬達加斯加 馬達加斯加國旗
+  - emoji: 🇲🇭
+    name: "E2.0 flag: Marshall Islands"
+    alias: 馬紹爾群島 馬紹爾
+  - emoji: 🇲🇰
+    name: "E2.0 flag: North Macedonia"
+    alias: 北馬其頓 北馬其頓國旗
+  - emoji: 🇲🇱
+    name: "E2.0 flag: Mali"
+    alias: 馬里 馬里國旗
+  - emoji: 🇲🇲
+    name: "E2.0 flag: Myanmar (Burma)"
+    alias: 緬甸 緬甸國旗
+  - emoji: 🇲🇳
+    name: "E2.0 flag: Mongolia"
+    alias: 蒙古 蒙古國旗
+  - emoji: 🇲🇴
+    name: "E2.0 flag: Macao SAR China"
+    alias: 澳門 澳門特別行政區
+  - emoji: 🇲🇵
+    name: "E2.0 flag: Northern Mariana Islands"
+    alias: 北馬里亞納群島 北馬里亞納
+  - emoji: 🇲🇶
+    name: "E2.0 flag: Martinique"
+    alias: 馬提尼克 馬提尼克島
+  - emoji: 🇲🇷
+    name: "E2.0 flag: Mauritania"
+    alias: 毛里塔尼亞 毛里塔尼亞國旗
+  - emoji: 🇲🇸
+    name: "E2.0 flag: Montserrat"
+    alias: 蒙特塞拉特 蒙特塞拉特島
+  - emoji: 🇲🇹
+    name: "E2.0 flag: Malta"
+    alias: 馬耳他 馬耳他國旗
+  - emoji: 🇲🇺
+    name: "E2.0 flag: Mauritius"
+    alias: 毛里求斯 毛里求斯國旗
+  - emoji: 🇲🇻
+    name: "E2.0 flag: Maldives"
+    alias: 馬爾代夫 馬爾代夫國旗
+  - emoji: 🇲🇼
+    name: "E2.0 flag: Malawi"
+    alias: 馬拉維 馬拉維國旗
+  - emoji: 🇲🇽
+    name: "E2.0 flag: Mexico"
+    alias: 墨西哥 墨西哥國旗
+  - emoji: 🇲🇾
+    name: "E2.0 flag: Malaysia"
+    alias: 馬來西亞 馬來西亞國旗
+  - emoji: 🇲🇿
+    name: "E2.0 flag: Mozambique"
+    alias: 莫桑比克 莫桑比克國旗
+  - emoji: 🇳🇦
+    name: "E2.0 flag: Namibia"
+    alias: 納米比亞 納米比亞國旗
+  - emoji: 🇳🇨
+    name: "E2.0 flag: New Caledonia"
+    alias: 新喀里多尼亞 新喀里多尼亞群島
+  - emoji: 🇳🇪
+    name: "E2.0 flag: Niger"
+    alias: 尼日爾 尼日爾國旗
+  - emoji: 🇳🇫
+    name: "E2.0 flag: Norfolk Island"
+    alias: 諾福克島 諾福克
+  - emoji: 🇳🇬
+    name: "E2.0 flag: Nigeria"
+    alias: 尼日利亞 尼日利亞國旗
+  - emoji: 🇳🇮
+    name: "E2.0 flag: Nicaragua"
+    alias: 尼加拉瓜 尼加拉瓜國旗
+  - emoji: 🇳🇱
+    name: "E2.0 flag: Netherlands"
+    alias: 荷蘭 荷蘭國旗
+  - emoji: 🇳🇴
+    name: "E2.0 flag: Norway"
+    alias: 挪威 挪威國旗
+  - emoji: 🇳🇵
+    name: "E2.0 flag: Nepal"
+    alias: 尼泊爾 尼泊爾國旗
+  - emoji: 🇳🇷
+    name: "E2.0 flag: Nauru"
+    alias: 瑙魯 瑙魯國旗
+  - emoji: 🇳🇺
+    name: "E2.0 flag: Niue"
+    alias: 紐埃 紐埃國旗
+  - emoji: 🇳🇿
+    name: "E2.0 flag: New Zealand"
+    alias: 新西蘭 新西蘭國旗
+  - emoji: 🇴🇲
+    name: "E2.0 flag: Oman"
+    alias: 阿曼 阿曼國旗
+  - emoji: 🇵🇦
+    name: "E2.0 flag: Panama"
+    alias: 巴拿馬 巴拿馬國旗
+  - emoji: 🇵🇪
+    name: "E2.0 flag: Peru"
+    alias: 秘魯 秘魯國旗
+  - emoji: 🇵🇫
+    name: "E2.0 flag: French Polynesia"
+    alias: 法屬波利尼西亞 波利尼西亞
+  - emoji: 🇵🇬
+    name: "E2.0 flag: Papua New Guinea"
+    alias: 巴布亞新幾內亞 新幾內亞
+  - emoji: 🇵🇭
+    name: "E2.0 flag: Philippines"
+    alias: 菲律賓 菲律賓國旗
+  - emoji: 🇵🇰
+    name: "E2.0 flag: Pakistan"
+    alias: 巴基斯坦 巴基斯坦國旗
+  - emoji: 🇵🇱
+    name: "E2.0 flag: Poland"
+    alias: 波蘭 波蘭國旗
+  - emoji: 🇵🇲
+    name: "E2.0 flag: St. Pierre & Miquelon"
+    alias: 聖皮埃爾密克隆 聖皮埃爾 密克隆
+  - emoji: 🇵🇳
+    name: "E2.0 flag: Pitcairn Islands"
+    alias: 皮特凱恩群島 皮特凱恩
+  - emoji: 🇵🇷
+    name: "E2.0 flag: Puerto Rico"
+    alias: 波多黎各 波多黎各國旗
+  - emoji: 🇵🇸
+    name: "E2.0 flag: Palestinian Territories"
+    alias: 巴勒斯坦 巴勒斯坦國旗
+  - emoji: 🇵🇹
+    name: "E2.0 flag: Portugal"
+    alias: 葡萄牙 葡萄牙國旗
+  - emoji: 🇵🇼
+    name: "E2.0 flag: Palau"
+    alias: 帕勞 帕勞國旗
+  - emoji: 🇵🇾
+    name: "E2.0 flag: Paraguay"
+    alias: 巴拉圭 巴拉圭國旗
+  - emoji: 🇶🇦
+    name: "E2.0 flag: Qatar"
+    alias: 卡塔爾 卡塔爾國旗
+  - emoji: 🇷🇪
+    name: "E2.0 flag: Réunion"
+    alias: 留尼汪 留尼汪島
+  - emoji: 🇷🇴
+    name: "E2.0 flag: Romania"
+    alias: 羅馬尼亞 羅馬尼亞國旗
+  - emoji: 🇷🇸
+    name: "E2.0 flag: Serbia"
+    alias: 塞爾維亞 塞爾維亞國旗
+  - emoji: 🇷🇺
+    name: "E0.6 flag: Russia"
+    alias: 俄羅斯 俄羅斯國旗
+  - emoji: 🇷🇼
+    name: "E2.0 flag: Rwanda"
+    alias: 盧旺達 盧旺達國旗
+  - emoji: 🇸🇦
+    name: "E2.0 flag: Saudi Arabia"
+    alias: 沙特 沙特阿拉伯
+  - emoji: 🇸🇧
+    name: "E2.0 flag: Solomon Islands"
+    alias: 所羅門群島 所羅門
+  - emoji: 🇸🇨
+    name: "E2.0 flag: Seychelles"
+    alias: 塞舌爾 塞舌爾群島
+  - emoji: 🇸🇩
+    name: "E2.0 flag: Sudan"
+    alias: 蘇丹 蘇丹國旗
+  - emoji: 🇸🇪
+    name: "E2.0 flag: Sweden"
+    alias: 瑞典 瑞典國旗
+  - emoji: 🇸🇬
+    name: "E2.0 flag: Singapore"
+    alias: 新加坡 新加坡國旗
+  - emoji: 🇸🇭
+    name: "E2.0 flag: St. Helena"
+    alias: 聖赫勒拿 聖赫勒拿島
+  - emoji: 🇸🇮
+    name: "E2.0 flag: Slovenia"
+    alias: 斯洛文尼亞 斯洛文尼亞國旗
+  - emoji: 🇸🇯
+    name: "E2.0 flag: Svalbard & Jan Mayen"
+    alias: 斯瓦爾巴揚馬延 斯瓦爾巴 揚馬延
+  - emoji: 🇸🇰
+    name: "E2.0 flag: Slovakia"
+    alias: 斯洛伐克 斯洛伐克國旗
+  - emoji: 🇸🇱
+    name: "E2.0 flag: Sierra Leone"
+    alias: 塞拉利昂 塞拉利昂國旗
+  - emoji: 🇸🇲
+    name: "E2.0 flag: San Marino"
+    alias: 聖馬力諾 聖馬力諾國旗
+  - emoji: 🇸🇳
+    name: "E2.0 flag: Senegal"
+    alias: 塞內加爾 塞內加爾國旗
+  - emoji: 🇸🇴
+    name: "E2.0 flag: Somalia"
+    alias: 索馬里 索馬里國旗
+  - emoji: 🇸🇷
+    name: "E2.0 flag: Suriname"
+    alias: 蘇里南 蘇里南國旗
+  - emoji: 🇸🇸
+    name: "E2.0 flag: South Sudan"
+    alias: 南蘇丹 南蘇丹國旗
+  - emoji: 🇸🇹
+    name: "E2.0 flag: São Tomé & Príncipe"
+    alias: 聖多美普林西比 聖多美 普林西比
+  - emoji: 🇸🇻
+    name: "E2.0 flag: El Salvador"
+    alias: 薩爾瓦多 薩爾瓦多國旗
+  - emoji: 🇸🇽
+    name: "E2.0 flag: Sint Maarten"
+    alias: 聖馬丁 聖馬丁國旗
+  - emoji: 🇸🇾
+    name: "E2.0 flag: Syria"
+    alias: 敘利亞 敘利亞國旗
+  - emoji: 🇸🇿
+    name: "E2.0 flag: Eswatini"
+    alias: 斯威士蘭 斯威士蘭國旗
+  - emoji: 🇹🇦
+    name: "E2.0 flag: Tristan da Cunha"
+    alias: 特里斯坦達庫尼亞 特里斯坦 達庫尼亞
+  - emoji: 🇹🇨
+    name: "E2.0 flag: Turks & Caicos Islands"
+    alias: 特克斯凱科斯群島 特克斯 凱科斯
+  - emoji: 🇹🇩
+    name: "E2.0 flag: Chad"
+    alias: 乍得 乍得國旗
+  - emoji: 🇹🇫
+    name: "E2.0 flag: French Southern Territories"
+    alias: 法屬南部領地 南部領地
+  - emoji: 🇹🇬
+    name: "E2.0 flag: Togo"
+    alias: 多哥 多哥國旗
+  - emoji: 🇹🇭
+    name: "E2.0 flag: Thailand"
+    alias: 泰國 泰國國旗
+  - emoji: 🇹🇯
+    name: "E2.0 flag: Tajikistan"
+    alias: 塔吉克斯坦 塔吉克斯坦國旗
+  - emoji: 🇹🇰
+    name: "E2.0 flag: Tokelau"
+    alias: 托克勞 托克勞群島
+  - emoji: 🇹🇱
+    name: "E2.0 flag: Timor-Leste"
+    alias: 東帝汶 東帝汶國旗
+  - emoji: 🇹🇲
+    name: "E2.0 flag: Turkmenistan"
+    alias: 土庫曼斯坦 土庫曼斯坦國旗
+  - emoji: 🇹🇳
+    name: "E2.0 flag: Tunisia"
+    alias: 突尼斯 突尼斯國旗
+  - emoji: 🇹🇴
+    name: "E2.0 flag: Tonga"
+    alias: 湯加 湯加國旗
+  - emoji: 🇹🇷
+    name: "E2.0 flag: Türkiye"
+    alias: 土耳其 土耳其國旗
+  - emoji: 🇹🇹
+    name: "E2.0 flag: Trinidad & Tobago"
+    alias: 特立尼達多巴哥 特立尼達 多巴哥
+  - emoji: 🇹🇻
+    name: "E2.0 flag: Tuvalu"
+    alias: 圖瓦盧 圖瓦盧國旗
+  - emoji: 🇹🇼
+    name: "E2.0 flag: Taiwan"
+    alias: 台灣 台灣國旗
+  - emoji: 🇹🇿
+    name: "E2.0 flag: Tanzania"
+    alias: 坦桑尼亞 坦桑尼亞國旗
+  - emoji: 🇺🇦
+    name: "E2.0 flag: Ukraine"
+    alias: 烏克蘭 烏克蘭國旗
+  - emoji: 🇺🇬
+    name: "E2.0 flag: Uganda"
+    alias: 烏干達 烏干達國旗
+  - emoji: 🇺🇲
+    name: "E2.0 flag: U.S. Outlying Islands"
+    alias: 美國邊遠島嶼 邊遠島嶼
+  - emoji: 🇺🇳
+    name: "E4.0 flag: United Nations"
+    alias: 聯合國 聯合國旗幟
+  - emoji: 🇺🇸
+    name: "E0.6 flag: United States"
+    alias: 美國 美國國旗
+  - emoji: 🇺🇾
+    name: "E2.0 flag: Uruguay"
+    alias: 烏拉圭 烏拉圭國旗
+  - emoji: 🇺🇿
+    name: "E2.0 flag: Uzbekistan"
+    alias: 烏茲別克斯坦 烏茲別克斯坦國旗
+  - emoji: 🇻🇦
+    name: "E2.0 flag: Vatican City"
+    alias: 梵蒂岡 梵蒂岡國旗
+  - emoji: 🇻🇨
+    name: "E2.0 flag: St. Vincent & Grenadines"
+    alias: 聖文森特格林納丁斯 聖文森特 格林納丁斯
+  - emoji: 🇻🇪
+    name: "E2.0 flag: Venezuela"
+    alias: 委內瑞拉 委內瑞拉國旗
+  - emoji: 🇻🇬
+    name: "E2.0 flag: British Virgin Islands"
+    alias: 英屬維爾京群島 維爾京群島
+  - emoji: 🇻🇮
+    name: "E2.0 flag: U.S. Virgin Islands"
+    alias: 美屬維爾京群島 維爾京群島
+  - emoji: 🇻🇳
+    name: "E2.0 flag: Vietnam"
+    alias: 越南 越南國旗
+  - emoji: 🇻🇺
+    name: "E2.0 flag: Vanuatu"
+    alias: 瓦努阿圖 瓦努阿圖國旗
+  - emoji: 🇼🇫
+    name: "E2.0 flag: Wallis & Futuna"
+    alias: 瓦利斯富圖納 瓦利斯 富圖納
+  - emoji: 🇼🇸
+    name: "E2.0 flag: Samoa"
+    alias: 薩摩亞 薩摩亞國旗
+  - emoji: 🇽🇰
+    name: "E2.0 flag: Kosovo"
+    alias: 科索沃 科索沃國旗
+  - emoji: 🇾🇪
+    name: "E2.0 flag: Yemen"
+    alias: 也門 也門國旗
+  - emoji: 🇾🇹
+    name: "E2.0 flag: Mayotte"
+    alias: 馬約特 馬約特島
+  - emoji: 🇿🇦
+    name: "E2.0 flag: South Africa"
+    alias: 南非 南非國旗
+  - emoji: 🇿🇲
+    name: "E2.0 flag: Zambia"
+    alias: 贊比亞 贊比亞國旗
+  - emoji: 🇿🇼
+    name: "E2.0 flag: Zimbabwe"
+    alias: 津巴布韋 津巴布韋國旗

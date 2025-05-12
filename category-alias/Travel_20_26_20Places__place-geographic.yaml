@@ -1,0 +1,31 @@
+group: Travel & Places
+subgroup: place-geographic
+alias: 地理
+emojis:
+  - emoji: 🏔️
+    name: E0.7 snow-capped mountain
+    alias: 雪山 高山 冰山
+  - emoji: ⛰️
+    name: E0.7 mountain
+    alias: 山 高山 山脈
+  - emoji: 🌋
+    name: E0.6 volcano
+    alias: 火山 熔岩 山
+  - emoji: 🗻
+    name: E0.6 mount fuji
+    alias: 富士山 日本山 山
+  - emoji: 🏕️
+    name: E0.7 camping
+    alias: 露營 帳篷 野營
+  - emoji: 🏖️
+    name: E0.7 beach with umbrella
+    alias: 海灘 沙灘 陽傘
+  - emoji: 🏜️
+    name: E0.7 desert
+    alias: 沙漠 荒地 乾燥
+  - emoji: 🏝️
+    name: E0.7 desert island
+    alias: 荒島 小島 孤島
+  - emoji: 🏞️
+    name: E0.7 national park
+    alias: 國家公園 公園 自然

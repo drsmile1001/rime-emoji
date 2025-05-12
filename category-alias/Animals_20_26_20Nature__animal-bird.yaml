@@ -1,0 +1,70 @@
+group: Animals & Nature
+subgroup: animal-bird
+alias: 鳥類 飛禽 動物
+emojis:
+  - emoji: 🦃
+    name: E1.0 turkey
+    alias: 火雞 大火雞 家禽
+  - emoji: 🐔
+    name: E0.6 chicken
+    alias: 雞 小雞 家禽
+  - emoji: 🐓
+    name: E1.0 rooster
+    alias: 公雞 雄雞 家禽
+  - emoji: 🐣
+    name: E0.6 hatching chick
+    alias: 雛雞 小雞 雞蛋
+  - emoji: 🐤
+    name: E0.6 baby chick
+    alias: 小雞 雛雞 黃雞
+  - emoji: 🐥
+    name: E0.6 front-facing baby chick
+    alias: 小雞臉 雛雞臉 黃雞臉
+  - emoji: 🐦
+    name: E0.6 bird
+    alias: 鳥 小鳥 飛鳥
+  - emoji: 🐧
+    name: E0.6 penguin
+    alias: 企鵝 南極鳥 小企鵝
+  - emoji: 🕊️
+    name: E0.7 dove
+    alias: 鴿 白鴿 和平鴿
+  - emoji: 🦅
+    name: E3.0 eagle
+    alias: 鷹 大鷹 猛禽
+  - emoji: 🦆
+    name: E3.0 duck
+    alias: 鴨 小鴨 家鴨
+  - emoji: 🦢
+    name: E11.0 swan
+    alias: 天鵝 白天鵝 大天鵝
+  - emoji: 🦉
+    name: E3.0 owl
+    alias: 貓頭鷹 夜鷹 智慧鳥
+  - emoji: 🦤
+    name: E13.0 dodo
+    alias: 渡渡鳥 滅絕鳥 大鳥
+  - emoji: 🪶
+    name: E13.0 feather
+    alias: 羽毛 鳥毛 飛毛
+  - emoji: 🦩
+    name: E12.0 flamingo
+    alias: 火烈鳥 紅鳥 長腿鳥
+  - emoji: 🦚
+    name: E11.0 peacock
+    alias: 孔雀 開屏鳥 美麗鳥
+  - emoji: 🦜
+    name: E11.0 parrot
+    alias: 鸚鵡 說話鳥 彩色鳥
+  - emoji: 🪽
+    name: E15.0 wing
+    alias: 翅膀 飛翼 鳥翼
+  - emoji: 🐦‍⬛
+    name: E15.0 black bird
+    alias: 黑鳥 烏鴉 黑色鳥
+  - emoji: 🪿
+    name: E15.0 goose
+    alias: 鵝 大鵝 家鵝
+  - emoji: 🐦‍🔥
+    name: E15.1 phoenix
+    alias: 鳳凰 火鳥 神鳥

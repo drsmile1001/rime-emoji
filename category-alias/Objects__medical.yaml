@@ -1,0 +1,25 @@
+group: Objects
+subgroup: medical
+alias: 醫療 健康 治療
+emojis:
+  - emoji: 💉
+    name: E0.6 syringe
+    alias: 注射器 醫療器 健康器
+  - emoji: 🩸
+    name: E12.0 drop of blood
+    alias: 血滴 醫療血 健康血
+  - emoji: 💊
+    name: E0.6 pill
+    alias: 藥丸 醫療藥 健康藥
+  - emoji: 🩹
+    name: E12.0 adhesive bandage
+    alias: 創可貼 醫療貼 健康貼
+  - emoji: 🩼
+    name: E14.0 crutch
+    alias: 拐杖 醫療杖 健康杖
+  - emoji: 🩺
+    name: E12.0 stethoscope
+    alias: 聽診器 醫療器 健康器
+  - emoji: 🩻
+    name: E14.0 x-ray
+    alias: X光 醫療光 健康光

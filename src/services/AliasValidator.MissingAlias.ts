@@ -1,6 +1,7 @@
 import type { ValidationIssue } from "./AliasValidationReporter.Interface";
 import type { CategoryAliasRepo } from "./CategoryAliasRepo.Interface";
 import type { AliasValidator } from "./AliasValidator.Interface";
+import { toCodePoints } from "@/utils/CodePoints";
 
 /**
  * 空別名檢查器：檢查 emoji、subgroup 中未填寫 alias 的項目
@@ -31,7 +32,7 @@ export class AliasValidatorMissingAlias implements AliasValidator {
       if (!alias.length) {
         const def = defs.find((d) => d.emoji === emoji)!;
         issues.push({
-          code: `MISS_EMOJI_ALIAS_${toCodePoints(emoji)}`,
+          code: `MISS_EMOJI_ALIAS_${toCodePoints(emoji).join("_")}`,
           message: `Emoji ${emoji} 缺少別名`,
           metadata: {
             emoji: def.emoji,
@@ -49,10 +50,4 @@ export class AliasValidatorMissingAlias implements AliasValidator {
 
 function encodeKey(value: string): string {
   return encodeURIComponent(value).replace(/%/g, "_");
-}
-
-function toCodePoints(emoji: string): string {
-  return [...emoji]
-    .map((c) => c.codePointAt(0)?.toString(16).toUpperCase())
-    .join("_");
 }

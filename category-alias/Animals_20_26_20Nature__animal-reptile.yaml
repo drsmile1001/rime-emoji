@@ -1,0 +1,28 @@
+group: Animals & Nature
+subgroup: animal-reptile
+alias: 爬行 動物 陸地
+emojis:
+  - emoji: 🐊
+    name: E1.0 crocodile
+    alias: 鱷魚 大鱷 水鱷
+  - emoji: 🐢
+    name: E0.6 turtle
+    alias: 龜 海龜 陸龜
+  - emoji: 🦎
+    name: E3.0 lizard
+    alias: 蜥蜴 小蜥 陸蜥
+  - emoji: 🐍
+    name: E0.6 snake
+    alias: 蛇 大蛇 陸蛇
+  - emoji: 🐲
+    name: E0.6 dragon face
+    alias: 龍臉 神龍臉 大龍臉
+  - emoji: 🐉
+    name: E1.0 dragon
+    alias: 龍 神龍 大龍
+  - emoji: 🦕
+    name: E5.0 sauropod
+    alias: 長頸龍 大龍 草食龍
+  - emoji: 🦖
+    name: E5.0 T-Rex
+    alias: 暴龍 大暴龍 肉食龍

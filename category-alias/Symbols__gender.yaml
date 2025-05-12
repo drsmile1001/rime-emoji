@@ -1,0 +1,13 @@
+group: Symbols
+subgroup: gender
+alias: 性別 男性 女性
+emojis:
+  - emoji: ♀️
+    name: E4.0 female sign
+    alias: 女性 女 女士
+  - emoji: ♂️
+    name: E4.0 male sign
+    alias: 男性 男 男士
+  - emoji: ⚧️
+    name: E13.0 transgender symbol
+    alias: 跨性別 變性 性別

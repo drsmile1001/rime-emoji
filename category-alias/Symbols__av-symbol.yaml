@@ -1,0 +1,79 @@
+group: Symbols
+subgroup: av-symbol
+alias: 媒體符號 音樂 視頻
+emojis:
+  - emoji: 🔀
+    name: E1.0 shuffle tracks button
+    alias: 隨機播放 隨機 音樂
+  - emoji: 🔁
+    name: E1.0 repeat button
+    alias: 重複 循環 音樂
+  - emoji: 🔂
+    name: E1.0 repeat single button
+    alias: 單曲重複 單曲 循環
+  - emoji: ▶️
+    name: E0.6 play button
+    alias: 播放 開始 音樂
+  - emoji: ⏩
+    name: E0.6 fast-forward button
+    alias: 快進 前進 音樂
+  - emoji: ⏭️
+    name: E0.7 next track button
+    alias: 下一曲 下一 音樂
+  - emoji: ⏯️
+    name: E1.0 play or pause button
+    alias: 播放暫停 暫停 音樂
+  - emoji: ◀️
+    name: E0.6 reverse button
+    alias: 倒退 後退 音樂
+  - emoji: ⏪
+    name: E0.6 fast reverse button
+    alias: 快退 倒退 音樂
+  - emoji: ⏮️
+    name: E0.7 last track button
+    alias: 上一曲 上一 音樂
+  - emoji: 🔼
+    name: E0.6 upwards button
+    alias: 向上 上升 音樂
+  - emoji: ⏫
+    name: E0.6 fast up button
+    alias: 快速向上 快速 音樂
+  - emoji: 🔽
+    name: E0.6 downwards button
+    alias: 向下 下降 音樂
+  - emoji: ⏬
+    name: E0.6 fast down button
+    alias: 快速向下 快速 音樂
+  - emoji: ⏸️
+    name: E0.7 pause button
+    alias: 暫停 停止 音樂
+  - emoji: ⏹️
+    name: E0.7 stop button
+    alias: 停止 結束 音樂
+  - emoji: ⏺️
+    name: E0.7 record button
+    alias: 錄音 錄製 音樂
+  - emoji: ⏏️
+    name: E1.0 eject button
+    alias: 彈出 退出 音樂
+  - emoji: 🎦
+    name: E0.6 cinema
+    alias: 電影院 影片 視頻
+  - emoji: 🔅
+    name: E1.0 dim button
+    alias: 暗 降低 光線
+  - emoji: 🔆
+    name: E1.0 bright button
+    alias: 亮 提高 光線
+  - emoji: 📶
+    name: E0.6 antenna bars
+    alias: 信號 網絡 連接
+  - emoji: 🛜
+    name: E15.0 wireless
+    alias: 無線 網絡 連接
+  - emoji: 📳
+    name: E0.6 vibration mode
+    alias: 震動 振動 手機
+  - emoji: 📴
+    name: E0.6 mobile phone off
+    alias: 手機關閉 關機 手機

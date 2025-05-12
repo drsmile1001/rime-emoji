@@ -1,0 +1,10 @@
+group: Travel & Places
+subgroup: hotel
+alias: 酒店 旅館 住宿
+emojis:
+  - emoji: 🛎️
+    name: E0.7 bellhop bell
+    alias: 服務鈴 鈴鐺 呼叫鈴
+  - emoji: 🧳
+    name: E11.0 luggage
+    alias: 行李 旅行箱 行李箱

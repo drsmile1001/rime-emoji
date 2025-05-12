@@ -1,0 +1,106 @@
+group: Symbols
+subgroup: geometric
+alias: 幾何 圖形 形狀
+emojis:
+  - emoji: 🔴
+    name: E0.6 red circle
+    alias: 紅圈 圓形 紅色
+  - emoji: 🟠
+    name: E12.0 orange circle
+    alias: 橙圈 圓形 橙色
+  - emoji: 🟡
+    name: E12.0 yellow circle
+    alias: 黃圈 圓形 黃色
+  - emoji: 🟢
+    name: E12.0 green circle
+    alias: 綠圈 圓形 綠色
+  - emoji: 🔵
+    name: E0.6 blue circle
+    alias: 藍圈 圓形 藍色
+  - emoji: 🟣
+    name: E12.0 purple circle
+    alias: 紫圈 圓形 紫色
+  - emoji: 🟤
+    name: E12.0 brown circle
+    alias: 棕圈 圓形 棕色
+  - emoji: ⚫
+    name: E0.6 black circle
+    alias: 黑圈 圓形 黑色
+  - emoji: ⚪
+    name: E0.6 white circle
+    alias: 白圈 圓形 白色
+  - emoji: 🟥
+    name: E12.0 red square
+    alias: 紅方塊 方形 紅色
+  - emoji: 🟧
+    name: E12.0 orange square
+    alias: 橙方塊 方形 橙色
+  - emoji: 🟨
+    name: E12.0 yellow square
+    alias: 黃方塊 方形 黃色
+  - emoji: 🟩
+    name: E12.0 green square
+    alias: 綠方塊 方形 綠色
+  - emoji: 🟦
+    name: E12.0 blue square
+    alias: 藍方塊 方形 藍色
+  - emoji: 🟪
+    name: E12.0 purple square
+    alias: 紫方塊 方形 紫色
+  - emoji: 🟫
+    name: E12.0 brown square
+    alias: 棕方塊 方形 棕色
+  - emoji: ⬛
+    name: E0.6 black large square
+    alias: 黑大方塊 方形 黑色
+  - emoji: ⬜
+    name: E0.6 white large square
+    alias: 白大方塊 方形 白色
+  - emoji: ◼️
+    name: E0.6 black medium square
+    alias: 黑中方塊 方形 黑色
+  - emoji: ◻️
+    name: E0.6 white medium square
+    alias: 白中方塊 方形 白色
+  - emoji: ◾
+    name: E0.6 black medium-small square
+    alias: 黑小方塊 方形 黑色
+  - emoji: ◽
+    name: E0.6 white medium-small square
+    alias: 白小方塊 方形 白色
+  - emoji: ▪️
+    name: E0.6 black small square
+    alias: 黑小方塊 方形 黑色
+  - emoji: ▫️
+    name: E0.6 white small square
+    alias: 白小方塊 方形 白色
+  - emoji: 🔶
+    name: E0.6 large orange diamond
+    alias: 橙大菱形 菱形 橙色
+  - emoji: 🔷
+    name: E0.6 large blue diamond
+    alias: 藍大菱形 菱形 藍色
+  - emoji: 🔸
+    name: E0.6 small orange diamond
+    alias: 橙小菱形 菱形 橙色
+  - emoji: 🔹
+    name: E0.6 small blue diamond
+    alias: 藍小菱形 菱形 藍色
+  - emoji: 🔺
+    name: E0.6 red triangle pointed up
+    alias: 紅三角 三角形 紅色
+  - emoji: 🔻
+    name: E0.6 red triangle pointed down
+    alias: 紅倒三角 三角形 紅色
+  - emoji: 💠
+    name: E0.6 diamond with a dot
+    alias: 點菱形 菱形 點
+  - emoji: 🔘
+    name: E0.6 radio button
+    alias: 圓形按鈕 按鈕 圓形
+  - emoji: 🔳
+    name: E0.6 white square button
+    alias: 白方形按鈕 按鈕 方形
+  - emoji: 🔲
+    name: E0.6 black square button
+    alias: 黑方形按鈕 按鈕 方形

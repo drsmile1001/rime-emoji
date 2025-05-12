@@ -1,0 +1,61 @@
+group: Food & Drink
+subgroup: food-vegetable
+alias: 蔬菜 菜類 青菜
+emojis:
+  - emoji: 🥑
+    name: E3.0 avocado
+    alias: 酪梨 綠酪梨 果酪
+  - emoji: 🍆
+    name: E0.6 eggplant
+    alias: 茄子 紫茄子 果茄
+  - emoji: 🥔
+    name: E3.0 potato
+    alias: 馬鈴薯 土豆 黃薯
+  - emoji: 🥕
+    name: E3.0 carrot
+    alias: 胡蘿蔔 紅蘿蔔 黃蘿蔔
+  - emoji: 🌽
+    name: E0.6 ear of corn
+    alias: 玉米 黃玉米 粟米
+  - emoji: 🌶️
+    name: E0.7 hot pepper
+    alias: 辣椒 紅辣椒 小辣椒
+  - emoji: 🫑
+    name: E13.0 bell pepper
+    alias: 甜椒 青椒 紅椒
+  - emoji: 🥒
+    name: E3.0 cucumber
+    alias: 小黃瓜 綠黃瓜 青瓜
+  - emoji: 🥬
+    name: E11.0 leafy green
+    alias: 綠葉菜 青葉菜 葉菜
+  - emoji: 🥦
+    name: E5.0 broccoli
+    alias: 花椰菜 綠花椰 白花椰
+  - emoji: 🧄
+    name: E12.0 garlic
+    alias: 大蒜 白蒜 蒜頭
+  - emoji: 🧅
+    name: E12.0 onion
+    alias: 洋蔥 白洋蔥 紅洋蔥
+  - emoji: 🥜
+    name: E3.0 peanuts
+    alias: 花生 小花生 果花
+  - emoji: 🫘
+    name: E14.0 beans
+    alias: 豆子 紅豆 綠豆
+  - emoji: 🌰
+    name: E0.6 chestnut
+    alias: 栗子 棕栗子 小栗
+  - emoji: 🫚
+    name: E15.0 ginger root
+    alias: 薑 生薑 黃薑
+  - emoji: 🫛
+    name: E15.0 pea pod
+    alias: 豌豆 青豌豆 小豌
+  - emoji: 🍄‍🟫
+    name: E15.1 brown mushroom
+    alias: 棕菇 小棕菇 菌菇
+  - emoji: 🫜
+    name: E16.0 root vegetable
+    alias: 根菜 根類 根蔬

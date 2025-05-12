@@ -1,0 +1,25 @@
+group: Symbols
+subgroup: punctuation
+alias: 標點 符號 表達
+emojis:
+  - emoji: ‼️
+    name: E0.6 double exclamation mark
+    alias: 雙驚嘆號 驚嘆號 感嘆
+  - emoji: ⁉️
+    name: E0.6 exclamation question mark
+    alias: 驚嘆問號 問號 感嘆
+  - emoji: ❓
+    name: E0.6 red question mark
+    alias: 紅問號 問號 疑問
+  - emoji: ❔
+    name: E0.6 white question mark
+    alias: 白問號 問號 疑問
+  - emoji: ❕
+    name: E0.6 white exclamation mark
+    alias: 白驚嘆號 驚嘆號 感嘆
+  - emoji: ❗
+    name: E0.6 red exclamation mark
+    alias: 紅驚嘆號 驚嘆號 感嘆
+  - emoji: 〰️
+    name: E0.6 wavy dash
+    alias: 波浪線 波浪 線條

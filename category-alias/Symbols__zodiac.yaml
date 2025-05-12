@@ -1,0 +1,43 @@
+group: Symbols
+subgroup: zodiac
+alias: 星座 占星 十二宮
+emojis:
+  - emoji: ♈
+    name: E0.6 Aries
+    alias: 白羊座 羊座 星座
+  - emoji: ♉
+    name: E0.6 Taurus
+    alias: 金牛座 牛座 星座
+  - emoji: ♊
+    name: E0.6 Gemini
+    alias: 雙子座 雙座 星座
+  - emoji: ♋
+    name: E0.6 Cancer
+    alias: 巨蟹座 蟹座 星座
+  - emoji: ♌
+    name: E0.6 Leo
+    alias: 獅子座 獅座 星座
+  - emoji: ♍
+    name: E0.6 Virgo
+    alias: 處女座 女座 星座
+  - emoji: ♎
+    name: E0.6 Libra
+    alias: 天秤座 秤座 星座
+  - emoji: ♏
+    name: E0.6 Scorpio
+    alias: 天蠍座 蠍座 星座
+  - emoji: ♐
+    name: E0.6 Sagittarius
+    alias: 射手座 手座 星座
+  - emoji: ♑
+    name: E0.6 Capricorn
+    alias: 摩羯座 羯座 星座
+  - emoji: ♒
+    name: E0.6 Aquarius
+    alias: 水瓶座 瓶座 星座
+  - emoji: ♓
+    name: E0.6 Pisces
+    alias: 雙魚座 魚座 星座
+  - emoji: ⛎
+    name: E0.6 Ophiuchus
+    alias: 蛇夫座 蛇座 星座

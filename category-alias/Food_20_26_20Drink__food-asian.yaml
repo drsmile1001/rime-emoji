@@ -1,0 +1,55 @@
+group: Food & Drink
+subgroup: food-asian
+alias: 亞洲美食 東方美食 亞洲菜
+emojis:
+  - emoji: 🍱
+    name: E0.6 bento box
+    alias: 便當 飯盒 小便當
+  - emoji: 🍘
+    name: E0.6 rice cracker
+    alias: 米餅 米果 小米餅
+  - emoji: 🍙
+    name: E0.6 rice ball
+    alias: 飯糰 圓飯糰 小飯糰
+  - emoji: 🍚
+    name: E0.6 cooked rice
+    alias: 白飯 米飯 小白飯
+  - emoji: 🍛
+    name: E0.6 curry rice
+    alias: 咖哩飯 咖哩白飯 小咖哩飯
+  - emoji: 🍜
+    name: E0.6 steaming bowl
+    alias: 湯麵 熱湯麵 小湯麵
+  - emoji: 🍝
+    name: E0.6 spaghetti
+    alias: 義大利麵 長麵 小義大利麵
+  - emoji: 🍠
+    name: E0.6 roasted sweet potato
+    alias: 烤地瓜 烤薯 小地瓜
+  - emoji: 🍢
+    name: E0.6 oden
+    alias: 關東煮 日式煮 小關東煮
+  - emoji: 🍣
+    name: E0.6 sushi
+    alias: 壽司 日式壽司 小壽司
+  - emoji: 🍤
+    name: E0.6 fried shrimp
+    alias: 炸蝦 炸大蝦 小炸蝦
+  - emoji: 🍥
+    name: E0.6 fish cake with swirl
+    alias: 魚板 魚糕 小魚板
+  - emoji: 🥮
+    name: E11.0 moon cake
+    alias: 月餅 圓月餅 小月餅
+  - emoji: 🍡
+    name: E0.6 dango
+    alias: 糯米糰 圓糰 小糯米糰
+  - emoji: 🥟
+    name: E5.0 dumpling
+    alias: 餃子 水餃 小餃子
+  - emoji: 🥠
+    name: E5.0 fortune cookie
+    alias: 幸運餅乾 小餅乾 小幸運餅
+  - emoji: 🥡
+    name: E5.0 takeout box
+    alias: 外賣盒 飯盒 小外賣盒

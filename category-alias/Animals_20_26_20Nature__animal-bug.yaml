@@ -1,0 +1,52 @@
+group: Animals & Nature
+subgroup: animal-bug
+alias: 昆蟲 動物 小蟲
+emojis:
+  - emoji: 🐌
+    name: E0.6 snail
+    alias: 蝸牛 小蝸 陸蝸
+  - emoji: 🦋
+    name: E3.0 butterfly
+    alias: 蝴蝶 小蝶 彩蝶
+  - emoji: 🐛
+    name: E0.6 bug
+    alias: 小蟲 陸蟲 昆蟲
+  - emoji: 🐜
+    name: E0.6 ant
+    alias: 螞蟻 小蟻 陸蟻
+  - emoji: 🐝
+    name: E0.6 honeybee
+    alias: 蜜蜂 小蜂 陸蜂
+  - emoji: 🪲
+    name: E13.0 beetle
+    alias: 甲蟲 小甲 陸甲
+  - emoji: 🐞
+    name: E0.6 lady beetle
+    alias: 瓢蟲 小瓢 陸瓢
+  - emoji: 🦗
+    name: E5.0 cricket
+    alias: 蟋蟀 小蟋 陸蟋
+  - emoji: 🪳
+    name: E13.0 cockroach
+    alias: 蟑螂 小蟑 陸蟑
+  - emoji: 🕷️
+    name: E0.7 spider
+    alias: 蜘蛛 小蛛 陸蛛
+  - emoji: 🕸️
+    name: E0.7 spider web
+    alias: 蜘蛛網 小蛛網 陸蛛網
+  - emoji: 🦂
+    name: E1.0 scorpion
+    alias: 蠍子 小蠍 陸蠍
+  - emoji: 🦟
+    name: E11.0 mosquito
+    alias: 蚊子 小蚊 陸蚊
+  - emoji: 🪰
+    name: E13.0 fly
+    alias: 蒼蠅 小蠅 陸蠅
+  - emoji: 🪱
+    name: E13.0 worm
+    alias: 蠕蟲 小蠕 陸蠕
+  - emoji: 🦠
+    name: E11.0 microbe
+    alias: 微生物 小微 陸微

@@ -1,0 +1,55 @@
+group: Animals & Nature
+subgroup: plant-other
+alias: 植物 樹 木
+emojis:
+  - emoji: 🌱
+    name: E0.6 seedling
+    alias: 幼苗 小苗 大苗
+  - emoji: 🪴
+    name: E13.0 potted plant
+    alias: 盆栽 小盆 大盆
+  - emoji: 🌲
+    name: E1.0 evergreen tree
+    alias: 常青樹 小青 大青
+  - emoji: 🌳
+    name: E1.0 deciduous tree
+    alias: 落葉樹 小落 大落
+  - emoji: 🌴
+    name: E0.6 palm tree
+    alias: 棕櫚樹 小棕 大棕
+  - emoji: 🌵
+    name: E0.6 cactus
+    alias: 仙人掌 小仙 大仙
+  - emoji: 🌾
+    name: E0.6 sheaf of rice
+    alias: 稻穗 小稻 大稻
+  - emoji: 🌿
+    name: E0.6 herb
+    alias: 草本 小草 大草
+  - emoji: ☘️
+    name: E1.0 shamrock
+    alias: 三葉草 小三 大三
+  - emoji: 🍀
+    name: E0.6 four leaf clover
+    alias: 四葉草 小四 大四
+  - emoji: 🍁
+    name: E0.6 maple leaf
+    alias: 楓葉 小楓 大楓
+  - emoji: 🍂
+    name: E0.6 fallen leaf
+    alias: 落葉 小落 大落
+  - emoji: 🍃
+    name: E0.6 leaf fluttering in wind
+    alias: 飄葉 小飄 大飄
+  - emoji: 🪹
+    name: E14.0 empty nest
+    alias: 空巢 小空 大空
+  - emoji: 🪺
+    name: E14.0 nest with eggs
+    alias: 巢蛋 小巢 大巢
+  - emoji: 🍄
+    name: E0.6 mushroom
+    alias: 蘑菇 小菇 大菇
+  - emoji: 🪾
+    name: E16.0 leafless tree
+    alias: 枯樹 小枯 大枯

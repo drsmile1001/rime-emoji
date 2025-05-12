@@ -1,0 +1,13 @@
+group: Flags
+subgroup: subdivision-flag
+alias: 區旗 區域旗幟 區域標誌
+emojis:
+  - emoji: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+    name: "E5.0 flag: England"
+    alias: 英格蘭 英格蘭國旗
+  - emoji: 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+    name: "E5.0 flag: Scotland"
+    alias: 蘇格蘭 蘇格蘭國旗
+  - emoji: 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+    name: "E5.0 flag: Wales"
+    alias: 威爾士 威爾士國旗

@@ -1,0 +1,31 @@
+group: Travel & Places
+subgroup: transport-water
+alias: 水上交通
+emojis:
+  - emoji: ⚓
+    name: E0.6 anchor
+    alias: 錨
+  - emoji: 🛟
+    name: E14.0 ring buoy
+    alias: 救生圈
+  - emoji: ⛵
+    name: E0.6 sailboat
+    alias: 帆船
+  - emoji: 🛶
+    name: E3.0 canoe
+    alias: 獨木舟
+  - emoji: 🚤
+    name: E0.6 speedboat
+    alias: 快艇
+  - emoji: 🛳️
+    name: E0.7 passenger ship
+    alias: 客船
+  - emoji: ⛴️
+    name: E0.7 ferry
+    alias: 渡輪
+  - emoji: 🛥️
+    name: E0.7 motor boat
+    alias: 機動船
+  - emoji: 🚢
+    name: E0.6 ship
+    alias: 船

@@ -1,0 +1,31 @@
+group: People & Body
+subgroup: person
+emojis:
+  - emoji: 👶
+    name: E0.6 baby
+  - emoji: 🧒
+    name: E5.0 child
+  - emoji: 👦
+    name: E0.6 boy
+  - emoji: 👧
+    name: E0.6 girl
+  - emoji: 🧑
+    name: E5.0 person
+  - emoji: 👱
+    name: "E0.6 person: blond hair"
+  - emoji: 🧔
+    name: "E5.0 person: beard"
+  - emoji: 🧑‍🦰
+    name: "E12.1 person: red hair"
+  - emoji: 🧑‍🦱
+    name: "E12.1 person: curly hair"
+  - emoji: 🧑‍🦳
+    name: "E12.1 person: white hair"
+  - emoji: 🧑‍🦲
+    name: "E12.1 person: bald"
+  - emoji: 🧓
+    name: E5.0 older person
+  - emoji: 👴
+    name: E0.6 old man
+  - emoji: 👵
+    name: E0.6 old woman

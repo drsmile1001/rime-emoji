@@ -1,0 +1,64 @@
+group: Food & Drink
+subgroup: drink
+alias: 飲料 液體 飲品
+emojis:
+  - emoji: 🍼
+    name: E1.0 baby bottle
+    alias: 奶瓶 小奶瓶 嬰兒奶瓶
+  - emoji: 🥛
+    name: E3.0 glass of milk
+    alias: 牛奶 白牛奶 小牛奶
+  - emoji: ☕
+    name: E0.6 hot beverage
+    alias: 熱飲 熱茶 小熱飲
+  - emoji: 🫖
+    name: E13.0 teapot
+    alias: 茶壺 小茶壺 圓茶壺
+  - emoji: 🍵
+    name: E0.6 teacup without handle
+    alias: 茶杯 小茶杯 圓茶杯
+  - emoji: 🍶
+    name: E0.6 sake
+    alias: 清酒 日本酒 小清酒
+  - emoji: 🍾
+    name: E1.0 bottle with popping cork
+    alias: 香檳 酒瓶 小香檳
+  - emoji: 🍷
+    name: E0.6 wine glass
+    alias: 紅酒 酒杯 小紅酒
+  - emoji: 🍸
+    name: E0.6 cocktail glass
+    alias: 雞尾酒 酒杯 小雞尾酒
+  - emoji: 🍹
+    name: E0.6 tropical drink
+    alias: 熱帶飲料 小飲料 小熱帶飲料
+  - emoji: 🍺
+    name: E0.6 beer mug
+    alias: 啤酒 酒杯 小啤酒
+  - emoji: 🍻
+    name: E0.6 clinking beer mugs
+    alias: 啤酒乾杯 酒杯乾杯 小啤酒乾杯
+  - emoji: 🥂
+    name: E3.0 clinking glasses
+    alias: 乾杯 酒杯 小乾杯
+  - emoji: 🥃
+    name: E3.0 tumbler glass
+    alias: 威士忌 酒杯 小威士忌
+  - emoji: 🫗
+    name: E14.0 pouring liquid
+    alias: 倒飲料 液體 小倒飲料
+  - emoji: 🥤
+    name: E5.0 cup with straw
+    alias: 吸管杯 飲料杯 小吸管杯
+  - emoji: 🧋
+    name: E13.0 bubble tea
+    alias: 珍珠奶茶 奶茶 小珍珠奶茶
+  - emoji: 🧃
+    name: E12.0 beverage box
+    alias: 飲料盒 小飲料盒 小盒飲料
+  - emoji: 🧉
+    name: E12.0 mate
+    alias: 馬黛茶 小馬黛茶 小茶
+  - emoji: 🧊
+    name: E12.0 ice
+    alias: 冰塊 小冰塊 圓冰塊

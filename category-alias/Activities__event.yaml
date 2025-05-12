@@ -1,0 +1,67 @@
+group: Activities
+subgroup: event
+alias: 活動 節日 慶典
+emojis:
+  - emoji: 🎃
+    name: E0.6 jack-o-lantern
+    alias: 南瓜燈 萬聖節 南瓜
+  - emoji: 🎄
+    name: E0.6 Christmas tree
+    alias: 聖誕樹 節日樹 聖誕
+  - emoji: 🎆
+    name: E0.6 fireworks
+    alias: 煙火 煙花 煙火秀
+  - emoji: 🎇
+    name: E0.6 sparkler
+    alias: 煙花棒 火花棒 煙火棒
+  - emoji: 🧨
+    name: E11.0 firecracker
+    alias: 鞭炮 爆竹 煙花
+  - emoji: ✨
+    name: E0.6 sparkles
+    alias: 星光 閃光 閃耀
+  - emoji: 🎈
+    name: E0.6 balloon
+    alias: 氣球 生日氣球 派對氣球
+  - emoji: 🎉
+    name: E0.6 party popper
+    alias: 派對炮 慶祝炮 彩帶炮
+  - emoji: 🎊
+    name: E0.6 confetti ball
+    alias: 彩球 慶祝球 派對球
+  - emoji: 🎋
+    name: E0.6 tanabata tree
+    alias: 七夕樹 許願樹 節日樹
+  - emoji: 🎍
+    name: E0.6 pine decoration
+    alias: 松飾 新年松飾 節日松飾
+  - emoji: 🎎
+    name: E0.6 Japanese dolls
+    alias: 雛人偶 日本人偶 節日人偶
+  - emoji: 🎏
+    name: E0.6 carp streamer
+    alias: 鯉魚旗 節日旗 日本旗
+  - emoji: 🎐
+    name: E0.6 wind chime
+    alias: 風鈴 夏日風鈴 日本風鈴
+  - emoji: 🎑
+    name: E0.6 moon viewing ceremony
+    alias: 賞月 中秋月亮 月亮祭
+  - emoji: 🧧
+    name: E11.0 red envelope
+    alias: 紅包 壓歲錢 紅信封
+  - emoji: 🎀
+    name: E0.6 ribbon
+    alias: 緞帶 禮物帶 彩帶
+  - emoji: 🎁
+    name: E0.6 wrapped gift
+    alias: 禮物 包裝禮物 節日禮物
+  - emoji: 🎗️
+    name: E0.7 reminder ribbon
+    alias: 緬懷帶 紀念帶 黃絲帶
+  - emoji: 🎟️
+    name: E0.7 admission tickets
+    alias: 入場券 門票 票券
+  - emoji: 🎫
+    name: E0.6 ticket
+    alias: 門票 票券 入場票

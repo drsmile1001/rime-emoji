@@ -1,0 +1,34 @@
+group: Objects
+subgroup: money
+alias: 金錢 財富 貨幣
+emojis:
+  - emoji: 💰
+    name: E0.6 money bag
+    alias: 錢袋 財富袋 貨幣袋
+  - emoji: 🪙
+    name: E13.0 coin
+    alias: 硬幣 貨幣 金屬幣
+  - emoji: 💴
+    name: E0.6 yen banknote
+    alias: 日元 貨幣 紙幣
+  - emoji: 💵
+    name: E0.6 dollar banknote
+    alias: 美元 貨幣 紙幣
+  - emoji: 💶
+    name: E1.0 euro banknote
+    alias: 歐元 貨幣 紙幣
+  - emoji: 💷
+    name: E1.0 pound banknote
+    alias: 英鎊 貨幣 紙幣
+  - emoji: 💸
+    name: E0.6 money with wings
+    alias: 飛錢 財富 貨幣
+  - emoji: 💳
+    name: E0.6 credit card
+    alias: 信用卡 財富卡 貨幣卡
+  - emoji: 🧾
+    name: E11.0 receipt
+    alias: 收據 財富單 貨幣單
+  - emoji: 💹
+    name: E0.6 chart increasing with yen
+    alias: 日元增長 財富增長 貨幣增長

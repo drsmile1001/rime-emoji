@@ -1,0 +1,145 @@
+group: Objects
+subgroup: clothing
+alias: 衣服 服裝 穿戴
+emojis:
+  - emoji: 👓
+    name: E0.6 glasses
+    alias: 眼鏡 近視鏡 眼睛鏡
+  - emoji: 🕶️
+    name: E0.7 sunglasses
+    alias: 墨鏡 太陽鏡 黑眼鏡
+  - emoji: 🥽
+    name: E11.0 goggles
+    alias: 護目鏡 防護鏡 安全鏡
+  - emoji: 🥼
+    name: E11.0 lab coat
+    alias: 白袍 實驗袍 醫生袍
+  - emoji: 🦺
+    name: E12.0 safety vest
+    alias: 反光衣 安全衣 反光背心
+  - emoji: 👔
+    name: E0.6 necktie
+    alias: 領帶 正裝帶 男士領帶
+  - emoji: 👕
+    name: E0.6 t-shirt
+    alias: T恤 短袖 圓領衫
+  - emoji: 👖
+    name: E0.6 jeans
+    alias: 牛仔褲 長褲 藍褲
+  - emoji: 🧣
+    name: E5.0 scarf
+    alias: 圍巾 頸巾 保暖巾
+  - emoji: 🧤
+    name: E5.0 gloves
+    alias: 手套 防護手套 保暖手套
+  - emoji: 🧥
+    name: E5.0 coat
+    alias: 外套 大衣 保暖衣
+  - emoji: 🧦
+    name: E5.0 socks
+    alias: 襪子 長襪 短襪
+  - emoji: 👗
+    name: E0.6 dress
+    alias: 洋裝 長裙 女裝
+  - emoji: 👘
+    name: E0.6 kimono
+    alias: 和服 日本服裝 傳統服飾
+  - emoji: 🥻
+    name: E12.0 sari
+    alias: 莎麗 印度服裝 傳統服飾
+  - emoji: 🩱
+    name: E12.0 one-piece swimsuit
+    alias: 連身泳衣 泳裝 游泳衣
+  - emoji: 🩲
+    name: E12.0 briefs
+    alias: 三角褲 男士內褲 短褲
+  - emoji: 🩳
+    name: E12.0 shorts
+    alias: 短褲 夏季褲子 運動褲
+  - emoji: 👙
+    name: E0.6 bikini
+    alias: 比基尼 女士泳衣 海灘服
+  - emoji: 👚
+    name: E0.6 woman’s clothes
+    alias: 女裝 女士服飾 女性衣物
+  - emoji: 🪭
+    name: E15.0 folding hand fan
+    alias: 摺扇 手持扇子 涼扇
+  - emoji: 👛
+    name: E0.6 purse
+    alias: 錢包 女士錢包 小包
+  - emoji: 👜
+    name: E0.6 handbag
+    alias: 手提包 女士包包 包袋
+  - emoji: 👝
+    name: E0.6 clutch bag
+    alias: 手拿包 晚宴包 小包
+  - emoji: 🛍️
+    name: E0.7 shopping bags
+    alias: 購物袋 手提袋 購物包
+  - emoji: 🎒
+    name: E0.6 backpack
+    alias: 背包 書包 登山包
+  - emoji: 🩴
+    name: E13.0 thong sandal
+    alias: 夾腳拖 沙灘拖鞋 夏季拖鞋
+  - emoji: 👞
+    name: E0.6 man’s shoe
+    alias: 男鞋 正裝鞋 皮鞋
+  - emoji: 👟
+    name: E0.6 running shoe
+    alias: 跑鞋 運動鞋 慢跑鞋
+  - emoji: 🥾
+    name: E11.0 hiking boot
+    alias: 登山靴 防水靴 戶外靴
+  - emoji: 🥿
+    name: E11.0 flat shoe
+    alias: 平底鞋 女士鞋 舒適鞋
+  - emoji: 👠
+    name: E0.6 high-heeled shoe
+    alias: 高跟鞋 女士鞋 正裝鞋
+  - emoji: 👡
+    name: E0.6 woman’s sandal
+    alias: 涼鞋 女士涼鞋 夏季鞋
+  - emoji: 🩰
+    name: E12.0 ballet shoes
+    alias: 芭蕾鞋 舞蹈鞋 女士鞋
+  - emoji: 👢
+    name: E0.6 woman’s boot
+    alias: 女靴 長靴 冬季靴
+  - emoji: 🪮
+    name: E15.0 hair pick
+    alias: 髮梳 梳子 頭髮梳
+  - emoji: 👑
+    name: E0.6 crown
+    alias: 皇冠 王冠 頭飾
+  - emoji: 👒
+    name: E0.6 woman’s hat
+    alias: 女帽 太陽帽 夏季帽
+  - emoji: 🎩
+    name: E0.6 top hat
+    alias: 禮帽 正裝帽 高帽
+  - emoji: 🎓
+    name: E0.6 graduation cap
+    alias: 畢業帽 學士帽 禮帽
+  - emoji: 🧢
+    name: E5.0 billed cap
+    alias: 鴨舌帽 棒球帽 運動帽
+  - emoji: 🪖
+    name: E13.0 military helmet
+    alias: 軍帽 頭盔 防護帽
+  - emoji: ⛑️
+    name: E0.7 rescue worker’s helmet
+    alias: 救援帽 安全帽 防護帽
+  - emoji: 📿
+    name: E1.0 prayer beads
+    alias: 念珠 佛珠 手串
+  - emoji: 💄
+    name: E0.6 lipstick
+    alias: 口紅 唇膏 彩妝
+  - emoji: 💍
+    name: E0.6 ring
+    alias: 戒指 婚戒 手飾
+  - emoji: 💎
+    name: E0.6 gem stone
+    alias: 寶石 珠寶 裝飾石
